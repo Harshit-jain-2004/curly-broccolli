@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">Notă text</string>
+  <string name="sn_ink_note">Notă în cerneală</string>
+  <string name="sn_label_text">Text</string>
+  <string name="sn_label_image">Imagine</string>
+  <string name="sn_single_image_note">Notă %1$s cu 1 imagine</string>
+  <string name="sn_multi_image_note">Notă %1$s cu %2$d imagini</string>
+  <string name="sn_label_date">%s editat</string>
+  <string name="sn_add_note">Adăugați o notă nouă</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">Nu se poate sincroniza acum.</string>
+</resources>

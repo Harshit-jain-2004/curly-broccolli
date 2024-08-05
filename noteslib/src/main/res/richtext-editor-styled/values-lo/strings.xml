@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">ແຊກຮູບ</string>
+  <string name="sn_bold">ຕົວໜາ</string>
+  <string name="sn_italic">ຕົວອຽງ</string>
+  <string name="sn_underline">ຂີດກ້ອງ</string>
+  <string name="sn_strikethrough">ຂີດຂ້າ</string>
+  <string name="sn_bullets">ລາຍຊື່ສັນຍາລັກ</string>
+  <string name="sn_color_name_charcoal">ຖ່ານ</string>
+  <string name="sn_color_name_blue">ສີຟ້າ</string>
+  <string name="sn_color_name_green">ສີຂຽວ</string>
+  <string name="sn_color_name_yellow">ສີເຫຼືອງ</string>
+  <string name="sn_color_name_grey">ສີເທົາ</string>
+  <string name="sn_color_name_purple">ສີມ່ວງ</string>
+  <string name="sn_color_name_pink">ສີບົວ</string>
+  <string name="sn_unselected">ເຊົາເລືອກແລ້ວ</string>
+  <string name="sn_contextual_menu_image_alt_text_add">ເພີ່ມຂໍ້ຄວາມສຳຮອງ</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">ແກ້ໄຂຂໍ້ຄວາມສຳຮອງ</string>
+  <string name="sn_contextual_menu_image_delete">ລຶບຮູບອອກ</string>
+  <string name="sn_image_attachment">ໄຟລ໌ແນບຮູບ</string>
+</resources>

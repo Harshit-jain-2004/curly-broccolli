@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">إدراج صورة</string>
+  <string name="sn_bold">غامق</string>
+  <string name="sn_italic">مائل</string>
+  <string name="sn_underline">تسطير</string>
+  <string name="sn_strikethrough">يتوسطه خط</string>
+  <string name="sn_bullets">قائمة ذات تعداد نقطي</string>
+  <string name="sn_color_name_charcoal">أسود</string>
+  <string name="sn_color_name_blue">أزرق</string>
+  <string name="sn_color_name_green">أخضر</string>
+  <string name="sn_color_name_yellow">أصفر</string>
+  <string name="sn_color_name_grey">رمادي</string>
+  <string name="sn_color_name_purple">أرجواني</string>
+  <string name="sn_color_name_pink">قرنفلي</string>
+  <string name="sn_unselected">غير محدد</string>
+  <string name="sn_contextual_menu_image_alt_text_add">إضافة نص بديل</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">تحرير النص البديل</string>
+  <string name="sn_contextual_menu_image_delete">حذف الصورة</string>
+  <string name="sn_image_attachment">مرفق الصورة</string>
+</resources>

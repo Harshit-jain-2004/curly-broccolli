@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_notes_image">ഇമേജ്</string>
+  <string name="sn_inline_media_notes_alttext">Alt ടെക്സ്റ്റ്</string>
+  <string name="sn_inline_media_notes_description">വിവരണം</string>
+  <string name="sn_inline_media_notes_done">ചെയ്‌തു</string>
+  <string name="sn_inline_media_notes_cancel">റദ്ദാക്കുക</string>
+  <string name="sn_inline_media_notes_open">തുറക്കുക</string>
+  <string name="sn_notes_read_alt_text">ഇമേജ്, Altടെക്സ്റ്റ്: %1$s!</string>
+  <string name="sn_notes_link_label">ലിങ്ക്: %1$s</string>
+</resources>

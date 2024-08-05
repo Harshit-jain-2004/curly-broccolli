@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Settings">
+
+    <PreferenceCategory android:title="@string/authentication_title">
+        <Preference
+            android:key="@string/login_key"
+            android:summary="@string/login_summary"
+            android:title="@string/login_title" />
+        <Preference
+            android:key="@string/logout_all_users_key"
+            android:summary="@string/logout_all_users_summary"
+            android:title="@string/logout_all_users_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/ui_ux">
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/transitions_key"
+            android:summary="@string/transitions_summary"
+            android:title="@string/transitions_title" />
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/show_add_note_button_key"
+            android:summary="@string/show_add_note_button_summary"
+            android:title="@string/show_add_note_button_title" />
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/show_feedback_key"
+            android:summary="@string/show_feedback_summary"
+            android:title="@string/show_feedback_title" />
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/show_share_key"
+            android:summary="@string/show_share_summary"
+            android:title="@string/show_share_title" />
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/show_notes_list_error_ui_key"
+            android:summary="@string/show_notes_list_error_ui_summary"
+            android:title="@string/show_notes_list_error_ui_title" />
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/show_add_ink_note_button_key"
+            android:summary="@string/show_add_ink_note_button_summary"
+            android:title="@string/show_add_ink_note_button_title" />
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/show_action_mode_on_long_press"
+            android:summary="@string/action_mode_summary"
+            android:title="@string/action_mode_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/features">
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/realtime_key"
+            android:summary="@string/realtime_summary"
+            android:title="@string/realtime_title" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/gson_parser_key"
+            android:summary="@string/gson_parser_summary"
+            android:title="@string/gson_parser_title" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/ink_key"
+            android:summary="@string/ink_summary"
+            android:title="@string/ink_title" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/combined_list_for_multiacount_key"
+            android:summary="@string/combined_list_for_multiacount_summary"
+            android:title="@string/combined_list_for_multiacount_title" />
+    </PreferenceCategory>
+</androidx.preference.PreferenceScreen>

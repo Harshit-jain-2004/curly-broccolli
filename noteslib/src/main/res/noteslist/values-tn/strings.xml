@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">Ntlha ya mokwalo</string>
+  <string name="sn_ink_note">Ntlha ya enke</string>
+  <string name="sn_label_text">Mokwalo</string>
+  <string name="sn_label_image">Setshwantsho</string>
+  <string name="sn_single_image_note">Ntlhana ya %1$s ka setshwantsho se le 1</string>
+  <string name="sn_multi_image_note">Ntlhana ya %1$s ka ditshwantsho di le %2$d</string>
+  <string name="sn_label_date">tselegantswe %s</string>
+  <string name="sn_add_note">Tsenya ntlhana e ntšhwa</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">Ga e kgone go tsamaisanya jaanong.</string>
+</resources>

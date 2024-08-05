@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Insert image</string>
+  <string name="sn_bold">Bold</string>
+  <string name="sn_italic">Italic</string>
+  <string name="sn_underline">Underline</string>
+  <string name="sn_strikethrough">Strikethrough</string>
+  <string name="sn_bullets">Bulleted List</string>
+  <string name="sn_color_name_charcoal">Charcoal</string>
+  <string name="sn_color_name_blue">Blue</string>
+  <string name="sn_color_name_green">Green</string>
+  <string name="sn_color_name_yellow">Yellow</string>
+  <string name="sn_color_name_grey">Grey</string>
+  <string name="sn_color_name_purple">Purple</string>
+  <string name="sn_color_name_pink">Pink</string>
+  <string name="sn_unselected">Unselected</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Add Alt Text</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Edit Alt Text</string>
+  <string name="sn_contextual_menu_image_delete">Delete Image</string>
+  <string name="sn_image_attachment">Image attachment</string>
+</resources>

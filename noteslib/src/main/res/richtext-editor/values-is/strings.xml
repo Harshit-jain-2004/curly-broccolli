@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_notes_image">Mynd</string>
+  <string name="sn_inline_media_notes_alttext">Baktexti</string>
+  <string name="sn_inline_media_notes_description">Lýsing</string>
+  <string name="sn_inline_media_notes_done">Lokið</string>
+  <string name="sn_inline_media_notes_cancel">Hætta við</string>
+  <string name="sn_inline_media_notes_open">Opna</string>
+  <string name="sn_notes_read_alt_text">Mynd, baktexti: %1$s!</string>
+  <string name="sn_notes_link_label">Tengill: %1$s</string>
+</resources>

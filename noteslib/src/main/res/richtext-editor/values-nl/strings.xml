@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_notes_image">Afbeelding</string>
+  <string name="sn_inline_media_notes_alttext">Alternatieve tekst</string>
+  <string name="sn_inline_media_notes_description">Beschrijving</string>
+  <string name="sn_inline_media_notes_done">Gereed</string>
+  <string name="sn_inline_media_notes_cancel">Annuleren</string>
+  <string name="sn_inline_media_notes_open">Openen</string>
+  <string name="sn_notes_read_alt_text">Afbeelding, alternatieve tekst: %1$s.</string>
+  <string name="sn_notes_link_label">Koppeling: %1$s</string>
+</resources>

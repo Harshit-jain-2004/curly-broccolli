@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">ចែករំលែកកំណត់ត្រាបិទភ្ជាប់</string>
+  <string name="sn_action_share">ចែករំលែក</string>
+  <string name="sn_action_delete_note">លុប</string>
+  <string name="sn_action_send_feedback">ផ្ញើមតិប្រតិកម្ម</string>
+  <string name="sn_delete_note_dialog">លុបកំណត់ចំណាំឬ?</string>
+  <string name="sn_delete_note_description">វានឹង​ត្រូវលុបជាអចិន្ត្រៃយ៍ចេញ​ពីឧបករណ៍​ទាំងអស់របស់អ្នក។</string>
+  <string name="sn_image_dialog_delete_description">រូបភាពនេះនឹង​ត្រូវលុបជាអចិន្ត្រៃយ៍ចេញ​ពីឧបករណ៍​ទាំងអស់របស់អ្នក។</string>
+  <string name="sn_image_dialog_delete_action">លុប</string>
+  <string name="sn_image_dialog_alt_text_title">អត្ថបទ Alt</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">បញ្ចូលការពណ៌នាអំពីរូបភាព</string>
+  <string name="sn_image_dialog_save_alt_text">រក្សាទុក</string>
+  <string name="sn_dialog_cancel">បោះបង់</string>
+  <string name="sn_change_color_to_blue">ផ្លាស់ប្ដូរពណ៌កំណត់ចំណាំទៅជាពណ៌ខៀវ</string>
+  <string name="sn_change_color_to_green">ផ្លាស់ប្ដូរពណ៌កំណត់ចំណាំទៅជាពណ៌បៃតង</string>
+  <string name="sn_change_color_to_yellow">ផ្លាស់ប្ដូរពណ៌កំណត់ចំណាំទៅជាពណ៌លឿង</string>
+  <string name="sn_change_color_to_purple">ផ្លាស់ប្ដូរពណ៌កំណត់ចំណាំទៅជាពណ៌ស្វាយ</string>
+  <string name="sn_change_color_to_pink">ផ្លាស់ប្ដូរពណ៌កំណត់ចំណាំទៅជាពណ៌ផ្កាឈូក</string>
+  <string name="sn_change_color_to_grey">ផ្លាស់ប្ដូរពណ៌កំណត់ចំណាំទៅជាពណ៌ប្រផេះ</string>
+  <string name="sn_change_color_to_charcoal">ផ្លាស់ប្ដូរពណ៌កំណត់ចំណាំទៅជាពណ៌ធ្យូង</string>
+  <string name="sn_search_notes_with_color_blue">ស្វែងរកកំណត់ចំណាំដែលមានពណ៌ខៀវ</string>
+  <string name="sn_search_notes_with_color_green">ស្វែងរកកំណត់ចំណាំដែលមានពណ៌បៃតង</string>
+  <string name="sn_search_notes_with_color_yellow">ស្វែងរកកំណត់ចំណាំដែលមានពណ៌លឿង</string>
+  <string name="sn_search_notes_with_color_purple">ស្វែងរកកំណត់ចំណាំដែលមានពណ៌ស្វាយ</string>
+  <string name="sn_search_notes_with_color_pink">ស្វែងរកកំណត់ចំណាំដែលមានពណ៌ផ្កាឈូក</string>
+  <string name="sn_search_notes_with_color_grey">ស្វែងរកកំណត់ចំណាំដែលមានពណ៌ប្រផេះ</string>
+  <string name="sn_search_notes_with_color_charcoal">ស្វែងរកកំណត់ចំណាំដែលមានពណ៌ធ្យូង</string>
+  <string name="sn_note_options_dismissed">ជម្រើសកំណត់ចំណាំត្រូវបានបោះបង់</string>
+  <string name="sn_note_options_displayed">ជម្រើសកំណត់ចំណាំកំពុងបង្ហាញ</string>
+  <string name="sn_adding_image_failed">មិនអាចបន្ថែមរូបភាពបានទេ</string>
+  <string name="sn_image_added">រូបភាពត្រូវបានបន្ថែម</string>
+</resources>

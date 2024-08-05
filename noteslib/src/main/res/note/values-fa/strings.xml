@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">اشتراک‌گذاری یادداشت چسبی</string>
+  <string name="sn_action_share">اشتراک‌گذاری</string>
+  <string name="sn_action_delete_note">حذف</string>
+  <string name="sn_action_send_feedback">ارسال بازخورد</string>
+  <string name="sn_delete_note_dialog">یادداشت حذف شود؟</string>
+  <string name="sn_delete_note_description">به طور دائم از همه دستگاه‌های شما حذف خواهد شد.</string>
+  <string name="sn_image_dialog_delete_description">این تصویر به‌طور دائم از همه دستگاه‌های شما حذف خواهد شد.</string>
+  <string name="sn_image_dialog_delete_action">حذف</string>
+  <string name="sn_image_dialog_alt_text_title">متن جایگزین</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">توضیحات تصویر را وارد کنید</string>
+  <string name="sn_image_dialog_save_alt_text">ذخیره</string>
+  <string name="sn_dialog_cancel">لغو</string>
+  <string name="sn_change_color_to_blue">تغییر رنگ یادداشت به آبی</string>
+  <string name="sn_change_color_to_green">تغییر رنگ یادداشت به سبز</string>
+  <string name="sn_change_color_to_yellow">تغییر رنگ یادداشت به زرد</string>
+  <string name="sn_change_color_to_purple">تغییر رنگ یادداشت به بنفش</string>
+  <string name="sn_change_color_to_pink">تغییر رنگ یادداشت به صورتی</string>
+  <string name="sn_change_color_to_grey">تغییر رنگ یادداشت به خاکستری</string>
+  <string name="sn_change_color_to_charcoal">تغییر رنگ یادداشت به قهوه‌ای سوخته</string>
+  <string name="sn_search_notes_with_color_blue">جستجوی یادداشت‌های با رنگ آبی</string>
+  <string name="sn_search_notes_with_color_green">جستجوی یادداشت‌های با رنگ سبز</string>
+  <string name="sn_search_notes_with_color_yellow">جستجوی یادداشت‌های با رنگ زرد</string>
+  <string name="sn_search_notes_with_color_purple">جستجوی یادداشت‌های با رنگ بنفش</string>
+  <string name="sn_search_notes_with_color_pink">جستجوی یادداشت‌های با رنگ صورتی</string>
+  <string name="sn_search_notes_with_color_grey">جستجوی یادداشت‌های با رنگ خاکستری</string>
+  <string name="sn_search_notes_with_color_charcoal">جستجوی یادداشت‌های با رنگ قهوه‌ای سوخته</string>
+  <string name="sn_note_options_dismissed">گزینه‌های یادداشت بسته شد</string>
+  <string name="sn_note_options_displayed">گزینه‌های یادداشت نمایش داده می‌شود</string>
+  <string name="sn_adding_image_failed">افزودن تصویر امکان‌پذیر نبود</string>
+  <string name="sn_image_added">تصویر اضافه شد</string>
+</resources>

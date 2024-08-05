@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_notes_image">ಇಮೇಜ್</string>
+  <string name="sn_inline_media_notes_alttext">ಪರ್ಯಾಯ ಪಠ್ಯ</string>
+  <string name="sn_inline_media_notes_description">ವಿವರಣೆ</string>
+  <string name="sn_inline_media_notes_done">ಮುಗಿದಿದೆ</string>
+  <string name="sn_inline_media_notes_cancel">ರದ್ದುಗೊಳಿಸಿ</string>
+  <string name="sn_inline_media_notes_open">ತೆರೆಯಿರಿ</string>
+  <string name="sn_notes_read_alt_text">ಇಮೇಜ್, ಪರ್ಯಾಯ ಪಠ್ಯ: %1$s!</string>
+  <string name="sn_notes_link_label">ಲಿಂಕ್: %1$s</string>
+</resources>

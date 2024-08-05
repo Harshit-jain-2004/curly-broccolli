@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Ibahagi ang Sticky Note</string>
+  <string name="sn_action_share">Ibahagi</string>
+  <string name="sn_action_delete_note">Tanggalin</string>
+  <string name="sn_action_send_feedback">Magpadala ng Feedback</string>
+  <string name="sn_delete_note_dialog">Tanggalin ang Note?</string>
+  <string name="sn_delete_note_description">Permanente itong tatanggalin sa lahat ng iyong device.</string>
+  <string name="sn_image_dialog_delete_description">Permanenteng tatanggalin ang imaheng ito sa lahat ng iyong device.</string>
+  <string name="sn_image_dialog_delete_action">Tanggalin</string>
+  <string name="sn_image_dialog_alt_text_title">Kahaliling Teksto</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Magpasok ng Paglalarawan ng Imahe</string>
+  <string name="sn_image_dialog_save_alt_text">I-save</string>
+  <string name="sn_dialog_cancel">Kanselahin</string>
+  <string name="sn_change_color_to_blue">Gawing asul ang kulay ng note</string>
+  <string name="sn_change_color_to_green">Gawing berde ang kulay ng note</string>
+  <string name="sn_change_color_to_yellow">Gawing dilaw ang kulay ng note</string>
+  <string name="sn_change_color_to_purple">Gawing purple ang kulay ng note</string>
+  <string name="sn_change_color_to_pink">Gawing pink ang kulay ng note</string>
+  <string name="sn_change_color_to_grey">Gawing grey ang kulay ng note</string>
+  <string name="sn_change_color_to_charcoal">Gawing charcoal ang kulay ng note</string>
+  <string name="sn_search_notes_with_color_blue">Maghanap ng mga kulay asul na note</string>
+  <string name="sn_search_notes_with_color_green">Maghanap ng mga kulay berdeng note</string>
+  <string name="sn_search_notes_with_color_yellow">Maghanap ng mga kulay dilaw na note</string>
+  <string name="sn_search_notes_with_color_purple">Maghanap ng mga kulay purple na note</string>
+  <string name="sn_search_notes_with_color_pink">Maghanap ng mga kulay pink na note</string>
+  <string name="sn_search_notes_with_color_grey">Maghanap ng mga kulay grey na note</string>
+  <string name="sn_search_notes_with_color_charcoal">Maghanap ng mga kulay charcoal na note</string>
+  <string name="sn_note_options_dismissed">Inalis ang mga opsyon sa note</string>
+  <string name="sn_note_options_displayed">Ipinapakita ang mga opsyon sa note</string>
+  <string name="sn_adding_image_failed">Hindi maidagdag ang imahe</string>
+  <string name="sn_image_added">Nagdagdag ng imahe</string>
+</resources>

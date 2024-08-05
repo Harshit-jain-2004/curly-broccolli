@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">แชร์บันทึกย่อช่วยเตือน</string>
+  <string name="sn_action_share">แชร์</string>
+  <string name="sn_action_delete_note">ลบ</string>
+  <string name="sn_action_send_feedback">ส่งคำติชม</string>
+  <string name="sn_delete_note_dialog">ลบบันทึกย่อหรือไม่</string>
+  <string name="sn_delete_note_description">บันทึกย่อจะถูกลบจากอุปกรณ์ของคุณทั้งหมด</string>
+  <string name="sn_image_dialog_delete_description">รูปนี้จะถูกลบออกจากทุกอุปกรณ์ของคุณอย่างถาวร</string>
+  <string name="sn_image_dialog_delete_action">ลบ</string>
+  <string name="sn_image_dialog_alt_text_title">ข้อความแสดงแทน</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">ใส่คำอธิบายรูป</string>
+  <string name="sn_image_dialog_save_alt_text">บันทึก</string>
+  <string name="sn_dialog_cancel">ยกเลิก</string>
+  <string name="sn_change_color_to_blue">เปลี่ยนสีของบันทึกย่อเป็นสีน้ำเงิน</string>
+  <string name="sn_change_color_to_green">เปลี่ยนสีของบันทึกย่อเป็นสีเขียว</string>
+  <string name="sn_change_color_to_yellow">เปลี่ยนสีของบันทึกย่อเป็นสีเหลือง</string>
+  <string name="sn_change_color_to_purple">เปลี่ยนสีของบันทึกย่อเป็นสีม่วง</string>
+  <string name="sn_change_color_to_pink">เปลี่ยนสีของบันทึกย่อเป็นชมพู</string>
+  <string name="sn_change_color_to_grey">เปลี่ยนสีของบันทึกย่อเป็นสีเทา</string>
+  <string name="sn_change_color_to_charcoal">เปลี่ยนสีของบันทึกย่อเป็นสีถ่าน</string>
+  <string name="sn_search_notes_with_color_blue">ค้นหาบันทึกย่อที่มีสีน้ำเงิน</string>
+  <string name="sn_search_notes_with_color_green">ค้นหาบันทึกย่อที่มีสีเขียว</string>
+  <string name="sn_search_notes_with_color_yellow">ค้นหาบันทึกย่อที่มีสีเหลือง</string>
+  <string name="sn_search_notes_with_color_purple">ค้นหาบันทึกย่อที่มีสีม่วง</string>
+  <string name="sn_search_notes_with_color_pink">ค้นหาบันทึกย่อที่มีสีชมพู</string>
+  <string name="sn_search_notes_with_color_grey">ค้นหาบันทึกย่อที่มีสีเทา</string>
+  <string name="sn_search_notes_with_color_charcoal">ค้นหาบันทึกย่อที่มีสีถ่าน</string>
+  <string name="sn_note_options_dismissed">ปิดตัวเลือกบันทึกย่อแล้ว</string>
+  <string name="sn_note_options_displayed">ตัวเลือกบันทึกย่อบนจอแสดงผล</string>
+  <string name="sn_adding_image_failed">ไม่สามารถเพิ่มรูปได้</string>
+  <string name="sn_image_added">เพิ่มรูปแล้ว</string>
+</resources>

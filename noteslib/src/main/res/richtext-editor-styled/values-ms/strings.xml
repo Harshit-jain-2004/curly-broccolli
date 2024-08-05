@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Sisipkan imej</string>
+  <string name="sn_bold">Tebal</string>
+  <string name="sn_italic">Italik</string>
+  <string name="sn_underline">Garis bawah</string>
+  <string name="sn_strikethrough">Garis lorek</string>
+  <string name="sn_bullets">Senarai Berbulet</string>
+  <string name="sn_color_name_charcoal">Arang</string>
+  <string name="sn_color_name_blue">Biru</string>
+  <string name="sn_color_name_green">Hijau</string>
+  <string name="sn_color_name_yellow">Kuning</string>
+  <string name="sn_color_name_grey">Kelabu</string>
+  <string name="sn_color_name_purple">Ungu</string>
+  <string name="sn_color_name_pink">Merah jambu</string>
+  <string name="sn_unselected">Tidak Dipilih</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Tambah Teks Alt</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Edit Teks Alt</string>
+  <string name="sn_contextual_menu_image_delete">Padam Imej</string>
+  <string name="sn_image_attachment">Lampiran imej</string>
+</resources>

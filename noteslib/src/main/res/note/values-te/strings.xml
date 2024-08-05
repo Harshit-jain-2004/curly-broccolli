@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">స్టిక్కీ నోట్‌ని భాగస్వామ్యం చేయి</string>
+  <string name="sn_action_share">భాగస్వామ్యం చేయి</string>
+  <string name="sn_action_delete_note">తొలగించు</string>
+  <string name="sn_action_send_feedback">అభిప్రాయాన్ని పంపండి</string>
+  <string name="sn_delete_note_dialog">గమనికను తొలగించాలా?</string>
+  <string name="sn_delete_note_description">ఇది మీ అన్ని పరికరాల నుండి శాశ్వతంగా తొలగించబడుతుంది.</string>
+  <string name="sn_image_dialog_delete_description">ఈ చిత్రం మీ అన్ని పరికరాల నుండి శాశ్వతంగా తొలగించబడుతుంది.</string>
+  <string name="sn_image_dialog_delete_action">తొలగించు</string>
+  <string name="sn_image_dialog_alt_text_title">ప్రత్యామ్నాయ వచనం</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">చిత్రం వివరణను నమోదు చేయండి</string>
+  <string name="sn_image_dialog_save_alt_text">సేవ్ చేయి</string>
+  <string name="sn_dialog_cancel">రద్దు చేయి</string>
+  <string name="sn_change_color_to_blue">గమనిక రంగుని నీలంకి మార్చండి</string>
+  <string name="sn_change_color_to_green">గమనిక రంగుని ఆకుపచ్చకి మార్చండి</string>
+  <string name="sn_change_color_to_yellow">గమనిక రంగుని పసుపుకి మార్చండి</string>
+  <string name="sn_change_color_to_purple">గమనికను ఊదా రంగుకి మార్చండి</string>
+  <string name="sn_change_color_to_pink">గమనికను గులాబి రంగుకి మార్చండి</string>
+  <string name="sn_change_color_to_grey">గమనికను బూడిద రంగుకి మార్చండి</string>
+  <string name="sn_change_color_to_charcoal">గమనికను బొగ్గు రంగుకి మార్చండి</string>
+  <string name="sn_search_notes_with_color_blue">నీలి రంగులో ఉన్న శోధన గమనికలు</string>
+  <string name="sn_search_notes_with_color_green">ఆకు పచ్చ రంగులో ఉన్న శోధన గమనికలు</string>
+  <string name="sn_search_notes_with_color_yellow">పసుపు రంగులో ఉన్న శోధన గమనికలు</string>
+  <string name="sn_search_notes_with_color_purple">ఊదా రంగులో ఉన్న శోధన గమనికలు</string>
+  <string name="sn_search_notes_with_color_pink">గులాబి రంగులో ఉన్న శోధన గమనికలు</string>
+  <string name="sn_search_notes_with_color_grey">బూడిద రంగులో ఉన్న శోధన గమనికలు</string>
+  <string name="sn_search_notes_with_color_charcoal">బోగ్గు రంగులో ఉన్న శోధన గమనికలు</string>
+  <string name="sn_note_options_dismissed">గమనిక ఎంపికలు తీసివేయబడ్డాయి</string>
+  <string name="sn_note_options_displayed">గమనిక ఎంపికలు చూపబడుతున్నాయి</string>
+  <string name="sn_adding_image_failed">చిత్రం జోడించబడలేదు</string>
+  <string name="sn_image_added">చిత్రం జోడించబడింది</string>
+</resources>

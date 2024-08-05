@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">Voor Plaknotities is momenteel een Exchange Online-postvak vereist om te kunnen synchroniseren en opslaan. Neem contact op met de IT-beheerder over het inschakelen van een postvak of gebruik de onderstaande optie voor meer informatie.</string>
+  <string name="sn_sync_failure_with_contact_support_message">Plaknotities kan niet worden gesynchroniseerd met uw account. Neem contact op ondersteuning voor hulp bij het oplossen van dit probleem.</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">Plaknotities kan niet worden gesynchroniseerd met uw account, maar u kunt dit probleem mogelijk oplossen.</string>
+</resources>

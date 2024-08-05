@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">Teksnota</string>
+  <string name="sn_ink_note">Inknota</string>
+  <string name="sn_label_text">Teks</string>
+  <string name="sn_label_image">Beeld</string>
+  <string name="sn_single_image_note">%1$s nota met 1 beeld</string>
+  <string name="sn_multi_image_note">%1$s nota met %2$d beelde</string>
+  <string name="sn_label_date">geredigeer %s</string>
+  <string name="sn_add_note">Voeg nuwe nota by</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">Kan nie nou sinchroniseer nie.</string>
+</resources>

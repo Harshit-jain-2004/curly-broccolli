@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">Üzr istəyirik! Stikerlər sinxronlaşma və yaddaşın işləməsi üçün Exchange Online poçt qutusunu tələb edir. Poçt qutusunun aktivləşdirilməsi haqqında IT inzibatçınız ilə əlaqə saxlayın və ya ətraflı öyrənmək üçün aşağıdakı seçimdən istifadə edin.</string>
+  <string name="sn_sync_failure_with_contact_support_message">Yapışqan Qeydləri hesabınızla sinxronlaşdırmaq mümkün deyil. Bu problemi həll etməklə bağlı Dəstəklə əlaqə saxlamağınız xahiş olunur.</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">Stikerləri hesabınızla sinxronlaşdırmaq olmur, lakin siz bu problemi həll etməyə çalışa bilərsiniz.</string>
+</resources>

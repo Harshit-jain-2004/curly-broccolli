@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Infoga bild</string>
+  <string name="sn_bold">Fet</string>
+  <string name="sn_italic">Kursiv</string>
+  <string name="sn_underline">Understruken</string>
+  <string name="sn_strikethrough">Genomstruken</string>
+  <string name="sn_bullets">Punktlista</string>
+  <string name="sn_color_name_charcoal">Träkol</string>
+  <string name="sn_color_name_blue">Blå</string>
+  <string name="sn_color_name_green">Grön</string>
+  <string name="sn_color_name_yellow">Gul</string>
+  <string name="sn_color_name_grey">Grå</string>
+  <string name="sn_color_name_purple">Lila</string>
+  <string name="sn_color_name_pink">Rosa</string>
+  <string name="sn_unselected">Avmarkerat</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Lägg till alternativtext</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Redigera alternativtext</string>
+  <string name="sn_contextual_menu_image_delete">Ta bort bilden</string>
+  <string name="sn_image_attachment">Bifogad bild</string>
+</resources>

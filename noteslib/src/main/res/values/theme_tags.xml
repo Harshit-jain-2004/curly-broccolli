@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="primary_background_tag">primary_background</string>
+    <string name="option_toolbar_background_tag">option_toolbar_background</string>
+    <string name="option_icon_tag">option_icon</string>
+    <string name="option_text_tag">option_text</string>
+    <string name="option_secondary_text_tag">option_secondary_text</string>
+    <string name="option_bottom_sheet_icon_tag">option_bottom_sheet_icon</string>
+    <string name="option_bottom_sheet_divider_tag">option_bottom_sheet_divider</string>
+    <string name="bottom_sheet_primary_text_tag">bottom_sheet_primary_text</string>
+    <string name="note_canvas_layout_tag">note_canvas_layout</string>
+    <string name="feed_layout_tag">feed_layout</string>
+    <string name="option_icon_no_bg_tag">options_icon_without_background</string>
+    <string name="option_text_with_drawable_tag">option_text_with_drawable</string>
+    <string name="swipe_to_refresh_tag">swipe_to_refresh</string>
+</resources>

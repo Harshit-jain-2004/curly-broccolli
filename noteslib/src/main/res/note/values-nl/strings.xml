@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Notitie delen</string>
+  <string name="sn_action_share">Delen</string>
+  <string name="sn_action_delete_note">Verwijderen</string>
+  <string name="sn_action_send_feedback">Feedback verzenden</string>
+  <string name="sn_delete_note_dialog">Notitie verwijderen?</string>
+  <string name="sn_delete_note_description">De notitie wordt definitief verwijderd van al uw apparaten.</string>
+  <string name="sn_image_dialog_delete_description">Deze afbeelding wordt definitief verwijderd van al uw apparaten.</string>
+  <string name="sn_image_dialog_delete_action">Verwijderen</string>
+  <string name="sn_image_dialog_alt_text_title">Alternatieve tekst</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Voer een beschrijving van de afbeelding in</string>
+  <string name="sn_image_dialog_save_alt_text">Opslaan</string>
+  <string name="sn_dialog_cancel">Annuleren</string>
+  <string name="sn_change_color_to_blue">Kleur van notitie wijzigen in blauw</string>
+  <string name="sn_change_color_to_green">Kleur van notitie wijzigen in groen</string>
+  <string name="sn_change_color_to_yellow">Kleur van notitie wijzigen in geel</string>
+  <string name="sn_change_color_to_purple">Kleur van notitie wijzigen in paars</string>
+  <string name="sn_change_color_to_pink">Kleur van notitie wijzigen in roze</string>
+  <string name="sn_change_color_to_grey">Kleur van notitie wijzigen in grijs</string>
+  <string name="sn_change_color_to_charcoal">Kleur van notitie wijzigen in houtskool</string>
+  <string name="sn_search_notes_with_color_blue">Notities zoeken met blauwe kleur</string>
+  <string name="sn_search_notes_with_color_green">Notities zoeken met groene kleur</string>
+  <string name="sn_search_notes_with_color_yellow">Notities zoeken met gele kleur</string>
+  <string name="sn_search_notes_with_color_purple">Notities zoeken met paarse kleur</string>
+  <string name="sn_search_notes_with_color_pink">Notities zoeken met roze kleur</string>
+  <string name="sn_search_notes_with_color_grey">Notities zoeken met grijze kleur</string>
+  <string name="sn_search_notes_with_color_charcoal">Notities zoeken met houtskoolkleur</string>
+  <string name="sn_note_options_dismissed">Opties voor notities zijn gesloten</string>
+  <string name="sn_note_options_displayed">Opties voor notities worden weergegeven</string>
+  <string name="sn_adding_image_failed">Afbeelding is niet toegevoegd</string>
+  <string name="sn_image_added">Afbeelding is toegevoegd</string>
+</resources>

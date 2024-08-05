@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sn_gray_divider">#D8D8D8</color>
+    <color name="sn_black">#000000</color>
+    <color name="sn_white">#FFFFFF</color>
+
+    <color name="sn_search_highlight_foreground_light">#000000</color>
+    <color name="sn_search_highlight_foreground_dark">#FFFFFF</color>
+    <color name="sn_search_highlight_background_light">#1A000000</color>
+    <color name="sn_search_highlight_background_dark">#1AFFFFFF</color>
+
+    <!-- Samsung note color -->
+    <color name="samsung_note_details_bg">#0D000000</color>
+    <color name="samsung_note_source_text_color">#6E6E6E</color>
+    <color name="samsung_no_content_text_color">#6E6E6E</color>
+
+    <!-- Reminder Colors -->
+    <color name="reminder_bottom_sheet_text_primary_color">#242424</color>
+    <color name="reminder_bottom_sheet_bg_color">#FFFFFF</color>
+    <color name="reminder_bottom_sheet_button_color">@color/sn_primary_color</color>
+    <color name="reminder_bottom_sheet_text_secondary_color">#616161</color>
+    <color name="reminder_bottom_sheet_icon_color">#808080</color>
+    <color name="reminder_button_text_color">#FFFFFF</color>
+    <color name="fluentui_calender_bg_color">#FFFFFF</color>
+    <color name="reminder_label_primary_text_color">#6E6E6E</color>
+    <color name="reminder_label_bg_color">#0D000000</color>
+    <!-- Reminder Colors END -->
+</resources>

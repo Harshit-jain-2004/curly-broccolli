@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/yellow_color_item"
+        style="@style/SNColorItem"
+        android:background="@drawable/sn_color_item_yellow"
+        android:contentDescription="@string/sn_search_notes_with_color_yellow"
+        android:nextFocusLeft="@+id/charcoal_color_item" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/green_color_item"
+        style="@style/SNColorItem"
+        android:background="@drawable/sn_color_item_green"
+        android:contentDescription="@string/sn_search_notes_with_color_green" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/pink_color_item"
+        style="@style/SNColorItem"
+        android:background="@drawable/sn_color_item_pink"
+        android:contentDescription="@string/sn_search_notes_with_color_pink" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/purple_color_item"
+        style="@style/SNColorItem"
+        android:background="@drawable/sn_color_item_purple"
+        android:contentDescription="@string/sn_search_notes_with_color_purple" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/blue_color_item"
+        style="@style/SNColorItem"
+        android:background="@drawable/sn_color_item_blue"
+        android:contentDescription="@string/sn_search_notes_with_color_blue" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/grey_color_item"
+        style="@style/SNColorItem"
+        android:background="@drawable/sn_color_item_grey"
+        android:contentDescription="@string/sn_search_notes_with_color_grey" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/charcoal_color_item"
+        style="@style/SNColorItem"
+        android:background="@drawable/sn_color_item_charcoal"
+        android:contentDescription="@string/sn_search_notes_with_color_charcoal"
+        android:nextFocusRight="@+id/yellow_color_item" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+</LinearLayout>

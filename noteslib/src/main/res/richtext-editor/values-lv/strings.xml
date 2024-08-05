@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_notes_image">Attēls</string>
+  <string name="sn_inline_media_notes_alttext">Alternatīvais teksts</string>
+  <string name="sn_inline_media_notes_description">Apraksts</string>
+  <string name="sn_inline_media_notes_done">Gatavs</string>
+  <string name="sn_inline_media_notes_cancel">Atcelt</string>
+  <string name="sn_inline_media_notes_open">Atvērt</string>
+  <string name="sn_notes_read_alt_text">Attēls, alternatīvais teksts: %1$s!</string>
+  <string name="sn_notes_link_label">Saite: %1$s</string>
+</resources>

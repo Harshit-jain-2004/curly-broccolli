@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Partajați nota adezivă</string>
+  <string name="sn_action_share">Partajare</string>
+  <string name="sn_action_delete_note">Ștergere</string>
+  <string name="sn_action_send_feedback">Trimiteți feedback</string>
+  <string name="sn_delete_note_dialog">Ștergeți nota?</string>
+  <string name="sn_delete_note_description">Aceasta va fi ștearsă definitiv de pe toate dispozitivele dvs.</string>
+  <string name="sn_image_dialog_delete_description">Această imagine va fi ștearsă definitiv din toate dispozitivele dvs.</string>
+  <string name="sn_image_dialog_delete_action">Ștergere</string>
+  <string name="sn_image_dialog_alt_text_title">Text alternativ</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Introduceți descrierea imaginii</string>
+  <string name="sn_image_dialog_save_alt_text">Salvare</string>
+  <string name="sn_dialog_cancel">Anulare</string>
+  <string name="sn_change_color_to_blue">Schimbați culoarea notei la albastru</string>
+  <string name="sn_change_color_to_green">Schimbați culoarea notei la verde</string>
+  <string name="sn_change_color_to_yellow">Schimbați culoarea notei la galben</string>
+  <string name="sn_change_color_to_purple">Schimbați culoarea notei la violet</string>
+  <string name="sn_change_color_to_pink">Schimbați culoarea notei la roz</string>
+  <string name="sn_change_color_to_grey">Schimbați culoarea notei la gri</string>
+  <string name="sn_change_color_to_charcoal">Schimbați culoarea notei la cărbune</string>
+  <string name="sn_search_notes_with_color_blue">Căutați note de culoare albastru</string>
+  <string name="sn_search_notes_with_color_green">Căutați note de culoare verde</string>
+  <string name="sn_search_notes_with_color_yellow">Căutați note de culoare galben</string>
+  <string name="sn_search_notes_with_color_purple">Căutați note de culoare violet</string>
+  <string name="sn_search_notes_with_color_pink">Căutați note de culoare roz</string>
+  <string name="sn_search_notes_with_color_grey">Căutați note de culoare gri</string>
+  <string name="sn_search_notes_with_color_charcoal">Căutați note de culoare cărbune</string>
+  <string name="sn_note_options_dismissed">Opțiunile pentru note au fost îndepărtate</string>
+  <string name="sn_note_options_displayed">Opțiunile pentru note sunt afișate</string>
+  <string name="sn_adding_image_failed">Imaginea nu a putut fi adăugată</string>
+  <string name="sn_image_added">Imaginea a fost adăugată</string>
+</resources>

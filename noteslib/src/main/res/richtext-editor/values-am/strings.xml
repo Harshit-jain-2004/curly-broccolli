@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_notes_image">ምስል</string>
+  <string name="sn_inline_media_notes_alttext">ተለዋጭ ጽሁፍ</string>
+  <string name="sn_inline_media_notes_description">መግለጫ</string>
+  <string name="sn_inline_media_notes_done">ተጠናቋል</string>
+  <string name="sn_inline_media_notes_cancel">ሰርዝ</string>
+  <string name="sn_inline_media_notes_open">ክፈት</string>
+  <string name="sn_notes_read_alt_text">ምስል፣ ተለዋጭ ጽሁፍ፦ %1$s!</string>
+  <string name="sn_notes_link_label">አገናኝ፦ %1$s</string>
+</resources>

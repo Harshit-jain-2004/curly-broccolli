@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_notes_image">Taswira</string>
+  <string name="sn_inline_media_notes_alttext">Matini ya Alt</string>
+  <string name="sn_inline_media_notes_description">Ufafanuzi</string>
+  <string name="sn_inline_media_notes_done">Imekamilika</string>
+  <string name="sn_inline_media_notes_cancel">Katisha</string>
+  <string name="sn_inline_media_notes_open">Fungua</string>
+  <string name="sn_notes_read_alt_text">Taswira, Alttext: %1$s!</string>
+  <string name="sn_notes_link_label">Kiungo: %1$s</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">שתף פתק נדבק</string>
+  <string name="sn_action_share">שתף</string>
+  <string name="sn_action_delete_note">מחק</string>
+  <string name="sn_action_send_feedback">שלח משוב</string>
+  <string name="sn_delete_note_dialog">האם למחוק את הפתק?</string>
+  <string name="sn_delete_note_description">הוא יימחק לצמיתות מכל המכשירים שלך.</string>
+  <string name="sn_image_dialog_delete_description">תמונה זו תימחק לצמיתות מכל המכשירים שלך.</string>
+  <string name="sn_image_dialog_delete_action">מחק</string>
+  <string name="sn_image_dialog_alt_text_title">טקסט חלופי</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">הזן תיאור תמונה</string>
+  <string name="sn_image_dialog_save_alt_text">שמור</string>
+  <string name="sn_dialog_cancel">ביטול</string>
+  <string name="sn_change_color_to_blue">שנה את צבע הפתק לכחול</string>
+  <string name="sn_change_color_to_green">שנה את צבע הפתק לירוק</string>
+  <string name="sn_change_color_to_yellow">שנה את צבע הפתק לצהוב</string>
+  <string name="sn_change_color_to_purple">שנה את צבע הפתק לסגול</string>
+  <string name="sn_change_color_to_pink">שנה את צבע הפתק לוורוד</string>
+  <string name="sn_change_color_to_grey">שנה את צבע הפתק לאפור</string>
+  <string name="sn_change_color_to_charcoal">שנה את צבע הפתק לפחם</string>
+  <string name="sn_search_notes_with_color_blue">חפש פתקים בצבע כחול</string>
+  <string name="sn_search_notes_with_color_green">חפש פתקים בצבע ירוק</string>
+  <string name="sn_search_notes_with_color_yellow">חפש פתקים בצבע צהוב</string>
+  <string name="sn_search_notes_with_color_purple">חפש פתקים בצבע סגול</string>
+  <string name="sn_search_notes_with_color_pink">חפש פתקים בצבע ורוד</string>
+  <string name="sn_search_notes_with_color_grey">חפש פתקים בצבע אפור</string>
+  <string name="sn_search_notes_with_color_charcoal">חפש פתקים בצבע פחם</string>
+  <string name="sn_note_options_dismissed">אפשרויות הפתקים נסגרו</string>
+  <string name="sn_note_options_displayed">אפשרויות הפתקים מוצגות</string>
+  <string name="sn_adding_image_failed">לא היתה אפשרות להוסיף את התמונה</string>
+  <string name="sn_image_added">התמונה נוספה</string>
+</resources>

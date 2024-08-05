@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_notes_image">Slika</string>
+  <string name="sn_inline_media_notes_alttext">Alternativni tekst</string>
+  <string name="sn_inline_media_notes_description">Opis</string>
+  <string name="sn_inline_media_notes_done">Gotovo</string>
+  <string name="sn_inline_media_notes_cancel">Otkaži</string>
+  <string name="sn_inline_media_notes_open">Otvori</string>
+  <string name="sn_notes_read_alt_text">Slika, alternativni tekst: %1$s!</string>
+  <string name="sn_notes_link_label">Veza: %1$s</string>
+</resources>

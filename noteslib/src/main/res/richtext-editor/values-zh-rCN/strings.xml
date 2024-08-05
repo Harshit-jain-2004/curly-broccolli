@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_notes_image">图像</string>
+  <string name="sn_inline_media_notes_alttext">替换文字</string>
+  <string name="sn_inline_media_notes_description">说明</string>
+  <string name="sn_inline_media_notes_done">完成</string>
+  <string name="sn_inline_media_notes_cancel">取消</string>
+  <string name="sn_inline_media_notes_open">打开</string>
+  <string name="sn_notes_read_alt_text">图像，Alttext: %1$s!</string>
+  <string name="sn_notes_link_label">链接: %1$s</string>
+</resources>

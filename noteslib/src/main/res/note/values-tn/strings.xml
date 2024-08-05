@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Aba ka Ntlhana e e Kgomaretswang</string>
+  <string name="sn_action_share">Abela ba Bangwe</string>
+  <string name="sn_action_delete_note">Phimola</string>
+  <string name="sn_action_send_feedback">Romela Pegelo</string>
+  <string name="sn_delete_note_dialog">A o Phimola Ntlhana?</string>
+  <string name="sn_delete_note_description">E tlile go phimolelwa ruri mo didirisweng tsotlhe tsa gago.</string>
+  <string name="sn_image_dialog_delete_description">Setshwantsho seno se tlile go phimolelwa ruri mo didirisweng tsotlhe tsa gago.</string>
+  <string name="sn_image_dialog_delete_action">Phimola</string>
+  <string name="sn_image_dialog_alt_text_title">Mokwalo o Mongwe</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Tsenya Tlhaloso ya Setshwantsho</string>
+  <string name="sn_image_dialog_save_alt_text">Boloka</string>
+  <string name="sn_dialog_cancel">Khansela</string>
+  <string name="sn_change_color_to_blue">Fetola mmala wa ntlhana go o dira mmududu</string>
+  <string name="sn_change_color_to_green">Fetola mmala wa ntlhana go o dira motala</string>
+  <string name="sn_change_color_to_yellow">Fetola mmala wa ntlhana go o dira serolwana</string>
+  <string name="sn_change_color_to_purple">Fetola mmala wa ntlhana go o dira phepole</string>
+  <string name="sn_change_color_to_pink">Fetola mmala wa ntlhana go o dira pinki</string>
+  <string name="sn_change_color_to_grey">Fetola mmala wa ntlhana go o dira botuba</string>
+  <string name="sn_change_color_to_charcoal">Fetola mmala wa ntlhana go o dira mmala wa magala a dikgong</string>
+  <string name="sn_search_notes_with_color_blue">Phuruphutsha dintlha tsa mmala o mobududu</string>
+  <string name="sn_search_notes_with_color_green">Phuruphutsha dintlha tsa mmala o motala</string>
+  <string name="sn_search_notes_with_color_yellow">Phuruphutsha dintlha tsa mmala o o serolwana</string>
+  <string name="sn_search_notes_with_color_purple">Phuruphutsha dintlha tsa mmala o o phepole</string>
+  <string name="sn_search_notes_with_color_pink">Phuruphutsha dintlha tsa mmala o o pinki</string>
+  <string name="sn_search_notes_with_color_grey">Phuruphutsha dintlha tsa mmala o o botuba</string>
+  <string name="sn_search_notes_with_color_charcoal">Phuruphutsha dintlha tsa mmala wa magala a dikgong</string>
+  <string name="sn_note_options_dismissed">Ditlhopho tsa dintlhana di ntshitswe</string>
+  <string name="sn_note_options_displayed">Ditlhopho tsa dintlhana di a bontshiwa</string>
+  <string name="sn_adding_image_failed">Ga go a kgonega go tsenya setshwantsho</string>
+  <string name="sn_image_added">Setshwantsho se tsentswe</string>
+</resources>

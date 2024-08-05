@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.microsoft.notes.ui.theme.ThemedLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/SNSettingsBottomSheet"
+    android:layout_width="match_parent"
+    android:background ="@color/sn_content_background"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/bottom_sheet_behavior">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/bottomsheet_handle" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:paddingHorizontal="16dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:paddingEnd="16dp"
+            android:contentDescription="@string/backButton"
+            app:srcCompat="@drawable/ic_arrow_left"
+            app:tint="@color/reminder_bottom_sheet_text_primary_color" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/reminderHeading"
+            android:textColor="@color/reminder_bottom_sheet_text_primary_color"
+            android:fontFamily="Roboto"
+            android:contentDescription="@string/reminderHeading"
+            android:textSize="20sp">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/closeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_dismiss_circle"
+            android:contentDescription="@string/dismissReminder" />
+    </LinearLayout>
+
+    <View style="@style/SNDivider" />
+
+    <include
+        android:id="@+id/reminderPickerLayoutMain"
+        layout="@layout/sn_reminder_picker_layout"
+        android:visibility="visible" />
+
+    <FrameLayout
+        android:id="@+id/child_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</com.microsoft.notes.ui.theme.ThemedLinearLayout>

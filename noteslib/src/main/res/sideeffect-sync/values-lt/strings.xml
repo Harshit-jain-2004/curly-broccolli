@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">Deja! Šiuo metu, kad būtų galima sinchronizuoti ir saugoti darbą, „Priklijuojamiems lapeliams“ reikalinga „Exchange Online“ pašto dėžutė. Susisiekite su IT administratoriumi, kad įgalintų pašto dėžutę, arba sužinokite daugiau naudodami toliau pateikiamą parinktį.</string>
+  <string name="sn_sync_failure_with_contact_support_message">Nepavyksta sinchronizuoti Priklijuojamų lapelių su jūsų paskyra. Jei reikia pagalbos sprendžiant šią problemą, kreipkitės į palaikymo tarnybą.</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">Nepavyksta sinchronizuoti Priklijuojamų lapelių su jūsų paskyra, bet galima bandyti ir išspręsti šią problemą.</string>
+</resources>

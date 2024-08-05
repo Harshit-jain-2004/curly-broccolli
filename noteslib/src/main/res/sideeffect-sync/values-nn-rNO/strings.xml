@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">Klistrelappar krev ein Exchange Online-postboks for at synkronisering og oppbevaring skal fungere. Kontakt systemansvarleg om å aktivere ein postboks, eller bruk alternativet nedanfor for å finne ut meir.</string>
+  <string name="sn_sync_failure_with_contact_support_message">Vi kan ikkje synkronisere Klistrelappar med kontoen din. Kontakt kundestøtte for å få hjelp til å løyse dette problemet.</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">Vi kan ikkje synkronisere Klistrelappar med kontoen din, men du kan prøve å løyse dette problemet.</string>
+</resources>

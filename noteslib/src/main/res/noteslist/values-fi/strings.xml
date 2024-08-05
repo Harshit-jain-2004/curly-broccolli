@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">Tekstimuistiinpano</string>
+  <string name="sn_ink_note">Muistiinpanon käsinkirjoitus</string>
+  <string name="sn_label_text">Teksti</string>
+  <string name="sn_label_image">Kuva</string>
+  <string name="sn_single_image_note">%1$s muistiinpano, jossa on 1 kuva</string>
+  <string name="sn_multi_image_note">%1$s muistiinpano, jossa on %2$d kuvaa</string>
+  <string name="sn_label_date">muokattu %s</string>
+  <string name="sn_add_note">Lisää uusi muistiinpano</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">Synkronointi ei onnistu juuri nyt.</string>
+</resources>

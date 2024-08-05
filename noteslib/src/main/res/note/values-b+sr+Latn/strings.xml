@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Deli lepljivu belešku</string>
+  <string name="sn_action_share">Deljenje</string>
+  <string name="sn_action_delete_note">Izbriši</string>
+  <string name="sn_action_send_feedback">Pošalji povratne informacije</string>
+  <string name="sn_delete_note_dialog">Izbrisati belešku?</string>
+  <string name="sn_delete_note_description">Ona će biti trajno izbrisana sa svih vaših uređaja.</string>
+  <string name="sn_image_dialog_delete_description">Ova slika će biti trajno izbrisana sa svih vaših uređaja.</string>
+  <string name="sn_image_dialog_delete_action">Izbriši</string>
+  <string name="sn_image_dialog_alt_text_title">Alternativni tekst</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Unesite opis slike</string>
+  <string name="sn_image_dialog_save_alt_text">Sačuvaj</string>
+  <string name="sn_dialog_cancel">Otkaži</string>
+  <string name="sn_change_color_to_blue">Promeni boju beleške u plavu</string>
+  <string name="sn_change_color_to_green">Promeni boju beleške u zelenu</string>
+  <string name="sn_change_color_to_yellow">Promeni boju beleške u žutu</string>
+  <string name="sn_change_color_to_purple">Promeni boju beleške u purpurnu</string>
+  <string name="sn_change_color_to_pink">Promeni boju beleške u ružičastu</string>
+  <string name="sn_change_color_to_grey">Promeni boju beleške u sivu</string>
+  <string name="sn_change_color_to_charcoal">Promeni boju beleške u boju ugljena</string>
+  <string name="sn_search_notes_with_color_blue">Pretraži beleške sa plavom bojom</string>
+  <string name="sn_search_notes_with_color_green">Pretraži beleške sa zelenom bojom</string>
+  <string name="sn_search_notes_with_color_yellow">Pretraži beleške sa žutom bojom</string>
+  <string name="sn_search_notes_with_color_purple">Pretraži beleške sa purpurnom bojom</string>
+  <string name="sn_search_notes_with_color_pink">Pretraži beleške sa ružičastom bojom</string>
+  <string name="sn_search_notes_with_color_grey">Pretraži beleške sa sivom bojom</string>
+  <string name="sn_search_notes_with_color_charcoal">Pretraži beleške sa bojom uglja</string>
+  <string name="sn_note_options_dismissed">Opcije beleške su odbačene</string>
+  <string name="sn_note_options_displayed">Opcije beleške su prikazane</string>
+  <string name="sn_adding_image_failed">Nije moguće dodati sliku</string>
+  <string name="sn_image_added">Slika je dodata</string>
+</resources>

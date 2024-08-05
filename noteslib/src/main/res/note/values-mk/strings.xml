@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Сподели леплива белешка</string>
+  <string name="sn_action_share">Сподели</string>
+  <string name="sn_action_delete_note">Избриши</string>
+  <string name="sn_action_send_feedback">Испрати повратни информации</string>
+  <string name="sn_delete_note_dialog">Да се избрише белешката?</string>
+  <string name="sn_delete_note_description">Трајно ќе се избрише од сите ваши уреди.</string>
+  <string name="sn_image_dialog_delete_description">Оваа слика трајно ќе се избрише од сите ваши уреди.</string>
+  <string name="sn_image_dialog_delete_action">Избриши</string>
+  <string name="sn_image_dialog_alt_text_title">Алтернативен текст</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Внеси опис за сликата</string>
+  <string name="sn_image_dialog_save_alt_text">Зачувај</string>
+  <string name="sn_dialog_cancel">Откажи</string>
+  <string name="sn_change_color_to_blue">Измени ја бојата на белешката во сина</string>
+  <string name="sn_change_color_to_green">Измени ја бојата на белешката во зелена</string>
+  <string name="sn_change_color_to_yellow">Измени ја бојата на белешката во жолта</string>
+  <string name="sn_change_color_to_purple">Измени ја бојата на белешката во пурпурна</string>
+  <string name="sn_change_color_to_pink">Измени ја бојата на белешката во розова</string>
+  <string name="sn_change_color_to_grey">Измени ја бојата на белешката во сива</string>
+  <string name="sn_change_color_to_charcoal">Измени ја бојата на белешката во јаглен</string>
+  <string name="sn_search_notes_with_color_blue">Пребарај белешки со сина боја</string>
+  <string name="sn_search_notes_with_color_green">Пребарај белешки со зелена боја</string>
+  <string name="sn_search_notes_with_color_yellow">Пребарај белешки со жолта боја</string>
+  <string name="sn_search_notes_with_color_purple">Пребарај белешки со пурпурна боја</string>
+  <string name="sn_search_notes_with_color_pink">Пребарај белешки со розова боја</string>
+  <string name="sn_search_notes_with_color_grey">Пребарај белешки со сива боја</string>
+  <string name="sn_search_notes_with_color_charcoal">Пребарај белешки со боја на јаглен</string>
+  <string name="sn_note_options_dismissed">Опциите за белешката се отфрлени</string>
+  <string name="sn_note_options_displayed">Опциите за белешката се прикажани</string>
+  <string name="sn_adding_image_failed">Сликата не може да се додаде</string>
+  <string name="sn_image_added">Се додаде слика</string>
+</resources>

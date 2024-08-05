@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.microsoft.notes.ui.theme.ThemedLinearLayout
+    android:tag="@string/primary_background_tag"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.microsoft.notes.ui.search.SearchColorPicker
+        android:id="@+id/colorPicker"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:clipToPadding="false"
+        android:paddingBottom="4dp"
+        android:paddingTop="12dp" />
+
+    <com.microsoft.notes.ui.noteslist.VerticalNotesListComponent
+        android:id="@+id/notesList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</com.microsoft.notes.ui.theme.ThemedLinearLayout>

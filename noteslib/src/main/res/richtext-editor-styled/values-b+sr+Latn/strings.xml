@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Umetni sliku</string>
+  <string name="sn_bold">Podebljano</string>
+  <string name="sn_italic">Kurziv</string>
+  <string name="sn_underline">Podvlačenje</string>
+  <string name="sn_strikethrough">Precrtani tekst</string>
+  <string name="sn_bullets">Lista sa znakovima za nabrajanje</string>
+  <string name="sn_color_name_charcoal">Boja uglja</string>
+  <string name="sn_color_name_blue">Plava</string>
+  <string name="sn_color_name_green">Zelena</string>
+  <string name="sn_color_name_yellow">Žuta</string>
+  <string name="sn_color_name_grey">Siva</string>
+  <string name="sn_color_name_purple">Purpurna</string>
+  <string name="sn_color_name_pink">Ružičasta</string>
+  <string name="sn_unselected">Neizabrano</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Dodaj alternativni tekst</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Uredi alternativni tekst</string>
+  <string name="sn_contextual_menu_image_delete">Brisanje slike</string>
+  <string name="sn_image_attachment">Prilog sa slikom</string>
+</resources>

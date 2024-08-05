@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Падзяліцца ліпучай нататкай</string>
+  <string name="sn_action_share">Падзяліцца</string>
+  <string name="sn_action_delete_note">Выдаліць</string>
+  <string name="sn_action_send_feedback">Адправіць водгук</string>
+  <string name="sn_delete_note_dialog">Выдаліць нататку?</string>
+  <string name="sn_delete_note_description">Яна будзе незваротна выдалена з усіх вашых прылад.</string>
+  <string name="sn_image_dialog_delete_description">Гэта выява будзе незваротна выдалена з усіх вашых прылад.</string>
+  <string name="sn_image_dialog_delete_action">Выдаліць</string>
+  <string name="sn_image_dialog_alt_text_title">Тэкст замяшчэння</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Увядзіце апісанне выявы</string>
+  <string name="sn_image_dialog_save_alt_text">Захаваць</string>
+  <string name="sn_dialog_cancel">Скасаваць</string>
+  <string name="sn_change_color_to_blue">Змена колеру нататкі на сіні</string>
+  <string name="sn_change_color_to_green">Змена колеру нататкі на зялёны</string>
+  <string name="sn_change_color_to_yellow">Змена колеру нататкі на жоўты</string>
+  <string name="sn_change_color_to_purple">Змена колеру нататкі на фіялетавы</string>
+  <string name="sn_change_color_to_pink">Змена колеру нататкі на ружовы</string>
+  <string name="sn_change_color_to_grey">Змена колеру нататкі на шэры</string>
+  <string name="sn_change_color_to_charcoal">Змена колеру нататкі на вугальны</string>
+  <string name="sn_search_notes_with_color_blue">Пошук нататак з сінім колерам</string>
+  <string name="sn_search_notes_with_color_green">Пошук нататак з зялёным колерам</string>
+  <string name="sn_search_notes_with_color_yellow">Пошук нататак з жоўтым колерам</string>
+  <string name="sn_search_notes_with_color_purple">Пошук нататак з фіялетавым колерам</string>
+  <string name="sn_search_notes_with_color_pink">Пошук нататак з ружовым колерам</string>
+  <string name="sn_search_notes_with_color_grey">Пошук нататак з шэрым колерам</string>
+  <string name="sn_search_notes_with_color_charcoal">Пошук нататак з вугальным колерам</string>
+  <string name="sn_note_options_dismissed">Закрыты параметры нататкі</string>
+  <string name="sn_note_options_displayed">Паказваюцца параметры нататкі</string>
+  <string name="sn_adding_image_failed">Не ўдалося дадаць выяву</string>
+  <string name="sn_image_added">Выява дададзена</string>
+</resources>

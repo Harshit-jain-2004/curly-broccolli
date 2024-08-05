@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">Memo attualmente richiede una cassetta postale di Exchange Online per il funzionamento dei processi di sincronizzazione e archiviazione. Contatta l\'amministratore IT per abilitare una cassetta postale oppure usa l\'opzione sottostante per saperne di più.</string>
+  <string name="sn_sync_failure_with_contact_support_message">Non è possibile completare la sincronizzazione di Memo con questo account. Contatta il supporto per risolvere il problema.</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">Non è possibile completare la sincronizzazione di Memo con questo account, riprova per risolvere il problema.</string>
+</resources>

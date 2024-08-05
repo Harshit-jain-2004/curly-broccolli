@@ -1,0 +1,39 @@
+
+#This YAML has the configuration of the RunAndroidTests task used to run instrumentation and UI test on real devices.
+#Note: this file is probably outdated and you just simply want to run our tests on a different way on a task built from scratch.
+
+#Multi-configuration and multi-agent job options are not exported to YAML. Configure these options using documentation guidance: https://docs.microsoft.com/vsts/pipelines/process/phases
+
+dependsOn: Phase_1
+pool:
+  name: Sticky Notes
+  demands: Agent.Name -equals coshaw-android-devices
+
+  timeoutInMinutes: 5
+
+variables:
+  AndroidTestApk: 'noteslib'
+  DeviceSerial: '00d5b55c765f1d54,0117110d49a03301'
+
+steps:
+- task: DownloadBuildArtifacts@0
+  displayName: 'Download Build Artifacts'
+  inputs:
+    artifactName: apk
+    downloadPath: '$(build.artifactstagingdirectory)'
+  enabled: false
+
+- task: PowerShell@1
+  displayName: 'Run Android Tests'
+  inputs:
+    scriptType: inlineScript
+    arguments: '-apk $(build.artifactstagingdirectory)\apk\$(AndroidTestApk)-debug-androidTest.apk -serial $(DeviceSerial)'
+    inlineScript: |
+      param([string]$apk,[string]$serial)
+
+      $package = (& "$Env:ANDROID_HOME\build-tools\26.0.2\aapt.exe" dump badging $apk | Select-String -Pattern "package: name='(.*?)'" -ca).Matches.Groups[1].Value
+      adb devices -l
+      Start-Process "adb" -ArgumentList '-s',$serial,'install','-r','-t',$apk -RedirectStandardError err.log -Wait
+      adb -s $serial shell am instrument -w $package/android.support.test.runner.AndroidJUnitRunner
+      adb -s $serial uninstall $package
+  enabled: false

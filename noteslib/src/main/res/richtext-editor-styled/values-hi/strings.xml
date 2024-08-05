@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">छवि सम्मिलित करें</string>
+  <string name="sn_bold">बोल्ड</string>
+  <string name="sn_italic">इटैलिक</string>
+  <string name="sn_underline">रेखांकन</string>
+  <string name="sn_strikethrough">स्ट्राइकथ्रू</string>
+  <string name="sn_bullets">बुलेटेड सूची</string>
+  <string name="sn_color_name_charcoal">चारकोल</string>
+  <string name="sn_color_name_blue">नीला</string>
+  <string name="sn_color_name_green">हरा</string>
+  <string name="sn_color_name_yellow">पीला</string>
+  <string name="sn_color_name_grey">धूसर</string>
+  <string name="sn_color_name_purple">जामुनी</string>
+  <string name="sn_color_name_pink">गुलाबी</string>
+  <string name="sn_unselected">अचयनित</string>
+  <string name="sn_contextual_menu_image_alt_text_add">वैकल्पिक पाठ जोड़ें</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">वैकल्पिक पाठ संपादित करें</string>
+  <string name="sn_contextual_menu_image_delete">छवि हटाएँ</string>
+  <string name="sn_image_attachment">छवि अनुलग्नक</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">Athugasemd texta</string>
+  <string name="sn_ink_note">Handskrifa glósu</string>
+  <string name="sn_label_text">Texti</string>
+  <string name="sn_label_image">Mynd</string>
+  <string name="sn_single_image_note">%1$s glósa með 1 mynd</string>
+  <string name="sn_multi_image_note">%1$s glósa með %2$d myndum</string>
+  <string name="sn_label_date">breytt %s</string>
+  <string name="sn_add_note">Bæta við nýrri athugasemd</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">Ekki er hægt að samstilla núna.</string>
+</resources>

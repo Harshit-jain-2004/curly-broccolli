@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.cardview.widget.CardView
+        android:visibility="gone"
+        android:id="@+id/record_controls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="12px"
+        android:padding="12dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:background="@drawable/ic_audio_ripple"
+                android:id="@+id/stop_recording"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:padding="6dp"
+                android:src="@drawable/ic_resume_recording"/>
+
+            <TextView
+                android:id="@+id/currentTimeRecording"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:layout_margin="8dp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_margin="6dp"
+                android:background="#E0E0E0" />
+
+            <ImageView
+                android:background="@drawable/ic_audio_ripple"
+                android:id="@+id/control_cancel"
+                android:tooltipText="Close"
+                android:src="@drawable/ic_record_cancel"
+                android:layout_width="35dp"
+                android:padding="6dp"
+                android:layout_height="35dp"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:visibility="visible"
+        android:id="@+id/playback_controls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="12px"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/record_controls"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="6dp"
+            android:layout_marginHorizontal="16dp">
+
+            <ImageView
+                android:id="@+id/audio_play_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_play_icon"
+                app:layout_constraintEnd_toStartOf="@+id/audio_seek"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <SeekBar
+                android:id="@+id/audio_seek"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="3dp"
+                android:progressTint="#A864CD"
+                android:thumbTint="#A864CD"
+                app:layout_constraintEnd_toStartOf="@+id/deleteRecording"
+                app:layout_constraintStart_toEndOf="@id/audio_play_icon"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <ImageView
+                android:id="@+id/img_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/meatball"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+
+            <ImageView
+                android:id="@+id/deleteRecording"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_delete_icon"
+                android:layout_marginEnd="10dp"
+                app:layout_constraintStart_toEndOf="@+id/audio_seek"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/img_menu"/>
+
+            <TextView
+                android:id="@+id/currentTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:textSize="12sp"
+                android:text="00:00"
+                android:textColor="@color/sn_black"
+                app:layout_constraintStart_toStartOf="@id/audio_seek"
+                app:layout_constraintTop_toBottomOf="@id/audio_seek" />
+
+
+            <TextView
+                android:id="@+id/totalTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:textSize="12sp"
+                android:text="00:05"
+                android:textColor="@color/sn_black"
+                app:layout_constraintEnd_toEndOf="@id/audio_seek"
+                app:layout_constraintTop_toBottomOf="@id/audio_seek" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

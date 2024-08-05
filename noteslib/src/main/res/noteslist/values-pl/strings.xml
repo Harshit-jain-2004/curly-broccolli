@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">Notatka tekstowa</string>
+  <string name="sn_ink_note">Notatka odręczna</string>
+  <string name="sn_label_text">Tekst</string>
+  <string name="sn_label_image">Obraz</string>
+  <string name="sn_single_image_note">Notatka %1$s z 1 obrazem</string>
+  <string name="sn_multi_image_note">Notatka %1$s z %2$d obrazami</string>
+  <string name="sn_label_date">edytowane %s</string>
+  <string name="sn_add_note">Dodaj nową notatkę</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">Nie można teraz zsynchronizować.</string>
+</resources>

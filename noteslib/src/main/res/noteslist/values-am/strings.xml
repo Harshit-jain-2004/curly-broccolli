@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">የጽሁፍ ማስታወሻ</string>
+  <string name="sn_ink_note">የቀለም ማስታወሻ</string>
+  <string name="sn_label_text">ጽሁፍ</string>
+  <string name="sn_label_image">ምስል</string>
+  <string name="sn_single_image_note">%1$s ማስታወሻ ከ 1 ምስል ጋር</string>
+  <string name="sn_multi_image_note">%1$s ማስታወሻ ከ %2$d ምስሎች ጋር</string>
+  <string name="sn_label_date">አርትዕ የተደረገው %s</string>
+  <string name="sn_add_note">አዲስ ማስታወሻ አክል</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">ማመሳሰል አልቻለም።</string>
+</resources>

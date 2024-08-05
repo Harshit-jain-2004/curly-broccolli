@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">ടെക്‌സ്‌റ്റ് കുറിപ്പ്</string>
+  <string name="sn_ink_note">ഇങ്ക് കുറിപ്പ്</string>
+  <string name="sn_label_text">ടെക്‌സ്‌റ്റ്</string>
+  <string name="sn_label_image">ഇമേജ്</string>
+  <string name="sn_single_image_note">1 ഇമേജുള്ള %1$s കുറിപ്പ്</string>
+  <string name="sn_multi_image_note">%2$d ഇമേജുകളുള്ള %1$s കുറിപ്പ്</string>
+  <string name="sn_label_date">%s ചിട്ടപ്പെടുത്തി</string>
+  <string name="sn_add_note">പുതിയ കുറിപ്പ് ചേർക്കുക</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">ഇപ്പോൾ സമന്വയിപ്പിക്കാൻ കഴിയുന്നില്ല.</string>
+</resources>

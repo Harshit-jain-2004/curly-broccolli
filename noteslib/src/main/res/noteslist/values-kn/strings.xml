@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">ಪಠ್ಯ ಟಿಪ್ಪಣಿ</string>
+  <string name="sn_ink_note">ಇಂಕ್ ಟಿಪ್ಪಣಿ</string>
+  <string name="sn_label_text">ಪಠ್ಯ</string>
+  <string name="sn_label_image">ಇಮೇಜ್</string>
+  <string name="sn_single_image_note">1 ಇಮೇಜ್ ಹೊಂದಿರುವ %1$s ಟಿಪ್ಪಣಿ</string>
+  <string name="sn_multi_image_note">%2$d ಇಮೇಜ್‌ಗಳನ್ನು ಹೊಂದಿರುವ %1$s ಟಿಪ್ಪಣಿ</string>
+  <string name="sn_label_date">%s ಸಂಪಾದಿಸಲಾಗಿದೆ</string>
+  <string name="sn_add_note">ಹೊಸ ಟಿಪ್ಪಣಿಯನ್ನು ಸೇರಿಸಿ</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">ಇದೀಗ ಸಿಂಕ್ ಮಾಡಲಾಗುತ್ತಿಲ್ಲ.</string>
+</resources>

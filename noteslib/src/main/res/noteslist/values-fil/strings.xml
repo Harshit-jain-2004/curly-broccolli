@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">Tekstong note</string>
+  <string name="sn_ink_note">Ink na note</string>
+  <string name="sn_label_text">Teksto</string>
+  <string name="sn_label_image">Imahe</string>
+  <string name="sn_single_image_note">%1$s note na may 1 imahe</string>
+  <string name="sn_multi_image_note">%1$s note na may %2$d (na) imahe</string>
+  <string name="sn_label_date">na-edit %s</string>
+  <string name="sn_add_note">Magdagdag ng bagong note</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">Hindi makapag-sync sa ngayon.</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">படிமத்தைச் செருகு</string>
+  <string name="sn_bold">தடித்த</string>
+  <string name="sn_italic">சாய்ந்த</string>
+  <string name="sn_underline">அடிக்கோடு</string>
+  <string name="sn_strikethrough">அடித்தம்</string>
+  <string name="sn_bullets">பொட்டுக்குறி பட்டியல்</string>
+  <string name="sn_color_name_charcoal">சார்கோல்</string>
+  <string name="sn_color_name_blue">நீலம்</string>
+  <string name="sn_color_name_green">பச்சை</string>
+  <string name="sn_color_name_yellow">மஞ்சள்</string>
+  <string name="sn_color_name_grey">சாம்பல்</string>
+  <string name="sn_color_name_purple">ஊதா</string>
+  <string name="sn_color_name_pink">இளஞ்சிவப்பு</string>
+  <string name="sn_unselected">தேர்வுநீக்கப்பட்டது</string>
+  <string name="sn_contextual_menu_image_alt_text_add">மாற்று உரையைச் சேர்</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">மாற்று உரையைத் திருத்து</string>
+  <string name="sn_contextual_menu_image_delete">படிமத்தை நீக்கு</string>
+  <string name="sn_image_attachment">படிமம் உடனிணைப்பு</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">很抱歉! 自黏便箋目前需要有 Exchange Online 信箱才能進行同步與與儲存作業。請連絡您的 IT 系統管理員以啟用信箱，或使用下列選項來深入了解。</string>
+  <string name="sn_sync_failure_with_contact_support_message">我們無法使用您的帳戶對自黏便箋同步處理。請連絡客戶支援以協助解決此問題。</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">我們無法使用您的帳戶對自黏便箋同步處理，但是您可以嘗試解決此問題。</string>
+</resources>

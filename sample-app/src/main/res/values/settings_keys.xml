@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="transitions_key">transitions_key</string>
+    <string name="show_add_note_button_key">show_add_note_button_key</string>
+    <string name="show_feedback_key">show_feedback_key</string>
+    <string name="show_share_key">show_share_key</string>
+    <string name="show_clear_canvas_key">show_clear_canvas_key</string>
+    <string name="show_notes_list_error_ui_key">show_notes_list_error_ui_key</string>
+    <string name="realtime_key">realtime_key</string>
+    <string name="gson_parser_key">gson_parser_key</string>
+    <string name="login_key">login_key</string>
+    <string name="logout_all_users_key">logout_all_users_key</string>
+    <string name="multi_accounts_support_key">multi_accounts_support_key</string>
+    <string name="ink_key">ink_key</string>
+    <string name="show_add_ink_note_button_key">show_add_ink_note_button_key</string>
+    <string name="show_user_notifications_key">show_user_notifications_key</string>
+    <string name="show_action_mode_on_long_press">show_action_mode_on_long_press</string>
+    <string name="show_search_in_notes_option">show_search_in_notes_option</string>
+    <string name="combined_list_for_multiacount_key">combined_list_for_multiacount_key</string>
+</resources>

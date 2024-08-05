@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Уставіць выяву</string>
+  <string name="sn_bold">Тоўсты</string>
+  <string name="sn_italic">Курсіў</string>
+  <string name="sn_underline">Падкрэслены</string>
+  <string name="sn_strikethrough">Перакрэсліванне</string>
+  <string name="sn_bullets">Маркіраваны спіс</string>
+  <string name="sn_color_name_charcoal">Вугальны</string>
+  <string name="sn_color_name_blue">Сіні</string>
+  <string name="sn_color_name_green">Зялёны</string>
+  <string name="sn_color_name_yellow">Жоўты</string>
+  <string name="sn_color_name_grey">Шэры</string>
+  <string name="sn_color_name_purple">Ліловы</string>
+  <string name="sn_color_name_pink">Ружовы</string>
+  <string name="sn_unselected">Не вылучана</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Дадаць тэкст замяшчэння</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Рэдагаваць тэкст замяшчэння</string>
+  <string name="sn_contextual_menu_image_delete">Выдаліць выяву</string>
+  <string name="sn_image_attachment">Выява-далучэнне</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">이미지 삽입</string>
+  <string name="sn_bold">굵게</string>
+  <string name="sn_italic">기울임꼴</string>
+  <string name="sn_underline">밑줄</string>
+  <string name="sn_strikethrough">취소선</string>
+  <string name="sn_bullets">글머리 기호 목록</string>
+  <string name="sn_color_name_charcoal">목탄</string>
+  <string name="sn_color_name_blue">파랑</string>
+  <string name="sn_color_name_green">녹색</string>
+  <string name="sn_color_name_yellow">노랑</string>
+  <string name="sn_color_name_grey">회색</string>
+  <string name="sn_color_name_purple">자주</string>
+  <string name="sn_color_name_pink">분홍</string>
+  <string name="sn_unselected">선택 해제됨</string>
+  <string name="sn_contextual_menu_image_alt_text_add">대체 텍스트 추가</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">대체 텍스트 편집</string>
+  <string name="sn_contextual_menu_image_delete">이미지 삭제</string>
+  <string name="sn_image_attachment">이미지 첨부 파일</string>
+</resources>

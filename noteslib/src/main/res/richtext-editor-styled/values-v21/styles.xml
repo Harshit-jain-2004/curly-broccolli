@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SNNoteContainerStyle">
+        <item name="android:background">@color/sn_content_background</item>
+    </style>
+
+    <style name="FeedUIRefreshItemDateTime" parent="SNNoteItemDateTime">
+        <item name="android:textSize">@dimen/note_reference_date_time_size</item>
+        <item name="android:textColor">@color/note_reference_timestamp_color_light</item>
+        <item name="lineHeight">@dimen/note_reference_date_time_line_height</item>
+        <item name="android:fontFamily">"@string/sn_roboto_regular"</item>
+        <item name="android:letterSpacing">0.0</item>
+    </style>
+
+    <style name="FeedRefreshSNNoteContentLayoutStyle" parent="@style/SNNoteContentLayoutStyle">
+        <item name="android:paddingBottom">@dimen/feed_note_side_padding</item>
+        <item name="android:elevation">@dimen/feed_note_elevation</item>
+    </style>
+
+    <style name="FeedRefreshSamsungNoteContentLayoutStyle">
+        <item name="android:elevation">@dimen/feed_note_elevation</item>
+    </style>
+</resources>

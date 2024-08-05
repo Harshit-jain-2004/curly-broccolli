@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Вмъкване на изображение</string>
+  <string name="sn_bold">Получер</string>
+  <string name="sn_italic">Курсив</string>
+  <string name="sn_underline">Подчертан</string>
+  <string name="sn_strikethrough">Зачеркване</string>
+  <string name="sn_bullets">Списък с водещи символи</string>
+  <string name="sn_color_name_charcoal">Въглен</string>
+  <string name="sn_color_name_blue">Синьо</string>
+  <string name="sn_color_name_green">Зелено</string>
+  <string name="sn_color_name_yellow">Жълто</string>
+  <string name="sn_color_name_grey">Сиво</string>
+  <string name="sn_color_name_purple">Лилаво</string>
+  <string name="sn_color_name_pink">Розово</string>
+  <string name="sn_unselected">Неизбрано</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Добавяне на алтернативен текст</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Редактиране на алтернативен текст</string>
+  <string name="sn_contextual_menu_image_delete">Изтриване на изображението</string>
+  <string name="sn_image_attachment">Прикачен файл с изображение</string>
+</resources>

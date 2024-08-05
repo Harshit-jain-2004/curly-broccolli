@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">দুঃখিত! বর্তমানে সমলয় করার জন্য স্টিকি নোটগুলোর একটি Exchange Online মেলবক্স এবং কাজ করার জন্য সঞ্চয়স্থান প্রয়োজন। অনুগ্রহ করে একটি মেলবক্স সক্রিয় করার বিষয়ে আপনার IT প্রশাসকের সাথে যোগাযোগ করুন বা আরও জানতে নীচের বিকল্পটি ব্যবহার করুন।</string>
+  <string name="sn_sync_failure_with_contact_support_message">আমরা আপনার অ্যাকাউন্টের মাধ্যমে স্টিকি নোটগুলো সমলয় করতে অক্ষম। অনুগ্রহ করে এই সমস্যাটির সমাধান করতে সাহায্যের জন্য সহায়তায় যোগাযোগ করুন।</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">আমরা আপনার অ্যাকাউন্টের মাধ্যমে স্টিকি নোটগুলো সমলয় করতে অক্ষম তবে আপনি চেষ্টা করতে পারেন এবং এই সমস্যাটির সমাধান করতে পারেন।</string>
+</resources>

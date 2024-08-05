@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_notes_image">画像</string>
+  <string name="sn_inline_media_notes_alttext">代替テキスト</string>
+  <string name="sn_inline_media_notes_description">説明</string>
+  <string name="sn_inline_media_notes_done">完了</string>
+  <string name="sn_inline_media_notes_cancel">キャンセル</string>
+  <string name="sn_inline_media_notes_open">開く</string>
+  <string name="sn_notes_read_alt_text">画像、代替テキスト: %1$s!</string>
+  <string name="sn_notes_link_label">リンク: %1$s</string>
+</resources>

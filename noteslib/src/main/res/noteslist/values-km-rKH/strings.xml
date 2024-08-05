@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">កំណត់ចំណាំជាអត្ថបទ</string>
+  <string name="sn_ink_note">កំណត់ចំណាំជាទឹកខ្មៅ</string>
+  <string name="sn_label_text">អត្ថបទ</string>
+  <string name="sn_label_image">រូបភាព</string>
+  <string name="sn_single_image_note">កំណត់ចំណាំ %1$s ដែលមានរូបភាព 1</string>
+  <string name="sn_multi_image_note">កំណត់ចំណាំ %1$s ដែលមានរូបភាព %2$d</string>
+  <string name="sn_label_date">បានកែសម្រួល %s</string>
+  <string name="sn_add_note">បន្ថែមកំណត់ចំណាំថ្មី</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">មិនអាចធ្វើសមកាលកម្មឥឡូវនេះបានទេ។</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">텍스트 노트</string>
+  <string name="sn_ink_note">잉크 메모</string>
+  <string name="sn_label_text">텍스트</string>
+  <string name="sn_label_image">이미지</string>
+  <string name="sn_single_image_note">1개의 이미지가 포함된 %1$s 메모</string>
+  <string name="sn_multi_image_note">%2$d개의 이미지가 포함된 %1$s 메모</string>
+  <string name="sn_label_date">편집됨 %s</string>
+  <string name="sn_add_note">새 노트 추가</string>
+  <string name="sn_note_preview_image_count">외 %1$d</string>
+  <string name="sn_manual_sync_failed">지금 동기화할 수 없습니다.</string>
+</resources>

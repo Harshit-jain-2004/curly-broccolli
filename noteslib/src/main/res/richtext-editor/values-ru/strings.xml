@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_notes_image">Изображение</string>
+  <string name="sn_inline_media_notes_alttext">Замещающий текст</string>
+  <string name="sn_inline_media_notes_description">Описание</string>
+  <string name="sn_inline_media_notes_done">Готово</string>
+  <string name="sn_inline_media_notes_cancel">Отмена</string>
+  <string name="sn_inline_media_notes_open">Открыть</string>
+  <string name="sn_notes_read_alt_text">Изображение, замещающий текст: %1$s!</string>
+  <string name="sn_notes_link_label">Ссылка: %1$s</string>
+</resources>

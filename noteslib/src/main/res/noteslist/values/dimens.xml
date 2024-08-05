@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Note text sizes -->
+    <dimen name="sn_notelist_content_text_size">16sp</dimen>
+    <dimen name="sn_notelist_timestamp_text_size">10sp</dimen>
+    <dimen name="sn_horizontal_notelist_content_text_size">16sp</dimen>
+
+    <!-- Note items (on list) -->
+    <dimen name="sn_note_color_height">6dp</dimen>
+    <dimen name="sn_horizontal_note_color_height">8dp</dimen>
+    <dimen name="sn_note_color_side_bottom_margin">1dp</dimen>
+    <dimen name="sn_note_card_view_radius">8dp</dimen>
+
+    <!-- Notes padding -->
+    <dimen name="sn_note_margin_bottom">2dp</dimen>
+    <dimen name="sn_note_padding">8dp</dimen>
+    <dimen name="sn_note_top_padding">4dp</dimen>
+    <dimen name="sn_note_side_padding_image">6dp</dimen>
+    <dimen name="sn_note_content_padding">16dp</dimen>
+    <dimen name="sn_title_margin_bottom">8dp</dimen>
+    <dimen name="sn_noteslist_padding_bottom_without_fab_button">8dp</dimen>
+    <dimen name="sn_noteslist_padding_bottom_with_fab_button">120dp</dimen>
+    <dimen name="sn_notelist_padding_start">10dp</dimen>
+    <dimen name="sn_note_content_padding_bottom">16dp</dimen>
+    <dimen name="sn_note_side_padding">16dp</dimen>
+    <dimen name="sn_note_image_text_side_margin">14dp</dimen>
+    <dimen name="sn_action_mode_radio_button_side_margin">12dp</dimen>
+    <dimen name="sn_card_padding">3dp</dimen>
+    <dimen name="sn_body_top_margin">10dp</dimen>
+    <dimen name="sn_source_top_margin">8dp</dimen>
+
+    <!-- notes reference dimensions -->
+    <dimen name="note_reference_breadcrumb_size">12sp</dimen>
+    <dimen name="note_reference_date_time_size">12sp</dimen>
+    <dimen name="note_reference_source_top_margin">9dp</dimen>
+    <dimen name="note_reference_date_time_line_height">16sp</dimen>
+    <dimen name="note_reference_preview_todo_tag_size">12dp</dimen>
+    <dimen name="note_reference_pinned_note_text_size">12sp</dimen>
+
+    <!-- Samsung Notes -->
+    <dimen name="samsung_note_side_padding">20dp</dimen>
+    <dimen name="samsung_note_body_padding">12dp</dimen>
+    <dimen name="samsung_note_title_padding">16dp</dimen>
+    <dimen name="samsung_note_title_margin_top">16dp</dimen>
+    <dimen name="samsung_note_details_title_padding">20dp</dimen>
+    <dimen name="samsung_note_details_title_margin_top">24dp</dimen>
+    <dimen name="samsung_note_title_gone_margin_top">16dp</dimen>
+    <dimen name="samsung_note_title_margin_bottom">8dp</dimen>
+    <dimen name="samsung_note_preview_padding">16dp</dimen>
+    <dimen name="samsung_note_preview_padding_top">8dp</dimen>
+    <dimen name="samsung_note_preview_margin_bottom">12dp</dimen>
+    <dimen name="samsung_note_content_padding">16dp</dimen>
+    <dimen name="samsung_no_content_text_size">15sp</dimen>
+    <dimen name="samsung_no_content_text_line_height">20sp</dimen>
+    <dimen name="samsung_no_content_text_padding_start">16dp</dimen>
+    <dimen name="samsung_no_content_text_padding_end">16dp</dimen>
+    <dimen name="samsung_no_content_text_padding_top">16dp</dimen>
+    <dimen name="samsung_no_content_text_padding_bottom">12dp</dimen>
+    <dimen name="samsung_note_source_text_size">12sp</dimen>
+    <dimen name="samsung_note_source_text_line_height">16sp</dimen>
+    <dimen name="samsung_note_source_text_weight">400</dimen>
+    <dimen name="samsung_note_source_text_padding_start">8dp</dimen>
+    <dimen name="samsung_note_source_icon_padding_start">16dp</dimen>
+    <dimen name="samsung_note_source_icon_padding_end">20dp</dimen>
+    <dimen name="samsung_note_source_text_padding_end">20dp</dimen>
+    <dimen name="samsung_note_source_margin_bottom">16dp</dimen>
+    <dimen name="samsung_note_source_icon_size">16dp</dimen>
+    <dimen name="samsung_note_card_view_radius">8dp</dimen>
+    <dimen name="samsung_note_list_timestamp_text_size">10sp</dimen>
+    <dimen name="samsung_horizontal_note_list_content_text_size">16sp</dimen>
+    <dimen name="samsung_note_datetime_padding">12dp</dimen>
+    <dimen name="samsung_preview_image_padding_side">12dp</dimen>
+    <dimen name="samsung_preview_image_padding_top">8dp</dimen>
+    <dimen name="samsung_card_image_size">64dp</dimen>
+    <dimen name="samsung_card_image_margin_top">22dp</dimen>
+
+    <!-- Horizontal List Note Padding -->
+    <dimen name="sn_horizontal_note_margin_bottom">1dp</dimen>
+    <dimen name="sn_horizontal_note_padding">16dp</dimen>
+    <dimen name="sn_horizontal_note_content_padding_top">6dp</dimen>
+    <dimen name="sn_horizontal_note_content_padding_bottom">5dp</dimen>
+    <dimen name="sn_horizontal_note_date_content_padding_bottom">9dp</dimen>
+
+    <!-- Horizontal Notes List -->
+    <dimen name="sn_horizontal_notes_list_item_width">256dp</dimen>
+    <dimen name="sn_horizontal_notes_list_image_item_width">256dp</dimen>
+
+    <!-- Horizontal feed list -->
+    <dimen name="horizontal_feed_list_item_width">256dp</dimen>
+    <dimen name="horizontal_feed_list_item_height">184dp</dimen>
+    <dimen name="horizontal_feed_list_item_padding">4dp</dimen>
+
+    <!-- Sync error UI -->
+    <dimen name="sn_sync_error_title_text_size">14sp</dimen>
+    <dimen name="sn_sync_error_title_description_size">14sp</dimen>
+    <dimen name="sn_sync_error_action_button_title_size">13sp</dimen>
+
+    <!-- Feed Card Refresh dimensions -->
+    <dimen name="feed_sn_notelist_content_text_size">14sp</dimen>
+    <dimen name="feed_sn_notelist_content_line_height">18sp</dimen>
+    <dimen name="feed_note_side_padding">14dp</dimen>
+    <dimen name="feed_sn_body_top_margin">6dp</dimen>
+    <dimen name="feed_list_sn_image_preview_height">100dp</dimen>
+    <dimen name="feed_grid_sn_image_preview_height">96dp</dimen>
+    <dimen name="feed_list_imagetext_preview_height">104dp</dimen>
+    <dimen name="feed_grid_imagetext_preview_height">72dp</dimen>
+    <dimen name="sn_text_image_source_bottom_margin">4dp</dimen>
+    <dimen name="feed_note_elevation">2dp</dimen>
+    <dimen name="pinned_note_icon_padding">6dp</dimen>
+
+
+    <!-- Grid feed view -->
+    <dimen name="sn_grid_image_side_margin">8dp</dimen>
+    <dimen name="sn_grid_image_top_margin">2dp</dimen>
+
+</resources>

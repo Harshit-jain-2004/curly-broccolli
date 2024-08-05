@@ -1,0 +1,10 @@
+{
+    "deployedToProduction": true,
+    "contacts": ["notesindiaandroideng@microsoft.com", "asgione@microsoft.com" ],
+    "description": "The sticky notes Android SDK, which is integrated in android apps like OneNote, Union, Launcher that want to show feed containing different note types like StickyNotes, OneNote pages, Samsung notes.",
+    "complianceTypes": [],
+    "inventoryId": ["83d79433-a239-46dd-8077-c6c2b3446ddf"],
+    "schema": {
+        "office": "1.0.0"
+    }
+}

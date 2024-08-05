@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Magsingit ng imahe</string>
+  <string name="sn_bold">Bold</string>
+  <string name="sn_italic">Italic</string>
+  <string name="sn_underline">Salungguhit</string>
+  <string name="sn_strikethrough">Strikethrough</string>
+  <string name="sn_bullets">Bulleted na Listahan</string>
+  <string name="sn_color_name_charcoal">Charcoal</string>
+  <string name="sn_color_name_blue">Asul</string>
+  <string name="sn_color_name_green">Berde</string>
+  <string name="sn_color_name_yellow">Dilaw</string>
+  <string name="sn_color_name_grey">Gray</string>
+  <string name="sn_color_name_purple">Purple</string>
+  <string name="sn_color_name_pink">Pink</string>
+  <string name="sn_unselected">Na-unselect</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Magdagdag ng Kahaliling Teksto</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">I-edit ang Kahaliling Teksto</string>
+  <string name="sn_contextual_menu_image_delete">Tanggalin ang Imahe</string>
+  <string name="sn_image_attachment">Imaheng attachment</string>
+</resources>

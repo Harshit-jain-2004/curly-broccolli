@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">Textová poznámka</string>
+  <string name="sn_ink_note">Rukopisná poznámka</string>
+  <string name="sn_label_text">Text</string>
+  <string name="sn_label_image">Obrázek</string>
+  <string name="sn_single_image_note">Poznámka %1$s s 1 obrázkem</string>
+  <string name="sn_multi_image_note">Poznámka %1$s s %2$d obrázky</string>
+  <string name="sn_label_date">upravena %s</string>
+  <string name="sn_add_note">Přidat novou poznámku</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">Momentálně nejde synchronizovat.</string>
+</resources>

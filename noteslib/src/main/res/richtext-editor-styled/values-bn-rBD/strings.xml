@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">চিত্র সন্নিবেশ করুন</string>
+  <string name="sn_bold">মোটা</string>
+  <string name="sn_italic">বাঁকা</string>
+  <string name="sn_underline">নিম্নরেখা</string>
+  <string name="sn_strikethrough">রেখান্বিত</string>
+  <string name="sn_bullets">বুলেটযুক্ত তালিকা</string>
+  <string name="sn_color_name_charcoal">কাঠকয়লার রঙ</string>
+  <string name="sn_color_name_blue">নীল</string>
+  <string name="sn_color_name_green">সবুজ</string>
+  <string name="sn_color_name_yellow">হলুদ</string>
+  <string name="sn_color_name_grey">ধূসর</string>
+  <string name="sn_color_name_purple">নীলাভ লাল</string>
+  <string name="sn_color_name_pink">গোলাপী</string>
+  <string name="sn_unselected">অনির্বাচিত</string>
+  <string name="sn_contextual_menu_image_alt_text_add">বিকল্প পাঠ্য যোগ করুন</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">বিকল্প পাঠ্য সম্পাদনা করুন</string>
+  <string name="sn_contextual_menu_image_delete">চিত্রটি মুছুন</string>
+  <string name="sn_image_attachment">চিত্রের সংযুক্তি</string>
+</resources>

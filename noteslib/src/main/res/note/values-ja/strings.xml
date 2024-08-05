@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">付箋の共有</string>
+  <string name="sn_action_share">共有</string>
+  <string name="sn_action_delete_note">削除</string>
+  <string name="sn_action_send_feedback">フィードバックの送信</string>
+  <string name="sn_delete_note_dialog">メモを削除しますか?</string>
+  <string name="sn_delete_note_description">すべてのデバイスから完全に削除されます。</string>
+  <string name="sn_image_dialog_delete_description">この画像はすべてのデバイスから完全に削除されます。</string>
+  <string name="sn_image_dialog_delete_action">削除</string>
+  <string name="sn_image_dialog_alt_text_title">代替テキスト</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">画像の説明を入力します</string>
+  <string name="sn_image_dialog_save_alt_text">保存</string>
+  <string name="sn_dialog_cancel">キャンセル</string>
+  <string name="sn_change_color_to_blue">メモの色を青に変更</string>
+  <string name="sn_change_color_to_green">メモの色を緑に変更</string>
+  <string name="sn_change_color_to_yellow">メモの色を黄色に変更</string>
+  <string name="sn_change_color_to_purple">メモの色を紫に変更</string>
+  <string name="sn_change_color_to_pink">メモの色をピンクに変更</string>
+  <string name="sn_change_color_to_grey">メモの色を灰色に変更</string>
+  <string name="sn_change_color_to_charcoal">メモの色をチャコールに変更</string>
+  <string name="sn_search_notes_with_color_blue">青色のメモを検索</string>
+  <string name="sn_search_notes_with_color_green">緑色のメモを検索</string>
+  <string name="sn_search_notes_with_color_yellow">黄色のメモを検索</string>
+  <string name="sn_search_notes_with_color_purple">紫色のメモを検索</string>
+  <string name="sn_search_notes_with_color_pink">ピンク色のメモを検索</string>
+  <string name="sn_search_notes_with_color_grey">灰色のメモを検索</string>
+  <string name="sn_search_notes_with_color_charcoal">チャコール色のメモを検索</string>
+  <string name="sn_note_options_dismissed">メモのオプションを閉じました</string>
+  <string name="sn_note_options_displayed">メモのオプションを表示しました</string>
+  <string name="sn_adding_image_failed">画像を追加できませんでした</string>
+  <string name="sn_image_added">画像を追加しました</string>
+</resources>

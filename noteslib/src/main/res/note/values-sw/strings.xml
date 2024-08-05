@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Shiriki Dokezo la Kubandika</string>
+  <string name="sn_action_share">Shiriki</string>
+  <string name="sn_action_delete_note">Futa</string>
+  <string name="sn_action_send_feedback">Tuma Maoni</string>
+  <string name="sn_delete_note_dialog">Futa Dokezo?</string>
+  <string name="sn_delete_note_description">Itafutwa kabisa kwenye vifaa vyako vyote.</string>
+  <string name="sn_image_dialog_delete_description">Taswira hii itafutwa kabisa kwenye vifaa vyako vyote.</string>
+  <string name="sn_image_dialog_delete_action">Futa</string>
+  <string name="sn_image_dialog_alt_text_title">Matini ya Alt</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Weka Ufafanuzi wa Taswira</string>
+  <string name="sn_image_dialog_save_alt_text">Hifadhi</string>
+  <string name="sn_dialog_cancel">Katisha</string>
+  <string name="sn_change_color_to_blue">Badilisha rangi ya dokezo kwenye samawati</string>
+  <string name="sn_change_color_to_green">Badilisha rangi ya dokezo kuwa kijani</string>
+  <string name="sn_change_color_to_yellow">Badilisha rangi ya dokezo kuwa manjano</string>
+  <string name="sn_change_color_to_purple">Badilisha rangi ya dokezo kuwa zambarau</string>
+  <string name="sn_change_color_to_pink">Badilisha rangi ya dokezo kuwa waridi</string>
+  <string name="sn_change_color_to_grey">Badilisha rangi ya dokezo kuwa kijivu</string>
+  <string name="sn_change_color_to_charcoal">Badilisha rangi ya dokezo kuwa makaa</string>
+  <string name="sn_search_notes_with_color_blue">Madokezo ya utafutaji kwa rangi ya samawati</string>
+  <string name="sn_search_notes_with_color_green">Madokezo ya utafutaji yenye rangi ya kijani</string>
+  <string name="sn_search_notes_with_color_yellow">Madokezo ya utafutaji yenye rangi ya manjano</string>
+  <string name="sn_search_notes_with_color_purple">Madokezo ya utafutaji yenye rangi ya zambarau</string>
+  <string name="sn_search_notes_with_color_pink">Madokezo ya utafutaji yenye rangi ya waridi</string>
+  <string name="sn_search_notes_with_color_grey">Madokezo ya utafutaji yenye rangi ya kijivu</string>
+  <string name="sn_search_notes_with_color_charcoal">Madokezo ya utafutaji yenye rangi makaa</string>
+  <string name="sn_note_options_dismissed">Chaguo za dokezo zimeondoshwa</string>
+  <string name="sn_note_options_displayed">Chaguo za dokezo kwenye onyesho</string>
+  <string name="sn_adding_image_failed">Taswira haikuongezwa</string>
+  <string name="sn_image_added">Taswira imeongezwa</string>
+</resources>

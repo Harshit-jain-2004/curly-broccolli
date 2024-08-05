@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="SNNoteContainerStyle">
+        <item name="android:background">@drawable/sn_note_background_light_rounded_4dp_end</item>
+    </style>
+
+    <style name="SNNoteEditTextStyle">
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <style name="SNNoteBodyEditTextStyle" parent="SNNoteEditTextStyle">
+        <item name="android:background">@null</item>
+        <item name="android:gravity">top</item>
+        <item name="android:inputType">textMultiLine|textCapSentences</item>
+        <item name="android:fontFamily">@string/sn_roboto_regular</item>
+        <item name="android:textSize">@dimen/sn_edittext_text</item>
+        <item name="android:textColor">@color/sn_font_dark</item>
+    </style>
+
+    <style name="SNRibbonButtonStyle">
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">48dp</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:background">@drawable/sn_button_bg</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="SNTextRibbonButtonStyle" parent="SNRibbonButtonStyle">
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+        <item name="android:textSize">@dimen/sn_bottom_sheet_row_text</item>
+        <item name="android:textColor">@color/bottom_sheet_primary_text_color</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">Roboto</item>
+    </style>
+
+    <style name="SNTimestampButtonStyle" parent="SNRibbonButtonStyle">
+        <item name="android:background">@null</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+    </style>
+
+    <!-- Samsung notes -->
+    <style name="samsungNoteContainerStyle">
+        <item name="android:background">@drawable/samsung_note_background_light</item>
+    </style>
+
+    <style name="samsungNoteDetailsStyle">
+        <item name="android:background">@null</item>
+        <item name="android:gravity">top</item>
+        <item name="android:fontFamily">@string/sn_roboto_regular</item>
+        <item name="android:textSize">@dimen/samsung_styled_view_text_size</item>
+        <item name="android:textColor">@color/sn_font_dark</item>
+    </style>
+</resources>

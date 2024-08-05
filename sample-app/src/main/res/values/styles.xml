@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="actionModeCloseDrawable">@drawable/sn_ic_actionmode_exit</item>
+        <item name="actionModeBackground">@color/sn_primary_color</item>
+        <item name="actionModeStyle">@style/SNActionMode</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
+        <item name="windowActionModeOverlay">true</item>
+
+        <!-- Fluent ui colors for datetime picker -->
+       <item name ="fluentuiCalendarSelectedColor">@color/reminder_bottom_sheet_button_color</item>
+       <item name ="fluentuiNumberPickerDefaultTextColor">@color/reminder_bottom_sheet_text_secondary_color</item>
+       <item name= "fluentuiDialogTabSelectedTextColor">@color/reminder_bottom_sheet_text_secondary_color</item>
+       <item name= "fluentuiDialogCloseIconColor">@color/reminder_bottom_sheet_text_secondary_color</item>
+       <item name= "fluentuiDateTimePickerTabTextColor">@color/reminder_bottom_sheet_text_secondary_color</item>
+       <item name= "fluentuiDateTimePickerToolbarIconColor">@color/reminder_bottom_sheet_text_secondary_color</item>
+       <item name= "fluentuiDialogTabTextColor">@color/reminder_bottom_sheet_text_secondary_color</item>
+       <item name= "fluentuiDialogTabIndicatorColor">@color/reminder_bottom_sheet_text_secondary_color</item>
+       <item name= "fluentui_headerTextAppearance">@color/reminder_bottom_sheet_text_secondary_color</item>
+       <item name ="fluentuiCalendarDayTextActiveColor">@color/sn_black</item>
+       <item name ="fluentuiCalendarDayTextActiveCheckedColor">@color/sn_white</item>
+       <item name ="fluentuiCalendarDayKeyboardFocusTextColor">@color/reminder_bottom_sheet_icon_color</item>
+       <item name= "fluentuiDateTimePickerToolbarTitleTextColor">@color/reminder_bottom_sheet_text_secondary_color</item>
+       <item name= "fluentuiForegroundSelectedColor">@color/sn_black</item>
+       <item name ="fluentuiCalendarOtherMonthBackgroundColor">@color/fluentui_calender_bg_color</item>
+
+    </style>
+</resources>

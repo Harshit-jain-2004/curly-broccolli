@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Indsæt billede</string>
+  <string name="sn_bold">Fed</string>
+  <string name="sn_italic">Kursiv</string>
+  <string name="sn_underline">Understreget</string>
+  <string name="sn_strikethrough">Gennemstreget</string>
+  <string name="sn_bullets">Punktopstilling</string>
+  <string name="sn_color_name_charcoal">Koksgrå</string>
+  <string name="sn_color_name_blue">Blå</string>
+  <string name="sn_color_name_green">Grøn</string>
+  <string name="sn_color_name_yellow">Gul</string>
+  <string name="sn_color_name_grey">Grå</string>
+  <string name="sn_color_name_purple">Lilla</string>
+  <string name="sn_color_name_pink">Lyserød</string>
+  <string name="sn_unselected">Ikke valgt</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Tilføj alternativ tekst</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Rediger alternativ tekst</string>
+  <string name="sn_contextual_menu_image_delete">Slet billedet</string>
+  <string name="sn_image_attachment">Vedhæftet billede</string>
+</resources>

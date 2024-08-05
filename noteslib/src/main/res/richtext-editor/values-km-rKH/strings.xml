@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_notes_image">រូបភាព</string>
+  <string name="sn_inline_media_notes_alttext">អត្ថបទ Alt</string>
+  <string name="sn_inline_media_notes_description">ការពណ៌នា</string>
+  <string name="sn_inline_media_notes_done">រួចរាល់</string>
+  <string name="sn_inline_media_notes_cancel">បោះបង់</string>
+  <string name="sn_inline_media_notes_open">បើក</string>
+  <string name="sn_notes_read_alt_text">រូបភាព Alttext៖ %1$s!</string>
+  <string name="sn_notes_link_label">តំណ៖ %1$s</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">स्टिकी नोट्स साझा करें</string>
+  <string name="sn_action_share">साझा करें</string>
+  <string name="sn_action_delete_note">हटाएँ</string>
+  <string name="sn_action_send_feedback">प्रतिक्रिया भेजें</string>
+  <string name="sn_delete_note_dialog">नोट हटाएँ?</string>
+  <string name="sn_delete_note_description">इसे आपके सभी डिवाइस से स्थायी रूप से हटा दिया जाएगा.</string>
+  <string name="sn_image_dialog_delete_description">इस छवि को स्थायी रूप से आपके सभी डिवाइसेज़ से हटा दिया जाएगा.</string>
+  <string name="sn_image_dialog_delete_action">हटाएँ</string>
+  <string name="sn_image_dialog_alt_text_title">वैकल्पिक पाठ</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">छवि विवरण दर्ज करें</string>
+  <string name="sn_image_dialog_save_alt_text">सहेजें</string>
+  <string name="sn_dialog_cancel">रद्द करें</string>
+  <string name="sn_change_color_to_blue">नोट के रंग को नीले में परिवर्तित करें</string>
+  <string name="sn_change_color_to_green">नोट के रंग को हरे में परिवर्तित करें</string>
+  <string name="sn_change_color_to_yellow">नोट के रंग को पीले में परिवर्तित करें</string>
+  <string name="sn_change_color_to_purple">नोट के रंग को जामुनी में परिवर्तित करें</string>
+  <string name="sn_change_color_to_pink">नोट के रंग को गुलाबी में परिवर्तित करें</string>
+  <string name="sn_change_color_to_grey">नोट के रंग को धूसर में परिवर्तित करें</string>
+  <string name="sn_change_color_to_charcoal">नोट के रंग को चारकोल में परिवर्तित करें</string>
+  <string name="sn_search_notes_with_color_blue">नीले रंग वाले नोट्स खोजें</string>
+  <string name="sn_search_notes_with_color_green">हरे रंग वाले नोट्स खोजें</string>
+  <string name="sn_search_notes_with_color_yellow">पीले रंग वाले नोट्स खोजें</string>
+  <string name="sn_search_notes_with_color_purple">जामुनी रंग वाले नोट्स खोजें</string>
+  <string name="sn_search_notes_with_color_pink">गुलाबी रंग वाले नोट्स खोजें</string>
+  <string name="sn_search_notes_with_color_grey">धूसर रंग वाले नोट्स खोजें</string>
+  <string name="sn_search_notes_with_color_charcoal">चारकोल रंग वाले नोट्स खोजें</string>
+  <string name="sn_note_options_dismissed">नोट विकल्प ख़ारिज किए गए</string>
+  <string name="sn_note_options_displayed">डिस्प्ले पर नोट विकल्प</string>
+  <string name="sn_adding_image_failed">छवि नहीं जोड़ी जा सकी</string>
+  <string name="sn_image_added">छवि जोड़ी गई</string>
+</resources>

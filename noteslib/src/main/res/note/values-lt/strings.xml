@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Bendrinti priklijuojamą lapelį</string>
+  <string name="sn_action_share">Bendrinti</string>
+  <string name="sn_action_delete_note">Naikinti</string>
+  <string name="sn_action_send_feedback">Siųsti atsiliepimą</string>
+  <string name="sn_delete_note_dialog">Naikinti pastabą?</string>
+  <string name="sn_delete_note_description">Ji bus visam laikui panaikinta iš visų jūsų įrenginių.</string>
+  <string name="sn_image_dialog_delete_description">Šis vaizdas bus visam laikui panaikintas iš visų jūsų įrenginių.</string>
+  <string name="sn_image_dialog_delete_action">Naikinti</string>
+  <string name="sn_image_dialog_alt_text_title">Alternatyvusis tekstas</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Įveskite vaizdo aprašą</string>
+  <string name="sn_image_dialog_save_alt_text">Įrašyti</string>
+  <string name="sn_dialog_cancel">Atšaukti</string>
+  <string name="sn_change_color_to_blue">Keisti pastabos spalvą į mėlyną</string>
+  <string name="sn_change_color_to_green">Keisti pastabos spalvą į žalią</string>
+  <string name="sn_change_color_to_yellow">Keisti pastabos spalvą į geltoną</string>
+  <string name="sn_change_color_to_purple">Keisti pastabos spalvą į violetinę</string>
+  <string name="sn_change_color_to_pink">Keisti pastabos spalvą į rožinę</string>
+  <string name="sn_change_color_to_grey">Keisti pastabos spalvą į pilką</string>
+  <string name="sn_change_color_to_charcoal">Keisti pastabos spalvą į pilkšvai juodą</string>
+  <string name="sn_search_notes_with_color_blue">Ieškoti mėlynos spalvos pastabų</string>
+  <string name="sn_search_notes_with_color_green">Ieškoti žalios spalvos pastabų</string>
+  <string name="sn_search_notes_with_color_yellow">Ieškoti geltonos spalvos pastabų</string>
+  <string name="sn_search_notes_with_color_purple">Ieškoti violetinės spalvos pastabų</string>
+  <string name="sn_search_notes_with_color_pink">Ieškoti rožinės spalvos pastabų</string>
+  <string name="sn_search_notes_with_color_grey">Ieškoti pilkos spalvos pastabų</string>
+  <string name="sn_search_notes_with_color_charcoal">Ieškoti pilkšvai juodos spalvos pastabų</string>
+  <string name="sn_note_options_dismissed">Pastabos parinktys išjungtos</string>
+  <string name="sn_note_options_displayed">Pastabos parinktys rodomos</string>
+  <string name="sn_adding_image_failed">Nepavyko įtraukti vaizdo</string>
+  <string name="sn_image_added">Vaizdas įtrauktas</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">ተለጣፊ ማስታወሻን አጋራ</string>
+  <string name="sn_action_share">አጋራ</string>
+  <string name="sn_action_delete_note">ሰርዝ</string>
+  <string name="sn_action_send_feedback">ግብረመልስ ይላኩ</string>
+  <string name="sn_delete_note_dialog">ማስታወሻ ሰርዝ?</string>
+  <string name="sn_delete_note_description">ከሁሉም መሳሪያዎችዎ ላይ በቋሚነት ይሰረዛል።</string>
+  <string name="sn_image_dialog_delete_description">ከሁሉም መሳሪያዎችዎ ላይ በቋሚነት ይሰረዛል</string>
+  <string name="sn_image_dialog_delete_action">ሰርዝ</string>
+  <string name="sn_image_dialog_alt_text_title">ተለዋጭ ጽሁፍ</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">የምስል መግለጫ ያክሉ</string>
+  <string name="sn_image_dialog_save_alt_text">አስቀምጥ</string>
+  <string name="sn_dialog_cancel">ሰርዝ</string>
+  <string name="sn_change_color_to_blue">የማስታወሻ ቀለምን ወደ ሰማያዊ ለውጥ</string>
+  <string name="sn_change_color_to_green">የማስታወሻ ቀለምን ወደ አረንጓዴ ለውጥ</string>
+  <string name="sn_change_color_to_yellow">የማስታወሻ ቀለምን ወደ ብጫ ለውጥ</string>
+  <string name="sn_change_color_to_purple">የማስታወሻ ቀለምን ወደ ወይን ጠጅ ለውጥ</string>
+  <string name="sn_change_color_to_pink">የማስታወሻ ቀለምን ወደ ፒንክ ለውጥ</string>
+  <string name="sn_change_color_to_grey">የማስታወሻ ቀለምን ወደ ግራጫ ለውጥ</string>
+  <string name="sn_change_color_to_charcoal">የማስታወሻ ቁጥርን ወደ ከሰላማ ለውጥ</string>
+  <string name="sn_search_notes_with_color_blue">ሰማያዊ ቀለም ያላቸውን ማስታወሻዎችን ፈልግ</string>
+  <string name="sn_search_notes_with_color_green">አረንጓዴ ቀለም ያላቸውን ማስታወሻዎችን ፈልግ</string>
+  <string name="sn_search_notes_with_color_yellow">ብጫ ቀለም ያላቸውን ማስታወሻዎችን ፈልግ</string>
+  <string name="sn_search_notes_with_color_purple">ወይን ጠጅ ቀለም ያላቸውን ማስታወሻዎችን ፈልግ</string>
+  <string name="sn_search_notes_with_color_pink">ፒንክ ቀለም ያላቸውን ማስታወሻዎችን ፈልግ</string>
+  <string name="sn_search_notes_with_color_grey">ግራጫ ቀለም ያላቸውን ማስታወሻዎችን ፈልግ</string>
+  <string name="sn_search_notes_with_color_charcoal">ከሰላማ ቀለም ያላቸውን ማስታወሻዎችን ፈልግ</string>
+  <string name="sn_note_options_dismissed">የማስታወሻ አማራጮች ተሰናብተዋል</string>
+  <string name="sn_note_options_displayed">የማስታወሻ አማራጮች በማሳያ ላይ</string>
+  <string name="sn_adding_image_failed">ምስል መታከል አልቻለም</string>
+  <string name="sn_image_added">ምስል ታክሏል</string>
+</resources>

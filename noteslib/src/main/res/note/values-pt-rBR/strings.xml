@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Compartilhar Nota Autoadesiva</string>
+  <string name="sn_action_share">Compartilhar</string>
+  <string name="sn_action_delete_note">Excluir</string>
+  <string name="sn_action_send_feedback">Enviar Comentários</string>
+  <string name="sn_delete_note_dialog">Excluir Anotação?</string>
+  <string name="sn_delete_note_description">Será permanentemente excluída de todos os seus dispositivos.</string>
+  <string name="sn_image_dialog_delete_description">Esta imagem será permanentemente excluída de todos os seus dispositivos.</string>
+  <string name="sn_image_dialog_delete_action">Excluir</string>
+  <string name="sn_image_dialog_alt_text_title">Texto Alt</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Inserir Descrição da Imagem</string>
+  <string name="sn_image_dialog_save_alt_text">Salvar</string>
+  <string name="sn_dialog_cancel">Cancelar</string>
+  <string name="sn_change_color_to_blue">Alterar a cor da anotação para azul</string>
+  <string name="sn_change_color_to_green">Alterar a cor da anotação para verde</string>
+  <string name="sn_change_color_to_yellow">Alterar a cor da anotação para amarelo</string>
+  <string name="sn_change_color_to_purple">Alterar a cor da anotação para roxo</string>
+  <string name="sn_change_color_to_pink">Alterar a cor da anotação para rosa</string>
+  <string name="sn_change_color_to_grey">Alterar a cor da anotação para cinza</string>
+  <string name="sn_change_color_to_charcoal">Alterar a cor da anotação para cor de carvão</string>
+  <string name="sn_search_notes_with_color_blue">Pesquisar anotações com a cor azul</string>
+  <string name="sn_search_notes_with_color_green">Pesquisar anotações com a cor verde</string>
+  <string name="sn_search_notes_with_color_yellow">Pesquisar anotações com a cor amarela</string>
+  <string name="sn_search_notes_with_color_purple">Pesquisar anotações com a cor roxa</string>
+  <string name="sn_search_notes_with_color_pink">Pesquisar anotações com a cor rosa</string>
+  <string name="sn_search_notes_with_color_grey">Pesquisar anotações com a cor cinza</string>
+  <string name="sn_search_notes_with_color_charcoal">Pesquisar anotações com a cor de carvão</string>
+  <string name="sn_note_options_dismissed">Opções de anotações descartadas</string>
+  <string name="sn_note_options_displayed">Opções de anotações em exibição</string>
+  <string name="sn_adding_image_failed">Não foi possível adicionar a imagem</string>
+  <string name="sn_image_added">Imagem adicionada</string>
+</resources>

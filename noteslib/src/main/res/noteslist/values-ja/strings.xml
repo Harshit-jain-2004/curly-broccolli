@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">テキスト メモ</string>
+  <string name="sn_ink_note">インク メモ</string>
+  <string name="sn_label_text">テキスト</string>
+  <string name="sn_label_image">画像</string>
+  <string name="sn_single_image_note">%1$s メモ (1 個の画像)</string>
+  <string name="sn_multi_image_note">%1$s メモ (%2$d 個の画像)</string>
+  <string name="sn_label_date">編集日: %s</string>
+  <string name="sn_add_note">新しいメモを追加</string>
+  <string name="sn_note_preview_image_count">%1$d 以上</string>
+  <string name="sn_manual_sync_failed">現在同期できません。</string>
+</resources>

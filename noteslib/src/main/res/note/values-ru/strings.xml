@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Общий доступ к записке</string>
+  <string name="sn_action_share">Поделиться</string>
+  <string name="sn_action_delete_note">Удалить</string>
+  <string name="sn_action_send_feedback">Отправить отзыв</string>
+  <string name="sn_delete_note_dialog">Удалить заметку?</string>
+  <string name="sn_delete_note_description">Она будет окончательно удалена со всех устройств.</string>
+  <string name="sn_image_dialog_delete_description">Это изображение будет окончательно удалено со всех ваших устройств.</string>
+  <string name="sn_image_dialog_delete_action">Удалить</string>
+  <string name="sn_image_dialog_alt_text_title">Замещающий текст</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Введите описание изображения</string>
+  <string name="sn_image_dialog_save_alt_text">Сохранить</string>
+  <string name="sn_dialog_cancel">Отмена</string>
+  <string name="sn_change_color_to_blue">Изменить цвет заметки на синий</string>
+  <string name="sn_change_color_to_green">Изменить цвет заметки на зеленый</string>
+  <string name="sn_change_color_to_yellow">Изменить цвет заметки на желтый</string>
+  <string name="sn_change_color_to_purple">Изменить цвет заметки на сиреневый</string>
+  <string name="sn_change_color_to_pink">Изменить цвет заметки на розовый</string>
+  <string name="sn_change_color_to_grey">Изменить цвет заметки на серый</string>
+  <string name="sn_change_color_to_charcoal">Изменить цвет заметки на цвет мокрого асфальта</string>
+  <string name="sn_search_notes_with_color_blue">Поиск заметок синего цвета</string>
+  <string name="sn_search_notes_with_color_green">Поиск заметок зеленого цвета</string>
+  <string name="sn_search_notes_with_color_yellow">Поиск заметок желтого цвета</string>
+  <string name="sn_search_notes_with_color_purple">Поиск заметок сиреневого цвета</string>
+  <string name="sn_search_notes_with_color_pink">Поиск заметок розового цвета</string>
+  <string name="sn_search_notes_with_color_grey">Поиск заметок серого цвета</string>
+  <string name="sn_search_notes_with_color_charcoal">Поиск заметок цвета мокрого асфальта</string>
+  <string name="sn_note_options_dismissed">Параметры заметки закрыты</string>
+  <string name="sn_note_options_displayed">Параметры заметки показаны</string>
+  <string name="sn_adding_image_failed">Не удалось добавить изображение</string>
+  <string name="sn_image_added">Изображение добавлено</string>
+</resources>

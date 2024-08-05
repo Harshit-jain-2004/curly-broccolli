@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">Ohar itsaskorrak aplikazioak Exchange Online-ko postontzi bat behar du sinkronizazioa eta biltegia erabiltzeko. Jarri IKT administratzailearekin harremanetan postontzia gaitzeko, edo erabili beheko aukera informazio gehiago lortzeko.</string>
+  <string name="sn_sync_failure_with_contact_support_message">Ezin dugu sinkronizatu Ohar itsaskorrak zure kontuarekin. Jarri harremanetan laguntza-zerbitzuarekin arazoa konpontzen lagun diezazuten.</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">Ezin dugu sinkronizatu Ohar itsaskorrak zure kontuarekin, baina agian zeuk konpondu ahalko duzu arazo hori.</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/samsung_card_content_bg_color">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/samsung_note_card_bg_for_light" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/samsung_focusable_view_background" />
+</layer-list>

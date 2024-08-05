@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">Текстова бележка</string>
+  <string name="sn_ink_note">Ръкописна бележка</string>
+  <string name="sn_label_text">Текст</string>
+  <string name="sn_label_image">Изображение</string>
+  <string name="sn_single_image_note">%1$s бележка с 1 изображение</string>
+  <string name="sn_multi_image_note">%1$s бележка с %2$d изображения</string>
+  <string name="sn_label_date">редактира %s</string>
+  <string name="sn_add_note">Добавяне на нова бележка</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">В момента не може да се синхронизира.</string>
+</resources>

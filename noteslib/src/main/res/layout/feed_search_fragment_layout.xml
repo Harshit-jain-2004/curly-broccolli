@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.microsoft.notes.ui.search.FeedSearchFragment">
+
+    <com.microsoft.notes.ui.feed.FeedComponent
+        android:id="@+id/feed_search_component"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/feed_child_margin"
+        android:layout_marginEnd="@dimen/feed_child_margin" />
+
+</LinearLayout>

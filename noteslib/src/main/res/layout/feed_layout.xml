@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.microsoft.notes.ui.theme.ThemedConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:tag="@string/feed_layout_tag"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/collapsibleMessageBar"
+        layout="@layout/sn_collapsible_message_bar"
+        app:layout_constraintBottom_toTopOf="@id/timeHeaderTopView"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+        <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5"/>
+
+    <com.microsoft.notes.ui.theme.ThemedTextView
+        android:id="@+id/timeHeaderTopView"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_bias="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:focusable="false"
+        android:fontFamily="Roboto"
+        android:paddingTop="@dimen/filter_vertical_padding"
+        android:paddingBottom="@dimen/filter_vertical_padding"
+        android:paddingStart="@dimen/feed_child_margin"
+        android:paddingEnd="@dimen/feed_child_margin"
+        android:tag="@string/option_text_with_drawable_tag"
+        android:text=""
+        android:textSize="@dimen/filter_text_size"
+        app:layout_constraintBottom_toTopOf="@id/labelBarrier"
+        app:layout_constraintEnd_toStartOf="@id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/collapsibleMessageBar" />
+
+    <com.microsoft.notes.ui.theme.ThemedTextView
+        android:id="@+id/sourceFilterButton"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_bias="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:drawableEnd="@drawable/sn_ic_filter"
+        android:drawablePadding="@dimen/sn_note_padding"
+        android:focusable="true"
+        android:fontFamily="Roboto"
+        android:paddingTop="@dimen/filter_vertical_padding"
+        android:paddingBottom="@dimen/filter_vertical_padding"
+        android:paddingStart="@dimen/feed_child_margin"
+        android:paddingEnd="@dimen/feed_child_margin"
+        android:tag="@string/option_text_with_drawable_tag"
+        android:text="@string/heading_filter"
+        android:textSize="@dimen/filter_text_size"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintBottom_toTopOf="@id/labelBarrier"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/collapsibleMessageBar" />
+
+    <HorizontalScrollView
+        android:id="@+id/selected_filters_display_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        app:layout_constraintTop_toBottomOf="@+id/collapsibleMessageBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/labelBarrier"
+        android:importantForAccessibility="yes"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="6dp">
+
+        <LinearLayout
+            android:id="@+id/selected_filters_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            />
+
+    </HorizontalScrollView>
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/labelBarrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="timeHeaderTopView, sourceFilterButton, selected_filters_display" />
+
+    <com.microsoft.notes.ui.feed.FeedComponent
+        android:id="@+id/feedComponent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/feed_refresh_side_margin"
+        android:layout_marginEnd="@dimen/feed_refresh_side_margin"
+        android:layout_marginBottom="@dimen/feed_refresh_bottom_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/labelBarrier" />
+</com.microsoft.notes.ui.theme.ThemedConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">یادداشت متنی</string>
+  <string name="sn_ink_note">دست‌نویسی یادداشت</string>
+  <string name="sn_label_text">متن</string>
+  <string name="sn_label_image">تصویر</string>
+  <string name="sn_single_image_note">%1$s یادداشت به همراه ۱ تصویر</string>
+  <string name="sn_multi_image_note">%1$s یادداشت به همراه %2$d تصویر</string>
+  <string name="sn_label_date">%s ویرایش‌شده</string>
+  <string name="sn_add_note">افزودن یادداشت جدید</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">در حال حاضر همگام‌سازی امکان‌پذیر نیست.</string>
+</resources>

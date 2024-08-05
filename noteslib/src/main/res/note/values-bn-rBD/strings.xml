@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">স্টিকি নোট ভাগ করুন</string>
+  <string name="sn_action_share">ভাগ করুন</string>
+  <string name="sn_action_delete_note">মুছে দিন</string>
+  <string name="sn_action_send_feedback">মতামত পাঠান</string>
+  <string name="sn_delete_note_dialog">নোট মুছবেন?</string>
+  <string name="sn_delete_note_description">এটি আপনার সমস্ত ডিভাইস থেকে স্থায়ীভাবে মুছে ফেলা হবে৷</string>
+  <string name="sn_image_dialog_delete_description">এই চিত্রটি আপনার সমস্ত ডিভাইস থেকে স্থায়ীভাবে মোছা হবে৷</string>
+  <string name="sn_image_dialog_delete_action">মুছুন</string>
+  <string name="sn_image_dialog_alt_text_title">বিকল্প পাঠ্য</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">চিত্রের বর্ণনা লিখুন</string>
+  <string name="sn_image_dialog_save_alt_text">সংরক্ষণ করুন</string>
+  <string name="sn_dialog_cancel">বাতিল করুন</string>
+  <string name="sn_change_color_to_blue">নোটের রঙ পরিবর্তন করে নীল করুন</string>
+  <string name="sn_change_color_to_green">নোটের রঙ পরিবর্তন করে সবুজ করুন</string>
+  <string name="sn_change_color_to_yellow">নোটের রঙ পরিবর্তন করে হলুদ করুন</string>
+  <string name="sn_change_color_to_purple">নোটের রঙ পরিবর্তন করে বেগুনী করুন</string>
+  <string name="sn_change_color_to_pink">নোটের রঙ পরিবর্তন করে গোলাপী করুন</string>
+  <string name="sn_change_color_to_grey">নোটের রঙ পরিবর্তন করে ধূসর করুন</string>
+  <string name="sn_change_color_to_charcoal">নোটের রঙ পরিবর্তন করে আঙ্গার করুন</string>
+  <string name="sn_search_notes_with_color_blue">নীল রঙের নোটগুলো সন্ধান করুন</string>
+  <string name="sn_search_notes_with_color_green">সবুজ রঙের নোটগুলো সন্ধান করুন</string>
+  <string name="sn_search_notes_with_color_yellow">হলুদ রঙের নোটগুলো সন্ধান করুন</string>
+  <string name="sn_search_notes_with_color_purple">বেগুনী রঙের নোটগুলো সন্ধান করুন</string>
+  <string name="sn_search_notes_with_color_pink">গোলাপী রঙের নোটগুলো সন্ধান করুন</string>
+  <string name="sn_search_notes_with_color_grey">ধূসর রঙের নোটগুলো সন্ধান করুন</string>
+  <string name="sn_search_notes_with_color_charcoal">আঙ্গার রঙের নোটগুলো সন্ধান করুন</string>
+  <string name="sn_note_options_dismissed">নোটের বিকল্পগুলো বাতিল করা হয়েছে</string>
+  <string name="sn_note_options_displayed">নোটের বিকল্পসমূহ প্রদর্শন হচ্ছে</string>
+  <string name="sn_adding_image_failed">চিত্র যোগ করা যায়নি</string>
+  <string name="sn_image_added">চিত্র যোগ করা হয়েছে</string>
+</resources>

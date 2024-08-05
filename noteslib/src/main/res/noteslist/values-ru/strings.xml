@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">Текстовая заметка</string>
+  <string name="sn_ink_note">Рукописная заметка</string>
+  <string name="sn_label_text">Текст</string>
+  <string name="sn_label_image">Изображение</string>
+  <string name="sn_single_image_note">%1$s заметка с 1 изображением</string>
+  <string name="sn_multi_image_note">%1$s заметка с изображениями (%2$d)</string>
+  <string name="sn_label_date">отредактировано %s</string>
+  <string name="sn_add_note">Добавьте заметку</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">Не удается выполнить синхронизацию.</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">Metin notu</string>
+  <string name="sn_ink_note">Mürekkep notu</string>
+  <string name="sn_label_text">Metin</string>
+  <string name="sn_label_image">Resim</string>
+  <string name="sn_single_image_note">1 resim içeren %1$s notu</string>
+  <string name="sn_multi_image_note">%2$d resim içeren %1$s notu</string>
+  <string name="sn_label_date">düzenlendi: %s</string>
+  <string name="sn_add_note">Yeni not ekle</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">Şu anda eşitlenemiyor.</string>
+</resources>

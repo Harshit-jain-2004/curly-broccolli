@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">Re maswabi! Dintlhana tse di Kgomaretswang gone jaanong di tlhoka lebokoso la makwalo la Exchange Online gore tsamaisanyo le polokelo di dire. Tsweetswee ikgolaganye le botsamaisi jwa lona jwa IT malebana le go kgontsha lebokoso la makwalo go dira kgotsa o dirise karolo e e fa tlase go ithuta mo go oketsegileng.</string>
+  <string name="sn_sync_failure_with_contact_support_message">Ga re kgone go tsamaisanya Dintlhana tse di Kgomaretswang le akhaonto ya gago. Tsweetswee ikgolaganye le ba lephata la Tshegetso gore ba go thuse go baakanya bothata jono.</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">Ga re kgone go tsamaisanya Dintlhana tse di Kgomaretswang le akhaonto ya gago, mme gone o ka nna wa kgona go leka go baakanya bothata jono.</string>
+</resources>

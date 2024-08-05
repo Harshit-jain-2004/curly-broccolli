@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent_color">#00FFFFFF</color>
+    <color name="sn_content_background">#FFFFFF</color>
+    <color name="sn_content_background_pressed">#F5F5F5</color>
+    <color name="sn_focused_background">#444444</color>
+    <color name="sn_focused_background_dark">#FFFFFF</color>
+    <color name="sn_button_pressed_color">#f2f2f2</color>
+    <color name="sn_button_pressed_color_dark">#333333</color>
+
+    <color name="sn_formatting_button_border">#c2c9cc</color>
+    <color name="sn_formatting_button_background">#f6f9fa</color>
+    <color name="sn_formatting_button_background_dark">#333333</color>
+
+    <color name="sn_font_dark">#252423</color>
+    <color name="sn_font_light">#CCCCCC</color>
+    <color name="sn_horizontal_font_dark">#E1E1E1</color>
+
+    <color name="sn_timestamp_divider_color_light">#DDDDDD</color>
+    <color name="sn_timestamp_divider_color_dark">#B3B0AD</color>
+
+    <color name="sn_metadata_color_light">#6E6E6E</color>
+    <color name="sn_metadata_color_charcoal">#ACACAC</color>
+    <color name="sn_metadata_color_dark">#919191</color>
+
+    <color name="note_reference_timestamp_color_light">#6E6E6E</color>
+    <color name="note_reference_timestamp_color_dark">#919191</color>
+
+    <color name="sn_timestamp_button_pressed_color_light">#0D000000</color>
+    <color name="sn_timestamp_button_pressed_color_dark">#0DFFFFFF</color>
+
+    <color name="sn_grey_dark">#212121</color>
+    <color name="sn_grey_light">#737373</color>
+
+    <color name="primary_text_color_light">#212121</color>
+    <color name="primary_text_color_dark">#E1E1E1</color>
+    <color name="hyperlink_color_dark">#84D3F7</color>
+    <color name="secondary_text_color_light">#6E6E6E</color>
+    <color name="secondary_text_color_dark">#919191</color>
+    <color name="pinned_note_text_color_dark">#F1F1F1</color>
+
+    <color name="sn_secondary_text_color_dark">#E5FFFFFF</color>
+
+    <color name="divider_light">#E1E1E1</color>
+    <color name="divider_dark">#303030</color>
+
+    <color name="sn_note_border_color_light">#26000000</color>
+    <color name="sn_note_border_color_dark">@color/feed_refresh_note_border_dark</color>
+
+    <color name="note_border_color_light">@color/feed_refresh_note_border_light</color>
+    <color name="note_border_color_dark">@color/feed_refresh_note_border_dark</color>
+
+    <color name="feed_item_ui_refresh_text_color_light">#404040</color>
+    <color name="feed_item_ui_refresh_text_color_dark">#E1E1E1</color>
+
+    <!-- Samsung Note -->
+    <color name="samsung_timestamp_divider_color_light">#CCCCCC</color>
+    <color name="samsung_content_font_for_light">#252423</color>
+
+
+    <color name="samsung_focused_background">#444444</color>
+    <color name="samsung_focused_background_dark">#FFFFFF</color>
+
+    <color name="samsung_source_label_text_color_dark">#919191</color>
+
+    <!-- Samsung Note Card Light theme -->
+    <color name="samsung_note_card_bg_for_light">#FFFFFF</color>
+
+    <!-- Samsung Note Card Dark theme -->
+    <color name="samsung_note_card_bg_for_dark">#212121</color>
+    <color name="samsung_note_card_title_for_dark">#FFFFFF</color>
+    <color name="samsung_note_card_details_for_dark">#919191</color>
+
+    <!-- Samsung Note Light theme -->
+    <color name="samsung_note_bg_for_light">#FFFFFF</color>
+    <color name="samsung_note_border_for_light">@color/feed_refresh_note_border_light</color>
+    <color name="samsung_note_title_color_for_light">#303030</color>
+    <color name="samsung_note_details_color_for_light">#6E6E6E</color>
+    <color name="samsung_note_timestamp_divider_color_for_light">#CCCCCC</color>
+
+    <!-- Samsung Note Dark theme -->
+    <!-- TODO: Change after getting designs -->
+    <color name="samsung_note_bg_for_dark">#000000</color>
+    <color name="samsung_note_border_for_dark">@color/feed_refresh_note_border_dark</color>
+    <color name="samsung_note_content_color_for_dark">#E1E1E1</color>
+    <color name="samsung_note_timestamp_divider_color_for_dark">#DDDDDD</color>
+    <color name="samsung_note_timestamp_text_color_for_dark">#919191</color>
+
+    <color name="samsung_no_title_placeholder_color">#919191</color>
+    <color name="samsung_note_card_preview_image_overlay_bg">#0D000000</color>
+
+    <!-- Action mode Colors -->
+    <color name="sn_checkbox_background">#b3ffffff</color>
+    <color name="sn_checkbox_background_dark">#b3212121</color>
+
+  <!-- Feed UI Refresh colors -->
+    <color name="feed_refresh_note_border_light">#E1E1E1</color>
+    <color name="feed_refresh_note_border_dark">#404040</color>
+</resources>

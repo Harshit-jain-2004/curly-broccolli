@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="@dimen/sn_image_overlay_corner_radius" />
+    <!-- colour added as placeholder and is adjusted to match note colour at runtime -->
+    <stroke
+        android:width="@dimen/sn_image_overlay_stroke"
+        android:color="@color/sn_formatting_button_border" />
+</shape>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sn_note_border"
+    android:shape="rectangle">
+    <corners android:radius="@dimen/sn_note_card_view_radius" />
+</shape>

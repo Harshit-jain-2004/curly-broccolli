@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.microsoft.notes.ui.theme.ThemedSwipeToRefresh
+        android:id="@+id/feedSwipeToRefresh"
+        android:tag="@string/swipe_to_refresh_tag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:enabled="false">
+
+        <com.microsoft.notes.ui.theme.ThemedRecyclerView
+            android:id="@+id/feedRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:descendantFocusability="afterDescendants"
+            android:fitsSystemWindows="true"
+            android:paddingTop="@dimen/feed_side_margin" />
+    </com.microsoft.notes.ui.theme.ThemedSwipeToRefresh>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">क्षमा करें! स्टिकी नोट्स को अभी सिंक और संग्रहण के कार्य करने लिए किसी Exchange Online मेलबॉक्स की आवश्यकता है. मेलबॉक्स सक्षम करने के बारे में कृपया अपने IT व्यवस्थापक से संपर्क करें या अधिक जानने के लिए नीचे दिए गए विकल्पों का उपयोग करें.</string>
+  <string name="sn_sync_failure_with_contact_support_message">हम आपके खाते से स्टिकी नोट्स सिंक्रनाइज़ करने में असमर्थ हैं. इस समस्या का समाधान करने के लिए मदद हेतु कृपया सहायता से संपर्क करें.</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">हम आपके खाते से स्टिकी नोट्स सिंक्रनाइज़ करने में असमर्थ हैं, लेकिन आप प्रयास करके इस समस्या का समाधान कर सकते हैं.</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_focused="true"
+        android:drawable="@drawable/sn_button_focused" /> <!-- Focused for dball/trackball/mouse -->
+    <item
+        android:state_pressed="true"
+        android:drawable="@color/sn_timestamp_button_pressed_color_light" /> <!-- pressed, not selected for touch feedback -->
+    <item
+        android:state_hovered="true"
+        android:drawable="@color/sn_timestamp_button_pressed_color_light" /> <!-- Hovered -->
+</selector>

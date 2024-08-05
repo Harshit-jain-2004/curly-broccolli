@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">ขออภัย! ขณะนี้บันทึกย่อช่วยเตือนต้องใช้กล่องจดหมาย Exchange Online ในการซิงค์และจัดเก็บจึงจะใช้งานได้ โปรดติดต่อผู้ดูแลระบบไอทีของคุณเพื่อให้เปิดใช้งานกล่องจดหมายหรือใช้ตัวเลือกด้านล่างเพื่อเรียนรู้เพิ่มเติม</string>
+  <string name="sn_sync_failure_with_contact_support_message">เราไม่สามารถซิงค์บันทึกย่อช่วยเตือนกับบัญชีของคุณได้ โปรดติดต่อฝ่ายสนับสนุนเพื่อขอให้ช่วยแก้ปัญหานี้</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">เราไม่สามารถซิงค์บันทึกย่อช่วยเตือนกับบัญชีของคุณได้ แต่คุณอาจลองซิงค์ดูแล้วแก้ปัญหานี้ได้</string>
+</resources>

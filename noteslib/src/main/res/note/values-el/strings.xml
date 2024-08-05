@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Κοινή χρήση αυτοκόλλητης σημείωσης</string>
+  <string name="sn_action_share">Κοινή χρήση</string>
+  <string name="sn_action_delete_note">Διαγραφή</string>
+  <string name="sn_action_send_feedback">Αποστολή σχολίων</string>
+  <string name="sn_delete_note_dialog">Διαγραφή σημείωσης;</string>
+  <string name="sn_delete_note_description">Θα διαγραφεί οριστικά από όλες τις συσκευές σας.</string>
+  <string name="sn_image_dialog_delete_description">Αυτή η εικόνα θα διαγραφεί οριστικά από όλες τις συσκευές σας.</string>
+  <string name="sn_image_dialog_delete_action">Διαγραφή</string>
+  <string name="sn_image_dialog_alt_text_title">Εναλλακτικό κείμενο</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Καταχωρήστε την περιγραφή της εικόνας</string>
+  <string name="sn_image_dialog_save_alt_text">Αποθήκευση</string>
+  <string name="sn_dialog_cancel">Άκυρο</string>
+  <string name="sn_change_color_to_blue">Αλλαγή χρώματος σημείωσης σε μπλε</string>
+  <string name="sn_change_color_to_green">Αλλαγή χρώματος σημείωσης σε πράσινο</string>
+  <string name="sn_change_color_to_yellow">Αλλαγή χρώματος σημείωσης σε κίτρινο</string>
+  <string name="sn_change_color_to_purple">Αλλαγή χρώματος σημείωσης σε μοβ</string>
+  <string name="sn_change_color_to_pink">Αλλαγή χρώματος σημείωσης σε ροζ</string>
+  <string name="sn_change_color_to_grey">Αλλαγή χρώματος σημείωσης σε γκρι</string>
+  <string name="sn_change_color_to_charcoal">Αλλαγή χρώματος σημείωσης σε ανθρακί</string>
+  <string name="sn_search_notes_with_color_blue">Αναζήτηση σημειώσεων με μπλε χρώμα</string>
+  <string name="sn_search_notes_with_color_green">Αναζήτηση σημειώσεων με πράσινο χρώμα</string>
+  <string name="sn_search_notes_with_color_yellow">Αναζήτηση σημειώσεων με κίτρινο χρώμα</string>
+  <string name="sn_search_notes_with_color_purple">Αναζήτηση σημειώσεων με μοβ χρώμα</string>
+  <string name="sn_search_notes_with_color_pink">Αναζήτηση σημειώσεων με ροζ χρώμα</string>
+  <string name="sn_search_notes_with_color_grey">Αναζήτηση σημειώσεων με γκρι χρώμα</string>
+  <string name="sn_search_notes_with_color_charcoal">Αναζήτηση σημειώσεων με ανθρακί χρώμα</string>
+  <string name="sn_note_options_dismissed">Οι επιλογές σημειώσεων απορρίφθηκαν</string>
+  <string name="sn_note_options_displayed">Επιλογές σημειώσεων στην οθόνη</string>
+  <string name="sn_adding_image_failed">Δεν ήταν δυνατή η προσθήκη της εικόνας</string>
+  <string name="sn_image_added">Η εικόνα προστέθηκε</string>
+</resources>

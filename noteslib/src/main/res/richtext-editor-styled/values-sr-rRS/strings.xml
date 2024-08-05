@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Уметни слику</string>
+  <string name="sn_bold">Подебљано</string>
+  <string name="sn_italic">Курзив</string>
+  <string name="sn_underline">Подвлачење</string>
+  <string name="sn_strikethrough">Прецртани текст</string>
+  <string name="sn_bullets">Листа са знаковима за набрајање</string>
+  <string name="sn_color_name_charcoal">Боја угља</string>
+  <string name="sn_color_name_blue">Плава</string>
+  <string name="sn_color_name_green">Зелена</string>
+  <string name="sn_color_name_yellow">Жута</string>
+  <string name="sn_color_name_grey">Сива</string>
+  <string name="sn_color_name_purple">Пурпурна</string>
+  <string name="sn_color_name_pink">Ружичаста</string>
+  <string name="sn_unselected">Неизабрано</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Додај алтернативни текст</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Уреди алтернативни текст</string>
+  <string name="sn_contextual_menu_image_delete">Брисање слике</string>
+  <string name="sn_image_attachment">Прилог са сликом</string>
+</resources>

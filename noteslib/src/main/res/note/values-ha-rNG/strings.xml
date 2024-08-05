@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Raba Liƙaƙƙen Rubutu</string>
+  <string name="sn_action_share">Raba</string>
+  <string name="sn_action_delete_note">Share</string>
+  <string name="sn_action_send_feedback">Aika Martani</string>
+  <string name="sn_delete_note_dialog">A Share Rubutu?</string>
+  <string name="sn_delete_note_description">Za a share shi dindindin daga dukan na\'urorinka.</string>
+  <string name="sn_image_dialog_delete_description">Za a share wannan hoto dindindin daga dukan na\'urorinka.</string>
+  <string name="sn_image_dialog_delete_action">Share</string>
+  <string name="sn_image_dialog_alt_text_title">Rubutun Alt</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Shigar da Bayanin Hoto</string>
+  <string name="sn_image_dialog_save_alt_text">Adana</string>
+  <string name="sn_dialog_cancel">Soke</string>
+  <string name="sn_change_color_to_blue">Canza launin rubutu zuwa shuɗi</string>
+  <string name="sn_change_color_to_green">Canza launin rubutu zuwa kore</string>
+  <string name="sn_change_color_to_yellow">Canza launin rubutu zuwa rawaya</string>
+  <string name="sn_change_color_to_purple">Canza launin rubutu zuwa algashi</string>
+  <string name="sn_change_color_to_pink">Canza launin rubutu zuwa ruwan hoda</string>
+  <string name="sn_change_color_to_grey">Canza launin rubutu zuwa ruwan toka</string>
+  <string name="sn_change_color_to_charcoal">Canza launin rubutu zuwa gawayi</string>
+  <string name="sn_search_notes_with_color_blue">Binciko rubuce-rubuce da launin shuɗi</string>
+  <string name="sn_search_notes_with_color_green">Binciko rubuce-rubuce da launin kore</string>
+  <string name="sn_search_notes_with_color_yellow">Binciko rubuce-rubuce da launin rawaya</string>
+  <string name="sn_search_notes_with_color_purple">Binciko rubuce-rubuce da launin algashi</string>
+  <string name="sn_search_notes_with_color_pink">Binciko rubuce-rubuce da launin ruwan hoɗa</string>
+  <string name="sn_search_notes_with_color_grey">Binciko rubuce-rubuce da launin ruwan toka</string>
+  <string name="sn_search_notes_with_color_charcoal">Binciko rubuce-rubuce da launin gawaye</string>
+  <string name="sn_note_options_dismissed">An kore zaɓuɓɓukan rubutu</string>
+  <string name="sn_note_options_displayed">Ana nuna zaɓuɓɓukan rubutu</string>
+  <string name="sn_adding_image_failed">An kasa ƙasa hoton</string>
+  <string name="sn_image_added">An ƙara hoto</string>
+</resources>

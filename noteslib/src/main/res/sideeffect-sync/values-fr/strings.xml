@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">Désolé... Pense-bêtes requiert actuellement une boîte aux lettres Exchange Online pour la synchronisation et le stockage. Veuillez contacter votre administrateur informatique concernant l’activation d’une boîte aux lettres ou utiliser l’option ci-dessous pour en savoir plus.</string>
+  <string name="sn_sync_failure_with_contact_support_message">Nous ne pouvons pas synchroniser les Pense-bêtes avec votre compte. Veuillez contacter le support pour résoudre ce problème.</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">Nous ne pouvons pas synchroniser les Pense-bêtes avec votre compte, mais vous pouvez essayer de résoudre ce problème.</string>
+</resources>

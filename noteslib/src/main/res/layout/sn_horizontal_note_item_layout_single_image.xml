@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.microsoft.notes.ui.noteslist.recyclerview.noteitem.images.HorizontalSingleImageItemComponent
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/SNHorizontalFeedNoteItemStyle"
+    android:clipToPadding="false"
+    android:orientation="horizontal"
+    android:tag="@string/note_canvas_layout_tag">
+
+    <LinearLayout
+        android:id="@+id/noteContentLayout"
+        style="@style/SNHorizontalNoteLayoutStyle"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/sticky_note_top_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sn_note_color_height" />
+
+        <TextView
+            android:id="@+id/noteDateTime"
+            style="@style/SNNoteItemDateTime"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/sn_note_padding"
+            android:layout_marginEnd="@dimen/sn_note_side_padding"
+            tools:text="12:45 PM" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/noteImage"
+            style="@style/SNHorizontalNoteItemSingleImageStyle"
+            android:layout_marginStart="@dimen/sn_note_side_padding_image"
+            android:layout_marginTop="@dimen/sn_note_padding"
+            android:layout_marginEnd="@dimen/sn_note_side_padding_image"
+            tools:src="@drawable/sn_notes_canvas_image_placeholder" />
+    </LinearLayout>
+
+</com.microsoft.notes.ui.noteslist.recyclerview.noteitem.images.HorizontalSingleImageItemComponent>

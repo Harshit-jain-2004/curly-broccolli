@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.microsoft.notes.ui.feed.recyclerview.feeditem.samsungnotes.SamsungNotesFeedItemTextOnlyComponent
+    style="@style/FeedRefreshListNoteItemStyle"
+    android:tag="@string/note_canvas_layout_tag"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:clipToPadding="false">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/samsungNoteCardLayout"
+        style="@style/FeedRefreshSamsungNoteContentLayoutStyle"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:clipToPadding="false">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/samsungNoteTitle"
+            style="@style/FeedRefreshNoteItemTitleTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/feed_note_side_padding"
+            android:layout_marginEnd="@dimen/feed_note_side_padding"
+            android:layout_marginTop="@dimen/feed_note_side_padding"
+            app:layout_constraintBottom_toTopOf="@+id/samsungNotePreviewBody"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="November Meetings" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/samsungNotePreviewBody"
+            style="@style/FeedRefreshNoteItemTextBodyStyle"
+            android:maxLines="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/feed_note_side_padding"
+            android:layout_marginEnd="@dimen/feed_note_side_padding"
+            app:layout_goneMarginTop="@dimen/feed_note_side_padding"
+            app:layout_constraintBottom_toTopOf="@+id/samsungNoteSource"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/samsungNoteTitle"
+            tools:text="The quick brown fox jumps over the lazy dog" />
+
+        <include
+            android:id="@+id/samsungNoteSource"
+            layout="@layout/samsung_layout_source_ui_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/feed_note_side_padding"
+            android:layout_marginTop="7dp"
+            app:layout_goneMarginTop="@dimen/feed_note_side_padding"
+            android:layout_marginBottom="@dimen/feed_note_side_padding"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/samsungNotePreviewBody"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <TextView
+            android:id="@+id/samsungNoteDateTime"
+            style="@style/FeedUIRefreshItemDateTime"
+            android:layout_marginEnd="@dimen/feed_note_side_padding"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/samsungNoteSource"
+            tools:text="12:45 PM"/>
+
+        <include layout="@layout/sn_action_mode_checkbox_refresh_ui"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.microsoft.notes.ui.feed.recyclerview.feeditem.samsungnotes.SamsungNotesFeedItemTextOnlyComponent>

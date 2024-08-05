@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomBottomSheetDialogTheme" parent="Theme.Design.DayNight.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+    </style>
+
+    <style name="CustomBottomSheetDialogThemeLandscape" parent="Theme.Design.DayNight.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyleLandscape</item>
+    </style>
+
+    <style name="CustomBottomSheetDialogThemeDark" parent="Theme.Design.DayNight.BottomSheetDialog">
+        <!--
+        Need to explicitly make windowLightNavigationBar to false in dark mode for API level 27 and 28, to show hardware keys in dark BG.
+        -->
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+    <style name="CustomBottomSheetDialogThemeLandscapeDark" parent="Theme.Design.DayNight.BottomSheetDialog">
+        <!--
+        Need to explicitly make windowLightNavigationBar to false in dark mode for API level 27 and 28, to show hardware keys in dark BG.
+        -->
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyleLandscape</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+    <style name="Theme.Design.DayNight.BottomSheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <!--
+        We want to set navigation bar to a solid color (same as the bottom sheet itself).
+        windowIsFloating is set to false so that the status bar/navigation bar come up on top of the background dimming.
+        -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/navigation_bar_color</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+</resources>

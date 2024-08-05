@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="sn_roboto">Roboto</string>
+    <string name="sn_roboto_regular">sans-serif</string>
+    <string name="sn_roboto_medium">sans-serif-medium</string>
+
+    <!-- Samsung Notes -->
+    <string name="samsung_source_label_font">sans-serif</string>
+    <string name="samsung_no_content_label_font">sans-serif</string>
+    <string name="samsung_note_datetime_label_font">SF Pro Text</string>
+    <string name="samsung_note_datetime_font">Segoe UI</string>
+</resources>

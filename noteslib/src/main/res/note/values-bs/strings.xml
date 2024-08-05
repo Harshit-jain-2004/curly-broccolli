@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Podijelite ljepljivu bilješku</string>
+  <string name="sn_action_share">Dijeli</string>
+  <string name="sn_action_delete_note">Izbriši</string>
+  <string name="sn_action_send_feedback">Pošalјi povratne informacije</string>
+  <string name="sn_delete_note_dialog">Izbrisati bilješku?</string>
+  <string name="sn_delete_note_description">Trajno će se izbrisati sa svih vaših uređaja.</string>
+  <string name="sn_image_dialog_delete_description">Ova slika će biti trajno izbrisana sa svih vaših uređaja.</string>
+  <string name="sn_image_dialog_delete_action">Izbriši</string>
+  <string name="sn_image_dialog_alt_text_title">Alternativni tekst</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Unesite opis slike</string>
+  <string name="sn_image_dialog_save_alt_text">Sačuvaj</string>
+  <string name="sn_dialog_cancel">Otkaži</string>
+  <string name="sn_change_color_to_blue">Promjena boje bilješke u plavu</string>
+  <string name="sn_change_color_to_green">Promjena boje bilješke u zelenu</string>
+  <string name="sn_change_color_to_yellow">Promjena boje bilješke u žutu</string>
+  <string name="sn_change_color_to_purple">Promjena boje bilješke u ljubičastu</string>
+  <string name="sn_change_color_to_pink">Promjena boje bilješke u ružičastu</string>
+  <string name="sn_change_color_to_grey">Promjena boje bilješke u sivu</string>
+  <string name="sn_change_color_to_charcoal">Promjena boje bilješke u boju uglja</string>
+  <string name="sn_search_notes_with_color_blue">Pretraživanje bilješki plave boje</string>
+  <string name="sn_search_notes_with_color_green">Pretraživanje bilješki zelene boje</string>
+  <string name="sn_search_notes_with_color_yellow">Pretraživanje bilješki žute boje</string>
+  <string name="sn_search_notes_with_color_purple">Pretraživanje bilješki ljubičaste boje</string>
+  <string name="sn_search_notes_with_color_pink">Pretraživanje bilješki ružičaste boje</string>
+  <string name="sn_search_notes_with_color_grey">Pretraživanje bilješki sive boje</string>
+  <string name="sn_search_notes_with_color_charcoal">Pretraživanje bilješki boje uglja</string>
+  <string name="sn_note_options_dismissed">Opcije za bilješku su odbačene</string>
+  <string name="sn_note_options_displayed">Opcije za bilješku na ekranu</string>
+  <string name="sn_adding_image_failed">Nije bilo moguće dodati sliku</string>
+  <string name="sn_image_added">Slika je dodana</string>
+</resources>

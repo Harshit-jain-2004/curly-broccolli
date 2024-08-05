@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Weka taswira</string>
+  <string name="sn_bold">Koza</string>
+  <string name="sn_italic">Italiki</string>
+  <string name="sn_underline">Mstari wa chini</string>
+  <string name="sn_strikethrough">Mkato ulalo</string>
+  <string name="sn_bullets">Orodha yenye Matobo</string>
+  <string name="sn_color_name_charcoal">Makaa</string>
+  <string name="sn_color_name_blue">Samawati</string>
+  <string name="sn_color_name_green">Kijani</string>
+  <string name="sn_color_name_yellow">Manjano</string>
+  <string name="sn_color_name_grey">Kijivu</string>
+  <string name="sn_color_name_purple">Zambarau</string>
+  <string name="sn_color_name_pink">Waridi</string>
+  <string name="sn_unselected">Haijateuliwa</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Ongeza Matini ya Alt</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Hariri Matini ya Alt</string>
+  <string name="sn_contextual_menu_image_delete">Futa Taswira</string>
+  <string name="sn_image_attachment">Kiambatisho cha taswira</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Partager le pense-bête</string>
+  <string name="sn_action_share">Partager</string>
+  <string name="sn_action_delete_note">Supprimer</string>
+  <string name="sn_action_send_feedback">Envoyer des commentaires</string>
+  <string name="sn_delete_note_dialog">Voulez-vous supprimer la note ?</string>
+  <string name="sn_delete_note_description">Elle sera supprimée de manière définitive de tous vos appareils.</string>
+  <string name="sn_image_dialog_delete_description">Cette image sera supprimée définitivement de tous vos appareils.</string>
+  <string name="sn_image_dialog_delete_action">Supprimer</string>
+  <string name="sn_image_dialog_alt_text_title">Texte de remplacement</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Entrer la description de l’image</string>
+  <string name="sn_image_dialog_save_alt_text">Enregistrer</string>
+  <string name="sn_dialog_cancel">Annuler</string>
+  <string name="sn_change_color_to_blue">Modifier la couleur de la note en bleu</string>
+  <string name="sn_change_color_to_green">Modifier la couleur de la note en vert</string>
+  <string name="sn_change_color_to_yellow">Modifier la couleur de la note en jaune</string>
+  <string name="sn_change_color_to_purple">Modifier la couleur de la note en violet</string>
+  <string name="sn_change_color_to_pink">Modifier la couleur de la note en rose</string>
+  <string name="sn_change_color_to_grey">Modifier la couleur de la note en gris</string>
+  <string name="sn_change_color_to_charcoal">Modifier la couleur de la note en gris foncé</string>
+  <string name="sn_search_notes_with_color_blue">Rechercher dans les notes en bleu</string>
+  <string name="sn_search_notes_with_color_green">Rechercher dans les notes en vert</string>
+  <string name="sn_search_notes_with_color_yellow">Rechercher dans les notes en jaune</string>
+  <string name="sn_search_notes_with_color_purple">Rechercher dans les notes en violet</string>
+  <string name="sn_search_notes_with_color_pink">Rechercher dans les notes en rose</string>
+  <string name="sn_search_notes_with_color_grey">Rechercher dans les notes en gris</string>
+  <string name="sn_search_notes_with_color_charcoal">Rechercher dans les notes en gris foncé</string>
+  <string name="sn_note_options_dismissed">Options des notes fermées</string>
+  <string name="sn_note_options_displayed">Options des notes affichées</string>
+  <string name="sn_adding_image_failed">Nous n’avons pas pu ajouter l’image</string>
+  <string name="sn_image_added">L’image a été ajoutée</string>
+</resources>

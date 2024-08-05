@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.microsoft.notes.ui.feed.recyclerview.feeditem.samsungnotes.SamsungNoteItemPreviewImageComponent xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/SNNoteItemStyle"
+    android:tag="@string/note_canvas_layout_tag"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:clipToPadding="false">
+
+    <include layout="@layout/sn_action_mode_checkbox" />
+
+    <LinearLayout
+        android:id="@+id/samsungNoteCardLayout"
+        style="@style/samsungNotePreviewImageCardLayoutStyle">
+
+        <TextView
+            android:id="@+id/samsungNoteTitle"
+            style="@style/samsungNoteItemTitleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/samsung_note_title_padding"
+            android:paddingEnd="@dimen/samsung_note_title_padding"
+            android:paddingTop="@dimen/samsung_note_title_margin_top"
+            android:textSize= "16sp"
+            android:maxLines="1"
+            android:background="@drawable/samsung_note_card_preview_image_overlay_bg"
+            tools:text="November Meetings" />
+
+        <com.microsoft.notes.ui.feed.recyclerview.feeditem.FitXCropYImageView
+            android:id="@+id/samsungNotePreviewImage"
+            style="@style/samsungNoteItemSingleImageStyle"
+            android:cropToPadding="true"
+            android:paddingStart="@dimen/samsung_preview_image_padding_side"
+            android:paddingEnd="@dimen/samsung_preview_image_padding_side"
+            android:paddingTop="@dimen/samsung_preview_image_padding_top"
+            android:background="@color/samsung_note_card_preview_image_overlay_bg"
+            tools:src="@drawable/sn_notes_canvas_image_placeholder" />
+
+        <include
+            android:id="@+id/samsungNoteSource"
+            layout="@layout/samsung_layout_source"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</com.microsoft.notes.ui.feed.recyclerview.feeditem.samsungnotes.SamsungNoteItemPreviewImageComponent>

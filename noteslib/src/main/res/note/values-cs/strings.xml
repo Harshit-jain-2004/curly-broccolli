@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Sdílet rychlou poznámku</string>
+  <string name="sn_action_share">Sdílet</string>
+  <string name="sn_action_delete_note">Odstranit</string>
+  <string name="sn_action_send_feedback">Poslat názor</string>
+  <string name="sn_delete_note_dialog">Chcete odstranit poznámku?</string>
+  <string name="sn_delete_note_description">Trvale se odstraní ze všech vašich zařízení.</string>
+  <string name="sn_image_dialog_delete_description">Tento obrázek se trvale odstraní ze všech vašich zařízení.</string>
+  <string name="sn_image_dialog_delete_action">Odstranit</string>
+  <string name="sn_image_dialog_alt_text_title">Alternativní text</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Zadejte popis obrázku.</string>
+  <string name="sn_image_dialog_save_alt_text">Uložit</string>
+  <string name="sn_dialog_cancel">Zrušit</string>
+  <string name="sn_change_color_to_blue">Změnit barvu poznámky na modrou</string>
+  <string name="sn_change_color_to_green">Změnit barvu poznámky na zelenou</string>
+  <string name="sn_change_color_to_yellow">Změnit barvu poznámky na žlutou</string>
+  <string name="sn_change_color_to_purple">Změnit barvu poznámky na nachovou</string>
+  <string name="sn_change_color_to_pink">Změnit barvu poznámky na růžovou</string>
+  <string name="sn_change_color_to_grey">Změnit barvu poznámky na šedou</string>
+  <string name="sn_change_color_to_charcoal">Změnit barvu poznámky na uhlově černou</string>
+  <string name="sn_search_notes_with_color_blue">Hledat poznámky s modrou barvou</string>
+  <string name="sn_search_notes_with_color_green">Hledat poznámky se zelenou barvou</string>
+  <string name="sn_search_notes_with_color_yellow">Hledat poznámky se žlutou barvou</string>
+  <string name="sn_search_notes_with_color_purple">Hledat poznámky s nachovou barvou</string>
+  <string name="sn_search_notes_with_color_pink">Hledat poznámky s růžovou barvou</string>
+  <string name="sn_search_notes_with_color_grey">Hledat poznámky s šedou barvou</string>
+  <string name="sn_search_notes_with_color_charcoal">Hledat poznámky s uhlově černou barvou</string>
+  <string name="sn_note_options_dismissed">Možnosti poznámky se zavřely.</string>
+  <string name="sn_note_options_displayed">Jsou zobrazené možnosti poznámky.</string>
+  <string name="sn_adding_image_failed">Obrázek nešlo přidat.</string>
+  <string name="sn_image_added">Obrázek se přidal.</string>
+</resources>

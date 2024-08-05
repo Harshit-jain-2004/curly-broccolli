@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">文字便箋</string>
+  <string name="sn_ink_note">筆跡便箋</string>
+  <string name="sn_label_text">文字</string>
+  <string name="sn_label_image">影像</string>
+  <string name="sn_single_image_note">含 1 個影像的%1$s便箋</string>
+  <string name="sn_multi_image_note">含 %2$d 個影像的%1$s便箋</string>
+  <string name="sn_label_date">編輯於 %s</string>
+  <string name="sn_add_note">新增便箋</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">目前無法同步。</string>
+</resources>

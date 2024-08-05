@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.microsoft.notes.ui.feed.recyclerview.feeditem.samsungnotes.SamsungNoteFeedItemTextImageComponent xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    style="@style/samsungNoteItemStyle"
+    android:orientation="horizontal"
+    android:tag="@string/note_canvas_layout_tag"
+    android:clipToPadding="false">
+
+    <include layout="@layout/sn_action_mode_checkbox"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/samsungNoteCardLayout"
+        style="@style/samsungNoteCardLayoutStyle"
+        android:clipToPadding="false">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/samsungNoteImage1"
+            style="@style/FeedSNNoteGridItemImageStyle"
+            android:layout_width="@dimen/samsung_card_image_size"
+            android:layout_height="@dimen/samsung_card_image_size"
+            android:layout_marginEnd="@dimen/samsung_note_preview_padding"
+            android:layout_marginTop="@dimen/samsung_card_image_margin_top"
+            android:layout_marginBottom="@dimen/sn_grid_image_side_margin"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:src="@android:drawable/ic_delete" />
+
+        <TextView
+            android:id="@+id/samsungNoteTitle"
+            style="@style/samsungNoteItemTitleStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/samsung_note_title_padding"
+            android:paddingEnd="@dimen/samsung_note_title_padding"
+            android:layout_marginTop="@dimen/samsung_note_title_margin_top"
+            android:layout_marginBottom="@dimen/samsung_note_title_margin_bottom"
+            android:textSize= "16sp"
+            android:maxLines="1"
+            app:layout_constraintBottom_toTopOf="@+id/samsungNotePreviewBody"
+            app:layout_constraintEnd_toStartOf="@id/samsungNoteImage1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="November Meetings" />
+
+        <TextView
+            android:id="@+id/samsungNotePreviewBody"
+            style="@style/SamsungPreviewBodyStyle"
+            app:layout_goneMarginTop="@dimen/samsung_note_title_gone_margin_top"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/samsung_note_preview_padding"
+            android:paddingEnd="@dimen/samsung_note_preview_padding"
+            android:layout_marginBottom="@dimen/samsung_note_preview_margin_bottom"
+            app:layout_constraintEnd_toStartOf="@id/samsungNoteImage1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/samsungNoteTitle"
+            app:layout_constraintBottom_toTopOf="@+id/samsungNoteSource"
+            tools:text="This is text preview for Samsung Notes. This preview comes below the tile and besides the preview image. This text might be too long intentionally." />
+
+        <include
+            android:id="@+id/samsungNoteSource"
+            layout="@layout/samsung_layout_source"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/samsungNotePreviewBody" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.microsoft.notes.ui.feed.recyclerview.feeditem.samsungnotes.SamsungNoteFeedItemTextImageComponent>

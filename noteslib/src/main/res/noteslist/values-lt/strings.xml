@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">Teksto pastaba</string>
+  <string name="sn_ink_note">Rankraščio pastaba</string>
+  <string name="sn_label_text">Tekstas</string>
+  <string name="sn_label_image">Vaizdas</string>
+  <string name="sn_single_image_note">%1$s bloknotas su 1 vaizdu</string>
+  <string name="sn_multi_image_note">%1$s bloknotas su tiek vaizdų: %2$d</string>
+  <string name="sn_label_date">redaguota %s</string>
+  <string name="sn_add_note">Įtraukti naują pastabą</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">Nepavyko sinchronizuoti dabar.</string>
+</resources>

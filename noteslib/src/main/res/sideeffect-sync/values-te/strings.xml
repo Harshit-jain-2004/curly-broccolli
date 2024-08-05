@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">క్షమించండి! \'ప్రస్తుతానికి స్టిక్కీ నోట్స్ని సమకాలీకరించడం మరియు నిల్వ చేయడం వంటివి చేయాలంటే Exchange Online మెయిల్బాక్స్ అవసరం. దయచేసి మీ IT నిర్వాహకులను సంప్రదించి, మెయిల్బాక్స్ని ప్రారంభించమని కోరండి లేదా దిగువ ఎంపికను ఉపయోగించి మరింత తెలుసుకోండి.</string>
+  <string name="sn_sync_failure_with_contact_support_message">మేము మీ ఖాతాతో స్టిక్కీ నోట్స్ని సమకాలీకరించలేము. ఈ సమస్యను పరిష్కరించడం కోసం మద్దతుని సంప్రదించండి.</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">మేము స్టిక్కీ నోట్స్‌ని మీ ఖాతాతో సమకాలీకరించలేము, కానీ మీరు దీనిని పరిష్కరించడానికి ప్రయత్నించవచ్చు.</string>
+</resources>

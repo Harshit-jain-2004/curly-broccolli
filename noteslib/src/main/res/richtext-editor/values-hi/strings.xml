@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_notes_image">छवि</string>
+  <string name="sn_inline_media_notes_alttext">वैकल्पिक पाठ</string>
+  <string name="sn_inline_media_notes_description">वर्णन</string>
+  <string name="sn_inline_media_notes_done">पूर्ण</string>
+  <string name="sn_inline_media_notes_cancel">रद्द करें</string>
+  <string name="sn_inline_media_notes_open">खोलें</string>
+  <string name="sn_notes_read_alt_text">छवि, Alttext: %1$s!</string>
+  <string name="sn_notes_link_label">लिंक: %1$s</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Udostępnij notatkę Sticky Note</string>
+  <string name="sn_action_share">Udostępnij</string>
+  <string name="sn_action_delete_note">Usuń</string>
+  <string name="sn_action_send_feedback">Wyślij opinię</string>
+  <string name="sn_delete_note_dialog">Usunąć notatkę?</string>
+  <string name="sn_delete_note_description">Zostanie ona trwale usunięta ze wszystkich urządzeń.</string>
+  <string name="sn_image_dialog_delete_description">Ten obraz zostanie trwale usunięty ze wszystkich Twoich urządzeń.</string>
+  <string name="sn_image_dialog_delete_action">Usuń</string>
+  <string name="sn_image_dialog_alt_text_title">Tekst alternatywny</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Wprowadź opis obrazu</string>
+  <string name="sn_image_dialog_save_alt_text">Zapisz</string>
+  <string name="sn_dialog_cancel">Anuluj</string>
+  <string name="sn_change_color_to_blue">Zmień kolor notatki na niebieski</string>
+  <string name="sn_change_color_to_green">Zmień kolor notatki na zielony</string>
+  <string name="sn_change_color_to_yellow">Zmień kolor notatki na żółty</string>
+  <string name="sn_change_color_to_purple">Zmień kolor notatki na purpurowy</string>
+  <string name="sn_change_color_to_pink">Zmień kolor notatki na różowy</string>
+  <string name="sn_change_color_to_grey">Zmień kolor notatki na szary</string>
+  <string name="sn_change_color_to_charcoal">Zmień kolor notatki na węglowy</string>
+  <string name="sn_search_notes_with_color_blue">Wyszukaj notatki w kolorze niebieskim</string>
+  <string name="sn_search_notes_with_color_green">Wyszukaj notatki w kolorze zielonym</string>
+  <string name="sn_search_notes_with_color_yellow">Wyszukaj notatki w kolorze żółtym</string>
+  <string name="sn_search_notes_with_color_purple">Wyszukaj notatki w kolorze purpurowym</string>
+  <string name="sn_search_notes_with_color_pink">Wyszukaj notatki w kolorze różowym</string>
+  <string name="sn_search_notes_with_color_grey">Wyszukaj notatki w kolorze szarym</string>
+  <string name="sn_search_notes_with_color_charcoal">Wyszukaj notatki w kolorze węglowym</string>
+  <string name="sn_note_options_dismissed">Odrzucono opcje notatek</string>
+  <string name="sn_note_options_displayed">Wyświetlane opcje notatek</string>
+  <string name="sn_adding_image_failed">Nie można dodać obrazu</string>
+  <string name="sn_image_added">Dodano obraz</string>
+</resources>

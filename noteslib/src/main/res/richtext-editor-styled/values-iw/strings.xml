@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">הוסף תמונה</string>
+  <string name="sn_bold">מודגש</string>
+  <string name="sn_italic">נטוי</string>
+  <string name="sn_underline">קו תחתון</string>
+  <string name="sn_strikethrough">קו חוצה</string>
+  <string name="sn_bullets">רשימה עם תבליטים</string>
+  <string name="sn_color_name_charcoal">פחם</string>
+  <string name="sn_color_name_blue">כחול</string>
+  <string name="sn_color_name_green">ירוק</string>
+  <string name="sn_color_name_yellow">צהוב</string>
+  <string name="sn_color_name_grey">אפור</string>
+  <string name="sn_color_name_purple">סגול</string>
+  <string name="sn_color_name_pink">ורוד</string>
+  <string name="sn_unselected">לא נבחר</string>
+  <string name="sn_contextual_menu_image_alt_text_add">הוסף טקסט חלופי</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">ערוך טקסט חלופי</string>
+  <string name="sn_contextual_menu_image_delete">מחק תמונה</string>
+  <string name="sn_image_attachment">קובץ תמונה מצורף</string>
+</resources>

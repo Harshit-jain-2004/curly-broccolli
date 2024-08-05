@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_notes_image">Beeld</string>
+  <string name="sn_inline_media_notes_alttext">Alt-teks</string>
+  <string name="sn_inline_media_notes_description">Beskrywing</string>
+  <string name="sn_inline_media_notes_done">Klaar</string>
+  <string name="sn_inline_media_notes_cancel">Kanselleer</string>
+  <string name="sn_inline_media_notes_open">Maak oop</string>
+  <string name="sn_notes_read_alt_text">Beeld, Alt-teks: %1$s!</string>
+  <string name="sn_notes_link_label">Skakel: %1$s</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_notes_image">Imagine</string>
+  <string name="sn_inline_media_notes_alttext">Text alternativ</string>
+  <string name="sn_inline_media_notes_description">Descriere</string>
+  <string name="sn_inline_media_notes_done">Gata</string>
+  <string name="sn_inline_media_notes_cancel">Anulare</string>
+  <string name="sn_inline_media_notes_open">Deschidere</string>
+  <string name="sn_notes_read_alt_text">Imagine, text alternativ: %1$s!</string>
+  <string name="sn_notes_link_label">Link: %1$s</string>
+</resources>

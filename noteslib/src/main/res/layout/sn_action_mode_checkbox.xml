@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatCheckBox
+    android:id="@+id/checkBox"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="@dimen/sn_action_mode_radio_button_side_margin"
+    android:button="@drawable/sn_feed_radio_button_unselected"
+    android:background="@drawable/sn_checkbox_background"
+    android:clickable="false"
+    android:layout_gravity="center"
+    android:focusable="false"
+    android:importantForAccessibility="no"
+    android:visibility="gone"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

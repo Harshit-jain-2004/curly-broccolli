@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/individual_filter_chip"
+    app:closeIcon="@drawable/icon_close_filter_chip"
+    style="@style/ReminderSuggestionChips" />

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Zdieľať rýchlu poznámku</string>
+  <string name="sn_action_share">Zdieľať</string>
+  <string name="sn_action_delete_note">Odstrániť</string>
+  <string name="sn_action_send_feedback">Odoslať pripomienky</string>
+  <string name="sn_delete_note_dialog">Chcete odstrániť poznámku?</string>
+  <string name="sn_delete_note_description">Natrvalo sa odstráni zo všetkých vašich zariadení.</string>
+  <string name="sn_image_dialog_delete_description">Tento obrázok sa natrvalo odstráni zo všetkých vašich zariadení.</string>
+  <string name="sn_image_dialog_delete_action">Odstrániť</string>
+  <string name="sn_image_dialog_alt_text_title">Alternatívny text</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Zadajte popis obrázka</string>
+  <string name="sn_image_dialog_save_alt_text">Uložiť</string>
+  <string name="sn_dialog_cancel">Zrušiť</string>
+  <string name="sn_change_color_to_blue">Zmeniť farbu poznámky na modrú</string>
+  <string name="sn_change_color_to_green">Zmeniť farbu poznámky na zelenú</string>
+  <string name="sn_change_color_to_yellow">Zmeniť farbu poznámky na žltú</string>
+  <string name="sn_change_color_to_purple">Zmeniť farbu poznámky na fialovú</string>
+  <string name="sn_change_color_to_pink">Zmeniť farbu poznámky na ružovú</string>
+  <string name="sn_change_color_to_grey">Zmeniť farbu poznámky na sivú</string>
+  <string name="sn_change_color_to_charcoal">Zmeniť farbu poznámky na čiernosivú</string>
+  <string name="sn_search_notes_with_color_blue">Hľadať poznámky s modrou farbou</string>
+  <string name="sn_search_notes_with_color_green">Hľadať poznámky so zelenou farbou</string>
+  <string name="sn_search_notes_with_color_yellow">Hľadať poznámky so žltou farbou</string>
+  <string name="sn_search_notes_with_color_purple">Hľadať poznámky s fialovou farbou</string>
+  <string name="sn_search_notes_with_color_pink">Hľadať poznámky s ružovou farbou</string>
+  <string name="sn_search_notes_with_color_grey">Hľadať poznámky so sivou farbou</string>
+  <string name="sn_search_notes_with_color_charcoal">Hľadať poznámky s čiernosivou farbou</string>
+  <string name="sn_note_options_dismissed">Možnosti poznámok sú zrušené</string>
+  <string name="sn_note_options_displayed">Možnosti poznámok na obrazovke</string>
+  <string name="sn_adding_image_failed">Nepodarilo sa pridať obrázok</string>
+  <string name="sn_image_added">Pridal sa obrázok</string>
+</resources>

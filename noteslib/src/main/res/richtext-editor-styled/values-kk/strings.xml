@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Кескін кірістіру</string>
+  <string name="sn_bold">Қалың</string>
+  <string name="sn_italic">Көлбеу</string>
+  <string name="sn_underline">Астын сызу</string>
+  <string name="sn_strikethrough">Сызып тастау</string>
+  <string name="sn_bullets">Таңбалаушы тізім</string>
+  <string name="sn_color_name_charcoal">Көмір түстес</string>
+  <string name="sn_color_name_blue">Көк</string>
+  <string name="sn_color_name_green">Жасыл</string>
+  <string name="sn_color_name_yellow">Сары</string>
+  <string name="sn_color_name_grey">Сұр</string>
+  <string name="sn_color_name_purple">Күлгін</string>
+  <string name="sn_color_name_pink">Қызғылт</string>
+  <string name="sn_unselected">Таңдалмаған</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Балама мәтін қосу</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Балама мәтінді өңдеу</string>
+  <string name="sn_contextual_menu_image_delete">Кескінді жою</string>
+  <string name="sn_image_attachment">Кескін тіркемесі</string>
+</resources>

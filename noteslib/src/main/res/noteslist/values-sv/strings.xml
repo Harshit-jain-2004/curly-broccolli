@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">Textanteckning</string>
+  <string name="sn_ink_note">Pennanteckning</string>
+  <string name="sn_label_text">Text</string>
+  <string name="sn_label_image">Bild</string>
+  <string name="sn_single_image_note">%1$s-anteckning med 1 bild</string>
+  <string name="sn_multi_image_note">%1$s-anteckning med %2$d bilder</string>
+  <string name="sn_label_date">redigerade %s</string>
+  <string name="sn_add_note">Lägg till en ny anteckning</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">Det går inte att synkronisera just nu.</string>
+</resources>

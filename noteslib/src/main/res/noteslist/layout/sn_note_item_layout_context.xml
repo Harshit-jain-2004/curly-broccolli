@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.microsoft.notes.ui.feed.NoteContextComponent
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="start"
+    android:drawablePadding="6dp"
+    android:ellipsize="end"
+    android:fontFamily="@string/sn_roboto"
+    android:maxLines="1"
+    android:textColor="@color/sn_metadata_color_charcoal"
+    android:textSize="@dimen/note_reference_pinned_note_text_size"
+    android:visibility="gone" />

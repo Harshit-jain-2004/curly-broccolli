@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/filter_sort_panel"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:tag="@string/option_toolbar_background_tag"
+        style="@style/SNBottomSheetAlternate"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:layout_behavior="@string/bottom_sheet_behavior"
+        >
+
+        <ImageView
+            android:id="@+id/bottomSheetHandle"
+            android:layout_width="36dp"
+            android:layout_height="4dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="8dp"
+            app:srcCompat="@drawable/ic_bottom_sheet_handle"
+            android:tint="@color/bottom_sheet_general_purpose_gray_color"/>
+
+        <ImageView
+            android:id="@+id/invisible_divider_1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:layout_constraintTop_toBottomOf="@+id/bottomSheetHandle"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="8dp"
+            app:srcCompat="@drawable/bottom_sheet_divider"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/bottom_sheet_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/invisible_divider_1"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="14dp"
+            android:layout_marginStart="16dp"
+            android:textSize="16sp"
+            android:text="@string/filter_and_sort_panel_title"
+            android:fontFamily="@string/sn_roboto_medium"
+            android:textColor="@color/bottom_sheet_title_color"/>
+
+        <com.microsoft.notes.ui.theme.ThemedTextView
+            android:id="@+id/clear_selections_option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/min_touch_target_size"
+            android:minWidth="@dimen/min_touch_target_size"
+            app:layout_constraintTop_toBottomOf="@+id/invisible_divider_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/filter_and_sort_panel_clear_option_title"
+            android:textSize="16sp"
+            android:fontFamily="@string/sn_roboto_medium"
+            android:tag="@string/bottom_sheet_primary_text_tag"/>
+
+        <ImageView
+            android:id="@+id/title_and_filter_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:layout_constraintTop_toBottomOf="@+id/bottom_sheet_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="6dp"
+            app:srcCompat="@drawable/bottom_sheet_divider"
+            android:tint="@color/bottom_sheet_divider_color"/>
+
+        <ImageView
+            android:id="@+id/invisible_divider_2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:layout_constraintTop_toBottomOf="@+id/title_and_filter_divider"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/bottom_sheet_divider"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/filter_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/invisible_divider_2"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"
+            android:textSize="14sp"
+            android:fontFamily="@string/sn_roboto_medium"
+            android:textFontWeight="500"
+            android:textColor="@color/bottom_sheet_filter_title_color"
+            android:text="@string/filter_and_sort_panel_filter_title"/>
+
+        <ImageView
+            android:id="@+id/invisible_divider_3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:layout_constraintTop_toBottomOf="@+id/filter_title"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:srcCompat="@drawable/bottom_sheet_divider"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/notes_type_filter_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/invisible_divider_3"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="18dp"
+            android:layout_marginStart="16dp"
+            android:textSize="12sp"
+            android:fontFamily="@string/sn_roboto_medium"
+            android:textFontWeight="400"
+            android:textColor="@color/bottom_sheet_filter_type_title_color"
+            android:text="@string/filter_and_sort_panel_ntf_title"/>
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/notes_type_filter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/notes_type_filter_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:chipSpacingHorizontal="4dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/ntf_all"
+                style="@style/SNBottomSheetFilterChips"
+                android:text="@string/filter_and_sort_panel_filter_option_all"/>
+
+        </com.google.android.material.chip.ChipGroup>
+
+        <TextView
+            android:id="@+id/account_filter_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/notes_type_filter"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="18dp"
+            android:layout_marginStart="16dp"
+            android:textSize="12sp"
+            android:fontFamily="@string/sn_roboto_medium"
+            android:textFontWeight="400"
+            android:textColor="@color/bottom_sheet_filter_type_title_color"
+            android:text="@string/filter_and_sort_panel_account_title"/>
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/account_filter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/account_filter_title"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/account_all"
+                style="@style/SNBottomSheetFilterChips"
+                android:text="@string/filter_and_sort_panel_filter_option_all"/>
+
+        </com.google.android.material.chip.ChipGroup>
+
+        <ImageView
+            android:id="@+id/filter_and_sort_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:layout_constraintTop_toBottomOf="@+id/account_filter"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="8dp"
+            app:srcCompat="@drawable/bottom_sheet_divider"
+            android:tint="@color/bottom_sheet_divider_color"/>
+
+        <ImageView
+            android:id="@+id/invisible_divider_4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:layout_constraintTop_toBottomOf="@+id/filter_and_sort_divider"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:srcCompat="@drawable/bottom_sheet_divider"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/sort_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/invisible_divider_4"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@string/sn_roboto_medium"
+            android:textFontWeight="500"
+            android:layout_marginStart="16dp"
+            android:textSize="14sp"
+            android:textColor="@color/bottom_sheet_filter_title_color"
+            android:text="@string/filter_and_sort_panel_sort_title"/>
+
+        <ImageView
+            android:id="@+id/invisible_divider_5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:layout_constraintTop_toBottomOf="@+id/sort_title"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:srcCompat="@drawable/bottom_sheet_divider"
+            android:visibility="invisible"/>
+
+        <com.microsoft.notes.ui.feed.filter.FeedSortingCriterionView
+            android:id="@+id/sort_by_modification_date_option"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/invisible_divider_5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="12dp"
+            />
+
+        <com.microsoft.notes.ui.feed.filter.FeedSortingCriterionView
+            android:id="@+id/sort_by_created_date_option"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/sort_by_modification_date_option"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+
+        <com.microsoft.notes.ui.feed.filter.FeedSortingCriterionView
+            android:id="@+id/sort_by_title_option"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/sort_by_created_date_option"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+
+        <com.microsoft.notes.ui.theme.ThemedTextView
+            android:id="@+id/apply_filter_sort_selections"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            app:layout_constraintTop_toBottomOf="@+id/sort_by_title_option"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="12dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:tag="@string/bottom_sheet_primary_text_tag"
+            android:text="@string/filter_and_sort_panel_apply_title"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:background="@drawable/button_border"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout >
+</ScrollView>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Txertatu irudi bat</string>
+  <string name="sn_bold">Lodia</string>
+  <string name="sn_italic">Etzana</string>
+  <string name="sn_underline">Azpimarratu</string>
+  <string name="sn_strikethrough">Marratu</string>
+  <string name="sn_bullets">Zerrenda buletduna</string>
+  <string name="sn_color_name_charcoal">Ikatz-kolorea</string>
+  <string name="sn_color_name_blue">Urdina</string>
+  <string name="sn_color_name_green">Berdea</string>
+  <string name="sn_color_name_yellow">Horia</string>
+  <string name="sn_color_name_grey">Grisa</string>
+  <string name="sn_color_name_purple">Morea</string>
+  <string name="sn_color_name_pink">Arrosa</string>
+  <string name="sn_unselected">Desautatuta</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Gehitu ordezko testua</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Editatu ordezko testua</string>
+  <string name="sn_contextual_menu_image_delete">Ezabatu irudia</string>
+  <string name="sn_image_attachment">Erantsitako irudia</string>
+</resources>

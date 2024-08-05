@@ -1,0 +1,108 @@
+{
+    "Registrations":[
+        {
+			"Component": {
+				"Type": "Maven",
+				"Maven": {
+					"ArtifactId": "glide",
+					"GroupId": "com.github.bumptech.glide",
+					"Version": "4.13.2"
+				}
+			}
+		},
+        {
+			"Component": {
+				"Type": "Maven",
+				"Maven": {
+					"ArtifactId": "gson",
+					"GroupId": "com.google.code.gson",
+					"Version": "2.8.9"
+				}
+			}
+		},
+        {
+			"Component": {
+				"Type": "Maven",
+				"Maven": {
+					"ArtifactId": "okio",
+					"GroupId": "com.squareup.okio",
+					"Version": "1.15.0"
+				}
+			}
+		},
+      	{
+			"Component": {
+				"Type": "Maven",
+				"Maven": {
+				"ArtifactId": "okhttp",
+				"GroupId": "com.squareup.okhttp3",
+				"Version": "3.10.0"
+				}
+			}
+		},
+		{
+			"Component": {
+				"Type": "Maven",
+				"Maven": {
+				"ArtifactId": "jdeferred-core",
+				"GroupId": "org.jdeferred",
+				"Version": "1.2.3"
+				}
+			}
+		},
+		{
+			"Component": {
+				"Type": "Maven",
+				"Maven": {
+				"ArtifactId": "moshi",
+				"GroupId": "com.squareup.moshi",
+				"Version": "1.6.0"
+				}
+			}
+		},
+        {
+			"Component": {
+				"Type": "Maven",
+				"Maven": {
+					"ArtifactId": "mockito-core",
+					"GroupId": "org.mockito",
+					"Version": "2.25.1"
+				}
+			},
+            "DevelopmentDependency": true
+		},
+        {
+			"Component": {
+				"Type": "Maven",
+				"Maven": {
+					"ArtifactId": "hamcrest-core",
+					"GroupId": "org.hamcrest",
+					"Version": "1.3"
+				}
+			},
+            "DevelopmentDependency": true
+		},
+        {
+			"Component": {
+				"Type": "Maven",
+				"Maven": {
+					"ArtifactId": "robolectric",
+					"GroupId": "org.robolectric",
+					"Version": "3.8"
+				}
+			},
+            "DevelopmentDependency": true
+		},
+        {
+			"Component": {
+				"Type": "Maven",
+				"Maven": {
+					"ArtifactId": "dexmaker-mockito",
+					"GroupId": "com.linkedin.dexmaker",
+					"Version": "2.28.1"
+				}
+			},
+            "DevelopmentDependency": true
+		}
+    ]
+}

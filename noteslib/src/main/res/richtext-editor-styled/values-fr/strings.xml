@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Insérer une image</string>
+  <string name="sn_bold">Gras</string>
+  <string name="sn_italic">Italique</string>
+  <string name="sn_underline">Souligné</string>
+  <string name="sn_strikethrough">Barré</string>
+  <string name="sn_bullets">Liste à puces</string>
+  <string name="sn_color_name_charcoal">Anthracite</string>
+  <string name="sn_color_name_blue">Bleu</string>
+  <string name="sn_color_name_green">Vert</string>
+  <string name="sn_color_name_yellow">Jaune</string>
+  <string name="sn_color_name_grey">Gris</string>
+  <string name="sn_color_name_purple">Violet</string>
+  <string name="sn_color_name_pink">Rose</string>
+  <string name="sn_unselected">Non sélectionné</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Ajouter un texte de remplacement</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Modifier le texte de remplacement</string>
+  <string name="sn_contextual_menu_image_delete">Supprimer l’image</string>
+  <string name="sn_image_attachment">Image en pièce jointe</string>
+</resources>

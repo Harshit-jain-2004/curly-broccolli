@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Lisää kuva</string>
+  <string name="sn_bold">Lihavoitu</string>
+  <string name="sn_italic">Kursivoitu</string>
+  <string name="sn_underline">Alleviivattu</string>
+  <string name="sn_strikethrough">Yliviivattu</string>
+  <string name="sn_bullets">Luettelomerkeillä varustettu luettelo</string>
+  <string name="sn_color_name_charcoal">Hiili</string>
+  <string name="sn_color_name_blue">Sininen</string>
+  <string name="sn_color_name_green">Vihreä</string>
+  <string name="sn_color_name_yellow">Keltainen</string>
+  <string name="sn_color_name_grey">Harmaa</string>
+  <string name="sn_color_name_purple">Purppura</string>
+  <string name="sn_color_name_pink">Vaaleanpunainen</string>
+  <string name="sn_unselected">Ei valittu</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Lisää vaihtoehtoinen teksti</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Muokkaa vaihtoehtoista tekstiä</string>
+  <string name="sn_contextual_menu_image_delete">Poista kuva</string>
+  <string name="sn_image_attachment">Kuvaliite</string>
+</resources>

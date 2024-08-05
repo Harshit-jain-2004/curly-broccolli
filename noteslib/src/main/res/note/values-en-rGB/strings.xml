@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Share Sticky Note</string>
+  <string name="sn_action_share">Share</string>
+  <string name="sn_action_delete_note">Delete</string>
+  <string name="sn_action_send_feedback">Send Feedback</string>
+  <string name="sn_delete_note_dialog">Delete sticky note?</string>
+  <string name="sn_delete_note_description">Do you want to permanently delete the sticky note?</string>
+  <string name="sn_image_dialog_delete_description">This image will be permanently deleted from all of your devices.</string>
+  <string name="sn_image_dialog_delete_action">Delete</string>
+  <string name="sn_image_dialog_alt_text_title">Alt Text</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Enter Image Description</string>
+  <string name="sn_image_dialog_save_alt_text">Save</string>
+  <string name="sn_dialog_cancel">Cancel</string>
+  <string name="sn_change_color_to_blue">Change note colour to blue</string>
+  <string name="sn_change_color_to_green">Change note colour to green</string>
+  <string name="sn_change_color_to_yellow">Change note colour to yellow</string>
+  <string name="sn_change_color_to_purple">Change note colour to purple</string>
+  <string name="sn_change_color_to_pink">Change note colour to pink</string>
+  <string name="sn_change_color_to_grey">Change note colour to grey</string>
+  <string name="sn_change_color_to_charcoal">Change note colour to charcoal</string>
+  <string name="sn_search_notes_with_color_blue">Search notes with blue colour</string>
+  <string name="sn_search_notes_with_color_green">Search notes with green colour</string>
+  <string name="sn_search_notes_with_color_yellow">Search notes with yellow colour</string>
+  <string name="sn_search_notes_with_color_purple">Search notes with purple colour</string>
+  <string name="sn_search_notes_with_color_pink">Search notes with pink colour</string>
+  <string name="sn_search_notes_with_color_grey">Search notes with grey colour</string>
+  <string name="sn_search_notes_with_color_charcoal">Search notes with charcoal colour</string>
+  <string name="sn_note_options_dismissed">Note options dismissed</string>
+  <string name="sn_note_options_displayed">Note options on display</string>
+  <string name="sn_adding_image_failed">Image could not be added</string>
+  <string name="sn_image_added">Image added</string>
+</resources>

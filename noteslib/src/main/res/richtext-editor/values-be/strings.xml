@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_notes_image">Выява</string>
+  <string name="sn_inline_media_notes_alttext">Тэкст замяшчэння</string>
+  <string name="sn_inline_media_notes_description">Апісанне</string>
+  <string name="sn_inline_media_notes_done">Гатова</string>
+  <string name="sn_inline_media_notes_cancel">Скасаваць</string>
+  <string name="sn_inline_media_notes_open">Адкрыць</string>
+  <string name="sn_notes_read_alt_text">Выява, тэкст замяшчэння: %1$s!</string>
+  <string name="sn_notes_link_label">Спасылка: %1$s</string>
+</resources>

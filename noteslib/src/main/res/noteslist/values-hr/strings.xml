@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">Tekstna bilješka</string>
+  <string name="sn_ink_note">Rukopisna bilješka</string>
+  <string name="sn_label_text">Tekst</string>
+  <string name="sn_label_image">Slika</string>
+  <string name="sn_single_image_note">%1$s bilješka sa 1 slikom</string>
+  <string name="sn_multi_image_note">%1$s bilješka sa sljedećim brojem slika: %2$d</string>
+  <string name="sn_label_date">uređeno %s</string>
+  <string name="sn_add_note">Dodajte novu bilješku</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">Sinkronizacija trenutno nije moguća.</string>
+</resources>

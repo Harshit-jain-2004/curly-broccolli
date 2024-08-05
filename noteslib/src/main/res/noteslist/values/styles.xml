@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="SNNoteItemStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/sn_note_margin_bottom</item>
+        <item name="android:padding">@dimen/sn_card_padding</item>
+    </style>
+
+    <style name="FeedRefreshListNoteItemStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/feed_list_vertical_padding</item>
+        <item name="android:paddingEnd">@dimen/feed_item_padding</item>
+        <item name="android:paddingTop">@dimen/feed_item_padding_top</item>
+        <item name="android:paddingStart">@dimen/feed_item_padding</item>
+    </style>
+
+    <style name="FeedRefreshGridNoteItemStyle" parent="FeedRefreshListNoteItemStyle">
+        <item name="android:paddingBottom">@dimen/feed_item_padding_bottom</item>
+        <item name="android:paddingTop">@dimen/feed_item_padding_top</item>
+        <item name="android:paddingStart">@dimen/feed_item_padding</item>
+        <item name="android:paddingEnd">@dimen/feed_item_padding</item>
+    </style>
+
+    <style name="SNHorizontalNoteItemStyle">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">@dimen/sn_horizontal_notes_list_item_width</item>
+        <item name="android:layout_marginBottom">@dimen/sn_horizontal_note_margin_bottom</item>
+        <item name="android:layout_marginStart">6dp</item>
+        <item name="android:layout_marginEnd">6dp</item>
+    </style>
+
+    <style name="SNHorizontalFeedNoteItemStyle">
+        <item name="android:layout_width">@dimen/horizontal_feed_list_item_width</item>
+        <item name="android:layout_height">@dimen/horizontal_feed_list_item_height</item>
+        <item name="android:layout_marginStart">@dimen/horizontal_feed_list_item_padding</item>
+        <item name="android:layout_marginEnd">@dimen/horizontal_feed_list_item_padding</item>
+        <item name="android:paddingTop">@dimen/sn_note_top_padding</item>
+    </style>
+
+    <style name="SNHorizontalImageNoteItemStyle">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">@dimen/sn_horizontal_notes_list_image_item_width</item>
+        <item name="android:layout_marginBottom">@dimen/sn_horizontal_note_margin_bottom</item>
+        <item name="android:layout_marginStart">6dp</item>
+        <item name="android:layout_marginEnd">6dp</item>
+    </style>
+
+    <style name="SNNoteContentLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginBottom">@dimen/sn_note_color_side_bottom_margin</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:paddingBottom">@dimen/sn_note_content_padding</item>
+        <item name="android:focusable">false</item>
+    </style>
+
+    <style name="SNNoteImageContentLayoutStyle" parent="@style/SNNoteContentLayoutStyle">
+        <item name="android:paddingBottom">@dimen/sn_note_padding</item>
+    </style>
+
+    <style name="FeedRefreshSNNoteContentLayoutStyle" parent="@style/SNNoteContentLayoutStyle">
+        <item name="android:paddingBottom">@dimen/feed_note_side_padding</item>
+    </style>
+
+    <style name="SNNoteSingleImageContentLayoutStyle" parent="@style/SNNoteContentLayoutStyle">
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+    </style>
+
+    <style name="SNHorizontalNoteContentLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginTop">@dimen/sn_horizontal_note_color_height</item>
+        <item name="android:layout_marginBottom">@dimen/sn_note_color_side_bottom_margin</item>
+        <item name="android:layout_marginLeft">@dimen/sn_note_color_side_bottom_margin</item>
+        <item name="android:layout_marginRight">@dimen/sn_note_color_side_bottom_margin</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:paddingStart">@dimen/sn_horizontal_note_padding</item>
+        <item name="android:paddingEnd">@dimen/sn_horizontal_note_padding</item>
+        <item name="android:paddingTop">@dimen/sn_horizontal_note_content_padding_top</item>
+        <item name="android:paddingBottom">@dimen/sn_horizontal_note_content_padding_bottom</item>
+        <item name="android:background">@drawable/sn_note_item_background</item>
+        <item name="android:focusable">false</item>
+    </style>
+
+    <style name="SNHorizontalImageNoteContentLayoutStyle" parent="SNNoteContentLayoutStyle">
+        <item name="elevation">0dp</item>
+        <item name="android:paddingTop">@dimen/sn_note_top_padding</item>
+        <item name="android:paddingBottom">@dimen/sn_note_padding</item>
+    </style>
+
+    <style name="SNHorizontalNoteLayoutStyle" parent="SNHorizontalImageNoteContentLayoutStyle">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingTop">0dp</item>
+    </style>
+
+    <style name="SNHorizontalNoteItemDateTime" parent="SNNoteItemDateTime">
+        <item name="android:paddingTop">1dp</item>
+        <item name="android:paddingBottom">@dimen/sn_horizontal_note_date_content_padding_bottom</item>
+    </style>
+
+    <style name="SNNoteItemDateTime">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:letterSpacing" tools:ignore="NewApi">0.05</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/sn_notelist_timestamp_text_size</item>
+        <item name="android:fontFamily">@string/sn_roboto_medium</item>
+        <item name="android:textColor">@color/sn_font_dark</item>
+    </style>
+
+    <style name="SNNoteItemTextBodyStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">5</item>
+        <item name="android:textSize">@dimen/sn_notelist_content_text_size</item>
+        <item name="android:fontFamily">@string/sn_roboto_regular</item>
+        <item name="android:textColor">@color/sn_horizontal_font_dark</item>
+    </style>
+
+    <style name="FeedRefreshNoteItemTextBodyStyle" parent="SNNoteItemTextBodyStyle">
+        <item name="android:maxLines">4</item>
+        <item name="android:textSize">@dimen/feed_sn_notelist_content_text_size</item>
+        <item name="lineHeight">@dimen/feed_sn_notelist_content_line_height</item>
+        <item name="android:fontFamily">@string/sn_roboto</item>
+        <item name="android:textColor">@color/sn_horizontal_font_dark</item>
+    </style>
+
+    <style name="FeedRefreshNoteItemTitleTextStyle" parent="NoteReferenceParentStyle">
+        <item name="android:fontFamily">@string/sn_roboto_regular</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/feed_sn_notelist_content_text_size</item>
+        <item name="lineHeight">@dimen/feed_sn_notelist_content_line_height</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="SNHorizontalNoteItemTextBodyStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">5</item>
+        <item name="android:textSize">@dimen/sn_horizontal_notelist_content_text_size</item>
+        <item name="android:fontFamily">@string/sn_roboto_regular</item>
+        <item name="android:textColor">@color/sn_horizontal_font_dark</item>
+        <item name="android:paddingTop">1dp</item>
+    </style>
+
+    <style name="SNNoteItemImageStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:layout_marginEnd">0dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:adjustViewBounds">true</item>
+        <!-- In the list description is created for each note as a whole, individual images do not need a label-->
+        <item name="android:importantForAccessibility">no</item>
+    </style>
+
+    <style name="FeedSNNoteListItemImageStyle" parent="SNNoteItemImageStyle">
+        <item name="android:layout_height">@dimen/feed_list_sn_image_preview_height</item>
+    </style>
+
+    <style name="FeedSNNoteGridItemImageStyle" parent="FeedSNNoteListItemImageStyle">
+        <item name="android:layout_height">@dimen/feed_grid_sn_image_preview_height</item>
+    </style>
+
+    <style name="SNNoteItemSingleImageStyle">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxHeight">275dp</item>
+        <!-- In the list description is created for each note as a whole, individual images do not need a label-->
+        <item name="android:importantForAccessibility">no</item>
+    </style>
+
+    <style name="SNHorizontalNoteItemImageStyle">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:layout_marginEnd">0dp</item>
+        <!-- In the list description is created for each note as a whole, individual images do not need a label-->
+        <item name="android:importantForAccessibility">no</item>
+    </style>
+
+    <style name="SNHorizontalNoteItemSingleImageStyle">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:layout_marginEnd">0dp</item>
+        <!-- In the list description is created for each note as a whole, individual images do not need a label-->
+        <item name="android:importantForAccessibility">no</item>
+    </style>
+
+    <style name="NoteReferenceParentStyle">
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">@string/sn_roboto_regular</item>
+        <item name="android:textColor">@color/sn_horizontal_font_dark</item>
+    </style>
+
+    <style name="NoteReferenceItemTitleStyle" parent="NoteReferenceParentStyle">
+        <item name="android:fontFamily">@string/sn_roboto_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="lineHeight">24sp</item>
+    </style>
+
+    <style name="FeedUIRefreshItemDateTime" parent="SNNoteItemDateTime">
+        <item name="android:textSize">@dimen/note_reference_date_time_size</item>
+        <item name="android:textColor">@color/note_reference_timestamp_color_light</item>
+        <item name="lineHeight">@dimen/note_reference_date_time_line_height</item>
+        <item name="android:fontFamily">"@string/sn_roboto_regular"</item>
+    </style>
+
+    <style name="NoteReferencePreviewText" parent = "NoteReferenceParentStyle">
+        <item name="fontStyle">normal</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textSize">16sp</item>
+        <item name="lineHeight">18sp</item>
+    </style>
+
+    <style name="SNNotesListPlaceholderImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <style name="SNNotesListPlaceholderText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/sn_notelist_content_text_size</item>
+        <item name="android:textColor">@color/sn_font_dark</item>
+    </style>
+
+    <style name="SNNotesListPlaceholderTitle" parent="SNNotesListPlaceholderText">
+        <item name="android:fontFamily">@string/sn_roboto_medium</item>
+    </style>
+
+    <style name="SNNotesListPlaceholderSubtitle" parent="SNNotesListPlaceholderText">
+        <item name="android:fontFamily">@string/sn_roboto_regular</item>
+    </style>
+
+    <style name="SNNotesListSyncStatusPlaceholderIcon">
+        <item name="android:tint">@color/sn_sync_error_ui_title</item>
+    </style>
+
+    <style name="SNNotesListSyncStatusPlaceholderTitle">
+        <item name="android:fontFamily">@string/sn_roboto_medium</item>
+        <item name="android:textColor">@color/sn_sync_error_ui_title</item>
+        <item name="android:textSize">@dimen/sn_sync_error_title_text_size</item>
+    </style>
+
+    <style name="SNNotesListSyncStatusPlaceholderDescription">
+        <item name="android:fontFamily">@string/sn_roboto_regular</item>
+        <item name="android:textColor">@color/sn_sync_error_ui_description</item>
+        <item name="android:textSize">@dimen/sn_sync_error_title_description_size</item>
+    </style>
+
+    <style name="SNNotesListSyncStatusActionButton" parent="@style/Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:fontFamily">@string/sn_roboto_medium</item>
+        <item name="android:textColor">@color/sn_sync_error_ui_action_button</item>
+        <item name="android:textSize">@dimen/sn_sync_error_action_button_title_size</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+    </style>
+
+    <!-- Samsung Notes -->
+
+    <style name="SamsungNoteParentStyle">
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">@string/sn_roboto_regular</item>
+    </style>
+
+    <style name="samsungNoteItemTitleStyle" parent="SamsungNoteParentStyle">
+        <item name="android:fontFamily">@string/sn_roboto_medium</item>
+        <item name="fontWeight">500</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textSize">20sp</item>
+        <item name="lineHeight">24sp</item>
+    </style>
+
+    <style name="samsungNoteItemStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/sn_note_margin_bottom</item>
+        <item name="android:padding">@dimen/sn_card_padding</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="SamsungPreviewBodyStyle" parent="SamsungNoteParentStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontWeight">400</item>
+        <item name="lineHeight">18sp</item>
+        <item name="android:textColor">@color/sn_horizontal_font_dark</item>
+    </style>
+
+    <style name="FeedRefreshSamsungNoteContentLayoutStyle">
+    </style>
+
+    <style name="samsungNoteCardLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxHeight">154dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="samsungNotePreviewImageCardLayoutStyle" parent="@style/samsungNoteCardLayoutStyle">
+    </style>
+
+    <style name="samsungNoteItemSingleImageStyle">
+        <item name="android:maxHeight">100dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:importantForAccessibility">no</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="CustomBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+    </style>
+
+    <style name="CustomBottomSheetDialogThemeDark" parent="CustomBottomSheetDialogTheme"/>
+    <style name="CustomBottomSheetDialogThemeLandscapeDark" parent="CustomBottomSheetDialogThemeLandscape" />
+
+    <style name="CustomBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="CustomBottomSheetDialogThemeLandscape" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyleLandscape</item>
+    </style>
+
+    <style name="CustomBottomSheetStyleLandscape" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="behavior_peekHeight">160dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">sample-app</string>
+
+    <!-- menu -->
+    <string name="search_menu_option">search</string>
+    <string name="feed_search_menu_option">feed search</string>
+    <string name="note_menu_option">note options</string>
+    <string name="ink_stroke">Ink</string>
+    <string name="undo">Undo</string>
+    <string name="redo">Redo</string>
+    <string name="undo_ink_stroke">Undo ink stroke</string>
+    <string name="settings_menu_option">Settings</string>
+    <string name ="delete_all_notes">Delete All</string>
+    <string name="feed_option">Notes Feed</string>
+    <string name="horizontal_feed_option">Horizontal Notes Feed</string>
+    <string name="horizontal_list_option">Horizontal Notes List</string>
+    <string name="fixed_list_option">Fixed Notes List</string>
+    <string name="swap_theme_option">Swap Theme</string>
+    <string name="pick_locale_option">Pick locale</string>
+    <string name="add_note_reference_menu_option">Add Note Reference</string>
+    <string name="add_sample_note_references_menu_option">Add Sample Note References</string>
+    <string name="clear_note_references_menu_option">Clear Note References</string>
+    <string name="grid_view_menu_option">Grid View</string>
+    <string name="list_view_menu_option">List View</string>
+    <string name="filter_sort_panel_menu_option">Comprehensive Filter</string>
+
+    <!-- authentication -->
+    <string name="auth_failed_no_internet_title">No internet</string>
+    <string name="auth_failed_no_internet_message">It seems you don\'t have an Internet connection now</string>
+    <string name="auth_failed_other_title">Unknown login error</string>
+    <string name="auth_failed_other_message">We had an unknown Login error</string>
+    <string name="auth_canceled_title">Auth canceled</string>
+    <string name="auth_canceled_message">Authentication was canceled</string>
+    <string name="auth_no_token_title">No token</string>
+    <string name="auth_no_token_message">No token was gotten</string>
+    <string name="login">login</string>
+    <string name="logout">logout</string>
+
+    <!-- settings -->
+    <string name="transitions_title">Transitions</string>
+    <string name="transitions_summary">Enable/disable animated transitions</string>
+    <string name="show_add_note_button_title">Show Add New Note Button</string>
+    <string name="show_add_note_button_summary">Enable/disable new note button in the list</string>
+    <string name="show_add_ink_note_button_title">Show Add New Ink Note Button</string>
+    <string name="show_add_ink_note_button_summary">Enable/disable new ink note button in the list. The primary add new note button and ink experimental feature must be enabled.</string>
+    <string name="show_feedback_title">Show Feedback Button</string>
+    <string name="show_feedback_summary">Enable/disable feedback button in the note options</string>
+    <string name="show_share_title">Show Share Button</string>
+    <string name="show_share_summary">Enable/disable share button in the note options</string>
+    <string name="show_notes_list_error_ui_title">Show Error UI In List</string>
+    <string name="show_notes_list_error_ui_summary">Enable/disable showing error UI in the list</string>
+    <string name="realtime_title">Real-time</string>
+    <string name="realtime_summary">Enable/disable real-time sync</string>
+    <string name="gson_parser_title">GSON Parser</string>
+    <string name="gson_parser_summary">Enable/disable GSON parser</string>
+    <string name="ink_title">Ink</string>
+    <string name="ink_summary">Enable/disable editable ink notes</string>
+    <string name="combined_list_for_multiacount_title">Combined Multi Account notes list</string>
+    <string name="combined_list_for_multiacount_summary">Enable/disable showing combined notes list for all signed in users</string>
+    <string name="login_title">Login</string>
+    <string name="login_summary">Login with AAD</string>
+    <string name="logout_all_users_title">Logout all users</string>
+    <string name="logout_all_users_summary">Logout all users</string>
+    <string name="features">Experimental Features</string>
+    <string name="authentication_title">Authentication</string>
+    <string name="ui_ux">UI/UX</string>
+    <string name="sync_error_session_ids_title">Sync Error Session Ids</string>
+    <string name="action_mode_title">Use Action Mode</string>
+    <string name="action_mode_summary">Enable/disable the action mode on long press</string>
+
+    <!-- Keys -->
+    <string name="sync_error_notes_session_ids">SyncErrorNotesSessionIds</string>
+    
+    <!-- placeholder for Notes List -->
+    <string name="empty_note_list_title">Create Note</string>
+    <string name="empty_note_list_titledescription">Create Note to store your thoughts</string>
+    <string name="empty_note_list_subtitle">Click on plus button to create note</string>
+    <string name="empty_note_list_subtitle_description">Plus button can be used to create notes</string>
+    <string name="empty_note_list_image_description">Create Note</string>
+
+    <!-- placeholder for Search Results -->
+    <string name="empty_search_title">No results found</string>
+    <string name="empty_search_title_description">No search results have been found</string>
+    <string name="empty_search_subtitle">Please change query or add notes</string>
+    <string name="empty_search_subtitle_description">Query can be changed or more notes can be added</string>
+    <string name="empty_search_image_description">No search results found</string>
+    <string name="search_action_next_description">Next</string>
+    <string name="search_action_previous_description">Previous</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">很抱歉! 便笺当前需要 Exchange Online 邮箱才能进行同步和存储。请联系 IT 管理员让其启用邮箱，或使用以下选项了解详细信息。</string>
+  <string name="sn_sync_failure_with_contact_support_message">无法与你的帐户同步便笺。请联系支持人员，让其帮助解决此问题。</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">无法与你的帐户同步便笺，但你可能能够尝试解决此问题。</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_notes_image">ຮູບພາບ</string>
+  <string name="sn_inline_media_notes_alttext">ຂໍ້ຄວາມສຳຮອງ</string>
+  <string name="sn_inline_media_notes_description">ຄຳອະທິບາຍ</string>
+  <string name="sn_inline_media_notes_done">ແລ້ວໆ</string>
+  <string name="sn_inline_media_notes_cancel">ຍົກເລີກ</string>
+  <string name="sn_inline_media_notes_open">ເປີດ</string>
+  <string name="sn_notes_read_alt_text">ຮູບພາບ, ຂໍ້ຄວາມສຳຮອງ: %1$s!</string>
+  <string name="sn_notes_link_label">ລິ້ງ: %1$s</string>
+</resources>

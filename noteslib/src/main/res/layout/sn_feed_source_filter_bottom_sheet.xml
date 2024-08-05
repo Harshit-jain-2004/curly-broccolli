@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.microsoft.notes.ui.theme.ThemedLinearLayout
+    android:tag="@string/option_toolbar_background_tag"
+    style="@style/SNBottomSheet"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/bottom_sheet_behavior">
+
+    <com.microsoft.notes.ui.feed.sourcefilter.FeedSourceFilterOptionCheckbox
+        android:id="@+id/allFilterOption"
+        android:tag="@string/option_bottom_sheet_icon_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.microsoft.notes.ui.theme.ThemedDividerView style="@style/FeedSourceFilterDivider"/>
+
+    <com.microsoft.notes.ui.feed.sourcefilter.FeedSourceFilterOptionCheckbox
+        android:id="@+id/pagesFilterOption"
+        android:tag="@string/option_bottom_sheet_icon_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.microsoft.notes.ui.theme.ThemedDividerView style="@style/FeedSourceFilterDivider"/>
+
+    <com.microsoft.notes.ui.feed.sourcefilter.FeedSourceFilterOptionCheckbox
+        android:id="@+id/stickyNotesFilterOption"
+        android:tag="@string/option_bottom_sheet_icon_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.microsoft.notes.ui.theme.ThemedDividerView
+        android:id="@+id/dividerSamsungNotesFilterOption"
+        style="@style/FeedSourceFilterDivider"/>
+
+    <com.microsoft.notes.ui.feed.sourcefilter.FeedSourceFilterOptionCheckbox
+        android:id="@+id/samsungNotesFilterOption"
+        android:tag="@string/option_bottom_sheet_icon_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</com.microsoft.notes.ui.theme.ThemedLinearLayout>

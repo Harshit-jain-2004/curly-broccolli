@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.microsoft.notes.ui.theme.ThemedLinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background ="@color/sn_content_background"
+    android:id = "@+id/reminderPickerLayout"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+        <LinearLayout
+            android:id="@+id/reminderSuggestionChipLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:showDividers="middle"
+            android:dividerPadding="8dp">
+            <!-- Chips will be added programmatically here -->
+        </LinearLayout>
+    </HorizontalScrollView>
+    <com.microsoft.notes.ui.note.options.ThemedBottomSheetAppCompatButton
+        android:id="@+id/setTimeReminder"
+        style="@style/SNReminderOptionsRow"
+        android:textColor="@color/reminder_bottom_sheet_text_primary_color"
+        android:drawableTint="@color/reminder_bottom_sheet_text_primary_color"
+        android:drawableStart="@drawable/ic_clock"
+        android:text="@string/setTimeReminder" />
+
+</com.microsoft.notes.ui.theme.ThemedLinearLayout>

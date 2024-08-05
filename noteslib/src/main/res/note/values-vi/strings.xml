@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Chia sẻ Ghi chú dính</string>
+  <string name="sn_action_share">Chia sẻ</string>
+  <string name="sn_action_delete_note">Xóa</string>
+  <string name="sn_action_send_feedback">Gửi phản hồi</string>
+  <string name="sn_delete_note_dialog">Bạn muốn xóa ghi chú?</string>
+  <string name="sn_delete_note_description">Ghi chú sẽ bị xóa vĩnh viễn khỏi toàn bộ thiết bị của bạn.</string>
+  <string name="sn_image_dialog_delete_description">Hình ảnh này sẽ bị xóa vĩnh viễn khỏi toàn bộ thiết bị của bạn.</string>
+  <string name="sn_image_dialog_delete_action">Xóa</string>
+  <string name="sn_image_dialog_alt_text_title">Văn bản thay thế</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Nhập mô tả hình ảnh</string>
+  <string name="sn_image_dialog_save_alt_text">Lưu</string>
+  <string name="sn_dialog_cancel">Hủy bỏ</string>
+  <string name="sn_change_color_to_blue">Thay đổi màu ghi chú thành màu lam</string>
+  <string name="sn_change_color_to_green">Thay đổi màu ghi chú thành màu lục</string>
+  <string name="sn_change_color_to_yellow">Thay đổi màu ghi chú thành màu vàng</string>
+  <string name="sn_change_color_to_purple">Thay đổi màu ghi chú thành màu tía</string>
+  <string name="sn_change_color_to_pink">Thay đổi màu ghi chú thành màu hồng</string>
+  <string name="sn_change_color_to_grey">Thay đổi màu ghi chú thành màu xám</string>
+  <string name="sn_change_color_to_charcoal">Thay đổi màu ghi chú thành màu than chì</string>
+  <string name="sn_search_notes_with_color_blue">Tìm kiếm trong ghi chú có màu lam</string>
+  <string name="sn_search_notes_with_color_green">Tìm kiếm trong ghi chú có màu lục</string>
+  <string name="sn_search_notes_with_color_yellow">Tìm kiếm trong ghi chú có màu vàng</string>
+  <string name="sn_search_notes_with_color_purple">Tìm kiếm trong ghi chú có màu tía</string>
+  <string name="sn_search_notes_with_color_pink">Tìm kiếm trong ghi chú có màu hồng</string>
+  <string name="sn_search_notes_with_color_grey">Tìm kiếm trong ghi chú có màu xám</string>
+  <string name="sn_search_notes_with_color_charcoal">Tìm kiếm trong ghi chú có màu than chì</string>
+  <string name="sn_note_options_dismissed">Đã bỏ tùy chọn ghi chú</string>
+  <string name="sn_note_options_displayed">Tùy chọn ghi chú đang hiển thị</string>
+  <string name="sn_adding_image_failed">Không thể thêm hình ảnh</string>
+  <string name="sn_image_added">Đã thêm hình ảnh</string>
+</resources>

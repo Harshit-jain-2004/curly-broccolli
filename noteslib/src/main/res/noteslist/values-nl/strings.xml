@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">Notitie met tekst</string>
+  <string name="sn_ink_note">Opmerking in inkt</string>
+  <string name="sn_label_text">Tekst</string>
+  <string name="sn_label_image">Afbeelding</string>
+  <string name="sn_single_image_note">%1$snotitie met 1 afbeelding</string>
+  <string name="sn_multi_image_note">%1$snotitie met %2$d afbeeldingen</string>
+  <string name="sn_label_date">bewerkt %s</string>
+  <string name="sn_add_note">Nieuwe notitie toevoegen</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">Kan nu niet synchroniseren.</string>
+</resources>

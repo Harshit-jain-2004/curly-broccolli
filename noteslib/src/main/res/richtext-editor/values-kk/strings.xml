@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_notes_image">Кескін</string>
+  <string name="sn_inline_media_notes_alttext">Балама мәтін</string>
+  <string name="sn_inline_media_notes_description">Сипаттама</string>
+  <string name="sn_inline_media_notes_done">Дайын</string>
+  <string name="sn_inline_media_notes_cancel">Бас тарту</string>
+  <string name="sn_inline_media_notes_open">Ашу</string>
+  <string name="sn_notes_read_alt_text">Кескін, балама мәтін: %1$s!</string>
+  <string name="sn_notes_link_label">Сілтеме: %1$s</string>
+</resources>

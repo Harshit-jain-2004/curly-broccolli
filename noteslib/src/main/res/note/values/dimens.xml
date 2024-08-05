@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sn_bottom_sheet_row_height">48dp</dimen>
+    <dimen name="sn_bottom_sheet_row_text">16sp</dimen>
+    <dimen name="sn_alt_text_dialog_edit_text_margin">24dp</dimen>
+    <dimen name="feed_action_mode_item_padding">12dp</dimen>
+    <dimen name="feed_pinned_note_top_padding">12dp</dimen>
+    <dimen name="feed_pinned_note_bottom_padding">8dp</dimen>
+    <dimen name="feed_card_preview_padding">4dp</dimen>
+    <dimen name="sticky_note_body_top_margin">4dp</dimen>
+    <dimen name="sn_context_icon_size">12dp</dimen>
+    <dimen name="sn_feed_card_top_margin">12dp</dimen>
+
+    <dimen name="floating_context_menu_padding">12dp</dimen>
+    <dimen name="floating_context_menu_elevation">8dp</dimen>
+    <dimen name="floating_context_menu_item_drawable_padding">4dp</dimen>
+    <dimen name="floating_context_menu_text_size">16sp</dimen>
+    <dimen name="floating_context_menu_item_padding_start">16dp</dimen>
+
+    <!-- filter feed dimensions -->
+    <dimen name ="filter_icon_size">22dp</dimen>
+    <dimen name="filter_vertical_padding">12dp</dimen>
+    <dimen name="filter_horizontal_padding">4dp</dimen>
+    <dimen name="filter_text_size">14sp</dimen>
+    <dimen name="min_touch_target_size">48dp</dimen>
+    <dimen name="filter_apply_button_corner_radius">4dp</dimen>
+
+    <!-- feed layout dimensions -->
+    <dimen name="feed_child_margin">16dp</dimen>
+    <dimen name="feed_item_padding">6dp</dimen>
+    <dimen name="feed_item_padding_top">2dp</dimen>
+    <dimen name="feed_item_padding_bottom">10dp</dimen>
+    <dimen name="feed_item_side_margin">6dp</dimen>
+    <dimen name="feed_side_margin">12dp</dimen>
+    <dimen name="feed_refresh_side_margin">2dp</dimen>
+    <dimen name="feed_refresh_bottom_margin">2dp</dimen>
+    <dimen name="feed_refresh_top_margin">10dp</dimen>
+    <dimen name="feed_list_vertical_padding">6dp</dimen>
+
+
+    <!-- clipper layout dimensions -->
+    <dimen name="clipper_sticky_note_height">180dp</dimen>
+    <dimen name="clipper_sticky_note_max_height">400dp</dimen>
+
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Resim ekle</string>
+  <string name="sn_bold">Kalın</string>
+  <string name="sn_italic">İtalik</string>
+  <string name="sn_underline">Altı Çizili</string>
+  <string name="sn_strikethrough">Üstü Çizili</string>
+  <string name="sn_bullets">Madde İşaretli Liste</string>
+  <string name="sn_color_name_charcoal">Kömür rengi</string>
+  <string name="sn_color_name_blue">Mavi</string>
+  <string name="sn_color_name_green">Yeşil</string>
+  <string name="sn_color_name_yellow">Sarı</string>
+  <string name="sn_color_name_grey">Gri</string>
+  <string name="sn_color_name_purple">Mor</string>
+  <string name="sn_color_name_pink">Pembe</string>
+  <string name="sn_unselected">Seçilmedi</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Alternatif Metin Ekle</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Alternatif Metni Düzenle</string>
+  <string name="sn_contextual_menu_image_delete">Resmi Sil</string>
+  <string name="sn_image_attachment">Resim eki</string>
+</resources>

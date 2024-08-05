@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.microsoft.notes.ui.shared.CollapsibleMessageBarView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/collapsibleMessageBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/sn_sync_error_ui_background"
+    android:focusable="false"
+    android:importantForAccessibility="no"
+    android:paddingStart="14dp"
+    android:paddingEnd="14dp"
+    android:visibility="gone">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/collapsibleMessageBarErrorIcon"
+        style="@style/SNNotesListSyncStatusPlaceholderIcon"
+        android:layout_width="20dp"
+        android:layout_height="48dp"
+        android:focusable="false"
+        android:importantForAccessibility="no"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sn_sync_error_icon" />
+
+    <TextView
+        android:id="@+id/collapsibleMessageBarErrorTitle"
+        style="@style/SNNotesListSyncStatusPlaceholderTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        app:layout_constraintBottom_toBottomOf="@id/collapsibleMessageBarErrorIcon"
+        app:layout_constraintEnd_toStartOf="@id/collapsibleMessageBarErrorChevron"
+        app:layout_constraintStart_toEndOf="@id/collapsibleMessageBarErrorIcon"
+        app:layout_constraintTop_toTopOf="@id/collapsibleMessageBarErrorIcon" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/collapsibleMessageBarErrorChevron"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/sn_sync_error_ui_background"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="@id/collapsibleMessageBarErrorIcon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/collapsibleMessageBarErrorTitle"
+        app:layout_constraintTop_toTopOf="@id/collapsibleMessageBarErrorIcon"
+        app:srcCompat="@drawable/sn_message_bar_chevron_collapsed" />
+
+    <TextView
+        android:id="@+id/collapsibleMessageBarErrorDescription"
+        style="@style/SNNotesListSyncStatusPlaceholderDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintBottom_toTopOf="@id/errorActionButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/collapsibleMessageBarErrorIcon" />
+
+    <Button
+        android:id="@+id/errorActionButton"
+        style="@style/SNNotesListSyncStatusActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:padding="10dp"
+        android:textAllCaps="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/collapsibleMessageBarErrorDescription" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/collapsibleMessageBarErrorBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="collapsibleMessageBarErrorDescription,errorActionButton" />
+
+</com.microsoft.notes.ui.shared.CollapsibleMessageBarView>

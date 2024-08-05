@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:topLeftRadius="@dimen/sn_note_card_view_radius" android:topRightRadius="@dimen/sn_note_card_view_radius" />
+    <solid android:color="#0D000000" />
+</shape>

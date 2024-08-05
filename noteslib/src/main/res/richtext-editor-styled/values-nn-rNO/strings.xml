@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Set inn bilete</string>
+  <string name="sn_bold">Feit</string>
+  <string name="sn_italic">Kursiv</string>
+  <string name="sn_underline">Understreking</string>
+  <string name="sn_strikethrough">Gjennomstreking</string>
+  <string name="sn_bullets">Punktliste</string>
+  <string name="sn_color_name_charcoal">Trekol</string>
+  <string name="sn_color_name_blue">Blå</string>
+  <string name="sn_color_name_green">Grøn</string>
+  <string name="sn_color_name_yellow">Gul</string>
+  <string name="sn_color_name_grey">Grå</string>
+  <string name="sn_color_name_purple">Lilla</string>
+  <string name="sn_color_name_pink">Rosa</string>
+  <string name="sn_unselected">Ikkje merkt</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Legg til alternativ tekst</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Rediger alternativ tekst</string>
+  <string name="sn_contextual_menu_image_delete">Slett bilete</string>
+  <string name="sn_image_attachment">Biletvedlegg</string>
+</resources>

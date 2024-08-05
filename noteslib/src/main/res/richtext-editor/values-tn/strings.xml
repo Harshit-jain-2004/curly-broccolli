@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_notes_image">Setshwantsho</string>
+  <string name="sn_inline_media_notes_alttext">Mokwalo o Mongwe</string>
+  <string name="sn_inline_media_notes_description">Tlhaloso</string>
+  <string name="sn_inline_media_notes_done">Weditse</string>
+  <string name="sn_inline_media_notes_cancel">Khansela</string>
+  <string name="sn_inline_media_notes_open">Bula</string>
+  <string name="sn_notes_read_alt_text">Setshwantsho, Mokwalo o mongwe: %1$s!</string>
+  <string name="sn_notes_link_label">Kgokaganyo: %1$s</string>
+</resources>

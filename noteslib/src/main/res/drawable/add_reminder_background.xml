@@ -1,0 +1,17 @@
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="299dp"
+    android:height="48dp"
+    android:viewportWidth="299"
+    android:viewportHeight="48"
+    >
+    <group>
+        <clip-path
+            android:pathData="M8 0H291C295.418 0 299 3.58172 299 8V40C299 44.4183 295.418 48 291 48H8C3.58172 48 0 44.4183 0 40V8C0 3.58172 3.58172 0 8 0Z"
+            />
+        <path
+            android:pathData="M0 0V48H299V0"
+            android:fillColor="@color/reminder_bottom_sheet_button_color"
+            />
+    </group>
+</vector>

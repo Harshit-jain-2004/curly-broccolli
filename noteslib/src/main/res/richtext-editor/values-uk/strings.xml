@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_notes_image">Зображення</string>
+  <string name="sn_inline_media_notes_alttext">Текст заміщення</string>
+  <string name="sn_inline_media_notes_description">Опис</string>
+  <string name="sn_inline_media_notes_done">Готово</string>
+  <string name="sn_inline_media_notes_cancel">Скасувати</string>
+  <string name="sn_inline_media_notes_open">Відкрити</string>
+  <string name="sn_notes_read_alt_text">Зображення, текст заміщення: %1$s!</string>
+  <string name="sn_notes_link_label">Посилання: \"%1$s\"</string>
+</resources>

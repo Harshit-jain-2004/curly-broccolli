@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">ຂໍອະໄພ! ບັນທຶກກັນລືມຕອນນີ້ຕ້ອງໃຊ້ກ່ອງອີເມວ Exchange Online ເພື່ອຊິ້ງຂໍ້ມູນ ແລະ ບ່ອນຈັດເກັບຂໍ້ມູນສຳລັບວຽກ. ກະລຸນາຕິດຕໍ່ຜູ້ເບິ່ງແຍງລະບົບໄອທີຂອງທ່ານກ່ຽວກັບການເປີດນຳໃຊ້ກ່ອງອີເມວ ຫຼື ໃຊ້ຕົວເລືອກດ້ານລຸ່ມເພື່ອສຶກສາເພີ່ມເຕີມ.</string>
+  <string name="sn_sync_failure_with_contact_support_message">ພວກເຮົາບໍ່ສາມາດຊິ້ງຊໍ້ມູນບັນທຶກກັນລືມກັບບັນຊີທ່ານໄດ້. ກະລຸນາຕິດຕໍ່ທີມງານສຳລັບຄວາມຊ່ວຍເຫຼືອໃນການແກ້ໄຂບັນຫານີ້.</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">ພວກເຮົາບໍ່ສາມາດຊິ້ງຊໍ້ມູນບັນທຶກກັນລືມກັບບັນຊີທ່ານໄດ້, ແຕ່ທ່ານສາມາດລອງເຮັດ ແລະ ແກ້ໄຂບັນຫານີ້ໄດ້.</string>
+</resources>

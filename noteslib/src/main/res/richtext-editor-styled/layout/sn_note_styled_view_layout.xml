@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.microsoft.notes.ui.theme.ThemedConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:clipChildren="false"
+    android:tag="@string/primary_background_tag">
+
+    <FrameLayout
+        android:id="@+id/editNoteFrameLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/optionsToolBarContainer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/noteContainer"
+            style="@style/SNNoteContainerStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/editNoteScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_above ="@id/timestamp"
+                android:fillViewport="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <include
+                        android:id="@+id/noteContext"
+                        layout="@layout/sn_note_item_layout_context"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="4dp"/>
+
+                    <include
+                        android:id="@+id/audio_controls"
+                        layout="@layout/sn_note_layout_audio_controls"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="24dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="@dimen/reminder_label_bottom_margin"/>
+
+                    <com.microsoft.notes.richtext.editor.styled.gallery.NestedRecyclerView
+                        android:id="@+id/noteGalleryRecyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:paddingEnd="@dimen/sn_styled_view_image_gallery_horizontal_padding"
+                        android:paddingStart="@dimen/sn_styled_view_image_gallery_horizontal_padding"
+                        android:paddingTop="@dimen/sn_styled_view_image_gallery_vertical_padding" />
+
+                    <com.microsoft.notes.richtext.editor.NotesEditText
+                        android:id="@+id/noteBodyEditText"
+                        style="@style/SNNoteBodyEditTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:imeOptions="flagNoFullscreen"
+                        android:maxLines="100000"
+                        android:paddingEnd="@dimen/sn_styled_view_text_horizontal_padding"
+                        android:paddingStart="@dimen/sn_styled_view_text_horizontal_padding"
+                        android:paddingTop="@dimen/sn_styled_view_text_vertical_padding" />
+                    <include
+                        android:id="@+id/reminderLabel"
+                        layout="@layout/sn_note_item_layout_reminder_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="@dimen/reminder_label_bottom_margin"/>
+
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/timestamp"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true">
+
+                <TextView
+                    android:id="@+id/emailInfo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:ellipsize="end"
+                    android:fontFamily="sans-serif"
+                    android:gravity="start"
+                    android:maxLines="1"
+                    android:textColor="@color/sn_font_dark"
+                    android:textSize="@dimen/sn_timestamp_text"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/timestampText"
+                    app:layout_constraintEnd_toStartOf="@id/cameraButtonTimestamp"
+                    app:layout_constraintVertical_chainStyle="packed"
+                    tools:text="Email info" />
+
+                <TextView
+                    android:id="@+id/timestampText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:fontFamily="sans-serif"
+                    android:gravity="start"
+                    android:textColor="@color/sn_font_dark"
+                    android:textSize="@dimen/sn_timestamp_text"
+                    app:layout_constraintBottom_toTopOf="@+id/emailInfo"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/cameraButtonTimestamp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_chainStyle="packed"
+                    tools:text="This is the time stamp" />
+
+                <ImageButton
+                    android:id="@+id/cameraButtonTimestamp"
+                    style="@style/SNTimestampButtonStyle"
+                    android:background="@drawable/sn_timestamp_button_bg_light"
+                    android:contentDescription="@string/sn_add_photo_to_note"
+                    android:visibility="invisible"
+                    app:layout_constraintEnd_toStartOf="@id/microphoneButtonTimestamp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/timestampDivider"
+                    app:srcCompat="@drawable/sn_ic_camera_24dp" />
+
+                <ImageButton
+                    android:id="@+id/microphoneButtonTimestamp"
+                    style="@style/SNTimestampButtonStyle"
+                    android:background="@drawable/sn_timestamp_button_bg_light"
+                    android:contentDescription="@string/sn_transcribe"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/timestampDivider"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:srcCompat="@drawable/sn_ic_microphone_24dp"/>
+
+                <View
+                    android:id="@+id/timestampDivider"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/sn_timestamp_divider_color_light"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/optionsToolBarContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:outlineProvider="bounds"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <include
+            android:id="@+id/optionToolbar"
+            layout="@layout/sn_options_layout"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:visibility="gone"/>
+        <include
+            android:id="@+id/outsideSNCanvasOptionToolbar"
+            layout="@layout/sn_outside_app_options_layout"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</com.microsoft.notes.ui.theme.ThemedConstraintLayout>

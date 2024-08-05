@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">ಇಮೇಜ್ ಸೇರ್ಪಡಿಸಿ</string>
+  <string name="sn_bold">ದಪ್ಪ</string>
+  <string name="sn_italic">ಓರೆಯಾದ</string>
+  <string name="sn_underline">ಅಂಡರ್‌ಲೈನ್</string>
+  <string name="sn_strikethrough">ಹೊಡೆದುಹಾಕು</string>
+  <string name="sn_bullets">ಬುಲೆಟ್ ಮಾಡಲಾದ ಪಟ್ಟಿ</string>
+  <string name="sn_color_name_charcoal">ಚಾರ್‌ಕೋಲ್</string>
+  <string name="sn_color_name_blue">ನೀಲಿ</string>
+  <string name="sn_color_name_green">ಹಸಿರು</string>
+  <string name="sn_color_name_yellow">ಹಳದಿ</string>
+  <string name="sn_color_name_grey">ಬೂದು</string>
+  <string name="sn_color_name_purple">ನೇರಳೆ ಬಣ್ಣ</string>
+  <string name="sn_color_name_pink">ಗುಲಾಬಿ</string>
+  <string name="sn_unselected">ಆಯ್ಕೆಮಾಡದಿರುವುದು</string>
+  <string name="sn_contextual_menu_image_alt_text_add">ಪರ್ಯಾಯ ಪಠ್ಯ ಸೇರಿಸಿ</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">ಪರ್ಯಾಯ ಪಠ್ಯ ಸಂಪಾದಿಸಿ</string>
+  <string name="sn_contextual_menu_image_delete">ಇಮೇಜ್ ಅಳಿಸಿ</string>
+  <string name="sn_image_attachment">ಇಮೇಜ್ ಲಗತ್ತು</string>
+</resources>

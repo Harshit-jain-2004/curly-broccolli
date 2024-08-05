@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">مشاركة ملاحظة ملصقة</string>
+  <string name="sn_action_share">مشاركة</string>
+  <string name="sn_action_delete_note">حذف</string>
+  <string name="sn_action_send_feedback">إرسال ملاحظات</string>
+  <string name="sn_delete_note_dialog">هل تريد حذف الملاحظة؟</string>
+  <string name="sn_delete_note_description">سيتم حذفها نهائياً من كل الأجهزة.</string>
+  <string name="sn_image_dialog_delete_description">سيتم حذف هذه الصورة نهائياً من كل الأجهزة.</string>
+  <string name="sn_image_dialog_delete_action">حذف</string>
+  <string name="sn_image_dialog_alt_text_title">النص البديل</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">أدخل وصف الصورة</string>
+  <string name="sn_image_dialog_save_alt_text">حفظ</string>
+  <string name="sn_dialog_cancel">إلغاء الأمر</string>
+  <string name="sn_change_color_to_blue">تغيير لون الملاحظة إلى الأزرق</string>
+  <string name="sn_change_color_to_green">تغيير لون الملاحظة إلى الأخضر</string>
+  <string name="sn_change_color_to_yellow">تغيير لون الملاحظة إلى الأصفر</string>
+  <string name="sn_change_color_to_purple">تغيير لون الملاحظة إلى الأرجواني</string>
+  <string name="sn_change_color_to_pink">تغيير لون الملاحظة إلى القرنفلي</string>
+  <string name="sn_change_color_to_grey">تغيير لون الملاحظة إلى الرمادي</string>
+  <string name="sn_change_color_to_charcoal">تغيير لون الملاحظة إلى الفحمي</string>
+  <string name="sn_search_notes_with_color_blue">البحث في الملاحظات باللون الأزرق</string>
+  <string name="sn_search_notes_with_color_green">البحث في الملاحظات باللون الأخضر</string>
+  <string name="sn_search_notes_with_color_yellow">البحث في الملاحظات باللون الأصفر</string>
+  <string name="sn_search_notes_with_color_purple">البحث في الملاحظات باللون الأرجواني</string>
+  <string name="sn_search_notes_with_color_pink">البحث في الملاحظات باللون القرنفلي</string>
+  <string name="sn_search_notes_with_color_grey">البحث في الملاحظات باللون الرمادي</string>
+  <string name="sn_search_notes_with_color_charcoal">البحث في الملاحظات باللون الفحمي</string>
+  <string name="sn_note_options_dismissed">تم تجاهل خيارات الملاحظة</string>
+  <string name="sn_note_options_displayed">تم عرض خيارات الملاحظة</string>
+  <string name="sn_adding_image_failed">تعذرت إضافة الصورة</string>
+  <string name="sn_image_added">تمت إضافة الصورة</string>
+</resources>

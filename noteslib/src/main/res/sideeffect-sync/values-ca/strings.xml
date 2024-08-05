@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">Actualment, les Notes adhesives requereixen una bústia de correu de l\'Exchange Online perquè funcionin la sincronització i l\'emmagatzematge. Posa\'t en contacte amb el teu administrador de TI perquè t\'habiliti una bústia de correu o fes servir l\'opció següent per obtenir-ne més informació.</string>
+  <string name="sn_sync_failure_with_contact_support_message">No podem sincronitzar les Notes adhesives amb el teu compte; posa\'t en contacte amb l\'Assistència tècnica per obtenir ajuda amb la resolució del problema.</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">No podem sincronitzar les Notes adhesives amb el teu compte; prova de resoldre el problema.</string>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.microsoft.notes.ui.noteslist.recyclerview.noteitem.images.MultiImageNoteItemComponent xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/SNHorizontalFeedNoteItemStyle"
+    android:clipToPadding="false"
+    android:orientation="horizontal"
+    android:tag="@string/note_canvas_layout_tag">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/noteContentLayout"
+        style="@style/SNHorizontalNoteLayoutStyle">
+
+        <include layout="@layout/sticky_note_top_bar" />
+
+        <TextView
+            android:id="@+id/noteDateTime"
+            style="@style/SNNoteItemDateTime"
+            android:layout_marginEnd="@dimen/sn_note_image_text_side_margin"
+            android:layout_marginTop="@dimen/sn_note_padding"
+            app:layout_constraintBottom_toTopOf="@+id/noteImage1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sn_top_bar"
+            tools:text="12:45 PM" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/noteImage1"
+            style="@style/SNHorizontalNoteItemImageStyle"
+            android:layout_width="0dp"
+            android:layout_marginStart="@dimen/sn_note_side_padding_image"
+            android:layout_marginTop="@dimen/sn_note_padding"
+            app:layout_constraintEnd_toStartOf="@+id/noteImage2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/noteDateTime"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:src="@android:drawable/ic_delete" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/noteImage2"
+            style="@style/SNHorizontalNoteItemImageStyle"
+            android:layout_width="0dp"
+            app:layout_constraintBottom_toBottomOf="@+id/noteImage1"
+            app:layout_constraintEnd_toStartOf="@+id/noteImage3"
+            app:layout_constraintStart_toEndOf="@+id/noteImage1"
+            app:layout_constraintTop_toTopOf="@+id/noteImage1"
+            tools:src="@android:drawable/ic_delete" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/noteImage3"
+            style="@style/SNHorizontalNoteItemImageStyle"
+            android:layout_width="0dp"
+            app:layout_constraintBottom_toBottomOf="@+id/noteImage1"
+            app:layout_constraintEnd_toStartOf="@+id/noteImage4"
+            app:layout_constraintStart_toEndOf="@+id/noteImage2"
+            app:layout_constraintTop_toTopOf="@+id/noteImage1"
+            tools:src="@android:drawable/ic_delete" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/noteImage4"
+            style="@style/SNHorizontalNoteItemImageStyle"
+            android:layout_width="0dp"
+            android:layout_marginEnd="@dimen/sn_note_side_padding_image"
+            app:layout_constraintBottom_toBottomOf="@+id/noteImage1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/noteImage3"
+            app:layout_constraintTop_toTopOf="@+id/noteImage1"
+            tools:src="@android:drawable/ic_delete" />
+
+        <TextView
+            android:id="@+id/imageCount"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/sn_image_count_overlay"
+            android:gravity="center"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/noteImage4"
+            app:layout_constraintEnd_toEndOf="@+id/noteImage4"
+            app:layout_constraintStart_toStartOf="@+id/noteImage4"
+            app:layout_constraintTop_toTopOf="@+id/noteImage4"
+            tools:text="+4444" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.microsoft.notes.ui.noteslist.recyclerview.noteitem.images.MultiImageNoteItemComponent>

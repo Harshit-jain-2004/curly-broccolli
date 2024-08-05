@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/noteGalleryItemImageContainer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sn_image_gallery_item_background"
+    android:focusable="true">
+
+    <ImageView
+        android:id="@+id/samsungNoteBodyPreviewImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/sn_image_background_stroke"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        tools:src="@drawable/sn_notes_canvas_image_placeholder" />
+
+    <View
+        android:id="@+id/noteGalleryItemOverlay"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/sn_image_gallery_item_overlay"
+        android:importantForAccessibility="no"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/noteGalleryItemImageView"
+        app:layout_constraintEnd_toEndOf="@+id/noteGalleryItemImageView"
+        app:layout_constraintStart_toStartOf="@+id/noteGalleryItemImageView"
+        app:layout_constraintTop_toTopOf="@+id/noteGalleryItemImageView"
+        tools:visibility="visible" />
+</androidx.constraintlayout.widget.ConstraintLayout>

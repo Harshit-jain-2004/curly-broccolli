@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Rasm joylash</string>
+  <string name="sn_bold">Qalin</string>
+  <string name="sn_italic">Qiya</string>
+  <string name="sn_underline">Tagiga chizilgan</string>
+  <string name="sn_strikethrough">Ustidan chizish</string>
+  <string name="sn_bullets">Markerli ro‘yxat</string>
+  <string name="sn_color_name_charcoal">Ko‘mirrang</string>
+  <string name="sn_color_name_blue">Ko‘k</string>
+  <string name="sn_color_name_green">Yashil</string>
+  <string name="sn_color_name_yellow">Sariq</string>
+  <string name="sn_color_name_grey">Kulrang</string>
+  <string name="sn_color_name_purple">Binafsharang</string>
+  <string name="sn_color_name_pink">Pushti</string>
+  <string name="sn_unselected">Tanlanmagan</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Muqobil matn qo‘shish</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Muqobil matnni tahrirlash</string>
+  <string name="sn_contextual_menu_image_delete">Rasmni oʻchirib tashlash</string>
+  <string name="sn_image_attachment">Rasmli biriktirma</string>
+</resources>

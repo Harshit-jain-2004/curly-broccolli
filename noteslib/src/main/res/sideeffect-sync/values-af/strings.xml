@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">Jammer! Kleefnotas vereis tans \'n Exchange Online-posbus vir sinchronisasie en berging om te werk. Kontak asseblief jou IT-admin om \'n posbus te aktiveer of gebruik die opsie hieronder om meer te wete te kom.</string>
+  <string name="sn_sync_failure_with_contact_support_message">Ons kan nie Kleefnotas met jou rekening sinchroniseer nie. Kontak asseblief Bystand vir hulp met die oplos van hierdie kwessie.</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">Ons kan nie Kleefnotas met jou rekening sinchroniseer nie, maar jy kan dalk probeer om hierdie kwessie op te los.</string>
+</resources>

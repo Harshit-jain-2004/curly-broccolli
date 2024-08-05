@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">Ghi chú bằng văn bản</string>
+  <string name="sn_ink_note">Ghi chú viết tay</string>
+  <string name="sn_label_text">Văn bản</string>
+  <string name="sn_label_image">Hình ảnh</string>
+  <string name="sn_single_image_note">Ghi chú %1$s với 1 hình ảnh</string>
+  <string name="sn_multi_image_note">Ghi chú %1$s với %2$d hình ảnh</string>
+  <string name="sn_label_date">đã chỉnh sửa %s</string>
+  <string name="sn_add_note">Thêm ghi chú mới</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">Không thể đồng bộ ngay.</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">Besedilo opombe</string>
+  <string name="sn_ink_note">Rokopisna opomba</string>
+  <string name="sn_label_text">Besedilo</string>
+  <string name="sn_label_image">Slika</string>
+  <string name="sn_single_image_note">Opomba %1$s z 1 sliko</string>
+  <string name="sn_multi_image_note">Opomba %1$s s toliko slikami: %2$d</string>
+  <string name="sn_label_date">je uredil(-a) %s</string>
+  <string name="sn_add_note">Dodajte novo opombo</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">Trenutno ni mogoče sinhronizirati.</string>
+</resources>

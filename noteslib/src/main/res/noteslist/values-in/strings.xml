@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">Catatan teks</string>
+  <string name="sn_ink_note">Catatan Tinta</string>
+  <string name="sn_label_text">Teks</string>
+  <string name="sn_label_image">Gambar</string>
+  <string name="sn_single_image_note">%1$s catatan dengan 1 gambar</string>
+  <string name="sn_multi_image_note">%1$s catatan dengan %2$d gambar</string>
+  <string name="sn_label_date">%s yang diedit</string>
+  <string name="sn_add_note">Tambahkan catatan baru</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">Tidak dapat menyinkronkan sekarang.</string>
+</resources>

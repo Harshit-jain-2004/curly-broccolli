@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">죄송합니다. 동기화 및 저장소가 작동하려면 현재 스티커 메모에 Exchange Online 사서함이 필요합니다. IT 관리자에게 사서함을 사용하도록 설정하는 방법을 문의하거나 아래 옵션을 사용하여 자세히 알아보세요.</string>
+  <string name="sn_sync_failure_with_contact_support_message">스티커 메모를 계정과 동기화할 수 없습니다. 이 문제 해결에 대해 지원 팀에 연락하세요.</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">스티커 메모를 계정과 동기화할 수 없지만 이 문제 해결을 시도할 수 있습니다.</string>
+</resources>

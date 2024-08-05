@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/notePinMark"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="start">
+
+    <ImageView
+        android:id="@+id/pinnedNoteIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingEnd="@dimen/pinned_note_icon_padding"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ic_pin_icon" />
+
+    <TextView
+        android:id="@+id/pinnedNoteText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@string/sn_roboto"
+        android:gravity="center_vertical"
+        android:text="@string/feed_card_pinned_label"
+        android:textColor="@color/sn_metadata_color_charcoal"
+        android:textSize="@dimen/note_reference_pinned_note_text_size"
+        android:visibility="gone" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">Tekstmärge</string>
+  <string name="sn_ink_note">Tindimärge</string>
+  <string name="sn_label_text">Tekst</string>
+  <string name="sn_label_image">Pilt</string>
+  <string name="sn_single_image_note">%1$s märge koos ühe pildiga</string>
+  <string name="sn_multi_image_note">%1$s märge koos %2$d pildiga</string>
+  <string name="sn_label_date">redigeeris %s</string>
+  <string name="sn_add_note">Lisa uus märge</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">Praegu ei saa sünkroonida.</string>
+</resources>

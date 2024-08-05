@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TODO dynamic content description? -->
+<com.microsoft.notes.ui.theme.ThemedLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/SNNoteOptionsRow"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+    <com.microsoft.notes.ui.theme.ThemedImageView
+        android:id="@+id/sourceFilterOptionCheck"
+        android:tag="@string/option_icon_no_bg_tag"
+        android:layout_width="24dp"
+        android:layout_height="24dp"/>
+    <com.microsoft.notes.ui.theme.ThemedTextView
+        android:id="@+id/sourceFilterOptionText"
+        android:tag="@string/option_text_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="@dimen/sn_bottom_sheet_row_text"
+        android:paddingStart="37.5dp"/>
+
+</com.microsoft.notes.ui.theme.ThemedLinearLayout>

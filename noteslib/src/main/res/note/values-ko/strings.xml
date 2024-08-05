@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">스티커 메모 공유</string>
+  <string name="sn_action_share">공유</string>
+  <string name="sn_action_delete_note">삭제</string>
+  <string name="sn_action_send_feedback">피드백 보내기</string>
+  <string name="sn_delete_note_dialog">메모를 삭제하시겠습니까?</string>
+  <string name="sn_delete_note_description">모든 장치에서 영구적으로 삭제됩니다.</string>
+  <string name="sn_image_dialog_delete_description">이 이미지는 모든 장치에서 영구적으로 삭제됩니다.</string>
+  <string name="sn_image_dialog_delete_action">삭제</string>
+  <string name="sn_image_dialog_alt_text_title">대체 텍스트</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">이미지 설명 입력</string>
+  <string name="sn_image_dialog_save_alt_text">저장</string>
+  <string name="sn_dialog_cancel">취소</string>
+  <string name="sn_change_color_to_blue">메모 색을 파랑으로 변경</string>
+  <string name="sn_change_color_to_green">메모 색을 녹색으로 변경</string>
+  <string name="sn_change_color_to_yellow">메모 색을 노랑으로 변경</string>
+  <string name="sn_change_color_to_purple">메모 색을 자주색으로 변경</string>
+  <string name="sn_change_color_to_pink">메모 색을 분홍으로 변경</string>
+  <string name="sn_change_color_to_grey">메모 색을 회색으로 변경</string>
+  <string name="sn_change_color_to_charcoal">메모 색을 목탄색으로 변경</string>
+  <string name="sn_search_notes_with_color_blue">파란색 메모 검색</string>
+  <string name="sn_search_notes_with_color_green">녹색 메모 검색</string>
+  <string name="sn_search_notes_with_color_yellow">노란색 메모 검색</string>
+  <string name="sn_search_notes_with_color_purple">자주색 메모 검색</string>
+  <string name="sn_search_notes_with_color_pink">분홍색 메모 검색</string>
+  <string name="sn_search_notes_with_color_grey">회색 메모 검색</string>
+  <string name="sn_search_notes_with_color_charcoal">목탄색 메모 검색</string>
+  <string name="sn_note_options_dismissed">메모 옵션이 해제되었습니다.</string>
+  <string name="sn_note_options_displayed">메모 옵션이 표시되었습니다.</string>
+  <string name="sn_adding_image_failed">이미지를 추가할 수 없습니다.</string>
+  <string name="sn_image_added">이미지가 추가되었습니다.</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Setja inn mynd</string>
+  <string name="sn_bold">Feitletrun</string>
+  <string name="sn_italic">Skáletrun</string>
+  <string name="sn_underline">Undirstrikun</string>
+  <string name="sn_strikethrough">Yfirstrikun</string>
+  <string name="sn_bullets">Áherslumerktur listi</string>
+  <string name="sn_color_name_charcoal">Kolagrátt</string>
+  <string name="sn_color_name_blue">Blár</string>
+  <string name="sn_color_name_green">Grænn</string>
+  <string name="sn_color_name_yellow">Gulur</string>
+  <string name="sn_color_name_grey">Grár</string>
+  <string name="sn_color_name_purple">Fjólublár</string>
+  <string name="sn_color_name_pink">Bleikur</string>
+  <string name="sn_unselected">Ekki valið</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Bæta við baktexta</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Breyta baktexta</string>
+  <string name="sn_contextual_menu_image_delete">Eyða mynd</string>
+  <string name="sn_image_attachment">Mynd í viðhengi</string>
+</resources>

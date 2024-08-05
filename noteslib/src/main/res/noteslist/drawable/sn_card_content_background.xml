@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/card_content_bg_color">
+        <shape android:shape="rectangle">
+            <!--This background is used as default note color and is overriden by the specific note color-->
+            <solid android:color="@color/sn_default_note_background" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/sn_focusable_view_background" />
+</layer-list>

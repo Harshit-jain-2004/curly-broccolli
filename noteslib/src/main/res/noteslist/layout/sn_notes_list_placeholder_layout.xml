@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="48dp"
+    android:paddingEnd="32dp"
+    android:paddingStart="32dp"
+    android:paddingTop="16dp"
+    tools:visibility="visible">
+
+    <!--content description is set at run time-->
+    <ImageView
+        android:id="@+id/notesPlaceholderImage"
+        style="@style/SNNotesListPlaceholderImage"
+        android:layout_marginBottom="15dp"
+        android:maxHeight="480dp"
+        tools:ignore="ContentDescription"
+        tools:src="@drawable/sn_notes_canvas_image_placeholder" />
+
+    <TextView
+        android:id="@+id/notesPlaceholderTitle"
+        style="@style/SNNotesListPlaceholderTitle"
+        android:layout_marginBottom="5dp"
+        tools:text="Empty State Title" />
+
+    <TextView
+        android:id="@+id/notesPlaceholderSubtitle"
+        style="@style/SNNotesListPlaceholderSubtitle"
+        tools:text="Empty State Subtitle" />
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Ndërfut një imazh</string>
+  <string name="sn_bold">I trashësuar</string>
+  <string name="sn_italic">Kursiv</string>
+  <string name="sn_underline">Nënvizim</string>
+  <string name="sn_strikethrough">I mesvijëzuar</string>
+  <string name="sn_bullets">Lista me kokrra</string>
+  <string name="sn_color_name_charcoal">Ngjyrë qymyri</string>
+  <string name="sn_color_name_blue">Blu</string>
+  <string name="sn_color_name_green">E gjelbër</string>
+  <string name="sn_color_name_yellow">E verdhë</string>
+  <string name="sn_color_name_grey">Gri</string>
+  <string name="sn_color_name_purple">E purpurt</string>
+  <string name="sn_color_name_pink">Rozë</string>
+  <string name="sn_unselected">E papërzgjedhur</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Shto tekstin alternativ</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Redakto tekstin alternativ</string>
+  <string name="sn_contextual_menu_image_delete">Fshi imazhin</string>
+  <string name="sn_image_attachment">Bashkëngjitja e imazhit</string>
+</resources>

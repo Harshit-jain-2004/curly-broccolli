@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_notes_image">Resim</string>
+  <string name="sn_inline_media_notes_alttext">Alternatif Metin</string>
+  <string name="sn_inline_media_notes_description">Açıklama</string>
+  <string name="sn_inline_media_notes_done">Bitti</string>
+  <string name="sn_inline_media_notes_cancel">İptal</string>
+  <string name="sn_inline_media_notes_open">Aç</string>
+  <string name="sn_notes_read_alt_text">Resim, Alternatif Metin: %1$s!</string>
+  <string name="sn_notes_link_label">Bağlantı: %1$s</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Partekatu ohar itsaskorra</string>
+  <string name="sn_action_share">Partekatu</string>
+  <string name="sn_action_delete_note">Ezabatu</string>
+  <string name="sn_action_send_feedback">Bidali iritzia</string>
+  <string name="sn_delete_note_dialog">Oharra ezabatu nahi duzu?</string>
+  <string name="sn_delete_note_description">Betiko ezabatuko da gailu guztietan.</string>
+  <string name="sn_image_dialog_delete_description">Irudia betiko ezabatuko da gailu guztietan.</string>
+  <string name="sn_image_dialog_delete_action">Ezabatu</string>
+  <string name="sn_image_dialog_alt_text_title">Ordezko testua</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Idatzi irudiaren azalpena</string>
+  <string name="sn_image_dialog_save_alt_text">Gorde</string>
+  <string name="sn_dialog_cancel">Utzi</string>
+  <string name="sn_change_color_to_blue">Ezarri oharraren kolorea urdin gisa</string>
+  <string name="sn_change_color_to_green">Ezarri oharraren kolorea berde gisa</string>
+  <string name="sn_change_color_to_yellow">Ezarri oharraren kolorea hori gisa</string>
+  <string name="sn_change_color_to_purple">Ezarri oharraren kolorea more gisa</string>
+  <string name="sn_change_color_to_pink">Ezarri oharraren kolorea arrosa gisa</string>
+  <string name="sn_change_color_to_grey">Ezarri oharraren kolorea gris gisa</string>
+  <string name="sn_change_color_to_charcoal">Ezarri oharraren kolorea ikatz-koloreko gisa</string>
+  <string name="sn_search_notes_with_color_blue">Bilatu ohar urdinak</string>
+  <string name="sn_search_notes_with_color_green">Bilatu ohar berdeak</string>
+  <string name="sn_search_notes_with_color_yellow">Bilatu ohar horiak</string>
+  <string name="sn_search_notes_with_color_purple">Bilatu ohar moreak</string>
+  <string name="sn_search_notes_with_color_pink">Bilatu ohar arrosak</string>
+  <string name="sn_search_notes_with_color_grey">Bilatu ohar grisak</string>
+  <string name="sn_search_notes_with_color_charcoal">Bilatu ikatz-koloreko oharrak</string>
+  <string name="sn_note_options_dismissed">Oharraren aukerak baztertu egin dira</string>
+  <string name="sn_note_options_displayed">Oharraren aukerak ikusgai daude</string>
+  <string name="sn_adding_image_failed">Ezin izan da gehitu irudia</string>
+  <string name="sn_image_added">Gehitu da irudia</string>
+</resources>

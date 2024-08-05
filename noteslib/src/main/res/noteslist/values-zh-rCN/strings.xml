@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">文本备注</string>
+  <string name="sn_ink_note">墨迹注释</string>
+  <string name="sn_label_text">文本</string>
+  <string name="sn_label_image">图像</string>
+  <string name="sn_single_image_note">%1$s 备注，带 1 张图像</string>
+  <string name="sn_multi_image_note">%1$s 备注，带 %2$d 张图像</string>
+  <string name="sn_label_date">已编辑 %s</string>
+  <string name="sn_add_note">添加新备注</string>
+  <string name="sn_note_preview_image_count">还有 %1$d 个</string>
+  <string name="sn_manual_sync_failed">当前无法同步。</string>
+</resources>

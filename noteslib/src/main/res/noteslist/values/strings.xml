@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sn_stickynotes">Sticky Notes</string>
+    <string name="sn_note_reference_default_preview">No additional text</string>
+    <string name="sn_note_reference_default_title">Untitled Page</string>
+    <string name="sn_note_reference_empty_card_preview">No preview</string>
+
+    <string name="samsung_default_title">Untitled Samsung Note</string>
+    <string name="samsung_no_title_placeholder">Title</string>
+    <string name="samsung_note_accessibility_label">Samsung Note</string>
+
+    <!-- Accessibility labels -->
+    <string name="feed_item_accessibility_default_preview">No preview text</string>
+    <string name="note_reference_note">OneNote page</string>
+    <string name="sn_text_note">Text note</string>
+    <string name="sn_ink_note">Ink note</string>
+    <string name="sn_label_text">Text</string>
+    <string name="sn_label_image">Image</string>
+    <string name="sn_single_image_note">%1$s note with 1 image</string>
+    <string name="sn_multi_image_note">%1$s note with %2$d images</string>
+    <string name="sn_label_date">edited %s</string>
+    <string name="sn_add_note">New note</string>
+    <string name="sn_add_ink_note">New ink note</string>
+    <string name="sn_message_bar_expand">Expand message bar</string>
+    <string name="sn_message_bar_collapse">Collapse message bar</string>
+    <string name="sn_notes_selected">%d Selected</string>
+
+    <string name="sn_note_preview_image_count">+%1$d</string>
+    <string name="sn_manual_sync_failed">Unable to sync now.</string>
+    <string name="sn_manual_sync_failed_no_network">Working Offline.</string>
+
+    <string name="sn_sync_status_mailbox_error_title">Working offline. No exchange mailbox available.</string>
+    <string name="sn_sync_status_mailbox_error_description">Sticky Notes requires an Exchange Online
+        mailbox to sync your notes. Please contact your IT admin about enabling a mailbox.</string>
+    <string name="sn_sync_status_mailbox_error_multi_account_description">Sticky Notes requires an Exchange Online
+        mailbox to sync your notes for %1$s. Please contact your IT admin about enabling a mailbox.</string>
+    <string name="sn_sync_status_unauthenticated_title">Working offline. Sign in to sync your notes.</string>
+    <string name="sn_sync_status_unauthenticated_description">Sticky Notes can\'t sync your notes because
+        you are signed out. Sign in to continue syncing to the cloud and to access your notes from anywhere.</string>
+    <string name="sn_sync_status_unauthenticated_multi_account_description">Sticky Notes can\'t sync your notes for %1$s because
+        you are signed out. Sign in to continue syncing to the cloud and to access your notes from anywhere.</string>
+    <string name="sn_sync_status_generic_error_title">Working offline. Tap for details.</string>
+    <string name="sn_sync_status_generic_error_description">Sticky Notes can\'t sync your notes right now.
+        We\'ll keep trying.</string>
+    <string name="sn_sync_status_generic_error_multi_account_description">Sticky Notes can\'t sync your notes right now for %1$s.
+        We\'ll keep trying.</string>
+    <string name="sn_user_notification_single_future_note_title">1 note not supported on this device</string>
+    <string name="sn_user_notification_multiple_future_note_title">%1$d notes not supported on this device</string>
+    <string name="sn_sync_status_environment_not_supported_title">Working offline. Tap for details.</string>
+    <string name="sn_sync_status_environment_not_supported_description">Your organization doesn\'t support syncing
+        Sticky Notes with your current account. Sign in with a different account to try again. </string>
+    <string name="sn_sync_status_environment_not_supported_multi_account_description">Your organization doesn\'t support syncing
+        Sticky Notes for %1$s. Sign in with a different account to try again. </string>
+    <string name="sn_sync_status_user_not_found_title">Working offline. Tap for details.</string>
+    <string name="sn_sync_status_user_not_found_description">Sticky Notes can\'t sync your notes right now. If you
+        see this error for more than an hour, please contact your IT administrator to verify your user license.</string>
+    <string name="sn_sync_status_user_not_found_multi_account_description">Sticky Notes can\'t sync your notes right now for %1$s. If you
+        see this error for more than an hour, please contact your IT administrator to verify your user license.</string>
+    <string name="sn_not_authenticated_action_title">Sign in</string>
+    <string name="sn_learn_more_action_title">Learn More</string>
+
+    <!--feed time header item titles-->
+    <string name="title_today">Today</string>
+    <string name="title_yesterday">Yesterday</string>
+    <string name="title_this_week">This week</string>
+    <string name="title_last_week">Last week</string>
+    <string name="title_this_month">This month</string>
+    <string name="title_last_month">Last month</string>
+</resources>

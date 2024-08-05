@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Afbeelding invoegen</string>
+  <string name="sn_bold">Vet</string>
+  <string name="sn_italic">Cursief</string>
+  <string name="sn_underline">Onderstrepen</string>
+  <string name="sn_strikethrough">Doorhalen</string>
+  <string name="sn_bullets">Lijst met opsommingstekens</string>
+  <string name="sn_color_name_charcoal">Houtskool</string>
+  <string name="sn_color_name_blue">Blauw</string>
+  <string name="sn_color_name_green">Groen</string>
+  <string name="sn_color_name_yellow">Geel</string>
+  <string name="sn_color_name_grey">Grijs</string>
+  <string name="sn_color_name_purple">Paars</string>
+  <string name="sn_color_name_pink">Roze</string>
+  <string name="sn_unselected">Selectie opgeheven</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Alternatieve tekst toevoegen</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Alternatieve tekst bewerken</string>
+  <string name="sn_contextual_menu_image_delete">Afbeelding verwijderen</string>
+  <string name="sn_image_attachment">Afbeeldingsbijlage</string>
+</resources>

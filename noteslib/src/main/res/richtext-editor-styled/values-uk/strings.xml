@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Вставити зображення</string>
+  <string name="sn_bold">Жирний</string>
+  <string name="sn_italic">Курсив</string>
+  <string name="sn_underline">Підкреслення</string>
+  <string name="sn_strikethrough">Закреслення</string>
+  <string name="sn_bullets">Маркірований список</string>
+  <string name="sn_color_name_charcoal">Вугілля</string>
+  <string name="sn_color_name_blue">Синій</string>
+  <string name="sn_color_name_green">Зелений</string>
+  <string name="sn_color_name_yellow">Жовтий</string>
+  <string name="sn_color_name_grey">Сірий</string>
+  <string name="sn_color_name_purple">Фіолетовий</string>
+  <string name="sn_color_name_pink">Рожевий</string>
+  <string name="sn_unselected">Вибір скасовано</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Додати текст заміщення</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Редагувати текст заміщення</string>
+  <string name="sn_contextual_menu_image_delete">Видалити зображення</string>
+  <string name="sn_image_attachment">Вкладене зображення</string>
+</resources>

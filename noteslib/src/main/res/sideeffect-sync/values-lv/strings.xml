@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">Diemžēl programmas Piezīmju lapiņas darbībai pašlaik ir nepieciešama Exchange Online pastkaste, lai sinhronizētu un saglabātu saturu. Lūdzu, sazinieties ar savu IT administratoru par pastkastes iespējošanu vai izmantojiet tālāk pieejamo opciju, lai iegūtu papildinformāciju.</string>
+  <string name="sn_sync_failure_with_contact_support_message">Nevaram sinhronizēt piezīmju lapiņas ar jūsu kontu. Lūdzu, sazinieties ar atbalsta dienestu, lai saņemtu palīdzību saistībā ar šīs problēmas novēršanu.</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">Nevaram sinhronizēt piezīmju lapiņas ar jūsu kontu, bet, iespējams, varat mēģināt novērst šo problēmu.</string>
+</resources>

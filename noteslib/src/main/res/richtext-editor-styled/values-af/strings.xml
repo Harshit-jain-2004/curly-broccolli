@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Voeg beeld in</string>
+  <string name="sn_bold">Vetdruk</string>
+  <string name="sn_italic">Kursief</string>
+  <string name="sn_underline">Onderstreep</string>
+  <string name="sn_strikethrough">Deurhaal</string>
+  <string name="sn_bullets">Kolpuntlys</string>
+  <string name="sn_color_name_charcoal">Houtskoolgrys</string>
+  <string name="sn_color_name_blue">Blou</string>
+  <string name="sn_color_name_green">Groen</string>
+  <string name="sn_color_name_yellow">Geel</string>
+  <string name="sn_color_name_grey">Grys</string>
+  <string name="sn_color_name_purple">Pers</string>
+  <string name="sn_color_name_pink">Pienk</string>
+  <string name="sn_unselected">Nie gekies nie</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Voeg Alt-teks by</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Redigeer Alt-teks</string>
+  <string name="sn_contextual_menu_image_delete">Skrap beeld</string>
+  <string name="sn_image_attachment">Beeldaanhegsel</string>
+</resources>

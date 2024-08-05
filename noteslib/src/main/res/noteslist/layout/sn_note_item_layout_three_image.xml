@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.microsoft.notes.ui.noteslist.recyclerview.noteitem.images.ThreeImageNoteItemComponent style="@style/SNNoteItemStyle"
+    android:tag="@string/note_canvas_layout_tag"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:clipToPadding="false">
+
+    <include layout="@layout/sn_action_mode_checkbox"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/noteContentLayout"
+        style="@style/SNNoteImageContentLayoutStyle"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/sticky_note_top_bar"/>
+
+        <TextView
+            android:id="@+id/noteDateTime"
+            style="@style/SNNoteItemDateTime"
+            android:layout_marginTop="@dimen/sn_note_padding"
+            android:layout_marginEnd="@dimen/sn_note_image_text_side_margin"
+            app:layout_constraintBottom_toTopOf="@+id/noteImage1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sn_top_bar"
+            tools:text="12:45 PM" />
+
+        <com.microsoft.notes.richtext.editor.styled.gallery.AspectRatioImageView
+            android:id="@+id/noteImage1"
+            style="@style/SNNoteItemImageStyle"
+            android:layout_width="0dp"
+            android:layout_marginStart="@dimen/sn_note_side_padding_image"
+            android:layout_marginTop="@dimen/sn_note_padding"
+            app:aspectRatioHeight="1"
+            app:aspectRatioWidth="1"
+            app:layout_constraintBottom_toTopOf="@+id/noteBody"
+            app:layout_constraintEnd_toStartOf="@+id/noteImage2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/noteDateTime"
+            tools:src="@android:drawable/ic_delete" />
+
+        <com.microsoft.notes.richtext.editor.styled.gallery.AspectRatioImageView
+            android:id="@+id/noteImage2"
+            style="@style/SNNoteItemImageStyle"
+            android:layout_width="0dp"
+            app:aspectRatioHeight="1"
+            app:aspectRatioWidth="1"
+            app:layout_constraintBottom_toBottomOf="@+id/noteImage1"
+            app:layout_constraintEnd_toStartOf="@+id/noteImage3"
+            app:layout_constraintStart_toEndOf="@+id/noteImage1"
+            app:layout_constraintTop_toTopOf="@+id/noteImage1"
+            tools:src="@android:drawable/ic_delete" />
+
+        <com.microsoft.notes.richtext.editor.styled.gallery.AspectRatioImageView
+            android:id="@+id/noteImage3"
+            style="@style/SNNoteItemImageStyle"
+            android:layout_width="0dp"
+            app:aspectRatioHeight="1"
+            app:aspectRatioWidth="1"
+            android:layout_marginEnd="@dimen/sn_note_side_padding_image"
+            app:layout_constraintBottom_toBottomOf="@+id/noteImage1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/noteImage2"
+            app:layout_constraintTop_toTopOf="@+id/noteImage1"
+            tools:src="@android:drawable/ic_delete" />
+
+        <TextView
+            android:id="@+id/noteBody"
+            style="@style/SNNoteItemTextBodyStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="@dimen/sn_note_image_text_side_margin"
+            android:layout_marginEnd="@dimen/sn_note_image_text_side_margin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/noteImage1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.microsoft.notes.ui.noteslist.recyclerview.noteitem.images.ThreeImageNoteItemComponent>

@@ -1,0 +1,306 @@
+//
+// Basic Tests
+//
+
+Add character in primary
+B: cookie.
+1: cookies.
+2: cookie.
+M: cookies.
+
+Add character in secondary
+B: cookie.
+1: cookie.
+2: cookies.
+M: cookies.
+
+Prepend first character in primary; append character in secondary
+B: B
+1: AB
+2: BC
+M: ABC
+
+Delete first character in primary; delete last character in secondary
+B: ABC
+1: BC
+2: AB
+M: B
+
+Append character in primary; Replace first character in secondary
+B: ABC
+1: ABCD
+2: DBC
+M: ABCD
+?: DBCD
+
+Replace first and append character in primary; Replace first character in secondary
+B: ABC
+1: EBCD
+2: DBC
+M: EBCD
+
+Replace Tony with Anthony in primary; Append Drendel in secondary
+B: I am Tony.
+1: I am Anthony.
+2: I am Tony Drendel.
+M: I am Anthony.
+?: I am Anthony Drendel.
+
+Replace tony with Antony in primary; Append drendel in secondary
+B: I am tony.
+1: I am Antony.
+2: I am tony drendel.
+M: I am Antony drendel.
+
+Change placed to replaced in primary; Append first in secondary
+B: he placed
+1: he replaced
+2: he placed first
+M: he replaced first
+
+Change placed to replaced in primary; Insert first in secondary
+B: he placed it on the table
+1: he replaced it on the table
+2: he placed it first on the table
+M: he replaced it first on the table
+
+Replace cat, ate, and cookie with elephant, chomped, and hamburger in primary; Replaceate a cookie with sat on a stool in secondary
+B: The cat ate a cookie.
+1: My elephant chomped on a hamburger.
+2: The cat sat on a stool.
+M: My elephant chomped on a hamburger.
+
+Remove a and add s in primary; Replace cat with elephant in secondary
+B: The cat ate a cookie.
+1: The cat ate cookies.
+2: The elephant ate a cookie.
+M: The cat ate cookies.
+?: The elephant ate cookies.
+
+// Because we currently use greedy ranges to test diffs, the primary
+// `insertText` diff is for 'CDEF', which then causes us to drop
+// the `deleteText` and `insertText` diffs from the secondary content.
+Remove B and append F in primary; Remove C and append G in secondary
+B: ABCDE
+1: ACDEF
+2: ABDEG
+M: ACDEF
+?: ADEFG
+
+Replace . with , in primary; Replace . with s in secondary
+B: cookie.
+1: cookie,
+2: cookies
+M: cookie,
+?: cookies,
+
+Append . in primary; Append s in secondary
+B: cookie
+1: cookie.
+2: cookies
+M: cookie.
+?: cookies.
+
+Replace ate with swallowed in primary; Replace cat, ate, and cookie with feline, consumed, and biscuit in secondary
+B: The cat ate a cookie.
+1: The cat swallowed a cookie.
+2: The feline consumed a biscuit.
+M: The cat swallowed a cookie.
+?: The feline swallowed a biscuit.
+
+//
+// Style Tests
+//
+
+Add bold in primary
+B: We are good people.
+1: We are <b>good</b> people.
+2: We are good people.
+M: We are <b>good</b> people.
+
+Add bold in secondary
+B: We are good people.
+1: We are good people.
+2: We are <b>good</b> people.
+M: We are <b>good</b> people.
+
+Replace bold with underline in primary
+B: We are good <b>people</b>.
+1: We are good <u>people</u>.
+2: We are good <b>people</b>.
+M: We are good <u>people</u>.
+
+Replace bold with underline in secondary
+B: We are good <b>people</b>.
+1: We are good <b>people</b>.
+2: We are good <u>people</u>.
+M: We are good <u>people</u>.
+
+//FIXME This test fails because we accept now spans with start = end.
+//So our merged note result contains an empty span with start = end. The result for the user is the same
+//But the test fails because it doesn't expect that empty Span.
+//It will be fixed asap.
+//Replace bold with underline in primary; replace bold with italics in secondary
+//B: We are good <b>people</b>.
+//1: We are good <u>people</u>.
+//2: We are good <i>people</i>.
+//M: We are good <u>people</u>.
+
+Replace bold with underline in primary; remove bold in secondary
+B: We are good <b>people</b>.
+1: We are good <u>people</u>.
+2: We are good people.
+M: We are good <u>people</u>.
+
+Swap bold and italics in primary
+B: <b>我们</b>要用<i>中文</i>写句子
+1: <i>我们</i>要用<b>中文</b>写句子
+2: <b>我们</b>要用<i>中文</i>写句子
+M: <i>我们</i>要用<b>中文</b>写句子
+
+Swap bold and italics in secondary
+B: <b>我们</b>要用<i>中文</i>写句子
+1: <b>我们</b>要用<i>中文</i>写句子
+2: <i>我们</i>要用<b>中文</b>写句子
+M: <i>我们</i>要用<b>中文</b>写句子
+
+Replace bold with italics in primary; replace italics with bold in secondary
+B: <b>我们</b>要用<i>中文</i>写句子
+1: <i>我们</i>要用<i>中文</i>写句子
+2: <b>我们</b>要用<b>中文</b>写句子
+M: <i>我们</i>要用<b>中文</b>写句子
+
+Extend bold in primary
+B: <b>我们</b>要用<u>中文</u>写句子
+1: <b>我们要用中</b><u>文</u>写句子
+2: <b>我们</b>要用<u>中文</u>写句子
+M: <b>我们要用中</b><u>文</u>写句子
+
+Extend underline in secondary
+B: <b>我们</b>要用<u>中文</u>写句子
+1: <b>我们</b>要用<u>中文</u>写句子
+2: <b>我</b><u>们要用中文</u>写句子
+M: <b>我</b><u>们要用中文</u>写句子
+
+Extend bold in primary; extend underline in secondary
+B: <b>我们</b>要用<u>中文</u>写句子
+1: <b>我们要用</b><u>中文</u>写句子
+2: <b>我们</b><u>要用中文</u>写句子
+M: <b>我们要用</b><u>中文</u>写句子
+
+//
+// Text and Style Tests
+//
+
+// If one set of diffs has text changes, then we apply
+// the style diffs from that set of diffs. This causes
+// us to ignore the style changes in the secondary diffs.
+Replace We with They in primary; extend bold in secondary
+B: We are <b>good</b> people.
+1: They are <b>good</b> people.
+2: We are <b>good people.</b>
+M: They are <b>good</b> people.
+?: They are <b>good people.</b>
+
+// If one set of diffs has text changes, then we apply
+// the style diffs from that set of diffs. This causes
+// us to ignore the style changes in the primary diffs.
+Extend bold in secondary; replace We with They in secondary
+B: We are <b>good</b> people.
+1: We are <b>good people.</b>
+2: They are <b>good</b> people.
+M: They are <b>good</b> people.
+?: They are <b>good people.</b>
+
+Add very and extend bold in secondary; add very and extend bold in secondary
+B: We are <b>good</b> people.
+1: We are very <b>good people.</b>
+2: We are <b>very good</b> people.
+M: We are <b>very </b><b>good people.</b>
+?: We are <b>very good people.</b>
+
+//
+// Selection Tests (don't include styles in these tests)
+//
+
+Change selected This to The in primary
+B: [This] is selected.
+1: [The] is selected.
+2: This is selected.
+M: [The] is selected.
+
+Change This to The with constant selection in primary
+B: This is [selected].
+1: The is [selected].
+2: This is selected.
+M: The is [selected].
+
+Change This to The with full string selection in primary
+B: [This is selected.]
+1: [The is selected.]
+2: This is selected.
+M: [The is selected.]
+
+Change This to The with selection start in primary
+B: This [is selected.
+1: The [is selected.
+2: This is selected.
+M: The [is selected.
+
+Change This to The with selection end in primary
+B: This is] selected.
+1: The is] selected.
+2: This is selected.
+M: The is] selected.
+
+// secondary
+
+Change selected This to The in secondary
+B: [This] is selected.
+1: [This] is selected.
+2: The is selected.
+M: [The] is selected.
+
+Change This to The with constant selection in secondary
+B: This is [selected].
+1: This is [selected].
+2: The is selected.
+M: The is [selected].
+
+Change This to The with full string selection in secondary
+B: [This is selected.]
+1: [This is selected.]
+2: The is selected.
+M: [The is selected.]
+
+Change This to The with selection start in secondary
+B: This [is selected.
+1: This [is selected.
+2: The is selected.
+M: The [is selected.
+
+Change This to The with selection end in secondary
+B: This is] selected.
+1: This is] selected.
+2: The is selected.
+M: The is] selected.
+
+// other
+
+Add content to empty
+B: [
+1: a[
+2: [
+M: a[
+
+Add content to existing
+B: a[
+1: ab[
+2: a[
+M: ab[
+
+Text deletion resulting in OOM Exception
+B: asdfghjkiutlkjukjdksfhdskjdbfnksjdfnkdsjhfkdsjhfkdsnfkdsjhfkdsjjjdjdjdjdjdjdjfnfkvjhg fkkjdjgfjgkdgfngjdkejnfmdkfg day jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjh
+1: asdfghjkiutlkjukjdksfhdskjdbfnksjdfnkdsjhfkdsjhfkdsnfkdsjhfkdsjjjdjdjdjdjdjdjfnfkvjhg fkkjdjgfjgkdgfngjdkejnfmdkfg day jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjh
+2: fkkjdjgfjgkdgfngjdkejnfmdkfg day jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjhu,m,m,m,mn,mn,mn,m
+M: fkkjdjgfjgkdgfngjdkejnfmdkfg day jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjhu,m,m,m,mn,mn,mn,m

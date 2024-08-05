@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Inserir imagem</string>
+  <string name="sn_bold">Negrito</string>
+  <string name="sn_italic">Itálico</string>
+  <string name="sn_underline">Sublinhado</string>
+  <string name="sn_strikethrough">Tachado</string>
+  <string name="sn_bullets">Lista com Marcadores</string>
+  <string name="sn_color_name_charcoal">Carvão</string>
+  <string name="sn_color_name_blue">Azul</string>
+  <string name="sn_color_name_green">Verde</string>
+  <string name="sn_color_name_yellow">Amarelo</string>
+  <string name="sn_color_name_grey">Cinza</string>
+  <string name="sn_color_name_purple">Roxo</string>
+  <string name="sn_color_name_pink">Rosa</string>
+  <string name="sn_unselected">Não Selecionado</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Adicionar Texto Alt</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Editar Texto Alt</string>
+  <string name="sn_contextual_menu_image_delete">Excluir Imagem</string>
+  <string name="sn_image_attachment">Anexo de imagem</string>
+</resources>

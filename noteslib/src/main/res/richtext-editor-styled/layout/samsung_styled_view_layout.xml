@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.microsoft.notes.ui.theme.ThemedConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:clipChildren="false"
+    android:tag="@string/primary_background_tag">
+
+    <FrameLayout
+        android:id="@+id/samsungNoteFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/samsungNoteContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/timestamp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true">
+                <View
+                    android:id="@+id/timestampDividerTop"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/samsung_timestamp_divider_color_light"/>
+                <TextView
+                    android:id="@+id/samsungNoteLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/samsung_note_datetime_label_font"
+                    android:gravity="center_horizontal"
+                    android:text="@string/heading_samsung_notes"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/samsung_timestamp_text_size"
+                    android:lineHeight="@dimen/samsung_timestamp_line_height"
+                    app:layout_constraintBottom_toTopOf="@id/timestampText"
+                    android:paddingTop="@dimen/samsung_note_datetime_padding"
+                    tools:text="Samsung Note label" />
+                <TextView
+                    android:id="@+id/timestampText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/samsung_note_datetime_font"
+                    android:gravity="center_horizontal"
+                    android:textSize="@dimen/samsung_timestamp_text_size"
+                    android:lineHeight="@dimen/samsung_timestamp_line_height"
+                    app:layout_constraintTop_toBottomOf="@id/samsungNoteLabel"
+                    android:paddingBottom="@dimen/samsung_note_datetime_padding"
+                    tools:text="This is the time stamp" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/editNoteScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/timestamp"
+                android:fillViewport="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/samsungNoteTitle"
+                        style="@style/samsungNoteItemTitleStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/samsung_note_details_title_margin_top"
+                        android:paddingStart="@dimen/samsung_note_details_title_padding"
+                        android:paddingEnd="@dimen/samsung_note_details_title_padding"
+                        tools:text="November Meetings" />
+                    <com.microsoft.notes.richtext.editor.styled.gallery.NestedRecyclerView
+                        android:id="@+id/noteGalleryRecyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0"
+                        android:paddingEnd="@dimen/samsung_styled_view_image_gallery_horizontal_padding"
+                        android:paddingStart="@dimen/samsung_styled_view_image_gallery_horizontal_padding"
+                        android:paddingTop="@dimen/samsung_styled_view_image_gallery_vertical_padding" />
+
+                    <WebView
+                        android:id="@+id/noteWebView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="37dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="24dp"/>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</com.microsoft.notes.ui.theme.ThemedConstraintLayout>

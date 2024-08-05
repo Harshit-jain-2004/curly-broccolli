@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_notes_image">Obrázok</string>
+  <string name="sn_inline_media_notes_alttext">Alternatívny text</string>
+  <string name="sn_inline_media_notes_description">Popis</string>
+  <string name="sn_inline_media_notes_done">Hotovo</string>
+  <string name="sn_inline_media_notes_cancel">Zrušiť</string>
+  <string name="sn_inline_media_notes_open">Otvoriť</string>
+  <string name="sn_notes_read_alt_text">Obrázok, alternatívny text: %1$s!</string>
+  <string name="sn_notes_link_label">Prepojenie: %1$s</string>
+</resources>

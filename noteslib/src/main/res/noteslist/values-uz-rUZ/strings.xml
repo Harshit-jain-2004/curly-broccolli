@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">Matnli qayd</string>
+  <string name="sn_ink_note">Qoʻlyozma qayd</string>
+  <string name="sn_label_text">Matn</string>
+  <string name="sn_label_image">Rasm</string>
+  <string name="sn_single_image_note">1 ta rasmli %1$s qaydi</string>
+  <string name="sn_multi_image_note">%2$d ta rasmli %1$s qaydi</string>
+  <string name="sn_label_date">tahrirlangan %s</string>
+  <string name="sn_add_note">Yangi qayd kiritish</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">Sinxronlanmadi.</string>
+</resources>

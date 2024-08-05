@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_notes_image">চিত্র</string>
+  <string name="sn_inline_media_notes_alttext">বিকল্প পাঠ্য</string>
+  <string name="sn_inline_media_notes_description">বর্ণনা</string>
+  <string name="sn_inline_media_notes_done">সম্পন্ন</string>
+  <string name="sn_inline_media_notes_cancel">বাতিল করুন</string>
+  <string name="sn_inline_media_notes_open">খুলুন</string>
+  <string name="sn_notes_read_alt_text">চিত্র, Alttext: %1$s!</string>
+  <string name="sn_notes_link_label">লিঙ্ক: %1$s</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_notes_image">รูป</string>
+  <string name="sn_inline_media_notes_alttext">ข้อความแสดงแทน</string>
+  <string name="sn_inline_media_notes_description">คำอธิบาย</string>
+  <string name="sn_inline_media_notes_done">เสร็จสิ้น</string>
+  <string name="sn_inline_media_notes_cancel">ยกเลิก</string>
+  <string name="sn_inline_media_notes_open">เปิด</string>
+  <string name="sn_notes_read_alt_text">รูป ข้อความแสดงแทน: %1$s!</string>
+  <string name="sn_notes_link_label">ลิงก์: %1$s</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">Maaf, saat ini Catatan Tempel memerlukan kotak surat Exchange Online untuk melakukan sinkronisasi dan menggunakan penyimpanan agar dapat berfungsi. Hubungi admin TI Anda untuk mengaktifkan kotak surat atau gunakan opsi di bawah ini untuk mempelajari selengkapnya.</string>
+  <string name="sn_sync_failure_with_contact_support_message">Kami tidak dapat menyinkronkan Catatan Tempel dengan akun Anda. Hubungi Dukungan untuk mendapatkan bantuan guna menyelesaikan masalah ini.</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">Kami tidak dapat menyinkronkan Catatan Tempel dengan akun Anda, tetapi Anda mungkin dapat mencoba dan mengatasi masalah ini.</string>
+</resources>

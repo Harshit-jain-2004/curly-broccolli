@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">Qaydlar ilovasiga hozirda sinxronlash uchun Exchange Onlayn pochta qutisi hamda ishlashi uchun xotira zarur. Pochta qutisini yoqish bo‘yicha AT administratoriga murojaat qiling yoki batafsil axborot olish uchun quyidagi parametrdan foydalaning.</string>
+  <string name="sn_sync_failure_with_contact_support_message">Qaydlar hisobingiz bilan sinxronlanmadi. Bu muammoni hal etish uchun Koʻmak xizmatiga murojaat qiling.</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">Qaydlar hisobingiz bilan sinxronlanmadi, lekin qaytadan urinib, bu muammoni tuzatishingiz mumkin.</string>
+</resources>

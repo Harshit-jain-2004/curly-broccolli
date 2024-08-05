@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">Тэкставая нататка</string>
+  <string name="sn_ink_note">Рукапісная нататка</string>
+  <string name="sn_label_text">Тэкст</string>
+  <string name="sn_label_image">Выява</string>
+  <string name="sn_single_image_note">%1$s нататка з 1 выявай</string>
+  <string name="sn_multi_image_note">%1$s нататка з выявамі (%2$d)</string>
+  <string name="sn_label_date">рэдагавалася %s</string>
+  <string name="sn_add_note">Дадаць нататку</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">Немагчыма сінхранізаваць.</string>
+</resources>

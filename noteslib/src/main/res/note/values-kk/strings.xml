@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Жазбаны бөлісу</string>
+  <string name="sn_action_share">Бөлісу</string>
+  <string name="sn_action_delete_note">Жою</string>
+  <string name="sn_action_send_feedback">Пікір жіберу</string>
+  <string name="sn_delete_note_dialog">Жазбаны жою қажет пе?</string>
+  <string name="sn_delete_note_description">Ол барлық құрылғылардан біржолата жойылады.</string>
+  <string name="sn_image_dialog_delete_description">Бұл кескін барлық құрылғылардан біржолата жойылады.</string>
+  <string name="sn_image_dialog_delete_action">Жою</string>
+  <string name="sn_image_dialog_alt_text_title">Балама мәтін</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Кескін сипаттамасын енгізіңіз</string>
+  <string name="sn_image_dialog_save_alt_text">Сақтау</string>
+  <string name="sn_dialog_cancel">Бас тарту</string>
+  <string name="sn_change_color_to_blue">Жазба түсін көк түске өзгерту</string>
+  <string name="sn_change_color_to_green">Жазба түсін көк жасыл түске өзгерту</string>
+  <string name="sn_change_color_to_yellow">Жазба түсін сары түске өзгерту</string>
+  <string name="sn_change_color_to_purple">Жазба түсін күлгін түске өзгерту</string>
+  <string name="sn_change_color_to_pink">Жазба түсін қызғылтқа түске өзгерту</string>
+  <string name="sn_change_color_to_grey">Жазба түсін көк сұр түске өзгерту</string>
+  <string name="sn_change_color_to_charcoal">Жазба түсін көк көмір түстес түске өзгерту</string>
+  <string name="sn_search_notes_with_color_blue">Көк түсті жазбаларды іздеу</string>
+  <string name="sn_search_notes_with_color_green">Жасыл түсті жазбаларды іздеу</string>
+  <string name="sn_search_notes_with_color_yellow">Сары түсті жазбаларды іздеу</string>
+  <string name="sn_search_notes_with_color_purple">Күлгін түсті жазбаларды іздеу</string>
+  <string name="sn_search_notes_with_color_pink">Қызғылт түсті жазбаларды іздеу</string>
+  <string name="sn_search_notes_with_color_grey">Сұр түсті жазбаларды іздеу</string>
+  <string name="sn_search_notes_with_color_charcoal">Көмір түстес түсті жазбаларды іздеу</string>
+  <string name="sn_note_options_dismissed">Жазба параметрлері жабылды</string>
+  <string name="sn_note_options_displayed">Жазба параметрлері көрсетілді</string>
+  <string name="sn_adding_image_failed">Кескінді қосу мүмкін болмады</string>
+  <string name="sn_image_added">Кескін қосылды</string>
+</resources>

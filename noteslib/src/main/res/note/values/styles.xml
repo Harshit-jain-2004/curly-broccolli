@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SNActionBar" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="actionModeStyle">@style/SNActionMode</item>
+    </style>
+
+    <style name="SNActionMode" parent="Widget.AppCompat.ActionMode">
+        <item name="titleTextStyle">@style/SNActionModeTitle</item>
+    </style>
+
+    <style name="SNActionModeTitle" parent="@style/TextAppearance.AppCompat.Widget.ActionMode.Title">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="SNNoteOptionsBottomSheet" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:backgroundDimAmount">0.2</item>
+    </style>
+
+    <style name="SNBottomSheet">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingBottom">7dp</item>
+        <item name="android:background">@drawable/filter_ui_bg</item>
+    </style>
+
+    <style name="SNBottomSheetAlternate">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/filter_bottomsheet_background</item>
+    </style>
+
+    <style name="SNDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/sn_gray_divider</item>
+    </style>
+
+    <style name="SNSettingsBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+    </style>
+
+    <style name="SNSettingsBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:backgroundDimAmount">0.2</item>
+        <item name="android:background">@color/sn_content_background</item>
+    </style>
+
+    <style name="SNSettingsBottomSheet">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingBottom">7dp</item>
+        <item name="android:background">@drawable/filter_ui_bg</item>
+    </style>
+
+    <style name="FeedSourceFilterDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginStart">76dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:tag">@string/option_bottom_sheet_divider_tag</item>
+    </style>
+
+    <style name="SNNoteOptionsRow">
+        <item name="android:textSize">@dimen/sn_bottom_sheet_row_text</item>
+        <item name="android:textColor">@color/sn_bottom_sheet_row_text</item>
+        <item name="android:gravity">start</item>
+        <item name="android:drawablePadding">24dp</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/sn_bottom_sheet_row_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">Roboto</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="SNReminderOptionsRow">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/reminder_bottom_sheet_text_primary_color</item>
+        <item name="android:gravity">start</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">Roboto</item>
+        <item name="android:padding">16dp</item>
+
+    </style>
+
+    <style name="ReminderSuggestionChips" parent="Widget.MaterialComponents.Chip.Filter">
+        <item name="chipCornerRadius">8dp</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:textColor">@drawable/sn_filter_chips_text_color</item>
+        <item name="android:textAppearance">@style/SNBottomSheetChipsText</item>
+        <item name="chipBackgroundColor">@color/selected_filter_view_border_color</item>
+        <item name="android:theme">@style/Theme.MaterialComponents</item>
+        <item name="checkedIconVisible">false</item>
+        <item name="android:checked">false</item>
+    </style>
+
+    <style name="SNColorItem">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="SNBottomSheetChipsText" >
+        <item name="android:fontFamily">@string/sn_roboto_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="SNBottomSheetFilterChips" parent="Widget.MaterialComponents.Chip.Filter">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/min_touch_target_size</item>
+        <item name="android:minWidth">@dimen/min_touch_target_size</item>
+        <item name="chipCornerRadius">8dp</item>
+        <item name="android:textAppearance">@style/SNBottomSheetChipsText</item>
+        <item name="android:textColor">@drawable/sn_filter_chips_text_color</item>
+        <item name="textEndPadding">12dp</item>
+        <item name="textStartPadding">12dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:theme">@style/Theme.MaterialComponents</item>
+        <item name="checkedIconVisible">false</item>
+        <item name="android:checked">false</item>
+    </style>
+
+    <style name="SNBottomSheetSortChips" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/SNBottomSheetChipsText</item>
+        <item name="android:textColor">@drawable/sn_filter_chips_text_color</item>
+    </style>
+
+</resources>

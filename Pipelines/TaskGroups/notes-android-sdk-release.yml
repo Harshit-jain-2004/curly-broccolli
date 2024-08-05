@@ -1,0 +1,212 @@
+# This pipeline was generated from the classic pipeline "notes-android-sdk-release" on 2023-10-26 with https://aka.ms/1ESPTMigration (v0.2.0): https://dev.azure.com/Office/OneNote/_build?definitionId=5201
+#
+# The following items require attention:
+# Variables were exported from the classic pipeline, confirm that `variables` values do not contain private information. If a variable contains private information, follow the guidance on handling secret variables: https://learn.microsoft.com/en-us/azure/devops/pipelines/process/set-secret-variables
+# Secret variable 'APP_KEY' detected in `variables`, follow the guidance on handling secret variables: https://learn.microsoft.com/en-us/azure/devops/pipelines/process/set-secret-variables
+# Secret variable 'AZURE_ARTIFACTS_ENV_ACCESS_TOKEN' detected in `variables`, follow the guidance on handling secret variables: https://learn.microsoft.com/en-us/azure/devops/pipelines/process/set-secret-variables
+# 'Allow scripts to access the OAuth token' was selected in pipeline.  Add the following YAML to any steps requiring access:
+#       env:
+#           MY_ACCESS_TOKEN: $(System.AccessToken)
+# No name found, setting the default value '$(Date:yyyyMMdd).$(Rev:r)'. This value determines how your pipeline runs are numbered. Update the name as needed: https://learn.microsoft.com/en-us/azure/devops/pipelines/process/run-number?view=azure-devops&tabs=yaml
+# The pipeline uses service connection "Arrow_Connector_Prod", which is an open source service connection.
+# The following task is disabled in "Phase 1" and not included in the converted pipeline: "Publish Artifact: drop"
+
+name: $(Date:yyyyMMdd).$(Rev:r)
+variables:
+  - name: AZURE_ARTIFACTS_ENV_ACCESS_TOKEN
+    value: null
+  - name: Packaging.EnableSBOMSigning
+    value: true
+  - name: REMOTE_OUTPUT
+    value: noteslib/build/outputs/aar/noteslib-release.aar
+  - name: system.debug
+    value: false
+  - name: tags
+    value: production
+  - name: product
+    value: 83d79433-a239-46dd-8077-c6c2b3446ddf
+  - group: InfoSec-SecurityResults
+resources:
+  repositories:
+    - repository: OfficePipelineTemplates
+      type: git
+      name: 1ESPipelineTemplates/OfficePipelineTemplates
+      ref: refs/tags/release
+extends:
+  template: v1/Office.Official.PipelineTemplate.yml@OfficePipelineTemplates
+  parameters:
+    pool:
+      os: windows
+      image: windows-latest
+      name: Azure-Pipelines-1ESPT-ExDShared
+    customBuildTags:
+      - MigrationTooling-Office-OneNote-5201-Tool
+    stages:
+      - stage: Stage
+        jobs:
+          - job: Phase_1
+            displayName: Phase 1
+            cancelTimeoutInMinutes: 1
+            templateContext:
+              outputs:
+                - output: pipelineArtifact
+                  artifactName: drop
+                  targetPath: $(Build.ArtifactStagingDirectory)
+                  displayName: "Publish Artifact: drop"
+                - output: nuget
+                  displayName: NuGet push
+                  publishVstsFeed: 86ec7889-a365-4cd1-90df-6e18cc2ea59f
+                  packagesToPush: $(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg
+            steps:
+              - checkout: self
+                clean: true
+                fetchTags: true
+                persistCredentials: true
+              - task: JavaToolInstaller@0
+                inputs:
+                  versionSpec: '11'
+                  jdkArchitectureOption: 'x64'
+                  jdkSourceOption: 'PreInstalled'
+              - task: ms.vss-governance-buildtask.governance-build-task-component-detection.ComponentGovernanceComponentDetection@0
+                displayName: Component Detection
+              - task: securedevelopmentteam.vss-secure-development-tools.build-task-credscan.CredScan@3
+                displayName: Run Credential Scanner
+                inputs:
+                  debugMode: false
+              - task: securedevelopmentteam.vss-secure-development-tools.build-task-antimalware.AntiMalware@4
+                displayName: Run MpCmdRun.exe
+              - task: Gradle@3
+                name: Gradle3
+                displayName: Static Analysis
+                inputs:
+                  tasks: detekt
+                  publishJUnitResults: false
+              - task: securedevelopmentteam.vss-secure-development-tools.build-task-publishsecurityanalysislogs.PublishSecurityAnalysisLogs@3
+                displayName: Publish Guardian Artifacts
+                inputs:
+                  ArtifactType: M365
+              - task: dikalya.AssetRetention.asset-retention-task.AssetRetention@5
+                displayName: ARtifact Retention Orchestrator Workflow (ARROW)
+                condition: ""
+                inputs:
+                  ArrowServiceConnection: Arrow_Connector_Prod
+                  IsShipped: true
+              - task: securedevelopmentteam.vss-secure-development-tools.build-task-postanalysis.PostAnalysis@2
+                displayName: Guardian Break
+                inputs:
+                  GdnBreakPolicy: M365
+              - task: TouchdownBuildTask@4
+                displayName: Touchdown Build - 377, PROD noteslib-noteslist
+                inputs:
+                  teamId: '377'
+                  authType: 'FederatedIdentity'
+                  FederatedIdentityServiceConnection: 'FederatedStickyNotesSDKLocalisation'
+                  resourceFilePath: 'noteslib/src/main/res/noteslist/values/strings.xml;P:246'
+                  outputDirectoryRoot: 'noteslib/src/main/res/noteslist'
+                  isPreview: false
+                  appendRelativeDir: false
+                  cultureMappingType: Android
+              - task: TouchdownBuildTask@4
+                displayName: Touchdown Build - 377, PROD noteslib-note
+                inputs:
+                  teamId: '377'
+                  authType: 'FederatedIdentity'
+                  FederatedIdentityServiceConnection: 'FederatedStickyNotesSDKLocalisation'
+                  isPreview: false
+                  resourceFilePath: noteslib/src/main/res/note/values/strings.xml;P:246
+                  outputDirectoryRoot: noteslib/src/main/res/note
+                  appendRelativeDir: false
+                  cultureMappingType: Android
+              - task: TouchdownBuildTask@4
+                displayName:  Touchdown Build - 377, PROD noteslib-sideeffect-sync
+                inputs:
+                  teamId: '377'
+                  authType: 'FederatedIdentity'
+                  FederatedIdentityServiceConnection: 'FederatedStickyNotesSDKLocalisation'
+                  isPreview: false
+                  resourceFilePath: noteslib/src/main/res/sideeffect-sync/values/strings.xml;P:246
+                  outputDirectoryRoot: noteslib/src/main/res/sideeffect-sync/
+                  appendRelativeDir: false
+                  cultureMappingType: Android
+              - task: TouchdownBuildTask@4
+                displayName: Touchdown Build - 377, PROD noteslib-richtext-render
+                inputs:
+                  teamId: '377'
+                  authType: 'FederatedIdentity'
+                  FederatedIdentityServiceConnection: 'FederatedStickyNotesSDKLocalisation'
+                  isPreview: false
+                  resourceFilePath: noteslib/src/main/res/richtext-render/values/strings.xml;P:246
+                  outputDirectoryRoot: noteslib/src/main/res/richtext-render/
+                  appendRelativeDir: false
+                  cultureMappingType: Android
+              - task: TouchdownBuildTask@4
+                displayName: Touchdown Build - 377, PROD noteslib-richtext-editor
+                inputs:
+                  teamId: '377'
+                  authType: 'FederatedIdentity'
+                  FederatedIdentityServiceConnection: 'FederatedStickyNotesSDKLocalisation'
+                  isPreview: false
+                  resourceFilePath: noteslib/src/main/res/richtext-editor/values/strings.xml;P:246
+                  outputDirectoryRoot: noteslib/src/main/res/richtext-editor/
+                  appendRelativeDir: false
+                  cultureMappingType: Android
+              - task: TouchdownBuildTask@4
+                displayName: Touchdown Build - 377, PROD noteslib-richtext-editor-styled
+                inputs:
+                  teamId: '377'
+                  authType: 'FederatedIdentity'
+                  FederatedIdentityServiceConnection: 'FederatedStickyNotesSDKLocalisation'
+                  isPreview: false
+                  resourceFilePath: noteslib/src/main/res/richtext-editor-styled/values/strings.xml;P:246
+                  outputDirectoryRoot: noteslib/src/main/res/richtext-editor-styled/
+                  appendRelativeDir: false
+                  cultureMappingType: Android
+              - task: PowerShell@2
+                displayName: Set version
+                inputs:
+                  targetType: inline
+                  script: |
+                    $version = $env:BUILD_SOURCEBRANCHNAME.Substring(1)
+                    Write-Host "##vso[build.updatebuildnumber]$version"
+                    ((Get-Content -path .\artifact.properties -Raw) -replace 'version=dev',"version=$version") | Set-Content -Path .\artifact.properties
+              - task: Gradle@1
+                displayName: gradlew assembleRelease
+                inputs:
+                  tasks: assembleRelease
+                  publishJUnitResults: false
+              - task: Gradle@2
+                displayName: gradlew generatePomFileForArtifactPublicationPublication
+                inputs:
+                  tasks: generatePomFileForArtifactPublicationPublication
+                  publishJUnitResults: false
+              - task: CopyFiles@2
+                displayName: "Copy Files to: $(build.artifactstagingdirectory)"
+                inputs:
+                  SourceFolder: $(build.sourcesdirectory)
+                  Contents: |-
+                    **/aar/*.aar
+                    **/libs/*.jar
+                  TargetFolder: $(build.artifactstagingdirectory)
+                  CleanTargetFolder: true
+                  flattenFolders: true
+              - task: CmdLine@2
+                displayName: Copy POM file and rename extension
+                inputs:
+                  script: |
+                    copy build\publications\artifactPublication\pom-default.xml build\publications\artifactPublication\pom-default.pom
+              - task: NuGetCommand@2
+                displayName: NuGet pack
+                inputs:
+                  command: pack
+                  searchPatternPack: .\StickyNotes.Android.nuspec
+                  versioningScheme: byEnvVar
+                  versionEnvVar: BUILD_BUILDNUMBER
+              - task: AzureArtifacts.manifest-generator-task.manifest-generator-task.ManifestGeneratorTask@0
+                displayName: "Manifest Generator "
+                inputs:
+                  BuildDropPath: $(Build.ArtifactStagingDirectory)
+              - task: Gradle@2
+                displayName: gradlew publish
+                inputs:
+                  tasks: publish
+                  publishJUnitResults: false

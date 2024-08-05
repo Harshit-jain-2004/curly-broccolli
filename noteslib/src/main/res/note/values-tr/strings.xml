@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Yapışkan Notu Paylaş</string>
+  <string name="sn_action_share">Paylaş</string>
+  <string name="sn_action_delete_note">Sil</string>
+  <string name="sn_action_send_feedback">Geri Bildirim Gönder</string>
+  <string name="sn_delete_note_dialog">Not Silinsin mi?</string>
+  <string name="sn_delete_note_description">Tüm cihazlarınızdan kalıcı olarak silinecek.</string>
+  <string name="sn_image_dialog_delete_description">Bu resim tüm cihazlarınızdan kalıcı olarak silinecek.</string>
+  <string name="sn_image_dialog_delete_action">Sil</string>
+  <string name="sn_image_dialog_alt_text_title">Alternatif Metin</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Resim Açıklaması Girin</string>
+  <string name="sn_image_dialog_save_alt_text">Kaydet</string>
+  <string name="sn_dialog_cancel">İptal</string>
+  <string name="sn_change_color_to_blue">Not rengini mavi olarak değiştir</string>
+  <string name="sn_change_color_to_green">Not rengini yeşil olarak değiştir</string>
+  <string name="sn_change_color_to_yellow">Not rengini sarı olarak değiştir</string>
+  <string name="sn_change_color_to_purple">Not rengini mor olarak değiştir</string>
+  <string name="sn_change_color_to_pink">Not rengini pembe olarak değiştir</string>
+  <string name="sn_change_color_to_grey">Not rengini gri olarak değiştir</string>
+  <string name="sn_change_color_to_charcoal">Not rengini kömür rengi olarak değiştir</string>
+  <string name="sn_search_notes_with_color_blue">Mavi renkli notları ara</string>
+  <string name="sn_search_notes_with_color_green">Yeşil renkli notları ara</string>
+  <string name="sn_search_notes_with_color_yellow">Sarı renkli notları ara</string>
+  <string name="sn_search_notes_with_color_purple">Mor renkli notları ara</string>
+  <string name="sn_search_notes_with_color_pink">Pembe renkli notları ara</string>
+  <string name="sn_search_notes_with_color_grey">Gri renkli notları ara</string>
+  <string name="sn_search_notes_with_color_charcoal">Kömür renkli notları ara</string>
+  <string name="sn_note_options_dismissed">Not seçenekleri kapatıldı</string>
+  <string name="sn_note_options_displayed">Not seçenekleri görüntüleniyor</string>
+  <string name="sn_adding_image_failed">Resim eklenemedi</string>
+  <string name="sn_image_added">Resim eklendi</string>
+</resources>

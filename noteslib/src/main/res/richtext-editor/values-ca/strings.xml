@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_notes_image">Imatge</string>
+  <string name="sn_inline_media_notes_alttext">Text alternatiu</string>
+  <string name="sn_inline_media_notes_description">Descripció</string>
+  <string name="sn_inline_media_notes_done">Fet</string>
+  <string name="sn_inline_media_notes_cancel">Cancel·la</string>
+  <string name="sn_inline_media_notes_open">Obre</string>
+  <string name="sn_notes_read_alt_text">Imatge, text alternatiu: %1$s!</string>
+  <string name="sn_notes_link_label">Enllaç: %1$s</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">Því miður! Minnismiðar krefst sem stendur Exchange Online-pósthólfs fyrir samstillingu og geymslu. Hafðu samband við kerfisstjóra til að láta virkja pósthólf eða notaðu valkostinn hér fyrir neðan til að fá nánari upplýsingar.</string>
+  <string name="sn_sync_failure_with_contact_support_message">Ekki er hægt að samstilla Minnismiða við reikninginn þinn. Hafðu samband við notendaþjónustu til að fá aðstoð við að leysa þetta vandamál.</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">Ekki er hægt að samstilla Minnismiða við reikninginn þinn, en hugsanlega getur þú leyst vandamálið sjálf(ur).</string>
+</resources>

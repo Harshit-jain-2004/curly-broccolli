@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">पाठ नोट</string>
+  <string name="sn_ink_note">इंक नोट</string>
+  <string name="sn_label_text">पाठ</string>
+  <string name="sn_label_image">छवि</string>
+  <string name="sn_single_image_note">1 छवि वाला %1$s नोट</string>
+  <string name="sn_multi_image_note">%2$d छवियों वाला %1$s नोट</string>
+  <string name="sn_label_date">संपादित %s</string>
+  <string name="sn_add_note">नया नोट जोड़ें</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">अब सिंक करने में असमर्थ.</string>
+</resources>

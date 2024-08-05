@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_notes_image">Rasm</string>
+  <string name="sn_inline_media_notes_alttext">Muqobil matn</string>
+  <string name="sn_inline_media_notes_description">Tavsif</string>
+  <string name="sn_inline_media_notes_done">Bajarildi</string>
+  <string name="sn_inline_media_notes_cancel">Bekor qilish</string>
+  <string name="sn_inline_media_notes_open">Ochish</string>
+  <string name="sn_notes_read_alt_text">Rasm, Muqobil matn: %1$s!</string>
+  <string name="sn_notes_link_label">Havola: %1$s</string>
+</resources>

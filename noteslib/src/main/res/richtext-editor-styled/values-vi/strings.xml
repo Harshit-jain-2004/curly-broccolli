@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Chèn hình ảnh</string>
+  <string name="sn_bold">Đậm</string>
+  <string name="sn_italic">Nghiêng</string>
+  <string name="sn_underline">Gạch dưới</string>
+  <string name="sn_strikethrough">Gạch ngang chữ</string>
+  <string name="sn_bullets">Danh sách Gạch đầu dòng</string>
+  <string name="sn_color_name_charcoal">Than chì</string>
+  <string name="sn_color_name_blue">Lam</string>
+  <string name="sn_color_name_green">Lục</string>
+  <string name="sn_color_name_yellow">Vàng</string>
+  <string name="sn_color_name_grey">Xám</string>
+  <string name="sn_color_name_purple">Tía</string>
+  <string name="sn_color_name_pink">Hồng</string>
+  <string name="sn_unselected">Không được chọn</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Thêm văn bản thay thế</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Chỉnh sửa văn bản thay thế</string>
+  <string name="sn_contextual_menu_image_delete">Xóa hình ảnh</string>
+  <string name="sn_image_attachment">Tệp đính kèm hình ảnh</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Lisa pilt</string>
+  <string name="sn_bold">Paks kiri</string>
+  <string name="sn_italic">Kursiivkiri</string>
+  <string name="sn_underline">Allakriipsutus</string>
+  <string name="sn_strikethrough">Läbikriipsutus</string>
+  <string name="sn_bullets">Täpploend</string>
+  <string name="sn_color_name_charcoal">Süsihall</string>
+  <string name="sn_color_name_blue">Sinine</string>
+  <string name="sn_color_name_green">Roheline</string>
+  <string name="sn_color_name_yellow">Kollane</string>
+  <string name="sn_color_name_grey">Hall</string>
+  <string name="sn_color_name_purple">Lilla</string>
+  <string name="sn_color_name_pink">Roosa</string>
+  <string name="sn_unselected">Valimata</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Lisa asetekst</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Redigeeri aseteksti</string>
+  <string name="sn_contextual_menu_image_delete">Kustuta pilt</string>
+  <string name="sn_image_attachment">Piltmanus</string>
+</resources>

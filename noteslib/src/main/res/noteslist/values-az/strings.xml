@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">Mətn qeydi</string>
+  <string name="sn_ink_note">Əlyazma qeydi</string>
+  <string name="sn_label_text">Mətn</string>
+  <string name="sn_label_image">Təsvir</string>
+  <string name="sn_single_image_note">1 təsvir ilə %1$s qeyd</string>
+  <string name="sn_multi_image_note">%2$d təsvir ilə %1$s qeyd</string>
+  <string name="sn_label_date">%s redaktə edilib</string>
+  <string name="sn_add_note">Yeni qeyd əlavə edin</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">İndi sinxronlaşdırmaq mümkün deyil.</string>
+</resources>

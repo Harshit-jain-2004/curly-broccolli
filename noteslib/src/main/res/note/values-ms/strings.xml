@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Kongsi Nota Lekit</string>
+  <string name="sn_action_share">Kongsi</string>
+  <string name="sn_action_delete_note">Padam</string>
+  <string name="sn_action_send_feedback">Hantar Maklum Balas</string>
+  <string name="sn_delete_note_dialog">Padamkan Nota?</string>
+  <string name="sn_delete_note_description">Ia akan dipadamkan secara kekal daripada semua peranti anda.</string>
+  <string name="sn_image_dialog_delete_description">Imej ini akan dipadamkan secara kekal daripada semua peranti anda.</string>
+  <string name="sn_image_dialog_delete_action">Padam</string>
+  <string name="sn_image_dialog_alt_text_title">Teks Alt</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Masukkan Perihalan Imej</string>
+  <string name="sn_image_dialog_save_alt_text">Simpan</string>
+  <string name="sn_dialog_cancel">Batal</string>
+  <string name="sn_change_color_to_blue">Ubah warna nota kepada biru</string>
+  <string name="sn_change_color_to_green">Ubah warna nota kepada hijau</string>
+  <string name="sn_change_color_to_yellow">Ubah warna nota kepada kuning</string>
+  <string name="sn_change_color_to_purple">Ubah warna nota kepada ungu</string>
+  <string name="sn_change_color_to_pink">Ubah warna nota kepada merah jambu</string>
+  <string name="sn_change_color_to_grey">Ubah warna nota kepada kelabu</string>
+  <string name="sn_change_color_to_charcoal">Ubah warna nota kepada arang</string>
+  <string name="sn_search_notes_with_color_blue">Cari nota dengan warna biru</string>
+  <string name="sn_search_notes_with_color_green">Cari nota dengan warna hijau</string>
+  <string name="sn_search_notes_with_color_yellow">Cari nota dengan warna kuning</string>
+  <string name="sn_search_notes_with_color_purple">Cari nota dengan warna ungu</string>
+  <string name="sn_search_notes_with_color_pink">Cari nota dengan warna merah jambu</string>
+  <string name="sn_search_notes_with_color_grey">Cari nota dengan warna kelabu</string>
+  <string name="sn_search_notes_with_color_charcoal">Cari nota dengan warna arang</string>
+  <string name="sn_note_options_dismissed">Opsyen nota ditolak</string>
+  <string name="sn_note_options_displayed">Opsyen nota dipaparkan</string>
+  <string name="sn_adding_image_failed">Imej tidak boleh ditambah</string>
+  <string name="sn_image_added">Imej ditambah</string>
+</resources>

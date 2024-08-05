@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">แทรกรูป</string>
+  <string name="sn_bold">ตัวหนา</string>
+  <string name="sn_italic">ตัวเอียง</string>
+  <string name="sn_underline">ขีดเส้นใต้</string>
+  <string name="sn_strikethrough">ขีดทับ</string>
+  <string name="sn_bullets">รายการสัญลักษณ์แสดงหัวข้อย่อย</string>
+  <string name="sn_color_name_charcoal">ถ่าน</string>
+  <string name="sn_color_name_blue">น้ำเงิน</string>
+  <string name="sn_color_name_green">เขียว</string>
+  <string name="sn_color_name_yellow">เหลือง</string>
+  <string name="sn_color_name_grey">เทา</string>
+  <string name="sn_color_name_purple">สีม่วง</string>
+  <string name="sn_color_name_pink">ชมพู</string>
+  <string name="sn_unselected">ยกเลิกการเลือกแล้ว</string>
+  <string name="sn_contextual_menu_image_alt_text_add">เพิ่มข้อความแสดงแทน</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">แก้ไขข้อความแสดงแทน</string>
+  <string name="sn_contextual_menu_image_delete">ลบรูป</string>
+  <string name="sn_image_attachment">รูปที่แนบมา</string>
+</resources>

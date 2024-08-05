@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">ملاحظة نصية</string>
+  <string name="sn_ink_note">ملاحظة بالحبر</string>
+  <string name="sn_label_text">النص</string>
+  <string name="sn_label_image">صورة</string>
+  <string name="sn_single_image_note">ملاحظة %1$s بصورة واحدة</string>
+  <string name="sn_multi_image_note">ملاحظة %1$s تتضمن %2$d من الصور</string>
+  <string name="sn_label_date">تم تحرير %s</string>
+  <string name="sn_add_note">إضافة ملاحظة جديدة</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">تتعذر المزامنة الآن.</string>
+</resources>

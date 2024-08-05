@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">Текстова нотатка</string>
+  <string name="sn_ink_note">Рукописна нотатка</string>
+  <string name="sn_label_text">Текст</string>
+  <string name="sn_label_image">Зображення</string>
+  <string name="sn_single_image_note">%1$s нотатка з 1 зображенням</string>
+  <string name="sn_multi_image_note">%1$s нотатка із зображеннями (%2$d)</string>
+  <string name="sn_label_date">змінено %s</string>
+  <string name="sn_add_note">Додайте нову нотатку</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">Зараз не вдалося синхронізуватися.</string>
+</resources>

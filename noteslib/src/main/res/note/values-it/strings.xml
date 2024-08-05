@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Condividi Memo</string>
+  <string name="sn_action_share">Condividi</string>
+  <string name="sn_action_delete_note">Elimina</string>
+  <string name="sn_action_send_feedback">Invia feedback</string>
+  <string name="sn_delete_note_dialog">Vuoi eliminare la nota?</string>
+  <string name="sn_delete_note_description">Verrà eliminata definitivamente da tutti i tuoi dispositivi.</string>
+  <string name="sn_image_dialog_delete_description">Questa immagine verrà eliminata definitivamente da tutti i tuoi dispositivi.</string>
+  <string name="sn_image_dialog_delete_action">Elimina</string>
+  <string name="sn_image_dialog_alt_text_title">Testo alternativo</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Immetti la descrizione dell\'immagine</string>
+  <string name="sn_image_dialog_save_alt_text">Salva</string>
+  <string name="sn_dialog_cancel">Annulla</string>
+  <string name="sn_change_color_to_blue">Modifica il colore della nota in blu</string>
+  <string name="sn_change_color_to_green">Modifica il colore della nota in verde</string>
+  <string name="sn_change_color_to_yellow">Modifica il colore della nota in giallo</string>
+  <string name="sn_change_color_to_purple">Modifica il colore della nota in viola</string>
+  <string name="sn_change_color_to_pink">Modifica il colore della nota in rosa</string>
+  <string name="sn_change_color_to_grey">Modifica il colore della nota in grigio</string>
+  <string name="sn_change_color_to_charcoal">Modifica il colore della nota in carbone</string>
+  <string name="sn_search_notes_with_color_blue">Cerca le note di colore blu</string>
+  <string name="sn_search_notes_with_color_green">Cerca le note di colore verde</string>
+  <string name="sn_search_notes_with_color_yellow">Cerca le note di colore giallo</string>
+  <string name="sn_search_notes_with_color_purple">Cerca le note di colore viola</string>
+  <string name="sn_search_notes_with_color_pink">Cerca le note di colore rosa</string>
+  <string name="sn_search_notes_with_color_grey">Cerca le note di colore grigio</string>
+  <string name="sn_search_notes_with_color_charcoal">Cerca le note di color carbone</string>
+  <string name="sn_note_options_dismissed">Opzioni delle note eliminate</string>
+  <string name="sn_note_options_displayed">Opzioni delle note visualizzate</string>
+  <string name="sn_adding_image_failed">Non è stato possibile aggiungere l\'immagine</string>
+  <string name="sn_image_added">L\'immagine è stata aggiunta</string>
+</resources>

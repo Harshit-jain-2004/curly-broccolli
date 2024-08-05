@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Vložit obrázek</string>
+  <string name="sn_bold">Tučné</string>
+  <string name="sn_italic">Kurzíva</string>
+  <string name="sn_underline">Podtržené</string>
+  <string name="sn_strikethrough">Přeškrtnuté</string>
+  <string name="sn_bullets">Odrážkový seznam</string>
+  <string name="sn_color_name_charcoal">Uhlově černá</string>
+  <string name="sn_color_name_blue">Modrá</string>
+  <string name="sn_color_name_green">Zelená</string>
+  <string name="sn_color_name_yellow">Žlutá</string>
+  <string name="sn_color_name_grey">Šedá</string>
+  <string name="sn_color_name_purple">Fialová</string>
+  <string name="sn_color_name_pink">Růžová</string>
+  <string name="sn_unselected">Nevybráno</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Přidat alternativní text</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Upravit alternativní text</string>
+  <string name="sn_contextual_menu_image_delete">Odstranit obrázek</string>
+  <string name="sn_image_attachment">Obrázková příloha</string>
+</resources>

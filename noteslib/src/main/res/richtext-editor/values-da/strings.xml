@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_notes_image">Billede</string>
+  <string name="sn_inline_media_notes_alttext">Alternativ tekst</string>
+  <string name="sn_inline_media_notes_description">Beskrivelse</string>
+  <string name="sn_inline_media_notes_done">Udført</string>
+  <string name="sn_inline_media_notes_cancel">Annuller</string>
+  <string name="sn_inline_media_notes_open">Åbn</string>
+  <string name="sn_notes_read_alt_text">Billede, alternativ tekst: %1$s!</string>
+  <string name="sn_notes_link_label">Link: %1$s</string>
+</resources>

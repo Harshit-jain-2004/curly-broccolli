@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">వచన గమనిక</string>
+  <string name="sn_ink_note">ఇంక్ గమనిక</string>
+  <string name="sn_label_text">వచనం</string>
+  <string name="sn_label_image">చిత్రం</string>
+  <string name="sn_single_image_note">1 చిత్రంతో %1$s గమనిక</string>
+  <string name="sn_multi_image_note">%2$d చిత్రాలతో %1$s గమనిక</string>
+  <string name="sn_label_date">సవరించబడిన %s</string>
+  <string name="sn_add_note">కొత్త గమనికను జోడించు</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">సమకాలీకరించడం ఇప్పుడు సాధ్యం కాదు.</string>
+</resources>

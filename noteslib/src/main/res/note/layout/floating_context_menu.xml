@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    android:padding="@dimen/floating_context_menu_padding"
+    android:elevation="@dimen/floating_context_menu_elevation"
+    android:background="@drawable/floating_context_menu_background"
+    android:layout_gravity="end"
+    android:visibility="gone">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/open_note"
+        android:drawablePadding="@dimen/feed_card_preview_padding"
+        android:text="@string/sn_contextual_menu_open"
+        android:textSize="@dimen/floating_context_menu_text_size"
+        android:textColor="@color/feed_item_ui_refresh_text_color_light"
+        android:drawableStart="@drawable/open_icon"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scan_note"
+        android:drawablePadding="@dimen/floating_context_menu_item_drawable_padding"
+        android:text="@string/sn_contextual_menu_scan"
+        android:textSize="@dimen/floating_context_menu_text_size"
+        android:textColor="@color/feed_item_ui_refresh_text_color_light"
+        android:drawableStart="@drawable/scan_icon"
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/floating_context_menu_item_padding_start"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/delete_note"
+        android:drawablePadding="@dimen/floating_context_menu_item_drawable_padding"
+        android:text="@string/sn_contextual_menu_delete"
+        android:textSize="@dimen/floating_context_menu_text_size"
+        android:textColor="@color/feed_item_ui_refresh_text_color_light"
+        android:drawableStart="@drawable/delete_icon"
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/floating_context_menu_item_padding_start"
+        />
+
+</LinearLayout>

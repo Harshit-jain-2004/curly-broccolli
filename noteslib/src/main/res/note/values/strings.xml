@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Strings for Share functions in EditNoteFragment -->
+    <string name="sn_share_dialog_title">Share Sticky Note</string>
+    <string name="sn_action_share">Share</string>
+    <string name="sn_action_find">Find</string>
+    <string name="sn_action_export">Export</string>
+    <string name="sn_action_delete_note">Delete</string>
+    <string name="samsung_action_dismiss_note">Remove</string>
+    <string name="sn_action_send_feedback">Send Feedback</string>
+    <string name="sn_action_close_options_bottom_sheet">Close</string>
+    <string name="sn_action_pin_shortcut_to_home">Add to Home screen</string>
+    <string name="sn_delete_note_dialog">Delete Note?</string>
+    <string name="sn_delete_notes_dialog">Delete Selected Notes?</string>
+    <string name="sn_delete_note_description">It will be permanently deleted from all your devices.</string>
+    <string name="sn_delete_notes_description">It will delete all the selected notes</string>
+
+    <!-- String for Clear Canvas action for Ink Note -->
+    <string name="sn_action_clear_canvas">Clear Canvas</string>
+
+    <!-- Strings for media dialogs-->
+    <string name="sn_image_dialog_delete_description">This image will be permanently deleted from all your devices.</string>
+    <string name="sn_image_dialog_delete_action">Delete</string>
+    <string name="sn_image_dialog_alt_text_title">Alt Text</string>
+    <string name="sn_image_dialog_enter_alt_text_hint">Enter Image Description</string>
+    <string name="sn_image_dialog_save_alt_text">Save</string>
+    <string name="sn_dialog_cancel">Cancel</string>
+
+    <!-- Strings for feed -->
+    <string name="heading_filter">Filter</string>
+    <string name="heading_all_notes">All Notes</string>
+    <string name="heading_sticky_notes">Sticky Notes</string>
+    <string name="heading_notebook_page">Notebook page</string>
+    <string name="heading_all_pages">OneNote Pages</string>
+    <string name="heading_samsung_notes">Samsung Notes</string> <!-- Samsung Notes is a brand name, Do NOT localize -->
+    <string name="sn_delete_sticky_note_dialog">Delete sticky note?</string>
+    <string name="sn_delete_sticky_note_description">Do you want to permanently delete the sticky note?</string>
+    <string name="samsung_dismiss_note_title">Remove from feed?</string>
+    <string name="samsung_dismiss_note_description">This item will be removed from this feed but will still exist at its original source.</string>
+    <string name="dont_show_this_message_again">Don\'t show this message again</string>
+    <string name="note_image_preview">OneNote page image preview</string>
+    <string name="sourceText">%1$s \u00bb %2$s</string>
+    <string name="close">Close</string>
+    <string name="pinned_notes_toast">Your notes have been pinned</string>
+    <string name="unpinned_notes_toast">Your notes have been unpinned</string>
+
+    <!-- Strings for Samsung Notes -->
+    <string name="samsung_no_additional_text">No additional text</string>
+    <string name="samsung_untitled_note">Untitled note</string>
+    <string name="samsung_datetime_stamp">Modified: %1$s\nCreated: %2$s</string>
+
+    <!-- accessibility strings  -->
+    <string name="sn_change_color_to_blue">Change note color to blue</string>
+    <string name="sn_change_color_to_green">Change note color to green</string>
+    <string name="sn_change_color_to_yellow">Change note color to yellow</string>
+    <string name="sn_change_color_to_purple">Change note color to purple</string>
+    <string name="sn_change_color_to_pink">Change note color to pink</string>
+    <string name="sn_change_color_to_grey">Change note color to grey</string>
+    <string name="sn_change_color_to_charcoal">Change note color to charcoal</string>
+
+    <string name="sn_change_color_position">In list, %1$s of %2$s</string>
+
+    <string name="sn_search_notes_with_color_blue">Search notes with blue color</string>
+    <string name="sn_search_notes_with_color_green">Search notes with green color</string>
+    <string name="sn_search_notes_with_color_yellow">Search notes with yellow color</string>
+    <string name="sn_search_notes_with_color_purple">Search notes with purple color</string>
+    <string name="sn_search_notes_with_color_pink">Search notes with pink color</string>
+    <string name="sn_search_notes_with_color_grey">Search notes with grey color</string>
+    <string name="sn_search_notes_with_color_charcoal">Search notes with charcoal color</string>
+
+    <string name="sn_note_options_dismissed">Note options dismissed</string>
+    <string name="sn_note_options_displayed">Note options on display</string>
+
+    <string name="sn_filter_ui_options_dismissed">Filter options dismissed</string>
+    <string name="sn_filter_ui_options_displayed">Filter options on display</string>
+
+    <string name="sn_adding_image_failed">Image could not be added</string>
+    <string name="sn_image_added">Image added</string>
+
+    <string name="sn_item_unselected">Unselected %1$s</string>
+    <string name="sn_entering_Selection">Entering selection</string>
+    <string name="sn_exiting_Selection">Exiting selection</string>
+
+    <string name="sn_note_deleted">Sticky Note Deleted</string>
+    <string name="sn_search_no_matches_found">No matches found</string>
+
+    <string name="not_opened">Not Opened</string>
+    <string name="notes_deleted">Notes Deleted</string>
+
+
+    <!-- Samsung Notes share -->
+    <string name="samsung_note_share_dialog_title">Share Samsung Note</string> <!-- Samsung Notes is a brand name, Do NOT localize -->
+
+    <string name="sn_loading">Loading...</string>
+    <string name="sn_generic_error">Something went wrong</string>
+
+    <!--Filter/Sort BottomSheet strings BEGIN-->
+    <string name="filter_and_sort_panel_title">Sort &amp; Filter</string>
+    <string name="filter_and_sort_panel_clear_option_title">Clear</string>
+    <string name="filter_and_sort_panel_filter_title">Filter By</string>
+    <string name="filter_and_sort_panel_ntf_title">NOTE - TYPE</string>
+    <string name="filter_and_sort_panel_account_title">ACCOUNTS</string>
+    <string name="filter_and_sort_panel_filter_option_all">All</string>
+    <string name="filter_and_sort_panel_sort_title">Sort By</string>
+    <string name="filter_and_sort_panel_apply_title">Apply</string>
+    <string name="sort_by_modification_date_title">Modified Date</string>
+    <string name="sort_by_created_date_option">Created Date</string>
+    <string name="sort_alphabetically_title">Alphabetical</string>
+    <string name="sn_sort_filter_ui_options_displayed">Sort and Filter options on display</string>
+    <string name="sn_sort_filter_ui_options_closed">Sort and Filter options closed</string>
+    <string name="sort_applied_ascending_description">%1$s, Applied as Ascending</string>
+    <string name="sort_applied_descending_description">%1$s, Applied as Descending</string>
+    <string name="sort_disabled_description">%1$s, Not Activated</string>
+    <string name="applied_filters_container_description">%d filters applied</string>
+    <string name="applied_filter_container_description">1 filter applied</string>
+    <string name="filter_chip_content_description">%s filter applied</string>
+    <!--Filter/Sort BottomSheet strings END-->
+
+    <string name="action_dismiss">dismiss</string>
+
+
+    <!-- Share referral strings-->
+    <string name="share_referral_message">Get Microsoft OneNote</string>
+
+
+    <!-- Reminder strings -->
+    <string name="reminderHeading">Reminder</string>
+    <string name="backButton">Back button</string>
+    <string name="dismissReminder">Close reminder bottom sheet</string>
+    <string name="setTimeReminder">Set Date and Time</string>
+    <string name="selectedDateLabel">Selected Date</string>
+    <string name="selectedTimeLabel">Selected Time</string>
+    <string name="setReminderButton">Add Reminder</string>
+    <string name="reminderSetForToastMsg">Reminder set for</string>
+    <string name="reminderTimeInPastMsg">The time has passed</string>
+    <string name="reminderChipLabelToday">Today</string>
+    <string name="reminderChipLabelTomorrow">Tomorrow</string>
+    <string name="reminderChipLabelNextWeek">Next Week</string>
+</resources>

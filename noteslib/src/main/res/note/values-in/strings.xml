@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Bagikan Catatan Tempel</string>
+  <string name="sn_action_share">Bagikan</string>
+  <string name="sn_action_delete_note">Hapus</string>
+  <string name="sn_action_send_feedback">Kirim Umpan Balik</string>
+  <string name="sn_delete_note_dialog">Hapus Catatan?</string>
+  <string name="sn_delete_note_description">Catatan akan dihapus secara permanen dari semua perangkat Anda.</string>
+  <string name="sn_image_dialog_delete_description">Gambar ini akan dihapus secara permanen dari semua perangkat Anda.</string>
+  <string name="sn_image_dialog_delete_action">Hapus</string>
+  <string name="sn_image_dialog_alt_text_title">Teks Alternatif</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Masukkan Deskripsi Gambar</string>
+  <string name="sn_image_dialog_save_alt_text">Simpan</string>
+  <string name="sn_dialog_cancel">Batal</string>
+  <string name="sn_change_color_to_blue">Ubah warna catatan menjadi biru</string>
+  <string name="sn_change_color_to_green">Ubah warna catatan menjadi hijau</string>
+  <string name="sn_change_color_to_yellow">Ubah warna catatan menjadi kuning</string>
+  <string name="sn_change_color_to_purple">Ubah warna catatan menjadi ungu</string>
+  <string name="sn_change_color_to_pink">Ubah warna catatan menjadi merah muda</string>
+  <string name="sn_change_color_to_grey">Ubah warna catatan menjadi abu-abu</string>
+  <string name="sn_change_color_to_charcoal">Ubah warna catatan menjadi hitam arang</string>
+  <string name="sn_search_notes_with_color_blue">Cari catatan dengan warna biru</string>
+  <string name="sn_search_notes_with_color_green">Cari catatan dengan warna hijau</string>
+  <string name="sn_search_notes_with_color_yellow">Cari catatan dengan warna kuning</string>
+  <string name="sn_search_notes_with_color_purple">Cari catatan dengan warna ungu</string>
+  <string name="sn_search_notes_with_color_pink">Cari catatan dengan warna merah muda</string>
+  <string name="sn_search_notes_with_color_grey">Cari catatan dengan warna abu-abu</string>
+  <string name="sn_search_notes_with_color_charcoal">Cari catatan dengan warna hitam arang</string>
+  <string name="sn_note_options_dismissed">Opsi catatan ditutup</string>
+  <string name="sn_note_options_displayed">Opsi catatan pada layar</string>
+  <string name="sn_adding_image_failed">Gambar tidak dapat ditambahkan</string>
+  <string name="sn_image_added">Gambar ditambahkan</string>
+</resources>

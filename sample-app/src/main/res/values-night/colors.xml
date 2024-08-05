@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="toast_background" >#ffec74</color>
+    <color name="bottom_sheet_selected_chip_color">#443168</color>
+</resources>

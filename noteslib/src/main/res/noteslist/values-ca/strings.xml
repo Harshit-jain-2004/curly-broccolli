@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">Nota de text</string>
+  <string name="sn_ink_note">Nota d\'entrada manuscrita</string>
+  <string name="sn_label_text">Text</string>
+  <string name="sn_label_image">Imatge</string>
+  <string name="sn_single_image_note">%1$s nota amb una imatge</string>
+  <string name="sn_multi_image_note">%1$s nota amb %2$d imatges</string>
+  <string name="sn_label_date">s\'ha editat %s.</string>
+  <string name="sn_add_note">Afegeix una nova nota</string>
+  <string name="sn_note_preview_image_count">i %1$d més</string>
+  <string name="sn_manual_sync_failed">En aquest moment no es pot sincronitzar.</string>
+</resources>

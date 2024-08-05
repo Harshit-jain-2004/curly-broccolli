@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">För Fästisar krävs för närvarande en Exchange Online-postlåda för att synkronisering och lagring ska fungera. Kontakta IT-administratören om aktivering av en postlåda eller använd alternativet nedan om du vill ha mer information.</string>
+  <string name="sn_sync_failure_with_contact_support_message">Det går inte att synkronisera Fästisar med ditt konto. Kontakta supporten om du vill ha hjälp med att lösa problemet.</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">Det går inte att synkronisera Fästisar med ditt konto, men du kanske kan försöka lösa problemet.</string>
+</resources>

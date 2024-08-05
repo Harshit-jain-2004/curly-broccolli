@@ -1,0 +1,6 @@
+<resources>
+    <string name="sn_mailbox_creation_failed_message">Sorry! Sticky Notes currently requires an Exchange Online mailbox for sync and storage to work. Please contact your IT admin about enabling a mailbox or use the option below to learn more.</string>
+    <string name="sn_sync_failure_with_contact_support_message">We\'re unable to sync Sticky Notes with your account. Please contact Support for help with resolving this issue.</string>
+    <string name="sn_sync_failure_with_available_kb_article_message">We\'re unable to sync Sticky Notes with your account, but you may be able to try and resolve this issue.</string>
+    <string name="sn_sync_failure_with_quota_exceeded_message">We couldn\'t sync your sticky notes because your Outlook mailbox is full. Try freeing up space in your mailbox by deleting email you no longer need or email with large attachments.</string>
+</resources>

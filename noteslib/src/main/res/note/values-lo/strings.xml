@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">ແບ່ງປັນສະໝຸດກັນລືມ</string>
+  <string name="sn_action_share">ແບ່ງປັນ</string>
+  <string name="sn_action_delete_note">ລຶບ</string>
+  <string name="sn_action_send_feedback">ສົ່ງຄຳຕິຊົມ</string>
+  <string name="sn_delete_note_dialog">ລຶບບັນທຶກອອກບໍ?</string>
+  <string name="sn_delete_note_description">ມັນຈະຖືກລຶບອອກຈາກອຸປະກອນທັງໝົດຂອງທ່ານຢ່າງຖາວອນ.</string>
+  <string name="sn_image_dialog_delete_description">ຮູບນີ້ຈະຖືກລຶບອອກຈາກອຸປະກອນທັງໝົດຂອງທ່ານຢ່າງຖາວອນ.</string>
+  <string name="sn_image_dialog_delete_action">ລຶບ</string>
+  <string name="sn_image_dialog_alt_text_title">ຂໍ້ຄວາມສຳຮອງ</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">ໃສ່ຄຳອະທິບາຍຮູບ</string>
+  <string name="sn_image_dialog_save_alt_text">ບັນທຶກ</string>
+  <string name="sn_dialog_cancel">ຍົກເລີກ</string>
+  <string name="sn_change_color_to_blue">ປ່ຽນສີບັນທຶກເປັນສີຟ້າ</string>
+  <string name="sn_change_color_to_green">ປ່ຽນສີບັນທຶກເປັນສີຂຽວ</string>
+  <string name="sn_change_color_to_yellow">ປ່ຽນສີບັນທຶກເປັນສີເຫຼືອງ</string>
+  <string name="sn_change_color_to_purple">ປ່ຽນສີບັນທຶກເປັນສີມ່ວງ</string>
+  <string name="sn_change_color_to_pink">ປ່ຽນສີບັນທຶກເປັນສີບົວ</string>
+  <string name="sn_change_color_to_grey">ປ່ຽນສີບັນທຶກເປັນສີເທົາ</string>
+  <string name="sn_change_color_to_charcoal">ປ່ຽນສີບັນທຶກເປັນສີເທົາເຂັ້ມ</string>
+  <string name="sn_search_notes_with_color_blue">ຊອກຫາບັນທຶກທີ່ມີສີຟ້າ</string>
+  <string name="sn_search_notes_with_color_green">ຊອກຫາບັນທຶກທີ່ມີສີຂຽວ</string>
+  <string name="sn_search_notes_with_color_yellow">ຊອກຫາບັນທຶກທີ່ມີສີເຫຼືອງ</string>
+  <string name="sn_search_notes_with_color_purple">ຊອກຫາບັນທຶກທີ່ມີສີມ່ວງ</string>
+  <string name="sn_search_notes_with_color_pink">ຊອກຫາບັນທຶກທີ່ມີສີບົວ</string>
+  <string name="sn_search_notes_with_color_grey">ຊອກຫາບັນທຶກທີ່ມີສີເທົາ</string>
+  <string name="sn_search_notes_with_color_charcoal">ຊອກຫາບັນທຶກທີ່ມີສີເທົາເຂັ້ມ</string>
+  <string name="sn_note_options_dismissed">ປິດຕົວເລືອກບັນທຶກແລ້ວ</string>
+  <string name="sn_note_options_displayed">ຕົວເລືອກບັນທຶກທີ່ສະແດງຜົນ</string>
+  <string name="sn_adding_image_failed">ບໍ່ສາມາດເພີ່ມຮູບໄດ້</string>
+  <string name="sn_image_added">ເພີ່ມຮູບແລ້ວ</string>
+</resources>

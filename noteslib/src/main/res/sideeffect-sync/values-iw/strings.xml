@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">מצטערים! היישום \'פתקים נדבקים\' דורש כעת תיבת דואר של Exchange Online כדי שסינכרון ואחסון יפעלו. פנה למנהל ה- IT לגבי הפיכת תיבת דואר לזמינה או השתמש באפשרות שלהלן כדי לקבל מידע נוסף.</string>
+  <string name="sn_sync_failure_with_contact_support_message">לא ניתן לסנכרן את \'פתקים נדבקים\' עם החשבון שלך. לקבלת סיוע בפתרון בעיה זו, פנה לתמיכה.</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">לא ניתן לסנכרן את \'פתקים נדבקים\' עם החשבון שלך, אך ייתכן שתוכל לנסות לפתור את הבעיה.</string>
+</resources>

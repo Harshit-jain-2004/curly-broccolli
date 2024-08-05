@@ -1,0 +1,165 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    apply from: 'dependencies.gradle'
+    apply plugin: 'maven-publish'
+
+    repositories {
+        mavenCentral()
+        google()
+    }
+
+    dependencies {
+        classpath config.gradlePlugin
+        classpath config.kotlinGradlePlugin
+        classpath config.kotlinAndroidExtensions
+        classpath config.dexcount
+    }
+}
+
+publishing {
+    publications {
+        artifactPublication(MavenPublication) {
+            Properties artifactProps = readArtifactProps()
+            groupId artifactProps["groupId"]
+            artifactId artifactProps["artifactId"]
+            version artifactProps["version"]
+
+            def localOutput = checkForLocalProperty("localOutput")
+            artifact System.getenv("REMOTE_OUTPUT") ?: localOutput
+        }
+    }
+
+    repositories {
+        maven {
+            url 'https://office.pkgs.visualstudio.com/_packaging/stickynotes-android-sdk/maven/v1'
+            credentials {
+                username "AZURE_ARTIFACTS"
+                def localToken = checkForLocalProperty("azureArtifactsGradleAccessToken")
+                password System.getenv("AZURE_ARTIFACTS_ENV_ACCESS_TOKEN") ?: localToken
+            }
+        }
+    }
+}
+
+allprojects {
+    repositories {
+        mavenCentral()
+        maven { url "https://plugins.gradle.org/m2/" }
+        google()
+        maven {
+            url 'https://pkgs.dev.azure.com/MicrosoftDeviceSDK/DuoSDK-Public/_packaging/Duo-SDK-Feed/maven/v1'
+        }
+    }
+
+    Properties artifactProps = readArtifactProps()
+    project.ext {
+        versionName = artifactProps["version"]
+    }
+
+    configurations.all {
+        resolutionStrategy {
+            failOnVersionConflict()
+
+            force kotlinDependencies.kotlinStdlib
+
+            force "com.google.auto:auto-common:0.10"
+
+            //With dexmakerMockito we have dependency version problems, so we force to use our own.
+            force unitTestDependencies.mockito
+
+            // It seems robolectric has conflicts with the latest version of junit we use in our app
+            // and the version the below library uses, so we have to force both junit and "plexus" to
+            // to use the latest versions
+            force unitTestDependencies.junit
+            force "org.codehaus.plexus:plexus-utils:1.5.15"
+
+            // TODO: Remove once okHttp 3.8.0 is released
+            force "com.squareup.okio:okio:$okioVersion"
+
+            //Some dependencies are using these libraries under the hood and we have some conflicts.
+            force "org.apache.httpcomponents:httpcore:4.2.5"
+            force "com.google.guava:guava:22.0"
+            force "com.google.protobuf:protobuf-java:3.10.0"
+
+            // room androidx dependency
+            force "androidx.legacy:legacy-support-core-utils:$androidxVersion"
+
+            // test creation dependency
+            force "androidx.test:monitor:1.2.0"
+            force "androidx.test:runner:1.1.1"
+
+            force "androidx.exifinterface:exifinterface:1.2.0"
+            force "androidx.annotation:annotation:1.1.0"
+            // androidx.test.espresso
+            force "com.google.code.findbugs:jsr305:2.0.1"
+            force "org.hamcrest:hamcrest-library:2.2"
+            force "org.hamcrest:hamcrest-core:2.2"
+
+            //androidx conflicts due to kotlin upgrade
+            force "androidx.arch.core:core-runtime:2.0.1"
+            force "androidx.arch.core:core-common:2.0.1"
+            force androidxDependencies.supportAnnotations
+
+            // conflicts for kolin
+            force "org.jetbrains.kotlin:kotlin-stdlib-common:$kotlinVersion"
+            force "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlinVersion"
+            force "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion"
+
+            // test setup conflicts
+            force "org.codehaus.mojo:animal-sniffer-annotations:1.19"
+            force "com.google.errorprone:error_prone_annotations:2.4.0"
+            force externalDependencies.gson
+
+            // fluent ui conflicts
+            force androidxDependencies.appCompat
+            force androidxDependencies.supportFragment
+            force androidxDependencies.vectorDrawable
+            force androidxDependencies.vectorDrawableAnimated
+            force "androidx.activity:activity:1.2.3"
+            force "androidx.collection:collection:1.1.0"
+            force "androidx.compose.animation:animation-core:1.1.1"
+            force "androidx.compose.animation:animation:1.1.1"
+            force "androidx.compose.foundation:foundation-layout:1.1.1"
+            force "androidx.compose.foundation:foundation:1.1.1"
+            force "androidx.compose.runtime:runtime:1.1.1"
+            force "androidx.compose.ui:ui-geometry:1.0.0"
+            force "androidx.compose.ui:ui-graphics:1.1.1"
+            force "androidx.compose.ui:ui-text:1.0.0"
+            force "androidx.compose.ui:ui-unit:1.1.1"
+            force "androidx.compose.ui:ui-util:1.0.0"
+            force "androidx.compose.ui:ui:1.0.0"
+            force "androidx.constraintlayout:constraintlayout:2.0.4"
+            force "androidx.coordinatorlayout:coordinatorlayout:1.1.0"
+            force "androidx.core:core:1.5.0"
+            force "androidx.exifinterface:exifinterface:1.3.2"
+            force "androidx.lifecycle:lifecycle-common-java8:2.4.1"
+            force "androidx.lifecycle:lifecycle-common:2.4.1"
+            force "androidx.lifecycle:lifecycle-livedata-core:2.4.1"
+            force "androidx.lifecycle:lifecycle-livedata:2.2.0"
+            force "androidx.lifecycle:lifecycle-runtime:2.3.1"
+            force "androidx.lifecycle:lifecycle-viewmodel:2.4.1"
+            force "androidx.recyclerview:recyclerview:1.1.0"
+            force "com.google.android.material:material:1.3.0"
+            force "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0"
+            force "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0"
+        }
+    }
+}
+
+def readArtifactProps() {
+    Properties props = new Properties()
+    props.load(new FileInputStream(file('artifact.properties')))
+    return props
+}
+
+//You should create a gradle.properties file with "azureArtifactsGradleAccessToken" property and your access token
+//if you want to get the SDK artifact
+String checkForLocalProperty(String localProperty) {
+    def localPropertyFound = project.hasProperty(localProperty)
+    if (localPropertyFound) {
+        return project.getProperties().get(localProperty)
+    } else {
+        return "FAKE_VALUE"
+    }
+}

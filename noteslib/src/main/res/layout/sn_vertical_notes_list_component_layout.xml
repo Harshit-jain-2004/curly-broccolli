@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.microsoft.notes.ui.theme.ThemedSwipeToRefresh
+    android:id="@+id/notesSwipeToRefreshView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:tag="@string/swipe_to_refresh_tag"
+    android:enabled="false">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/sn_notes_list_component_layout" />
+</com.microsoft.notes.ui.theme.ThemedSwipeToRefresh>

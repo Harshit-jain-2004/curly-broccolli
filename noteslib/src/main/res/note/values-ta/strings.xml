@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">ஒட்டுக் குறிப்பைப் பகிர்</string>
+  <string name="sn_action_share">பகிர்</string>
+  <string name="sn_action_delete_note">நீக்கு</string>
+  <string name="sn_action_send_feedback">கருத்தை அனுப்பு</string>
+  <string name="sn_delete_note_dialog">குறிப்பை நீக்கவா?</string>
+  <string name="sn_delete_note_description">உங்கள் சாதனங்கள் அனைத்தில் இருந்தும் இது நிரந்தரமாக நீக்கப்படும்.</string>
+  <string name="sn_image_dialog_delete_description">உங்கள் சாதனங்கள் அனைத்தில் இருந்தும் இத்ன்ஹப் படிமம் நிரந்தரமாக நீக்கப்படும்.</string>
+  <string name="sn_image_dialog_delete_action">நீக்கு</string>
+  <string name="sn_image_dialog_alt_text_title">மாற்று உரை</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">படிம விளக்கத்தை உள்ளிடவும்</string>
+  <string name="sn_image_dialog_save_alt_text">சேமி</string>
+  <string name="sn_dialog_cancel">ரத்து</string>
+  <string name="sn_change_color_to_blue">குறிப்பு வண்ணத்தை நீல நிறமாக மாற்று</string>
+  <string name="sn_change_color_to_green">குறிப்பு வண்ணத்தை பச்சை நிறமாக மாற்று</string>
+  <string name="sn_change_color_to_yellow">குறிப்பு வண்ணத்தை மஞ்சள் நிறமாக மாற்று</string>
+  <string name="sn_change_color_to_purple">குறிப்பு வண்ணத்தை ஊதா நிறமாக மாற்று</string>
+  <string name="sn_change_color_to_pink">குறிப்பு வண்ணத்தை பிங்க் நிறமாக மாற்று</string>
+  <string name="sn_change_color_to_grey">குறிப்பு வண்ணத்தை சாம்பல் நிறமாக மாற்று</string>
+  <string name="sn_change_color_to_charcoal">குறிப்பு வண்ணத்தை சார்கோல் நிறமாக மாற்று</string>
+  <string name="sn_search_notes_with_color_blue">நீல வண்ணத்தின்படி குறிப்புகளைத் தேடு</string>
+  <string name="sn_search_notes_with_color_green">பச்சை வண்ணத்தின்படி குறிப்புகளைத் தேடு</string>
+  <string name="sn_search_notes_with_color_yellow">மஞ்சள் வண்ணத்தின்படி குறிப்புகளைத் தேடு</string>
+  <string name="sn_search_notes_with_color_purple">ஊதா வண்ணத்தின்படி குறிப்புகளைத் தேடு</string>
+  <string name="sn_search_notes_with_color_pink">பிங்க் வண்ணத்தின்படி குறிப்புகளைத் தேடு</string>
+  <string name="sn_search_notes_with_color_grey">சாம்பல் வண்ணத்தின்படி குறிப்புகளைத் தேடு</string>
+  <string name="sn_search_notes_with_color_charcoal">வெளிர்சாம்பல் வண்ணத்தின்படி குறிப்புகளைத் தேடு</string>
+  <string name="sn_note_options_dismissed">குறிப்பு விருப்பங்கள் நிராகரிக்கப்பட்டன</string>
+  <string name="sn_note_options_displayed">திரையில் குறிப்பு விருப்பங்கள்</string>
+  <string name="sn_adding_image_failed">படிமத்தைச் சேர்க்க முடியவில்லை</string>
+  <string name="sn_image_added">படிமம் சேர்க்கப்பட்டது</string>
+</resources>

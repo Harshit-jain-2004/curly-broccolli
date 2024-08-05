@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Koplietot piezīmju lapiņu</string>
+  <string name="sn_action_share">Kopīgot</string>
+  <string name="sn_action_delete_note">Dzēst</string>
+  <string name="sn_action_send_feedback">Nosūtīt atsauksmes</string>
+  <string name="sn_delete_note_dialog">Vai izdzēst piezīmi?</string>
+  <string name="sn_delete_note_description">Tā tiks neatgriezeniski izdzēsta no visām jūsu ierīcēm.</string>
+  <string name="sn_image_dialog_delete_description">Šis attēls tiks neatgriezeniski izdzēsts no visām jūsu ierīcēm.</string>
+  <string name="sn_image_dialog_delete_action">Dzēst</string>
+  <string name="sn_image_dialog_alt_text_title">Alternatīvais teksts</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Ievadiet attēla aprakstu</string>
+  <string name="sn_image_dialog_save_alt_text">Saglabāt</string>
+  <string name="sn_dialog_cancel">Atcelt</string>
+  <string name="sn_change_color_to_blue">Mainīt piezīmes krāsu uz zilu</string>
+  <string name="sn_change_color_to_green">Mainīt piezīmes krāsu uz zaļu</string>
+  <string name="sn_change_color_to_yellow">Mainīt piezīmes krāsu uz dzeltenu</string>
+  <string name="sn_change_color_to_purple">Mainīt piezīmes krāsu uz purpursarkanu</string>
+  <string name="sn_change_color_to_pink">Mainīt piezīmes krāsu uz rozā</string>
+  <string name="sn_change_color_to_grey">Mainīt piezīmes krāsu uz pelēku</string>
+  <string name="sn_change_color_to_charcoal">Mainīt piezīmes krāsu uz ogļmelnu</string>
+  <string name="sn_search_notes_with_color_blue">Meklēt piezīmes ar zilu krāsu</string>
+  <string name="sn_search_notes_with_color_green">Meklēt piezīmes ar zaļu krāsu</string>
+  <string name="sn_search_notes_with_color_yellow">Meklēt piezīmes ar dzeltenu krāsu</string>
+  <string name="sn_search_notes_with_color_purple">Meklēt piezīmes ar purpursarkanu krāsu</string>
+  <string name="sn_search_notes_with_color_pink">Meklēt piezīmes ar rozā krāsu</string>
+  <string name="sn_search_notes_with_color_grey">Meklēt piezīmes ar pelēku krāsu</string>
+  <string name="sn_search_notes_with_color_charcoal">Meklēt piezīmes ar ogļmelnu krāsu</string>
+  <string name="sn_note_options_dismissed">Piezīmes opcijas noraidītas</string>
+  <string name="sn_note_options_displayed">Piezīmes opcijas displejā</string>
+  <string name="sn_adding_image_failed">Attēlu nevarēja pievienot</string>
+  <string name="sn_image_added">Attēls pievienots</string>
+</resources>

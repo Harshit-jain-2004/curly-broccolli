@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Compartir Notas adhesivas</string>
+  <string name="sn_action_share">Compartir</string>
+  <string name="sn_action_delete_note">Eliminar</string>
+  <string name="sn_action_send_feedback">Enviar comentarios</string>
+  <string name="sn_delete_note_dialog">Eliminar nota?</string>
+  <string name="sn_delete_note_description">A nota eliminarase permanentemente de todos os teus dispositivos.</string>
+  <string name="sn_image_dialog_delete_description">Esta imaxe eliminarase permanentemente de todos os teus dispositivos.</string>
+  <string name="sn_image_dialog_delete_action">Eliminar</string>
+  <string name="sn_image_dialog_alt_text_title">Texto alternativo</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Escribe unha descrición da imaxe</string>
+  <string name="sn_image_dialog_save_alt_text">Gardar</string>
+  <string name="sn_dialog_cancel">Cancelar</string>
+  <string name="sn_change_color_to_blue">Modificar a cor da nota a azul</string>
+  <string name="sn_change_color_to_green">Modificar a cor de nota a verde</string>
+  <string name="sn_change_color_to_yellow">Modificar a cor de nota a amarelo</string>
+  <string name="sn_change_color_to_purple">Cambiar a cor da nota a púrpura</string>
+  <string name="sn_change_color_to_pink">Cambiar a cor da nota a rosa</string>
+  <string name="sn_change_color_to_grey">Modificar a cor da nota a gris</string>
+  <string name="sn_change_color_to_charcoal">Modificar a cor da nota a carbón</string>
+  <string name="sn_search_notes_with_color_blue">Busca de notas con cor azul</string>
+  <string name="sn_search_notes_with_color_green">Busca de notas con cor verde</string>
+  <string name="sn_search_notes_with_color_yellow">Busca de notas con cor amarelo</string>
+  <string name="sn_search_notes_with_color_purple">Busca de notas con cor púrpura</string>
+  <string name="sn_search_notes_with_color_pink">Busca de notas con cor rosa</string>
+  <string name="sn_search_notes_with_color_grey">Busca de notas con cor gris</string>
+  <string name="sn_search_notes_with_color_charcoal">Busca de notas con cor carbón</string>
+  <string name="sn_note_options_dismissed">Opcións de nota rexeitada</string>
+  <string name="sn_note_options_displayed">Opcións de notas na visualización</string>
+  <string name="sn_adding_image_failed">Non se puido engadir a imaxe</string>
+  <string name="sn_image_added">Imaxe engadida</string>
+</resources>

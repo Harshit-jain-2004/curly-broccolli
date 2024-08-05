@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">Dokezo la matini</string>
+  <string name="sn_ink_note">Dokezo la wino</string>
+  <string name="sn_label_text">Matini</string>
+  <string name="sn_label_image">Taswira</string>
+  <string name="sn_single_image_note">Dokezo la %1$s lenye taswira 1</string>
+  <string name="sn_multi_image_note">Dokezo la %1$s lenye taswira %2$d</string>
+  <string name="sn_label_date">umehariri %s</string>
+  <string name="sn_add_note">Ongeza dokezo jipya</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">Imeshindwa kulandanisha sasa.</string>
+</resources>

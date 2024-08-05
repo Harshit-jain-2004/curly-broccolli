@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">បញ្ចូលរូបភាព</string>
+  <string name="sn_bold">អក្សរដិត</string>
+  <string name="sn_italic">អក្សរទ្រេត</string>
+  <string name="sn_underline">គូសបន្ទាត់ពីក្រោម</string>
+  <string name="sn_strikethrough">បន្ទាត់ឆូត</string>
+  <string name="sn_bullets">បញ្ជីជាចំណុច</string>
+  <string name="sn_color_name_charcoal">ពណ៌ធ្យូង</string>
+  <string name="sn_color_name_blue">ពណ៌ខៀវ</string>
+  <string name="sn_color_name_green">ពណ៌បៃតង</string>
+  <string name="sn_color_name_yellow">ពណ៌លឿង</string>
+  <string name="sn_color_name_grey">ពណ៌ប្រផេះ</string>
+  <string name="sn_color_name_purple">ពណ៌ស្វាយ</string>
+  <string name="sn_color_name_pink">ពណ៌ផ្កាឈូក</string>
+  <string name="sn_unselected">មិនបានជ្រើសរើស</string>
+  <string name="sn_contextual_menu_image_alt_text_add">បន្ថែមអត្ថបទ Alt</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">កែសម្រួលអត្ថបទ Alt</string>
+  <string name="sn_contextual_menu_image_delete">លុបរូបភាព</string>
+  <string name="sn_image_attachment">ឯកសារភ្ជាប់ជារូបភាព</string>
+</resources>

@@ -1,0 +1,12 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:pathData="M6,2L18,2A4,4 0,0 1,22 6L22,18A4,4 0,0 1,18 22L6,22A4,4 0,0 1,2 18L2,6A4,4 0,0 1,6 2z"
+        android:fillColor="@color/checked_todo_icon_background_color"/>
+    <path
+        android:pathData="M15.765,9.2047C16.0661,9.4892 16.0797,9.9638 15.7953,10.265L11.5453,14.765C11.4061,14.9123 11.2133,14.997 11.0107,14.9999C10.8081,15.0028 10.6129,14.9236 10.4697,14.7803L8.2197,12.5303C7.9268,12.2374 7.9268,11.7626 8.2197,11.4697C8.5126,11.1768 8.9874,11.1768 9.2803,11.4697L10.9846,13.174L14.7047,9.235C14.9891,8.9339 15.4638,8.9203 15.765,9.2047Z"
+        android:fillColor="@color/checked_todo_icon_tick_color"/>
+</vector>

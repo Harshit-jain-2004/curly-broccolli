@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">Pedimos desculpa, mas o Sticky Notes precisa atualmente de uma caixa de correio do Exchange Online para que a sincronização e o armazenamento funcionem. Contacte o seu administrador de TI para ativar uma caixa de correio ou utilize a opção abaixo para saber mais.</string>
+  <string name="sn_sync_failure_with_contact_support_message">Não conseguimos sincronizar o Sticky Notes com a sua conta. Contacte o Suporte para obter ajuda na resolução deste problema.</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">Não conseguimos sincronizar o Sticky Notes com a sua conta, mas pode tentar resolver este problema.</string>
+</resources>

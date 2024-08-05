@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Comparteix la nota adhesiva</string>
+  <string name="sn_action_share">Comparteix</string>
+  <string name="sn_action_delete_note">Suprimeix</string>
+  <string name="sn_action_send_feedback">Envia comentaris</string>
+  <string name="sn_delete_note_dialog">Vols suprimir la nota?</string>
+  <string name="sn_delete_note_description">Se suprimirà permanentment de tots els teus dispositius.</string>
+  <string name="sn_image_dialog_delete_description">Aquesta imatge se suprimirà permanentment de tots els teus dispositius.</string>
+  <string name="sn_image_dialog_delete_action">Suprimeix</string>
+  <string name="sn_image_dialog_alt_text_title">Text alternatiu</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Escriu la descripció de la imatge.</string>
+  <string name="sn_image_dialog_save_alt_text">Desa</string>
+  <string name="sn_dialog_cancel">Cancel·la</string>
+  <string name="sn_change_color_to_blue">Canvi el color de la nota a blau.</string>
+  <string name="sn_change_color_to_green">Canvi el color de la nota a verd.</string>
+  <string name="sn_change_color_to_yellow">Canvi el color de la nota a groc.</string>
+  <string name="sn_change_color_to_purple">Canvi el color de la nota a porpra.</string>
+  <string name="sn_change_color_to_pink">Canvi el color de la nota a rosa.</string>
+  <string name="sn_change_color_to_grey">Canvi el color de la nota a gris.</string>
+  <string name="sn_change_color_to_charcoal">Canvi el color de la nota a carbó.</string>
+  <string name="sn_search_notes_with_color_blue">Cerca notes de color blau</string>
+  <string name="sn_search_notes_with_color_green">Cerca notes de color verd</string>
+  <string name="sn_search_notes_with_color_yellow">Cerca notes de color groc</string>
+  <string name="sn_search_notes_with_color_purple">Cerca notes de color porpra</string>
+  <string name="sn_search_notes_with_color_pink">Cerca notes de color rosa</string>
+  <string name="sn_search_notes_with_color_grey">Cerca notes de color gris</string>
+  <string name="sn_search_notes_with_color_charcoal">Cerca notes de color carbó</string>
+  <string name="sn_note_options_dismissed">Opcions de la nota descartades</string>
+  <string name="sn_note_options_displayed">Opcions de la nota en pantalla</string>
+  <string name="sn_adding_image_failed">No s\'ha pogut afegir la imatge.</string>
+  <string name="sn_image_added">S\'ha afegit la imatge.</string>
+</resources>

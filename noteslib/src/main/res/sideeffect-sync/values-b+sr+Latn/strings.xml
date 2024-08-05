@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">Žao nam je! Lepljive beleške trenutno zahtevaju Exchange Online poštansko sanduče da bi sinhronizacija i skladištenje funkcionisali. Obratite se IT administratoru da biste omogućili poštansko sanduče ili koristite dolenavedenu opciju da biste saznali više.</string>
+  <string name="sn_sync_failure_with_contact_support_message">Ne možemo da sinhronizujemo lepljive beleške pomoću vašeg naloga. Obratite se podršci za pomoć oko rešavanja ovog problema.</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">Ne možemo da sinhronizujemo lepljive beleške pomoću vašeg naloga, ali možda ćete vi moći da pokušate i rešite ovaj problem.</string>
+</resources>

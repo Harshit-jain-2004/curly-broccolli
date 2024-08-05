@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="feed_note_preview_announcement_limit">100</integer>
+    <integer name="feed_preview_card_checklist_leading_text_margin">2</integer>
+    <integer name="feed_card_note_preview_list_max_lines">10</integer>
+    <integer name="feed_card_note_preview_text_max_lines">5</integer>
+    <integer name="feed_card_note_title_max_lines">2</integer>
+    <integer name="feed_card_note_preview_line_spacing">4</integer>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Bild einfügen</string>
+  <string name="sn_bold">Fett</string>
+  <string name="sn_italic">Kursiv</string>
+  <string name="sn_underline">Unterstrichen</string>
+  <string name="sn_strikethrough">Durchgestrichen</string>
+  <string name="sn_bullets">Liste mit Aufzählungszeichen</string>
+  <string name="sn_color_name_charcoal">Kohlefarben</string>
+  <string name="sn_color_name_blue">Blau</string>
+  <string name="sn_color_name_green">Grün</string>
+  <string name="sn_color_name_yellow">Gelb</string>
+  <string name="sn_color_name_grey">Grau</string>
+  <string name="sn_color_name_purple">Lila</string>
+  <string name="sn_color_name_pink">Rosa</string>
+  <string name="sn_unselected">Nicht ausgewählt</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Alternativtext hinzufügen</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Alternativtext bearbeiten</string>
+  <string name="sn_contextual_menu_image_delete">Bild löschen</string>
+  <string name="sn_image_attachment">Bildanlage</string>
+</resources>

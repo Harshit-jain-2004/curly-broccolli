@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">درج تصویر</string>
+  <string name="sn_bold">پررنگ</string>
+  <string name="sn_italic">مورب</string>
+  <string name="sn_underline">زیرخط‌دار</string>
+  <string name="sn_strikethrough">خط زده‌شده</string>
+  <string name="sn_bullets">لیست گلوله‌ای</string>
+  <string name="sn_color_name_charcoal">زغالی</string>
+  <string name="sn_color_name_blue">آبی</string>
+  <string name="sn_color_name_green">سبز</string>
+  <string name="sn_color_name_yellow">زرد</string>
+  <string name="sn_color_name_grey">خاکستری</string>
+  <string name="sn_color_name_purple">بنفش</string>
+  <string name="sn_color_name_pink">صورتی</string>
+  <string name="sn_contextual_menu_image_alt_text_add">افزودن متن جایگزین</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">ویرایش متن جایگزین</string>
+  <string name="sn_contextual_menu_image_delete">حذف تصویر</string>
+  <string name="sn_image_attachment">پیوست تصویر</string>
+</resources>

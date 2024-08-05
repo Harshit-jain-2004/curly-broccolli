@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Yapışqan Qeyd paylaşın</string>
+  <string name="sn_action_share">Paylaşın</string>
+  <string name="sn_action_delete_note">Silin</string>
+  <string name="sn_action_send_feedback">Əks-əlaqə göndərin</string>
+  <string name="sn_delete_note_dialog">Qeyd Silinsin?</string>
+  <string name="sn_delete_note_description">O, bütün cihazlarınızdan daimi silinəcəkdir.</string>
+  <string name="sn_image_dialog_delete_description">Bu təsvir bütün cihazlarınızdan birdəfəlik silinəcəkdir.</string>
+  <string name="sn_image_dialog_delete_action">Silin</string>
+  <string name="sn_image_dialog_alt_text_title">Alternativ Mətn</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Təsvirin İzahını Daxil Edin</string>
+  <string name="sn_image_dialog_save_alt_text">Saxlayın</string>
+  <string name="sn_dialog_cancel">İmtina edin</string>
+  <string name="sn_change_color_to_blue">Qeydin rəngini maviyə dəyişdirin</string>
+  <string name="sn_change_color_to_green">Qeydin rəngini yaşıla dəyişdirin</string>
+  <string name="sn_change_color_to_yellow">Qeydin rəngini sarıya dəyişdirin</string>
+  <string name="sn_change_color_to_purple">Qeydin rəngini bənövşəyiyə dəyişdirin</string>
+  <string name="sn_change_color_to_pink">Qeydin rəngini çəhrayıya dəyişdirin</string>
+  <string name="sn_change_color_to_grey">Qeydin rəngini boza dəyişdirin</string>
+  <string name="sn_change_color_to_charcoal">Qeydin rəngini kömür rənginə dəyişdirin</string>
+  <string name="sn_search_notes_with_color_blue">Mavi rəngli qeydləri axtarın</string>
+  <string name="sn_search_notes_with_color_green">Yaşıl rəngli qeydləri axtarın</string>
+  <string name="sn_search_notes_with_color_yellow">Sarı rəngli qeydləri axtarın</string>
+  <string name="sn_search_notes_with_color_purple">Bənövşəyi rəngli qeydləri axtarın</string>
+  <string name="sn_search_notes_with_color_pink">Çəhrayı rəngli qeydləri axtarın</string>
+  <string name="sn_search_notes_with_color_grey">Boz rəngli qeydləri axtarın</string>
+  <string name="sn_search_notes_with_color_charcoal">Kömür rəngli qeydləri axtarın</string>
+  <string name="sn_note_options_dismissed">Qeyd seçimləri rədd edildi</string>
+  <string name="sn_note_options_displayed">Qeyd seçimləri göstərilir</string>
+  <string name="sn_adding_image_failed">Təsvir əlavə edilmədi</string>
+  <string name="sn_image_added">Təsvir əlavə edildi</string>
+</resources>

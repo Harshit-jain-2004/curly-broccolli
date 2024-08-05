@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">Nažalost, za Ljepljive bilješke trenutno je potreban poštanski sandučić sustava Exchange Online da bi sinkronizacija i pohrana funkcionirale. Obratite se IT administratoru radi omogućivanja poštanskog sandučića ili saznajte više pomoću mogućnosti navedene u nastavku.</string>
+  <string name="sn_sync_failure_with_contact_support_message">Nismo uspjeli sinkronizirati ljepljive bilješke s vašim računom. Obratite se službi za podršku radi pomoći pri rješavanju problema.</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">Nismo uspjeli sinkronizirati Ljepljive bilješke s vašim računom, ali možda uspijete sami riješiti taj problem.</string>
+</resources>

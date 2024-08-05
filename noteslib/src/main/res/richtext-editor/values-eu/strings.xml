@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_notes_image">Irudia</string>
+  <string name="sn_inline_media_notes_alttext">Ordezko testua</string>
+  <string name="sn_inline_media_notes_description">Azalpena</string>
+  <string name="sn_inline_media_notes_done">Eginda</string>
+  <string name="sn_inline_media_notes_cancel">Utzi</string>
+  <string name="sn_inline_media_notes_open">Ireki</string>
+  <string name="sn_notes_read_alt_text">Irudia, ordezko testua: %1$s!</string>
+  <string name="sn_notes_link_label">Esteka: %1$s</string>
+</resources>

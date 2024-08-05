@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">ምስል አስገባ</string>
+  <string name="sn_bold">የደመቀ</string>
+  <string name="sn_italic">አዝምም</string>
+  <string name="sn_underline">አስምርበት</string>
+  <string name="sn_strikethrough">ስርዝ ወገብ</string>
+  <string name="sn_bullets">ባለ ነጥብ ዝርዝር</string>
+  <string name="sn_color_name_charcoal">እርሳስ</string>
+  <string name="sn_color_name_blue">ሰማያዊ</string>
+  <string name="sn_color_name_green">አረንጓዴ</string>
+  <string name="sn_color_name_yellow">ቢጫ</string>
+  <string name="sn_color_name_grey">ግራጫ</string>
+  <string name="sn_color_name_purple">ወይን ጠጅ</string>
+  <string name="sn_color_name_pink">ሮዝ</string>
+  <string name="sn_unselected">መመረጡ የተተወ</string>
+  <string name="sn_contextual_menu_image_alt_text_add">ተለዋጭ ጽሁፍ ያክሉ</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">ተለዋጭ ጽሁፍን አርትዕ ያድርጉ</string>
+  <string name="sn_contextual_menu_image_delete">ምስል ሰርዝ</string>
+  <string name="sn_image_attachment">የምስል አባሪ</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Kép beszúrása</string>
+  <string name="sn_bold">Félkövér</string>
+  <string name="sn_italic">Dőlt</string>
+  <string name="sn_underline">Aláhúzás</string>
+  <string name="sn_strikethrough">Áthúzott</string>
+  <string name="sn_bullets">Listajeles lista</string>
+  <string name="sn_color_name_charcoal">Szénfekete</string>
+  <string name="sn_color_name_blue">Kék</string>
+  <string name="sn_color_name_green">Zöld</string>
+  <string name="sn_color_name_yellow">Sárga</string>
+  <string name="sn_color_name_grey">Szürke</string>
+  <string name="sn_color_name_purple">Lila</string>
+  <string name="sn_color_name_pink">Rózsaszín</string>
+  <string name="sn_unselected">Nincs kijelölve</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Helyettesítő szöveg hozzáadása</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Helyettesítő szöveg szerkesztése</string>
+  <string name="sn_contextual_menu_image_delete">Kép törlése</string>
+  <string name="sn_image_attachment">Képmelléklet</string>
+</resources>

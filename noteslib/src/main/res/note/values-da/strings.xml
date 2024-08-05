@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Del sticky note</string>
+  <string name="sn_action_share">Del</string>
+  <string name="sn_action_delete_note">Slet</string>
+  <string name="sn_action_send_feedback">Send feedback</string>
+  <string name="sn_delete_note_dialog">Vil du slette noten?</string>
+  <string name="sn_delete_note_description">Den slettes permanent fra alle dine enheder.</string>
+  <string name="sn_image_dialog_delete_description">Billedet slettes permanent fra alle dine enheder.</string>
+  <string name="sn_image_dialog_delete_action">Slet</string>
+  <string name="sn_image_dialog_alt_text_title">Alternativ tekst</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Angiv en billedbeskrivelse</string>
+  <string name="sn_image_dialog_save_alt_text">Gem</string>
+  <string name="sn_dialog_cancel">Annuller</string>
+  <string name="sn_change_color_to_blue">Skift notefarven til blå</string>
+  <string name="sn_change_color_to_green">Skift notefarven til grøn</string>
+  <string name="sn_change_color_to_yellow">Skift notefarven til gul</string>
+  <string name="sn_change_color_to_purple">Skift notefarven til mørklilla</string>
+  <string name="sn_change_color_to_pink">Skift notefarven til pink</string>
+  <string name="sn_change_color_to_grey">Skift notefarven til grå</string>
+  <string name="sn_change_color_to_charcoal">Skift notefarven til koksgrå</string>
+  <string name="sn_search_notes_with_color_blue">Søg i noter med blå farve</string>
+  <string name="sn_search_notes_with_color_green">Søg i noter med grøn farve</string>
+  <string name="sn_search_notes_with_color_yellow">Søg i noter med gul farve</string>
+  <string name="sn_search_notes_with_color_purple">Søg i noter med mørklilla farve</string>
+  <string name="sn_search_notes_with_color_pink">Søg i noter med pink farve</string>
+  <string name="sn_search_notes_with_color_grey">Søg i noter med grå farve</string>
+  <string name="sn_search_notes_with_color_charcoal">Søg i noter med koksgrå farve</string>
+  <string name="sn_note_options_dismissed">Noteindstillinger er afvist</string>
+  <string name="sn_note_options_displayed">Noteindstillinger vises</string>
+  <string name="sn_adding_image_failed">Billedet kunne ikke tilføjes</string>
+  <string name="sn_image_added">Billedet er tilføjet</string>
+</resources>

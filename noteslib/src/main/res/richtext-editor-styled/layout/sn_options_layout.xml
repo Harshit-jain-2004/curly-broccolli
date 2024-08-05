@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.microsoft.notes.ui.theme.ThemedConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:tag="@string/option_toolbar_background_tag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sn_content_background"
+    android:elevation="4dp"
+    tools:targetApi="lollipop">
+
+    <com.microsoft.notes.ui.theme.ThemedAppCompatImageButton
+        android:id="@+id/boldButton"
+        android:tag="@string/option_icon_tag"
+        style="@style/SNRibbonButtonStyle"
+        android:layout_marginStart="4dp"
+        android:contentDescription="@string/sn_bold"
+        android:nextFocusLeft="@+id/microphoneButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/italicButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sn_ic_format_bold_24dp" />
+
+    <com.microsoft.notes.ui.theme.ThemedAppCompatImageButton
+        android:id="@+id/italicButton"
+        android:tag="@string/option_icon_tag"
+        style="@style/SNRibbonButtonStyle"
+        android:contentDescription="@string/sn_italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@+id/boldButton"
+        app:layout_constraintEnd_toStartOf="@+id/underlineButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sn_ic_format_italic_24dp" />
+
+    <com.microsoft.notes.ui.theme.ThemedAppCompatImageButton
+        android:id="@+id/underlineButton"
+        android:tag="@string/option_icon_tag"
+        style="@style/SNRibbonButtonStyle"
+        android:contentDescription="@string/sn_underline"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@+id/italicButton"
+        app:layout_constraintEnd_toStartOf="@+id/strikethroughButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sn_ic_format_underlined_24dp" />
+
+    <com.microsoft.notes.ui.theme.ThemedAppCompatImageButton
+        android:id="@+id/strikethroughButton"
+        android:tag="@string/option_icon_tag"
+        style="@style/SNRibbonButtonStyle"
+        android:contentDescription="@string/sn_strikethrough"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@+id/underlineButton"
+        app:layout_constraintEnd_toStartOf="@+id/unorderedListButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sn_ic_format_strikethrough_24dp" />
+
+    <com.microsoft.notes.ui.theme.ThemedAppCompatImageButton
+        android:id="@+id/unorderedListButton"
+        android:tag="@string/option_icon_tag"
+        style="@style/SNRibbonButtonStyle"
+        android:contentDescription="@string/sn_bullets"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@+id/strikethroughButton"
+        app:layout_constraintEnd_toStartOf="@+id/cameraButtonRibbon"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sn_ic_format_list_bulleted_24dp" />
+
+    <com.microsoft.notes.ui.theme.ThemedAppCompatImageButton
+        android:id="@+id/cameraButtonRibbon"
+        android:tag="@string/option_icon_tag"
+        style="@style/SNRibbonButtonStyle"
+        android:contentDescription="@string/sn_add_photo_to_note"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@+id/unorderedListButton"
+        app:layout_constraintEnd_toStartOf="@+id/microphoneButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sn_ic_camera_24dp" />
+
+    <com.microsoft.notes.ui.theme.ThemedAppCompatImageButton
+        android:id="@+id/microphoneButton"
+        android:tag="@string/option_icon_tag"
+        style="@style/SNRibbonButtonStyle"
+        android:contentDescription="@string/sn_transcribe"
+        android:visibility="gone"
+        android:nextFocusRight="@+id/boldButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@+id/cameraButtonRibbon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sn_ic_microphone_24dp" />
+
+</com.microsoft.notes.ui.theme.ThemedConstraintLayout>

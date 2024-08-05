@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sn_sync_error_ui_title">#FFFFFF</color>
+    <color name="sn_sync_error_ui_description">#FFFFFF</color>
+    <color name="sn_sync_error_ui_background">#212121</color>
+    <color name="sn_sync_error_ui_action_button">#C7B3E7</color>
+    <color name="sn_sync_error_ui_chevron">#FFFFFF</color>
+
+    <!--Filter/Sort BottomSheet Colors BEGIN-->
+    <color name="bottom_sheet_primary_text_color">#C0AAE4</color>
+    <color name="bottom_sheet_selected_chip_color">#443168</color>
+    <color name="bottom_sheet_background_color">#212121</color>
+    <color name="bottom_sheet_general_purpose_gray_color">#919191</color>
+    <color name="bottom_sheet_divider_color">#303030</color>
+    <color name="bottom_sheet_title_color">#E5E5E5</color>
+    <color name="bottom_sheet_filter_title_color">#E1E1E1</color>
+    <color name="bottom_sheet_filter_type_title_color">#919191</color>
+    <color name="chip_text_unselected_color">#E1E1E1</color>
+    <color name="chip_text_selected_color">#EADEFF</color>
+    <color name="chip_unselected_color">#303030</color>
+    <color name="chip_cancel_option_color">#FFFFFF</color>
+    <color name="sort_option_unselected_text_color">#E1E1E1</color>
+    <color name="selected_filter_view_bg_color">#212121</color>
+    <color name="selected_filter_view_border_color">#404040</color>
+    <color name="selected_filter_view_text_color">#E1E1E1</color>
+    <color name="navigation_bar_color">#000000</color>
+    <!--Filter/Sort BottomSheet Colors END-->
+
+    <!--Note tags colors-->
+    <color name="unchecked_todo_icon_border_color">#9E9E9E</color>
+    <color name="checked_todo_icon_background_color">#6E6E6E</color>
+    <color name="checked_todo_icon_tick_color">#000000</color>
+
+    <!-- Reminder colors -->
+    <color name="fluentui_calender_bg_color">#000000</color>
+    <color name="reminder_bottom_sheet_button_color">#C7B3E7</color>
+    <color name="reminder_button_text_color">#212121</color>
+    <color name="reminder_bottom_sheet_text_primary_color">#FFFFFF</color>
+    <color name="reminder_bottom_sheet_text_secondary_color">#FFFFFF</color>
+    <color name="reminder_bottom_sheet_bg_color">#000000</color>
+    <color name="reminder_label_primary_text_color">#E1E1E1</color>
+    <color name="reminder_label_bg_color">#1D000000</color>
+</resources>

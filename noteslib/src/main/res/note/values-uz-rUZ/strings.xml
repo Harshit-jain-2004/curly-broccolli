@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Qaydni ulashish</string>
+  <string name="sn_action_share">Ulashish</string>
+  <string name="sn_action_delete_note">O‘chirish</string>
+  <string name="sn_action_send_feedback">Fikr-mulohaza yuborish</string>
+  <string name="sn_delete_note_dialog">Qayd o‘chirilsinmi?</string>
+  <string name="sn_delete_note_description">Barcha qurilmalaringizdan butunlay o‘chirib tashlanadi.</string>
+  <string name="sn_image_dialog_delete_description">Bu rasm barcha qurilmalaringizdan butunlay o‘chirib tashlanadi.</string>
+  <string name="sn_image_dialog_delete_action">Oʻchirish</string>
+  <string name="sn_image_dialog_alt_text_title">Muqobil matn</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Rasm taʼrifini kiriting</string>
+  <string name="sn_image_dialog_save_alt_text">Saqlash</string>
+  <string name="sn_dialog_cancel">Bekor qilish</string>
+  <string name="sn_change_color_to_blue">Qayd rangini ko‘kka o‘zgartirish</string>
+  <string name="sn_change_color_to_green">Qayd rangini yashilga o‘zgartirish</string>
+  <string name="sn_change_color_to_yellow">Qayd rangini sariqqa o‘zgartirish</string>
+  <string name="sn_change_color_to_purple">Qayd rangini binafsharangga o‘zgartirish</string>
+  <string name="sn_change_color_to_pink">Qayd rangini pushtiga o‘zgartirish</string>
+  <string name="sn_change_color_to_grey">Qayd rangini kulrangga o‘zgartirish</string>
+  <string name="sn_change_color_to_charcoal">Qayd rangini to‘q kulrangga o‘zgartirish</string>
+  <string name="sn_search_notes_with_color_blue">Koʻk rangli qaydlarni qidirish</string>
+  <string name="sn_search_notes_with_color_green">Yashil rangli qaydlarni qidirish</string>
+  <string name="sn_search_notes_with_color_yellow">Sariq rangli qaydlarni qidirish</string>
+  <string name="sn_search_notes_with_color_purple">Siyohrangli qaydlarni qidirish</string>
+  <string name="sn_search_notes_with_color_pink">Pushtirangli qaydlarni qidirish</string>
+  <string name="sn_search_notes_with_color_grey">Kulrangli qaydlarni qidirish</string>
+  <string name="sn_search_notes_with_color_charcoal">Toʻq kulrangli qaydlarni qidirish</string>
+  <string name="sn_note_options_dismissed">Qayd parametrlari yopildi</string>
+  <string name="sn_note_options_displayed">Qayd parametrlari ko‘rsatilyapti</string>
+  <string name="sn_adding_image_failed">Rasm kiritilmadi</string>
+  <string name="sn_image_added">Rasm joylandi</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">共享便笺</string>
+  <string name="sn_action_share">共享</string>
+  <string name="sn_action_delete_note">删除</string>
+  <string name="sn_action_send_feedback">发送反馈</string>
+  <string name="sn_delete_note_dialog">删除备注?</string>
+  <string name="sn_delete_note_description">将从你的所有设备永久删除此项。</string>
+  <string name="sn_image_dialog_delete_description">将从你的所有设备中永久删除此图像。</string>
+  <string name="sn_image_dialog_delete_action">删除</string>
+  <string name="sn_image_dialog_alt_text_title">替换文字</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">请输入图像说明</string>
+  <string name="sn_image_dialog_save_alt_text">保存</string>
+  <string name="sn_dialog_cancel">取消</string>
+  <string name="sn_change_color_to_blue">将备注颜色更改为蓝色</string>
+  <string name="sn_change_color_to_green">将备注颜色更改为绿色</string>
+  <string name="sn_change_color_to_yellow">将备注颜色更改为黄色</string>
+  <string name="sn_change_color_to_purple">将备注颜色更改为紫色</string>
+  <string name="sn_change_color_to_pink">将备注颜色更改为粉红色</string>
+  <string name="sn_change_color_to_grey">将备注颜色更改为灰色</string>
+  <string name="sn_change_color_to_charcoal">将备注颜色更改为炭灰色</string>
+  <string name="sn_search_notes_with_color_blue">搜索蓝色备注</string>
+  <string name="sn_search_notes_with_color_green">搜索绿色备注</string>
+  <string name="sn_search_notes_with_color_yellow">搜索黄色备注</string>
+  <string name="sn_search_notes_with_color_purple">搜索紫色备注</string>
+  <string name="sn_search_notes_with_color_pink">搜索粉红色备注</string>
+  <string name="sn_search_notes_with_color_grey">搜索灰色备注</string>
+  <string name="sn_search_notes_with_color_charcoal">搜索炭灰色备注</string>
+  <string name="sn_note_options_dismissed">已取消备注选项</string>
+  <string name="sn_note_options_displayed">显示的备注选项</string>
+  <string name="sn_adding_image_failed">无法添加图像</string>
+  <string name="sn_image_added">已添加图像</string>
+</resources>

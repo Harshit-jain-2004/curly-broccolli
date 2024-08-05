@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <size
+        android:width="@dimen/sn_image_gallery_divider"
+        android:height="@dimen/sn_image_gallery_divider" />
+    <solid android:color="@android:color/transparent" />
+</shape>

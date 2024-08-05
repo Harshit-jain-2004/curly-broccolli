@@ -1,0 +1,116 @@
+# This pipeline was generated from the classic pipeline "notes-android-sdk" on 2023-10-26 with https://aka.ms/1ESPTMigration (v0.2.0): https://dev.azure.com/Office/OneNote/_build?definitionId=1962
+
+#
+# The following items require attention:
+# Variables were exported from the classic pipeline, confirm that `variables` values do not contain private information. If a variable contains private information, follow the guidance on handling secret variables: https://learn.microsoft.com/en-us/azure/devops/pipelines/process/set-secret-variables
+# Secret variable 'AZURE_ARTIFACTS_ENV_ACCESS_TOKEN' detected in `variables`, follow the guidance on handling secret variables: https://learn.microsoft.com/en-us/azure/devops/pipelines/process/set-secret-variables
+# Cron Schedules have been converted using UTC Time Zone and may need to be updated for your location
+# The following tasks are disabled in "Build" and not included in the converted pipeline: "Copy Files to: $(build.artifactstagingdirectory)\apk", "Publish Artifact: apk", "Stop Daemon"
+
+name: $(Build.SourceBranchName).$(date:yyyyMMdd)$(rev:.r)
+variables:
+  - name: AndroidTestApk
+    value: noteslib,sideeffect-persistence,richtext-editor-styled,richtext-render,richtext-editor
+  - name: AZURE_ARTIFACTS_ENV_ACCESS_TOKEN
+    value: null
+  - name: DeviceSerial
+    value: 00d5b55c765f1d54,0117110d49a03301
+  - name: REMOTE_OUTPUT
+    value: noteslib/build/outputs/aar/noteslib-release.aar
+  - name: system.debug
+    value: false
+  - name: system.prefergitfrompath
+    value: true
+  - name: tags
+    value: production
+  - group: InfoSec-SecurityResults
+schedules:
+  - cron: 0 18 * * 6
+    branches:
+      include:
+        - master
+    always: true
+resources:
+  repositories:
+    - repository: OfficePipelineTemplates
+      type: git
+      name: 1ESPipelineTemplates/OfficePipelineTemplates
+      ref: refs/tags/release
+trigger:
+  - develop
+extends:
+  template: v1/Office.Official.PipelineTemplate.yml@OfficePipelineTemplates
+  parameters:
+    pool:
+      os: windows
+      image: windows-2019
+      name: Azure-Pipelines-1ESPT-ExDShared
+    customBuildTags:
+      - MigrationTooling-Office-OneNote-1962-Tool
+    stages:
+      - stage: Stage
+        jobs:
+          - job: Phase_1
+            displayName: Build
+            timeoutInMinutes: 25
+            cancelTimeoutInMinutes: 1
+            steps:
+              - checkout: self
+                clean: true
+                fetchTags: true
+              - task: JavaToolInstaller@0
+                inputs:
+                  versionSpec: '11'
+                  jdkArchitectureOption: 'x64'
+                  jdkSourceOption: 'PreInstalled'
+              - task: ms.vss-governance-buildtask.governance-build-task-component-detection.ComponentGovernanceComponentDetection@0
+                displayName: Component Detection
+              - task: securedevelopmentteam.vss-secure-development-tools.build-task-credscan.CredScan@3
+                displayName: Run Credential Scanner
+                inputs:
+                  debugMode: false
+              - task: Gradle@1
+                name: Gradle1
+                displayName: Clean
+                inputs:
+                  tasks: clean
+                  publishJUnitResults: false
+              - task: Gradle@1
+                name: Gradle3
+                displayName: Static Analysis
+                inputs:
+                  tasks: detekt
+                  publishJUnitResults: false
+              - task: Gradle@1
+                displayName: Style Checking
+                inputs:
+                  tasks: ktlint
+                  publishJUnitResults: false
+              - task: Gradle@1
+                name: Gradle2
+                displayName: Assemble
+                inputs:
+                  tasks: assemble
+                  publishJUnitResults: false
+              - task: Gradle@1
+                name: Gradle4
+                displayName: Run Unit Tests
+                inputs:
+                  tasks: testDebugUnitTest
+                  testResultsFiles: "**/build/test-results/test*/TEST-*.xml"
+                  testRunTitle: Unit Tests
+              - task: AzureArtifacts.manifest-generator-task.manifest-generator-task.ManifestGeneratorTask@0
+                displayName: "Manifest Generator"
+                inputs:
+                  BuildDropPath: $(Build.ArtifactStagingDirectory)
+              - task: Gradle@1
+                name: Gradle5
+                displayName: Assemble Android Tests
+                inputs:
+                  tasks: "assembleAndroidTest "
+                  publishJUnitResults: false
+              - task: ComponentGovernanceComponentDetection@0
+                inputs:
+                  scanType: "Register"
+                  verbosity: "Verbose"
+                  alertWarningLevel: "High"

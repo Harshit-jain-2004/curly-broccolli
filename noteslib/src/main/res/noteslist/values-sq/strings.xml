@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">Shënim me tekst</string>
+  <string name="sn_ink_note">Shënimi me bojë</string>
+  <string name="sn_label_text">Teksti</string>
+  <string name="sn_label_image">Imazh</string>
+  <string name="sn_single_image_note">%1$s shënim me 1 imazh</string>
+  <string name="sn_multi_image_note">%1$s shënim me %2$d imazhe</string>
+  <string name="sn_label_date">redaktuar %s</string>
+  <string name="sn_add_note">Shto një shënim të ri</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">Sinkronizimi është i pamundur tani.</string>
+</resources>

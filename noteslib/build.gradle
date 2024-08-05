@@ -1,0 +1,207 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+//apply plugin: 'com.getkeepsafe.dexcount' // Uncomment this to get dexcount statistics
+
+android {
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8.toString()
+    }
+    compileSdkVersion rootProject.ext.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [
+                  "room.schemaLocation": ("$projectDir/schemas".toString()),
+                  "room.incremental": "true"
+                ]
+            }
+        }
+        testInstrumentationRunner rootProject.ext.testInstrumentationRunner
+
+        multiDexEnabled true
+
+      ndk {
+        abiFilters 'armeabi-v7a', 'arm64-v8a'
+      }
+    }
+
+    testOptions {
+        unitTests.returnDefaultValues = true
+        unitTests.includeAndroidResources = true
+
+        unitTests.all {
+            // https://stackoverflow.com/questions/29939968/run-android-test-with-robolectric-dependency-error
+            systemProperty 'robolectric.dependency.repo.url', 'https://repo1.maven.org/maven2'
+        }
+    }
+
+    sourceSets {
+        main {
+            java.srcDirs += 'src/main/kotlin'
+            res.srcDirs += ['src/main/res',
+                            'src/main/res/noteslist',
+                            'src/main/res/note',
+                            'src/main/res/sideeffect-sync',
+                            'src/main/res/richtext-editor-styled',
+                            'src/main/res/richtext-editor',
+                            'src/main/res/richtext-render']
+        }
+        test.java.srcDirs += ['src/test/kotlin', 'src/sharedTest/kotlin']
+        androidTest.java.srcDirs += ['src/androidTest/kotlin', 'src/sharedTest/kotlin']
+        androidTest.assets.srcDirs +=
+                files("$projectDir/schemas".toString())
+    }
+
+    lintOptions {
+        abortOnError true
+        disable 'MissingTranslation'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro',
+                    'proguard-rules-debug.pro'
+        }
+    }
+  externalNativeBuild {
+    cmake {
+      path "src/main/cpp/CMakeLists.txt"
+    }
+  }
+}
+
+dependencies {
+    //Kotlin
+    implementation kotlinDependencies.kotlinStdlib
+
+    //AndroidX dependencies Library
+    implementation androidxDependencies.supportFragment
+    implementation androidxDependencies.supportAnnotations
+    implementation androidxDependencies.supportCoreUi
+    implementation androidxDependencies.appCompat
+    implementation androidxDependencies.recyclerView
+    implementation androidxDependencies.cardView
+    implementation androidxDependencies.supportDesign
+    implementation androidxDependencies.constraintLayout
+    implementation androidxDependencies.supportMultidex
+
+    implementation androidxDependencies.vectorDrawable
+    implementation androidxDependencies.vectorDrawableAnimated
+
+
+
+    //External dependencies
+    implementation(externalDependencies.glide) {
+      exclude group: 'androidx.fragment'
+      exclude group: 'androidx.annotation'
+    }
+    //Side effect persistence
+    implementation(persistenceDependencies.roomRuntime)
+    kapt(persistenceDependencies.roomCompiler)
+    implementation externalDependencies.gson
+    androidTestImplementation(instrumentationTestDependencies.roomMigration) {
+      exclude group: 'com.google.code.gson'
+    }
+
+    //Side effect sync
+    implementation externalDependencies.okio
+
+  implementation externalDependencies.tensorflowLite
+  implementation externalDependencies.tensorflowLiteSupport
+
+
+    //Sync layer
+    implementation networkDependencies.okHttp
+    implementation networkDependencies.jdeferredCore
+    implementation networkDependencies.moshi
+    implementation networkDependencies.moshiKotlin
+
+    //fluentUI
+    implementation fluentUIDependencies.fluentUICalender
+    implementation fluentUIDependencies.dualScreenLayout
+
+    //Instrumentation tests
+    androidTestImplementation androidxDependencies.supportAnnotations
+    androidTestImplementation instrumentationTestDependencies.testRunner
+    androidTestImplementation instrumentationTestDependencies.testRules
+    androidTestImplementation instrumentationTestDependencies.espressoCore
+    androidTestImplementation instrumentationTestDependencies.espressoContrib
+    androidTestImplementation instrumentationTestDependencies.espressoIdlingResources
+    androidTestImplementation unitTestDependencies.mockito
+    androidTestImplementation unitTestDependencies.dexmakerMockito
+    androidTestImplementation unitTestDependencies.mockitoKotlin
+
+    //Unit tests
+    testImplementation unitTestDependencies.junit
+    testImplementation unitTestDependencies.mockito
+    testImplementation unitTestDependencies.hamcrestLibrary
+    testImplementation unitTestDependencies.hamcrestCore
+    testImplementation unitTestDependencies.robolectric
+    testImplementation unitTestDependencies.mockitoKotlin
+}
+
+// ktlint for style checks
+
+repositories {
+  mavenCentral()
+}
+
+configurations {
+    ktlint
+}
+
+dependencies {
+    ktlint codeSanityDependencies.ktLint
+}
+
+task ktlint(type: JavaExec, group: "verification") {
+    description = "Check Kotlin code style."
+    classpath = configurations.ktlint
+    main = "com.pinterest.ktlint.Main"
+    args "src/**/*.kt", "!src/**/TelemetryConstants.kt"
+}
+
+task ktlintFormat(type: JavaExec, group: "formatting") {
+    description = "Fix Kotlin code style deviations."
+    classpath = configurations.ktlint
+    main = "com.pinterest.ktlint.Main"
+    args "-F", "src/**/*.kt", "!src/**/TelemetryConstants.kt"
+    jvmArgs "--add-opens", "java.base/java.lang=ALL-UNNAMED"
+}
+
+// detekt
+
+repositories {
+  mavenCentral()
+}
+
+configurations {
+    detekt
+}
+
+task detekt(type: JavaExec) {
+    main = "io.gitlab.arturbosch.detekt.cli.Main"
+    classpath = configurations.detekt
+    def input = "$projectDir/src/main/kotlin"
+    def config = "$projectDir/detekt.yml"
+    def params = [ '-i', input, '-c', config]
+    args(params)
+}
+
+dependencies {
+    detekt codeSanityDependencies.detekt
+}

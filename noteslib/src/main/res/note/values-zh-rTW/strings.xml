@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">共用自黏便箋</string>
+  <string name="sn_action_share">共用</string>
+  <string name="sn_action_delete_note">刪除</string>
+  <string name="sn_action_send_feedback">傳送意見反應</string>
+  <string name="sn_delete_note_dialog">是否要刪除便箋?</string>
+  <string name="sn_delete_note_description">它將被從您的所有裝置永久刪除。</string>
+  <string name="sn_image_dialog_delete_description">此影像將從您的所有裝置永久刪除。</string>
+  <string name="sn_image_dialog_delete_action">刪除</string>
+  <string name="sn_image_dialog_alt_text_title">替代文字</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">輸入影像描述</string>
+  <string name="sn_image_dialog_save_alt_text">儲存</string>
+  <string name="sn_dialog_cancel">取消</string>
+  <string name="sn_change_color_to_blue">將便箋色彩變更為藍色</string>
+  <string name="sn_change_color_to_green">將便箋色彩變更為綠色</string>
+  <string name="sn_change_color_to_yellow">將便箋色彩變更為黃色</string>
+  <string name="sn_change_color_to_purple">將便箋色彩變更為紫色</string>
+  <string name="sn_change_color_to_pink">將便箋色彩變更為粉紅色</string>
+  <string name="sn_change_color_to_grey">將便箋色彩變更為灰色</string>
+  <string name="sn_change_color_to_charcoal">將便箋色彩變更為炭灰色</string>
+  <string name="sn_search_notes_with_color_blue">搜尋藍色的便箋</string>
+  <string name="sn_search_notes_with_color_green">搜尋綠色的便箋</string>
+  <string name="sn_search_notes_with_color_yellow">搜尋黃色的便箋</string>
+  <string name="sn_search_notes_with_color_purple">搜尋紫色的便箋</string>
+  <string name="sn_search_notes_with_color_pink">搜尋粉紅色的便箋</string>
+  <string name="sn_search_notes_with_color_grey">搜尋灰色的便箋</string>
+  <string name="sn_search_notes_with_color_charcoal">搜尋炭灰色的便箋</string>
+  <string name="sn_note_options_dismissed">便箋選項已關閉</string>
+  <string name="sn_note_options_displayed">便箋選項已顯示</string>
+  <string name="sn_adding_image_failed">無法新增影像</string>
+  <string name="sn_image_added">已新增影像</string>
+</resources>

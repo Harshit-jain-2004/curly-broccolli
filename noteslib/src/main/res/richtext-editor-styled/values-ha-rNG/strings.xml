@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Saka hoto</string>
+  <string name="sn_bold">Kauri</string>
+  <string name="sn_italic">Rubutun tsutsa</string>
+  <string name="sn_underline">Layi a ƙarƙarshi</string>
+  <string name="sn_strikethrough">Layin tsagawa</string>
+  <string name="sn_bullets">Jeri Mai Kuri</string>
+  <string name="sn_color_name_charcoal">Gawayi</string>
+  <string name="sn_color_name_blue">Shuɗi</string>
+  <string name="sn_color_name_green">Kore</string>
+  <string name="sn_color_name_yellow">Rawaya</string>
+  <string name="sn_color_name_grey">Toka-toka</string>
+  <string name="sn_color_name_purple">Algashi</string>
+  <string name="sn_color_name_pink">Ruwan hoda</string>
+  <string name="sn_unselected">Wanda ba a zaɓa ba</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Ƙara Rubutun Alt</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Gyara Rubutun Alt</string>
+  <string name="sn_contextual_menu_image_delete">Share Hoto</string>
+  <string name="sn_image_attachment">Makalawan hoto</string>
+</resources>

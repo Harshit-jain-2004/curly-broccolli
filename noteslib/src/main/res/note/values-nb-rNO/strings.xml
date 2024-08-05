@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Del klistrelapp</string>
+  <string name="sn_action_share">Del</string>
+  <string name="sn_action_delete_note">Slett</string>
+  <string name="sn_action_send_feedback">Send tilbakemelding</string>
+  <string name="sn_delete_note_dialog">Vil du slette notatet?</string>
+  <string name="sn_delete_note_description">Det blir slettet fra alle enhetene permanent.</string>
+  <string name="sn_image_dialog_delete_description">Dette bildet slettes permanent fra alle enheter.</string>
+  <string name="sn_image_dialog_delete_action">Slett</string>
+  <string name="sn_image_dialog_alt_text_title">Alternativ tekst</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Angi bildebeskrivelse</string>
+  <string name="sn_image_dialog_save_alt_text">Lagre</string>
+  <string name="sn_dialog_cancel">Avbryt</string>
+  <string name="sn_change_color_to_blue">Endre notatfargen til blå</string>
+  <string name="sn_change_color_to_green">Endre notatfargen til grønn</string>
+  <string name="sn_change_color_to_yellow">Endre notatfargen til gul</string>
+  <string name="sn_change_color_to_purple">Endre notatfargen til lilla</string>
+  <string name="sn_change_color_to_pink">Endre notatfargen til rosa</string>
+  <string name="sn_change_color_to_grey">Endre notatfargen til grå</string>
+  <string name="sn_change_color_to_charcoal">Endre notatfargen til koksgrå</string>
+  <string name="sn_search_notes_with_color_blue">Søk i notater med blå farge</string>
+  <string name="sn_search_notes_with_color_green">Søk i notater med grønn farge</string>
+  <string name="sn_search_notes_with_color_yellow">Søk i notater med gul farge</string>
+  <string name="sn_search_notes_with_color_purple">Søk i notater med lilla farge</string>
+  <string name="sn_search_notes_with_color_pink">Søk i notater med rosa farge</string>
+  <string name="sn_search_notes_with_color_grey">Søk i notater med grå farge</string>
+  <string name="sn_search_notes_with_color_charcoal">Søk i notater med koksgrå farge</string>
+  <string name="sn_note_options_dismissed">Notatalternativer er lukket</string>
+  <string name="sn_note_options_displayed">Notatalternativer vises</string>
+  <string name="sn_adding_image_failed">Kan ikke legge til bildet</string>
+  <string name="sn_image_added">Bildet er lagt til</string>
+</resources>

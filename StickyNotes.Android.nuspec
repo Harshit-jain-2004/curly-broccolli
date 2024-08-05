@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>StickyNotes.Android</id>
+    <version>$version$</version>
+    <title>Office Project</title>
+    <authors>stickynotes</authors>
+    <owners>stickynotes</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Sticky Notes on Android Nuget</description>
+    <releaseNotes>Initial Release</releaseNotes>
+  </metadata>
+  <files>
+    <file src="noteslib\build\outputs\aar\noteslib-release.aar" target="maven\com\microsoft\notes\noteslib\$version$\noteslib-$version$.aar" />
+    <file src="build\publications\artifactPublication\pom-default.pom" target="maven\com\microsoft\notes\noteslib\$version$\noteslib-$version$.pom" />
+  </files>
+</package>

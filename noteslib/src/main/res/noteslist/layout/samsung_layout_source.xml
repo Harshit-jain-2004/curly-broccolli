@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="start|center_vertical"
+        style="@style/SamsungPreviewBodyStyle"
+        android:paddingTop="12dp"
+        android:paddingBottom="16dp">
+
+        <ImageView
+            android:id="@+id/samsungNoteSourceIcon"
+            android:layout_width="@dimen/samsung_note_source_icon_size"
+            android:layout_height="@dimen/samsung_note_source_icon_size"
+            android:layout_marginStart="@dimen/samsung_note_source_icon_padding_start"
+            android:importantForAccessibility="no"
+            app:srcCompat="@drawable/samsung_ic_source" />
+
+        <com.microsoft.notes.ui.theme.ThemedTextView
+            android:id="@+id/samsungNoteSourceLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/samsung_note_source_text_size"
+            android:lineHeight="@dimen/samsung_note_source_text_line_height"
+            android:paddingStart="@dimen/samsung_note_source_text_padding_start"
+            android:paddingEnd="@dimen/samsung_note_source_text_padding_end"
+            android:fontFamily="@string/samsung_source_label_font"
+            android:text="@string/heading_samsung_notes" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">הערת טקסט</string>
+  <string name="sn_ink_note">הערת דיו</string>
+  <string name="sn_label_text">טקסט</string>
+  <string name="sn_label_image">תמונה</string>
+  <string name="sn_single_image_note">פתק %1$s עם תמונה אחת</string>
+  <string name="sn_multi_image_note">פתק %1$s עם %2$d תמונות</string>
+  <string name="sn_label_date">נערך %s</string>
+  <string name="sn_add_note">הוסף הערה חדשה</string>
+  <string name="sn_note_preview_image_count">ועוד %1$d</string>
+  <string name="sn_manual_sync_failed">אין אפשרות לסנכרן כעת.</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">No momento, as Notas Autoadesivas requerem uma caixa de correio do Exchange Online para que a sincronização e o armazenamento funcionem. Contate seu administrador de TI para saber como habilitar uma caixa de correio ou use a opção abaixo para saber mais.</string>
+  <string name="sn_sync_failure_with_contact_support_message">Não é possível sincronizar as Notas Autoadesivas com a sua conta. Contate o Suporte para obter ajuda para resolver este problema.</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">Não foi possível sincronizar as Notas Autoadesivas com a sua conta, mas você ainda pode tentar solucionar este problema.</string>
+</resources>

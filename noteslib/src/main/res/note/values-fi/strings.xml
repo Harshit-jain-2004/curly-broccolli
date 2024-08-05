@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Jaa muistilappu</string>
+  <string name="sn_action_share">Jaa</string>
+  <string name="sn_action_delete_note">Poista</string>
+  <string name="sn_action_send_feedback">Lähetä palautetta</string>
+  <string name="sn_delete_note_dialog">Poistetaanko muistiinpano?</string>
+  <string name="sn_delete_note_description">Se poistetaan pysyvästi kaikista laitteista.</string>
+  <string name="sn_image_dialog_delete_description">Tämä kuva poistetaan pysyvästi kaikista laitteista.</string>
+  <string name="sn_image_dialog_delete_action">Poista</string>
+  <string name="sn_image_dialog_alt_text_title">Vaihtoehtokuvaus</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Kirjoita kuvan kuvaus</string>
+  <string name="sn_image_dialog_save_alt_text">Tallenna</string>
+  <string name="sn_dialog_cancel">Peruuta</string>
+  <string name="sn_change_color_to_blue">Muuta muistiinpanon väri siniseksi</string>
+  <string name="sn_change_color_to_green">Muuta muistiinpanon väri vihreäksi</string>
+  <string name="sn_change_color_to_yellow">Muuta muistiinpanon väri keltaiseksi</string>
+  <string name="sn_change_color_to_purple">Muuta muistiinpanon väri purppuraksi</string>
+  <string name="sn_change_color_to_pink">Muuta muistiinpanon väri vaaleanpunaiseksi</string>
+  <string name="sn_change_color_to_grey">Muuta muistiinpanon väri harmaaksi</string>
+  <string name="sn_change_color_to_charcoal">Muuta muistiinpanon väri hiilenharmaaksi</string>
+  <string name="sn_search_notes_with_color_blue">Hae sinisiä muistiinpanoja</string>
+  <string name="sn_search_notes_with_color_green">Hae vihreitä muistiinpanoja</string>
+  <string name="sn_search_notes_with_color_yellow">Hae keltaisia muistiinpanoja</string>
+  <string name="sn_search_notes_with_color_purple">Hae purppuranvärisiä muistiinpanoja</string>
+  <string name="sn_search_notes_with_color_pink">Hae vaaleanpunaisia muistiinpanoja</string>
+  <string name="sn_search_notes_with_color_grey">Hae harmaita muistiinpanoja</string>
+  <string name="sn_search_notes_with_color_charcoal">Hae hiilenharmaita muistiinpanoja</string>
+  <string name="sn_note_options_dismissed">Muistiinpanon asetukset hylätty</string>
+  <string name="sn_note_options_displayed">Muistiinpanon asetukset näytössä</string>
+  <string name="sn_adding_image_failed">Kuvaa ei voitu lisätä</string>
+  <string name="sn_image_added">Kuva lisättiin</string>
+</resources>

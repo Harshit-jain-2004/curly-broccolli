@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">Σημείωση κειμένου</string>
+  <string name="sn_ink_note">Σημείωση με μελάνι</string>
+  <string name="sn_label_text">Κείμενο</string>
+  <string name="sn_label_image">Εικόνα</string>
+  <string name="sn_single_image_note">%1$s σημείωση με 1 εικόνα</string>
+  <string name="sn_multi_image_note">%1$s σημείωση με %2$d εικόνες</string>
+  <string name="sn_label_date">επεξεργασία στις %s</string>
+  <string name="sn_add_note">Προσθήκη νέας σημείωσης</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">Δεν είναι δυνατός ο συγχρονισμός αυτήν τη στιγμή.</string>
+</resources>

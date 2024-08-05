@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">Sajnáljuk, a Cetlik app szinkronizálási és tárolási funkciói egyelőre csak Exchange Online-postaládával használhatók. Kérje meg a rendszergazdát, hogy állítson be Önnek egy ilyen postaládát, vagy a lenti linket választva tekintse meg a további információkat.</string>
+  <string name="sn_sync_failure_with_contact_support_message">Nem sikerült szinkronizálni a Cetlik appot a fiókjával. Kérjük, forduljon az ügyfélszolgálathoz a probléma megoldása végett.</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">Nem sikerült szinkronizálni a Cetlik appot a fiókjával. Próbálkozzon újra, hátha megoldódik a probléma.</string>
+</resources>

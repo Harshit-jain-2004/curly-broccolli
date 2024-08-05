@@ -1,0 +1,29 @@
+# Package Files #
+*.class
+*.war
+*.ear
+*.iml
+
+# folders #
+/gen
+/out
+/bin
+/build
+*/build
+.idea
+/.gradle
+/tmp
+/captures
+
+# others #
+local.properties
+gradle.properties
+.DS_Store
+
+# keystore #
+keystore.props.file
+keystore
+debug.keystore
+
+#code analysis results
+quality/results

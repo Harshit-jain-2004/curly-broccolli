@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Dela fästis</string>
+  <string name="sn_action_share">Dela</string>
+  <string name="sn_action_delete_note">Ta bort</string>
+  <string name="sn_action_send_feedback">Skicka feedback</string>
+  <string name="sn_delete_note_dialog">Ta bort anteckning?</string>
+  <string name="sn_delete_note_description">Den tas bort permanent från alla enheter.</string>
+  <string name="sn_image_dialog_delete_description">Den här bilden tas bort permanent från alla enheter.</string>
+  <string name="sn_image_dialog_delete_action">Ta bort</string>
+  <string name="sn_image_dialog_alt_text_title">Alternativtext</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Ange bildbeskrivning</string>
+  <string name="sn_image_dialog_save_alt_text">Spara</string>
+  <string name="sn_dialog_cancel">Avbryt</string>
+  <string name="sn_change_color_to_blue">Ändra anteckningsfärg till blå</string>
+  <string name="sn_change_color_to_green">Ändra anteckningsfärg till grön</string>
+  <string name="sn_change_color_to_yellow">Ändra anteckningsfärg till gul</string>
+  <string name="sn_change_color_to_purple">Ändra anteckningsfärg till lila</string>
+  <string name="sn_change_color_to_pink">Ändra anteckningsfärg till rosa</string>
+  <string name="sn_change_color_to_grey">Ändra anteckningsfärg till grå</string>
+  <string name="sn_change_color_to_charcoal">Ändra anteckningsfärg till ritkol</string>
+  <string name="sn_search_notes_with_color_blue">Sök efter anteckningar med färgen blå</string>
+  <string name="sn_search_notes_with_color_green">Sök efter anteckningar med färgen grön</string>
+  <string name="sn_search_notes_with_color_yellow">Sök efter anteckningar med färgen gul</string>
+  <string name="sn_search_notes_with_color_purple">Sök efter anteckningar med färgen lila</string>
+  <string name="sn_search_notes_with_color_pink">Sök efter anteckningar med färgen rosa</string>
+  <string name="sn_search_notes_with_color_grey">Sök efter anteckningar med färgen grå</string>
+  <string name="sn_search_notes_with_color_charcoal">Sök efter anteckningar med färgen ritkol</string>
+  <string name="sn_note_options_dismissed">Anteckningsalternativ har stängts</string>
+  <string name="sn_note_options_displayed">Anteckningsalternativ på skärmen</string>
+  <string name="sn_adding_image_failed">Det gick inte att lägga till bild</string>
+  <string name="sn_image_added">Bild har lagts till</string>
+</resources>

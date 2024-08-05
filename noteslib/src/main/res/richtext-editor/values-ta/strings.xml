@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_notes_image">படிமம்</string>
+  <string name="sn_inline_media_notes_alttext">மாற்று உரை</string>
+  <string name="sn_inline_media_notes_description">விளக்கம்</string>
+  <string name="sn_inline_media_notes_done">முடிந்தது</string>
+  <string name="sn_inline_media_notes_cancel">ரத்து</string>
+  <string name="sn_inline_media_notes_open">திற</string>
+  <string name="sn_notes_read_alt_text">படிமம், மாற்று உரை: %1$s!</string>
+  <string name="sn_notes_link_label">இணைப்பு: %1$s</string>
+</resources>

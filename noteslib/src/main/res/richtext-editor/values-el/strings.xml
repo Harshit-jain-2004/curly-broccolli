@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_notes_image">Εικόνα</string>
+  <string name="sn_inline_media_notes_alttext">Εναλλακτικό κείμενο</string>
+  <string name="sn_inline_media_notes_description">Περιγραφή</string>
+  <string name="sn_inline_media_notes_done">Τέλος</string>
+  <string name="sn_inline_media_notes_cancel">Άκυρο</string>
+  <string name="sn_inline_media_notes_open">Άνοιγμα</string>
+  <string name="sn_notes_read_alt_text">Εικόνα, εναλλακτικό κείμενο: %1$s!</string>
+  <string name="sn_notes_link_label">Σύνδεση: %1$s</string>
+</resources>

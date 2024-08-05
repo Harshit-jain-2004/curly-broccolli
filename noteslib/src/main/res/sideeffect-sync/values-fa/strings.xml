@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">متأسفیم! %@ در حال حاضر برای کار کردن به یک صندوق پستی آنلاین Exchange برای همگام‌سازی و ذخیره‌سازی نیاز دارد. لطفاً با سرپرست فناوری اطلاعات خود درباره فعال‌سازی صندوق پستی تماس بگیرید یا از گزینه زیر برای یادگیری بیشتر استفاده کنید.</string>
+  <string name="sn_sync_failure_with_contact_support_message">قادر به همگام‌سازی «یادداشت‌های چسبی» حساب شما نیستیم، لطفاً با پشتیبانی تماس بگیرید تا در حل و فصل این مشکل به شما کمک کنند.</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">قادر به همگام‌سازی یادداشت‌های چسبی حساب شما نیستیم، اما ممکن است قادر به حل و فصل این موضوع باشید.</string>
+</resources>

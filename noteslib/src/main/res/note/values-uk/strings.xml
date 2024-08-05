@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Поділитися наліпкою</string>
+  <string name="sn_action_share">Поділитися</string>
+  <string name="sn_action_delete_note">Видалити</string>
+  <string name="sn_action_send_feedback">Надіслати відгук</string>
+  <string name="sn_delete_note_dialog">Видалити нотатку?</string>
+  <string name="sn_delete_note_description">Її буде остаточно видалено з усіх ваших пристроїв.</string>
+  <string name="sn_image_dialog_delete_description">Це зображення буде остаточно видалено з усіх ваших пристроїв.</string>
+  <string name="sn_image_dialog_delete_action">Видалити</string>
+  <string name="sn_image_dialog_alt_text_title">Текст заміщення</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Введіть опис зображення</string>
+  <string name="sn_image_dialog_save_alt_text">Зберегти</string>
+  <string name="sn_dialog_cancel">Скасувати</string>
+  <string name="sn_change_color_to_blue">Змінити колір нотатки на синій</string>
+  <string name="sn_change_color_to_green">Змінити колір нотатки на зелений</string>
+  <string name="sn_change_color_to_yellow">Змінити колір нотатки на жовтий</string>
+  <string name="sn_change_color_to_purple">Змінити колір нотатки на фіолетовий</string>
+  <string name="sn_change_color_to_pink">Змінити колір нотатки на рожевий</string>
+  <string name="sn_change_color_to_grey">Змінити колір нотатки на сірий</string>
+  <string name="sn_change_color_to_charcoal">Змінити колір нотатки на вугільний</string>
+  <string name="sn_search_notes_with_color_blue">Пошук нотаток синього кольору</string>
+  <string name="sn_search_notes_with_color_green">Пошук нотаток зеленого кольору</string>
+  <string name="sn_search_notes_with_color_yellow">Пошук нотаток жовтого кольору</string>
+  <string name="sn_search_notes_with_color_purple">Пошук нотаток фіолетового кольору</string>
+  <string name="sn_search_notes_with_color_pink">Пошук нотаток рожевого кольору</string>
+  <string name="sn_search_notes_with_color_grey">Пошук нотаток сірого кольору</string>
+  <string name="sn_search_notes_with_color_charcoal">Пошук нотаток вугільного кольору</string>
+  <string name="sn_note_options_dismissed">Параметри примітки закрито</string>
+  <string name="sn_note_options_displayed">Параметри примітки показано</string>
+  <string name="sn_adding_image_failed">Не вдалося додати зображення</string>
+  <string name="sn_image_added">Зображення додано</string>
+</resources>

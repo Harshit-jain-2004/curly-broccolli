@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">സ്‌റ്റിക്കി നോട്ട് പങ്കിടുക</string>
+  <string name="sn_action_share">പങ്കിടുക</string>
+  <string name="sn_action_delete_note">ഇല്ലാതാക്കുക</string>
+  <string name="sn_action_send_feedback">ഫീഡ്‌ബാക്ക് അയയ്‌ക്കുക</string>
+  <string name="sn_delete_note_dialog">കുറിപ്പ് ഇല്ലാതാക്കണോ?</string>
+  <string name="sn_delete_note_description">ഇത് നിങ്ങളുടെ എല്ലാ ഉപകരണങ്ങളിൽ നിന്നും ശാശ്വതമായി ഇല്ലാതാക്കപ്പെടും.</string>
+  <string name="sn_image_dialog_delete_description">ഈ ഇമേജ് നിങ്ങളുടെ എല്ലാ ഉപകരണങ്ങളിൽ നിന്നും ശാശ്വതമായി ഇല്ലാതാക്കപ്പെടും.</string>
+  <string name="sn_image_dialog_delete_action">ഇല്ലാതാക്കുക</string>
+  <string name="sn_image_dialog_alt_text_title">Alt ടെക്സ്റ്റ്</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">ഇമേജ് വിവരണം നൽകുക</string>
+  <string name="sn_image_dialog_save_alt_text">സംരക്ഷിക്കുക</string>
+  <string name="sn_dialog_cancel">റദ്ദാക്കുക</string>
+  <string name="sn_change_color_to_blue">കുറിപ്പ് വർണ്ണം നീലയിലേക്ക് മാറ്റുക</string>
+  <string name="sn_change_color_to_green">കുറിപ്പ് വർണ്ണം പച്ചയിലേക്ക് മാറ്റുക</string>
+  <string name="sn_change_color_to_yellow">കുറിപ്പ് വർണ്ണം മഞ്ഞയിലേക്ക് മാറ്റുക</string>
+  <string name="sn_change_color_to_purple">കുറിപ്പ് വർണ്ണം പർപ്പിളിലേക്ക് മാറ്റുക</string>
+  <string name="sn_change_color_to_pink">കുറിപ്പ് വർണ്ണം പിങ്കിലേക്ക് മാറ്റുക</string>
+  <string name="sn_change_color_to_grey">കുറിപ്പ് വർണ്ണം ചാരനിറത്തിലേക്ക് മാറ്റുക</string>
+  <string name="sn_change_color_to_charcoal">കുറിപ്പ് വർണ്ണം ചാർക്കോളിലേക്ക് മാറ്റുക</string>
+  <string name="sn_search_notes_with_color_blue">നീല വർണ്ണമുള്ള കുറിപ്പുകൾ തിരയുക</string>
+  <string name="sn_search_notes_with_color_green">പച്ച വർണ്ണമുള്ള കുറിപ്പുകൾ തിരയുക</string>
+  <string name="sn_search_notes_with_color_yellow">മഞ്ഞ വർണ്ണമുള്ള കുറിപ്പുകൾ തിരയുക</string>
+  <string name="sn_search_notes_with_color_purple">പർപ്പിൾ വർണ്ണമുള്ള കുറിപ്പുകൾ തിരയുക</string>
+  <string name="sn_search_notes_with_color_pink">പിങ്ക് വർണ്ണമുള്ള കുറിപ്പുകൾ തിരയുക</string>
+  <string name="sn_search_notes_with_color_grey">ചാരനിറമുള്ള കുറിപ്പുകൾ തിരയുക</string>
+  <string name="sn_search_notes_with_color_charcoal">ചാർക്കോൾ വർണ്ണമുള്ള കുറിപ്പുകൾ തിരയുക</string>
+  <string name="sn_note_options_dismissed">കുറിപ്പുകളുടെ ഐച്ഛികങ്ങൾ നിരാകരിച്ചു</string>
+  <string name="sn_note_options_displayed">കുറിപ്പുകളുടെ ഐച്ഛികങ്ങൾ പ്രദർശിപ്പിച്ചിരിക്കുന്നു</string>
+  <string name="sn_adding_image_failed">ഇമേജ് ചേർക്കാനായില്ല</string>
+  <string name="sn_image_added">ഇമേജ് ചേർത്തു</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_notes_image">Obraz</string>
+  <string name="sn_inline_media_notes_alttext">Tekst alternatywny</string>
+  <string name="sn_inline_media_notes_description">Opis</string>
+  <string name="sn_inline_media_notes_done">Gotowe</string>
+  <string name="sn_inline_media_notes_cancel">Anuluj</string>
+  <string name="sn_inline_media_notes_open">Otwórz</string>
+  <string name="sn_notes_read_alt_text">Obraz, tekst alternatywny: %1$s!</string>
+  <string name="sn_notes_link_label">Link: %1$s</string>
+</resources>

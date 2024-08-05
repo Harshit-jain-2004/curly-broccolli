@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">Kurznotizen erfordern zurzeit leider ein Exchange Online-Postfach, damit Synchronisierung und Speicherung funktionieren. Wenden Sie sich an Ihren IT-Administrator, damit er ein Postfach aktiviert, oder verwenden Sie die unten stehende Option, um mehr zu erfahren.</string>
+  <string name="sn_sync_failure_with_contact_support_message">Wir können keine Kurznotizen mit Ihrem Konto synchronisieren. Wenden Sie sich wegen Hilfe bei der Behebung dieses Problems an den Support.</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">Wir können keine Kurznotizen mit Ihrem Konto synchronisieren, aber Sie können möglicherweise versuchen, dieses Problem zu beheben.</string>
+</resources>

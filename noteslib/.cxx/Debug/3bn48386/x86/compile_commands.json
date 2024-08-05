@@ -1,0 +1,12 @@
+[
+{
+  "directory": "D:/Projects/notes-android-sdk-AUDIO/notes-android-sdk/noteslib/.cxx/Debug/3bn48386/x86",
+  "command": "C:\\Android\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android22 --gcc-toolchain=C:/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DaudioEngine_EXPORTS -ID:/Projects/notes-android-sdk-AUDIO/notes-android-sdk/noteslib/src/main/cpp/tf-lite-api/tensorflow_src -ID:/Projects/notes-android-sdk-AUDIO/notes-android-sdk/noteslib/src/main/cpp/tf-lite-api/include/flatbuffers/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles\\audioEngine.dir\\TFLiteEngine.cpp.o -c D:\\Projects\\notes-android-sdk-AUDIO\\notes-android-sdk\\noteslib\\src\\main\\cpp\\TFLiteEngine.cpp",
+  "file": "D:\\Projects\\notes-android-sdk-AUDIO\\notes-android-sdk\\noteslib\\src\\main\\cpp\\TFLiteEngine.cpp"
+},
+{
+  "directory": "D:/Projects/notes-android-sdk-AUDIO/notes-android-sdk/noteslib/.cxx/Debug/3bn48386/x86",
+  "command": "C:\\Android\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android22 --gcc-toolchain=C:/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DaudioEngine_EXPORTS -ID:/Projects/notes-android-sdk-AUDIO/notes-android-sdk/noteslib/src/main/cpp/tf-lite-api/tensorflow_src -ID:/Projects/notes-android-sdk-AUDIO/notes-android-sdk/noteslib/src/main/cpp/tf-lite-api/include/flatbuffers/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles\\audioEngine.dir\\TFLiteEngineJNI.cpp.o -c D:\\Projects\\notes-android-sdk-AUDIO\\notes-android-sdk\\noteslib\\src\\main\\cpp\\TFLiteEngineJNI.cpp",
+  "file": "D:\\Projects\\notes-android-sdk-AUDIO\\notes-android-sdk\\noteslib\\src\\main\\cpp\\TFLiteEngineJNI.cpp"
+}
+]

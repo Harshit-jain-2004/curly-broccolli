@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.microsoft.notes.ui.feed.recyclerview.feeditem.NoteReferenceFeedItemComponent xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    style="@style/SNNoteItemStyle"
+    android:orientation="horizontal"
+    android:tag="@string/note_canvas_layout_tag"
+    android:clipToPadding="false">
+
+    <include layout="@layout/sn_action_mode_checkbox"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/noteContentLayout"
+        style="@style/SNNoteContentLayoutStyle"
+        android:clipToPadding="false"
+        android:paddingTop="@dimen/sn_note_content_padding">
+
+        <!-- 8dp on marginTop, start and end, 16dp bottom from SNNoteContentLayoutStyle -->
+
+        <TextView
+            android:id="@+id/noteTitle"
+            style="@style/NoteReferenceItemTitleStyle"
+            android:layout_width="0dp"
+            android:maxLines="2"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/sn_note_side_padding"
+            android:paddingEnd="@dimen/sn_note_side_padding"
+            android:paddingBottom="@dimen/sn_title_margin_bottom"
+            app:layout_constraintBottom_toTopOf="@+id/notePreview"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="November Meetings" />
+
+        <TextView
+            android:id="@+id/notePreview"
+            style="@style/NoteReferencePreviewText"
+            android:lines="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/sn_note_side_padding"
+            android:paddingEnd="@dimen/sn_note_side_padding"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/noteTitle"
+            app:layout_constraintBottom_toTopOf="@+id/noteSource"
+            android:text="This is text preview for note references. This preview comes below the tile and besides the preview image. This text might be too long intentionally." />
+
+        <include
+            android:id="@+id/noteSource"
+            layout="@layout/noteref_item_layout_source"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="16dp"
+            android:paddingStart="@dimen/sn_note_side_padding"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/notePreview" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.microsoft.notes.ui.feed.recyclerview.feeditem.NoteReferenceFeedItemComponent>

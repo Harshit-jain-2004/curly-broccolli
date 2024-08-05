@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">画像の挿入</string>
+  <string name="sn_bold">太字</string>
+  <string name="sn_italic">斜体</string>
+  <string name="sn_underline">下線</string>
+  <string name="sn_strikethrough">取り消し線</string>
+  <string name="sn_bullets">箇条書き</string>
+  <string name="sn_color_name_charcoal">チャコール</string>
+  <string name="sn_color_name_blue">青</string>
+  <string name="sn_color_name_green">緑</string>
+  <string name="sn_color_name_yellow">黄色</string>
+  <string name="sn_color_name_grey">グレー</string>
+  <string name="sn_color_name_purple">紫</string>
+  <string name="sn_color_name_pink">ピンク</string>
+  <string name="sn_unselected">未選択</string>
+  <string name="sn_contextual_menu_image_alt_text_add">代替テキストを追加</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">代替テキストの編集</string>
+  <string name="sn_contextual_menu_image_delete">画像を削除</string>
+  <string name="sn_image_attachment">画像の添付ファイル</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Дели лепљиву белешку</string>
+  <string name="sn_action_share">Дељење</string>
+  <string name="sn_action_delete_note">Избриши</string>
+  <string name="sn_action_send_feedback">Пошаљи повратне информације</string>
+  <string name="sn_delete_note_dialog">Избрисати белешку?</string>
+  <string name="sn_delete_note_description">Она ће бити трајно избрисана са свих ваших уређаја.</string>
+  <string name="sn_image_dialog_delete_description">Ова слика ће бити трајно избрисана са свих ваших уређаја.</string>
+  <string name="sn_image_dialog_delete_action">Избриши</string>
+  <string name="sn_image_dialog_alt_text_title">Алтернативни текст</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Унесите опис слике</string>
+  <string name="sn_image_dialog_save_alt_text">Сачувај</string>
+  <string name="sn_dialog_cancel">Откажи</string>
+  <string name="sn_change_color_to_blue">Промени боју белешке у плаву</string>
+  <string name="sn_change_color_to_green">Промени боју белешке у зелену</string>
+  <string name="sn_change_color_to_yellow">Промени боју белешке у жуту</string>
+  <string name="sn_change_color_to_purple">Промени боју белешке у пурпурну</string>
+  <string name="sn_change_color_to_pink">Промени боју белешке у ружичасту</string>
+  <string name="sn_change_color_to_grey">Промени боју белешке у сиву</string>
+  <string name="sn_change_color_to_charcoal">Промени боју белешке у боју угљена</string>
+  <string name="sn_search_notes_with_color_blue">Претражи белешке са плавом бојом</string>
+  <string name="sn_search_notes_with_color_green">Претражи белешке са зеленом бојом</string>
+  <string name="sn_search_notes_with_color_yellow">Претражи белешке са жутом бојом</string>
+  <string name="sn_search_notes_with_color_purple">Претражи белешке са пурпурном бојом</string>
+  <string name="sn_search_notes_with_color_pink">Претражи белешке са ружичастом бојом</string>
+  <string name="sn_search_notes_with_color_grey">Претражи белешке са сивом бојом</string>
+  <string name="sn_search_notes_with_color_charcoal">Претражи белешке са бојом угља</string>
+  <string name="sn_note_options_dismissed">Опције белешке су одбачене</string>
+  <string name="sn_note_options_displayed">Опције белешке су приказане</string>
+  <string name="sn_adding_image_failed">Није могуће додати слику</string>
+  <string name="sn_image_added">Слика је додата</string>
+</resources>

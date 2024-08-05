@@ -1,0 +1,26 @@
+# ninja log v5
+2	1647	744146419	CMakeFiles/audioEngine.dir/TFLiteEngineJNI.cpp.o	966b7a90796b3da
+12	43432	744146461	CMakeFiles/audioEngine.dir/TFLiteEngine.cpp.o	a33a9d574a52dce0
+43434	45658	744146463	D:/Projects/notes-android-sdk-AUDIO/notes-android-sdk/noteslib/build/intermediates/cxx/Debug/3bn48386/obj/arm64-v8a/libaudioEngine.so	7d9e70d534585055
+1	14	0	clean	690089e48a518cb0
+395	3163	744147372	CMakeFiles/audioEngine.dir/TFLiteEngineJNI.cpp.o	966b7a90796b3da
+473	48428	744147417	CMakeFiles/audioEngine.dir/TFLiteEngine.cpp.o	a33a9d574a52dce0
+48428	49584	744147418	D:/Projects/notes-android-sdk-AUDIO/notes-android-sdk/noteslib/build/intermediates/cxx/Debug/3bn48386/obj/arm64-v8a/libaudioEngine.so	7d9e70d534585055
+176	1215	744147993	CMakeFiles/audioEngine.dir/TFLiteEngineJNI.cpp.o	966b7a90796b3da
+1215	2023	744147994	D:/Projects/notes-android-sdk-AUDIO/notes-android-sdk/noteslib/build/intermediates/cxx/Debug/3bn48386/obj/arm64-v8a/libaudioEngine.so	7d9e70d534585055
+1	16	0	clean	690089e48a518cb0
+324	2721	744151571	CMakeFiles/audioEngine.dir/TFLiteEngineJNI.cpp.o	966b7a90796b3da
+380	20108	744151589	CMakeFiles/audioEngine.dir/TFLiteEngine.cpp.o	a33a9d574a52dce0
+20110	21139	744151590	D:/Projects/notes-android-sdk-AUDIO/notes-android-sdk/noteslib/build/intermediates/cxx/Debug/3bn48386/obj/arm64-v8a/libaudioEngine.so	7d9e70d534585055
+0	15	0	clean	690089e48a518cb0
+13	2834	744230803	CMakeFiles/audioEngine.dir/TFLiteEngineJNI.cpp.o	966b7a90796b3da
+34	40911	744230841	CMakeFiles/audioEngine.dir/TFLiteEngine.cpp.o	a33a9d574a52dce0
+40969	43120	744230844	D:/Projects/notes-android-sdk-AUDIO/notes-android-sdk/noteslib/build/intermediates/cxx/Debug/3bn48386/obj/arm64-v8a/libaudioEngine.so	7d9e70d534585055
+0	13	0	clean	690089e48a518cb0
+13	6408	744235377	CMakeFiles/audioEngine.dir/TFLiteEngineJNI.cpp.o	966b7a90796b3da
+38	32292	744235403	CMakeFiles/audioEngine.dir/TFLiteEngine.cpp.o	a33a9d574a52dce0
+32293	33392	744235404	D:/Projects/notes-android-sdk-AUDIO/notes-android-sdk/noteslib/build/intermediates/cxx/Debug/3bn48386/obj/arm64-v8a/libaudioEngine.so	7d9e70d534585055
+0	14	0	clean	690089e48a518cb0
+83	5074	744376806	CMakeFiles/audioEngine.dir/TFLiteEngineJNI.cpp.o	966b7a90796b3da
+103	40507	744376843	CMakeFiles/audioEngine.dir/TFLiteEngine.cpp.o	a33a9d574a52dce0
+40508	42497	744376845	D:/Projects/notes-android-sdk-AUDIO/notes-android-sdk/noteslib/build/intermediates/cxx/Debug/3bn48386/obj/arm64-v8a/libaudioEngine.so	7d9e70d534585055

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Kleepmärkme jagamine</string>
+  <string name="sn_action_share">Jaga</string>
+  <string name="sn_action_delete_note">Kustuta</string>
+  <string name="sn_action_send_feedback">Saada tagasisidet</string>
+  <string name="sn_delete_note_dialog">Kas märge kustutada?</string>
+  <string name="sn_delete_note_description">See kustutatakse jäädavalt kõigist teie seadmetest.</string>
+  <string name="sn_image_dialog_delete_description">See pilt kustutatakse jäädavalt kõigist teie seadmetest.</string>
+  <string name="sn_image_dialog_delete_action">Kustuta</string>
+  <string name="sn_image_dialog_alt_text_title">Asetekst</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Sisestage pildi kirjeldus</string>
+  <string name="sn_image_dialog_save_alt_text">Salvesta</string>
+  <string name="sn_dialog_cancel">Loobu</string>
+  <string name="sn_change_color_to_blue">Muuda märge siniseks</string>
+  <string name="sn_change_color_to_green">Muuda märge roheliseks</string>
+  <string name="sn_change_color_to_yellow">Muuda märge kollaseks</string>
+  <string name="sn_change_color_to_purple">Muuda märge lillaks</string>
+  <string name="sn_change_color_to_pink">Muuda märge roosaks</string>
+  <string name="sn_change_color_to_grey">Muuda märge halliks</string>
+  <string name="sn_change_color_to_charcoal">Muuda märge süsihalliks</string>
+  <string name="sn_search_notes_with_color_blue">Otsi siniseid märkmeid</string>
+  <string name="sn_search_notes_with_color_green">Otsi rohelisi märkmeid</string>
+  <string name="sn_search_notes_with_color_yellow">Otsi kollaseid märkmeid</string>
+  <string name="sn_search_notes_with_color_purple">Otsi lillasid märkmeid</string>
+  <string name="sn_search_notes_with_color_pink">Otsi roosasid märkmeid</string>
+  <string name="sn_search_notes_with_color_grey">Otsi halle märkmeid</string>
+  <string name="sn_search_notes_with_color_charcoal">Otsi süsihalle märkmeid</string>
+  <string name="sn_note_options_dismissed">Märkmesuvandid on suletud</string>
+  <string name="sn_note_options_displayed">Märkmesuvandid on kuvatud</string>
+  <string name="sn_adding_image_failed">Pilti ei saanud lisada</string>
+  <string name="sn_image_added">Pilt on lisatud</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Вставить изображение</string>
+  <string name="sn_bold">Полужирный шрифт</string>
+  <string name="sn_italic">Курсив</string>
+  <string name="sn_underline">Подчеркнуть</string>
+  <string name="sn_strikethrough">Зачеркнутый</string>
+  <string name="sn_bullets">Маркированный список</string>
+  <string name="sn_color_name_charcoal">Угольный</string>
+  <string name="sn_color_name_blue">Синий</string>
+  <string name="sn_color_name_green">Зеленый</string>
+  <string name="sn_color_name_yellow">Желтый</string>
+  <string name="sn_color_name_grey">Серый</string>
+  <string name="sn_color_name_purple">Сиреневый</string>
+  <string name="sn_color_name_pink">Розовый</string>
+  <string name="sn_unselected">Не выбрано</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Добавление замещающего текста</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Изменение замещающего текста</string>
+  <string name="sn_contextual_menu_image_delete">Удалить изображение</string>
+  <string name="sn_image_attachment">Вложенное изображение</string>
+</resources>

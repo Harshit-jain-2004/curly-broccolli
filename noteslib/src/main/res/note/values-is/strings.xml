@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Deila minnismiða</string>
+  <string name="sn_action_share">Deila</string>
+  <string name="sn_action_delete_note">Eyða</string>
+  <string name="sn_action_send_feedback">Senda ábendingu</string>
+  <string name="sn_delete_note_dialog">Eyða glósu?</string>
+  <string name="sn_delete_note_description">Henni verður eytt varanlega úr öllum tækjunum þínum.</string>
+  <string name="sn_image_dialog_delete_description">Þessari mynd verður eytt varanlega úr öllum tækjunum þínum.</string>
+  <string name="sn_image_dialog_delete_action">Eyða</string>
+  <string name="sn_image_dialog_alt_text_title">Baktexti</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Sláðu inn myndalýsingu</string>
+  <string name="sn_image_dialog_save_alt_text">Vista</string>
+  <string name="sn_dialog_cancel">Hætta við</string>
+  <string name="sn_change_color_to_blue">Breyta lit glósu í bláan</string>
+  <string name="sn_change_color_to_green">Breyta lit glósu í grænan</string>
+  <string name="sn_change_color_to_yellow">Breyta lit glósu í gulan</string>
+  <string name="sn_change_color_to_purple">Breyta lit glósu í fjólubláan</string>
+  <string name="sn_change_color_to_pink">Breyta lit glósu í bleikan</string>
+  <string name="sn_change_color_to_grey">Breyta lit glósu í gráan</string>
+  <string name="sn_change_color_to_charcoal">Breyta lit glósu í kolagráan</string>
+  <string name="sn_search_notes_with_color_blue">Leita í bláum glósum</string>
+  <string name="sn_search_notes_with_color_green">Leita í grænum glósum</string>
+  <string name="sn_search_notes_with_color_yellow">Leita í gulum glósum</string>
+  <string name="sn_search_notes_with_color_purple">Leita í fjólubláum glósum</string>
+  <string name="sn_search_notes_with_color_pink">Leita í bleikum glósum</string>
+  <string name="sn_search_notes_with_color_grey">Leita í gráum glósum</string>
+  <string name="sn_search_notes_with_color_charcoal">Leita í kolagráum glósum</string>
+  <string name="sn_note_options_dismissed">Valkostir fyrir glósur hunsaðir</string>
+  <string name="sn_note_options_displayed">Valkostir fyrir glósur á skjá</string>
+  <string name="sn_adding_image_failed">Ekki var hægt að bæta við mynd</string>
+  <string name="sn_image_added">Mynd bætt við</string>
+</resources>

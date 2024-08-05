@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">Nota teks</string>
+  <string name="sn_ink_note">Nota dakwat</string>
+  <string name="sn_label_text">Teks</string>
+  <string name="sn_label_image">Imej</string>
+  <string name="sn_single_image_note">%1$s nota dengan 1 imej</string>
+  <string name="sn_multi_image_note">%1$s nota dengan %2$d imej</string>
+  <string name="sn_label_date">diedit %s</string>
+  <string name="sn_add_note">Tambah nota baru</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">Tidak dapat menyegerakkan sekarang.</string>
+</resources>

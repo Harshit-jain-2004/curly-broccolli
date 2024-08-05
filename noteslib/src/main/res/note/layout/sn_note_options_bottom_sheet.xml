@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.microsoft.notes.ui.theme.ThemedLinearLayout
+    android:tag="@string/option_toolbar_background_tag"
+    style="@style/SNSettingsBottomSheet"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/bottom_sheet_behavior">
+
+    <com.microsoft.notes.ui.note.options.NoteColorPicker
+        android:layout_width="match_parent"
+        android:id="@+id/colorPicker"
+        android:paddingBottom="24dp"
+        android:layout_gravity="center"
+        android:clipToPadding="false"
+        android:paddingTop="24dp"
+        android:layout_height="match_parent"/>
+
+    <View style="@style/SNDivider" />
+
+    <com.microsoft.notes.ui.note.options.ThemedBottomSheetAppCompatButton
+        android:id="@+id/clearCanvas"
+        android:tag="@string/option_bottom_sheet_icon_tag"
+        android:nextFocusUp="@id/yellow_color_item"
+        style="@style/SNNoteOptionsRow"
+        android:text="@string/sn_action_clear_canvas" />
+
+    <com.microsoft.notes.ui.note.options.ThemedBottomSheetAppCompatButton
+        android:id="@+id/searchInNote"
+        android:iconifiedByDefault="false"
+        android:tag="@string/option_bottom_sheet_icon_tag"
+        style="@style/SNNoteOptionsRow"
+        android:text="@string/sn_action_find"/>
+
+    <com.microsoft.notes.ui.note.options.ThemedBottomSheetAppCompatButton
+        android:id="@+id/shareNote"
+        android:nextFocusUp="@id/yellow_color_item"
+        android:tag="@string/option_bottom_sheet_icon_tag"
+        style="@style/SNNoteOptionsRow"
+        android:text="@string/sn_action_export" />
+
+    <com.microsoft.notes.ui.note.options.ThemedBottomSheetAppCompatButton
+        android:id="@+id/deleteNote"
+        android:tag="@string/option_bottom_sheet_icon_tag"
+        style="@style/SNNoteOptionsRow"
+        android:text="@string/sn_action_delete_note" />
+
+    <com.microsoft.notes.ui.note.options.ThemedBottomSheetAppCompatButton
+        android:id="@+id/dismissSamsungNote"
+        android:tag="@string/option_bottom_sheet_icon_tag"
+        style="@style/SNNoteOptionsRow"
+        android:text="@string/samsung_action_dismiss_note" />
+
+    <com.microsoft.notes.ui.note.options.ThemedBottomSheetAppCompatButton
+        android:id="@+id/sendFeedback"
+        android:tag="@string/option_bottom_sheet_icon_tag"
+        style="@style/SNNoteOptionsRow"
+        android:text="@string/sn_action_send_feedback" />
+
+    <View
+        android:id="@+id/closeOptionsDivider"
+        style="@style/SNDivider" />
+
+    <com.microsoft.notes.ui.note.options.ThemedBottomSheetAppCompatButton
+        android:id="@+id/closeOptions"
+        android:tag="@string/option_bottom_sheet_icon_tag"
+        style="@style/SNNoteOptionsRow"
+        android:nextFocusDown="@id/yellow_color_item"
+        android:text="@string/sn_action_close_options_bottom_sheet" />
+
+</com.microsoft.notes.ui.theme.ThemedLinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sn_color_filter_translate_animation">32dp</dimen>
+    <dimen name="collapsible_message_bar_lower_padding">12dp</dimen>
+    <dimen name="feed_card_border_stroke_width">1dp</dimen>
+    <dimen name="sn_color_picker_item_border">1dp</dimen>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">உரைக் குறிப்பு</string>
+  <string name="sn_ink_note">மைப்பூச்சு குறிப்பு</string>
+  <string name="sn_label_text">உரை</string>
+  <string name="sn_label_image">படிமம்</string>
+  <string name="sn_single_image_note">1 படிமம் கொண்ட %1$s குறிப்பு</string>
+  <string name="sn_multi_image_note">%2$d படிமங்களைக் கொண்ட %1$s குறிப்பு</string>
+  <string name="sn_label_date">திருத்தப்பட்டது %s</string>
+  <string name="sn_add_note">புதிய குறிப்பைச் சேர்</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">இப்போது ஒத்திசைக்க முடியவில்லை.</string>
+</resources>

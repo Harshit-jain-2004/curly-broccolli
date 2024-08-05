@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Tsenya setshwantsho</string>
+  <string name="sn_bold">Mokwalo-kima</string>
+  <string name="sn_italic">Mokwalo-tshekamo</string>
+  <string name="sn_underline">Thalela</string>
+  <string name="sn_strikethrough">Mola Godimo ga Ditlhaka</string>
+  <string name="sn_bullets">Lenaane la Dibulete</string>
+  <string name="sn_color_name_charcoal">Mmala wa Magala a Dikgong</string>
+  <string name="sn_color_name_blue">Pududu</string>
+  <string name="sn_color_name_green">Tala</string>
+  <string name="sn_color_name_yellow">Serolwana</string>
+  <string name="sn_color_name_grey">Botuba</string>
+  <string name="sn_color_name_purple">Phepole</string>
+  <string name="sn_color_name_pink">Pinki</string>
+  <string name="sn_unselected">Sa tlhophiwang</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Tsenya Mokwalo o Mongwe</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Tseleganya Mokwalo o Mongwe</string>
+  <string name="sn_contextual_menu_image_delete">Phimola Setshwantsho</string>
+  <string name="sn_image_attachment">Setshwantsho se mametleletswe</string>
+</resources>

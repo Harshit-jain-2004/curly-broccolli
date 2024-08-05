@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">Textnotiz</string>
+  <string name="sn_ink_note">Freihandnotiz</string>
+  <string name="sn_label_text">Text</string>
+  <string name="sn_label_image">Bild</string>
+  <string name="sn_single_image_note">%1$s-Notiz mit 1 Bild.</string>
+  <string name="sn_multi_image_note">%1$s-Notiz mit %2$d Bildern.</string>
+  <string name="sn_label_date">bearbeitet %s</string>
+  <string name="sn_add_note">Neue Notiz hinzufügen</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">Synchronisierung jetzt nicht möglich.</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Vstavite sliko</string>
+  <string name="sn_bold">Krepko</string>
+  <string name="sn_italic">Ležeče</string>
+  <string name="sn_underline">Podčrtano</string>
+  <string name="sn_strikethrough">Prečrtano</string>
+  <string name="sn_bullets">Označen seznam</string>
+  <string name="sn_color_name_charcoal">Oglje</string>
+  <string name="sn_color_name_blue">Modra</string>
+  <string name="sn_color_name_green">Zelena</string>
+  <string name="sn_color_name_yellow">Rumena</string>
+  <string name="sn_color_name_grey">Siva</string>
+  <string name="sn_color_name_purple">Vijolična</string>
+  <string name="sn_color_name_pink">Rožnata</string>
+  <string name="sn_unselected">Neizbrano</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Dodajte nadomestno besedilo</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Uredite nadomestno besedilo</string>
+  <string name="sn_contextual_menu_image_delete">Izbriši sliko</string>
+  <string name="sn_image_attachment">Slikovna priloga</string>
+</resources>

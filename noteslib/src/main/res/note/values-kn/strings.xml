@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿಯನ್ನು ಹಂಚಿಕೊಳ್ಳಿ</string>
+  <string name="sn_action_share">ಹಂಚಿ</string>
+  <string name="sn_action_delete_note">ಅಳಿಸಿ</string>
+  <string name="sn_action_send_feedback">ಪ್ರತಿಕ್ರಿಯೆ ಕಳುಹಿಸಿ</string>
+  <string name="sn_delete_note_dialog">ಟಿಪ್ಪಣಿ ಅಳಿಸುವುದೇ?</string>
+  <string name="sn_delete_note_description">ಅದನ್ನು ನಿಮ್ಮ ಎಲ್ಲಾ ಸಾಧನಗಳಿಂದ ಶಾಶ್ವತವಾಗಿ ಅಳಿಸಲಾಗುತ್ತದೆ.</string>
+  <string name="sn_image_dialog_delete_description">ಈ ಇಮೇಲ್ ಅನ್ನು ನಿಮ್ಮ ಎಲ್ಲಾ ಸಾಧನಗಳಿಂದ ಶಾಶ್ವತವಾಗಿ ಅಳಿಸಲಾಗುತ್ತದೆ.</string>
+  <string name="sn_image_dialog_delete_action">ಅಳಿಸಿ</string>
+  <string name="sn_image_dialog_alt_text_title">ಪರ್ಯಾಯ ಪಠ್ಯ</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">ಇಮೇಜ್ ವಿವರಣೆಯನ್ನು ನಮೂದಿಸಿ</string>
+  <string name="sn_image_dialog_save_alt_text">ಉಳಿಸಿ</string>
+  <string name="sn_dialog_cancel">ರದ್ದುಗೊಳಿಸಿ</string>
+  <string name="sn_change_color_to_blue">ಟಿಪ್ಪಣಿ ಬಣ್ಣವನ್ನು ನೀಲಿ ಬಣ್ಣಕ್ಕೆ ಬದಲಿಸಿ</string>
+  <string name="sn_change_color_to_green">ಟಿಪ್ಪಣಿ ಬಣ್ಣವನ್ನು ಹಸಿರು ಬಣ್ಣಕ್ಕೆ ಬದಲಿಸಿ</string>
+  <string name="sn_change_color_to_yellow">ಟಿಪ್ಪಣಿ ಬಣ್ಣವನ್ನು ಹಳದಿ ಬಣ್ಣಕ್ಕೆ ಬದಲಿಸಿ</string>
+  <string name="sn_change_color_to_purple">ಟಿಪ್ಪಣಿ ಬಣ್ಣವನ್ನು ನೇರಳೆ ಬಣ್ಣಕ್ಕೆ ಬದಲಿಸಿ</string>
+  <string name="sn_change_color_to_pink">ಟಿಪ್ಪಣಿ ಬಣ್ಣವನ್ನು ಗುಲಾಬಿ ಬಣ್ಣಕ್ಕೆ ಬದಲಿಸಿ</string>
+  <string name="sn_change_color_to_grey">ಟಿಪ್ಪಣಿ ಬಣ್ಣವನ್ನು ಬೂದು ಬಣ್ಣಕ್ಕೆ ಬದಲಿಸಿ</string>
+  <string name="sn_change_color_to_charcoal">ಟಿಪ್ಪಣಿ ಬಣ್ಣವನ್ನು ಚಾರ್‌ಕೋಲ್ ಬಣ್ಣಕ್ಕೆ ಬದಲಿಸಿ</string>
+  <string name="sn_search_notes_with_color_blue">ನೀಲಿ ಬಣ್ಣದ ಮೂಲಕ ಟಿಪ್ಪಣಿಗಳನ್ನು ಶೋಧಿಸಿ</string>
+  <string name="sn_search_notes_with_color_green">ಹಸಿರು ಬಣ್ಣದ ಮೂಲಕ ಟಿಪ್ಪಣಿಗಳನ್ನು ಶೋಧಿಸಿ</string>
+  <string name="sn_search_notes_with_color_yellow">ಹಳದಿ ಬಣ್ಣದ ಮೂಲಕ ಟಿಪ್ಪಣಿಗಳನ್ನು ಶೋಧಿಸಿ</string>
+  <string name="sn_search_notes_with_color_purple">ನೇರಳೆ ಬಣ್ಣದ ಮೂಲಕ ಟಿಪ್ಪಣಿಗಳನ್ನು ಶೋಧಿಸಿ</string>
+  <string name="sn_search_notes_with_color_pink">ನಸುಗೆಂಪು ಬಣ್ಣದ ಮೂಲಕ ಟಿಪ್ಪಣಿಗಳನ್ನು ಶೋಧಿಸಿ</string>
+  <string name="sn_search_notes_with_color_grey">ಬೂದು ಬಣ್ಣದ ಮೂಲಕ ಟಿಪ್ಪಣಿಗಳನ್ನು ಶೋಧಿಸಿ</string>
+  <string name="sn_search_notes_with_color_charcoal">ಚಾರ್‌ಕೋಲ್ ಬಣ್ಣದ ಮೂಲಕ ಟಿಪ್ಪಣಿಗಳನ್ನು ಶೋಧಿಸಿ</string>
+  <string name="sn_note_options_dismissed">ಟಿಪ್ಪಣಿ ಆಯ್ಕೆಗಳನ್ನು ವಜಾಗೊಳಿಸಲಾಗಿದೆ</string>
+  <string name="sn_note_options_displayed">ಟಿಪ್ಪಣಿ ಆಯ್ಕೆಗಳು ಪ್ರದರ್ಶನದಲ್ಲಿವೆ</string>
+  <string name="sn_adding_image_failed">ಇಮೇಜ್ ಅನ್ನು ಸೇರಿಸಲಾಗಲಿಲ್ಲ</string>
+  <string name="sn_image_added">ಇಮೇಜ್ ಸೇರಿಸಲಾಗಿದೆ</string>
+</resources>

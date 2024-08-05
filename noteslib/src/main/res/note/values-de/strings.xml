@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Kurznotiz teilen</string>
+  <string name="sn_action_share">Teilen</string>
+  <string name="sn_action_delete_note">Löschen</string>
+  <string name="sn_action_send_feedback">Feedback senden</string>
+  <string name="sn_delete_note_dialog">Notiz löschen?</string>
+  <string name="sn_delete_note_description">Sie wird endgültig von allen Ihren Geräten gelöscht.</string>
+  <string name="sn_image_dialog_delete_description">Dieses Bild wird endgültig von allen Ihren Geräten gelöscht.</string>
+  <string name="sn_image_dialog_delete_action">Löschen</string>
+  <string name="sn_image_dialog_alt_text_title">Alternativtext</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Beschreibung eingeben</string>
+  <string name="sn_image_dialog_save_alt_text">Speichern</string>
+  <string name="sn_dialog_cancel">Abbrechen</string>
+  <string name="sn_change_color_to_blue">Notizfarbe in Blau ändern</string>
+  <string name="sn_change_color_to_green">Notizfarbe in Grün ändern</string>
+  <string name="sn_change_color_to_yellow">Notizfarbe in Gelb ändern</string>
+  <string name="sn_change_color_to_purple">Notizfarbe in Lila ändern</string>
+  <string name="sn_change_color_to_pink">Notizfarbe in Rosa ändern</string>
+  <string name="sn_change_color_to_grey">Notizfarbe in Grau ändern</string>
+  <string name="sn_change_color_to_charcoal">Notizfarbe in Kohlefarben ändern</string>
+  <string name="sn_search_notes_with_color_blue">Notizen mit der Farbe \"Blau\" suchen</string>
+  <string name="sn_search_notes_with_color_green">Notizen mit der Farbe \"Grün\" suchen</string>
+  <string name="sn_search_notes_with_color_yellow">Notizen mit der Farbe \"Gelb\" suchen</string>
+  <string name="sn_search_notes_with_color_purple">Notizen mit der Farbe \"Lila\" suchen</string>
+  <string name="sn_search_notes_with_color_pink">Notizen mit der Farbe \"Pink\" suchen</string>
+  <string name="sn_search_notes_with_color_grey">Notizen mit der Farbe \"Grau\" suchen</string>
+  <string name="sn_search_notes_with_color_charcoal">Notizen mit der Farbe \"Kohle\" suchen</string>
+  <string name="sn_note_options_dismissed">Notizenoptionen geschlossen</string>
+  <string name="sn_note_options_displayed">Notizenoptionen werden angezeigt.</string>
+  <string name="sn_adding_image_failed">Bild konnte nicht hinzugefügt werden.</string>
+  <string name="sn_image_added">Bild hinzugefügt.</string>
+</resources>

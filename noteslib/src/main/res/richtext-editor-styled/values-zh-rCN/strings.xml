@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">插入图像</string>
+  <string name="sn_bold">粗体</string>
+  <string name="sn_italic">斜体</string>
+  <string name="sn_underline">下划线</string>
+  <string name="sn_strikethrough">删除线</string>
+  <string name="sn_bullets">项目符号列表</string>
+  <string name="sn_color_name_charcoal">炭笔</string>
+  <string name="sn_color_name_blue">蓝色</string>
+  <string name="sn_color_name_green">绿色</string>
+  <string name="sn_color_name_yellow">黄色</string>
+  <string name="sn_color_name_grey">灰色</string>
+  <string name="sn_color_name_purple">紫色</string>
+  <string name="sn_color_name_pink">粉色</string>
+  <string name="sn_unselected">取消选定</string>
+  <string name="sn_contextual_menu_image_alt_text_add">添加替换文字</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">编辑替换文字</string>
+  <string name="sn_contextual_menu_image_delete">删除图像</string>
+  <string name="sn_image_attachment">图像附件</string>
+</resources>

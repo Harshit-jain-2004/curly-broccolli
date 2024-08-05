@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">Sticky Notes kræver i øjeblikket desværre en Exchange Online-postkasse for at synkronisering og lagring fungerer. Kontakt it-administratoren for at aktivere en postkasse, eller brug nedenstående mulighed for at få mere at vide.</string>
+  <string name="sn_sync_failure_with_contact_support_message">Sticky Notes kunne ikke synkroniseres med din konto. Kontakt Support for at få hjælp til at løse dette problem.</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">Sticky Notes kunne ikke synkroniseres med din konto, men du kan muligvis løse dette problem.</string>
+</resources>

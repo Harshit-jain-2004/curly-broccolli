@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_undo"
+        android:icon="@drawable/sn_undo_button_disable"
+        android:title="@string/undo"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_redo"
+        android:icon="@drawable/sn_redo_button_disable"
+        android:title="@string/redo"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/ink_stroke"
+        android:icon="@drawable/sn_ic_add_ink"
+        android:title="@string/ink_stroke"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/undo_ink_stroke"
+        android:icon="@drawable/sn_undo_button_enable"
+        android:title="@string/undo_ink_stroke"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/ink_erase_mode"
+        android:icon="@android:drawable/ic_input_delete"
+        app:iconTint="@color/sn_grey_light"
+        android:title="@string/note_menu_option"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/add_reminder_options"
+        android:icon="@drawable/ic_reminder"
+        android:title="@string/note_menu_option"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/edit_note_options"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/note_menu_option"
+        app:showAsAction="always" />
+</menu>

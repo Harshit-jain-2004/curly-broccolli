@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">Текстуална белешка</string>
+  <string name="sn_ink_note">Рачна белешка</string>
+  <string name="sn_label_text">Текст</string>
+  <string name="sn_label_image">Слика</string>
+  <string name="sn_single_image_note">%1$s белешка со 1 слика</string>
+  <string name="sn_multi_image_note">%1$s белешка со %2$d слики</string>
+  <string name="sn_label_date">уреди %s</string>
+  <string name="sn_add_note">Додај нова белешка</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">Не може да се синхронизира сега.</string>
+</resources>

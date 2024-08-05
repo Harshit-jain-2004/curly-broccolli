@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Споделяне на лепкава бележка</string>
+  <string name="sn_action_share">Сподели</string>
+  <string name="sn_action_delete_note">Изтрий</string>
+  <string name="sn_action_send_feedback">Изпращане на обратна връзка</string>
+  <string name="sn_delete_note_dialog">Изтриване на бележката?</string>
+  <string name="sn_delete_note_description">Тя ще бъде окончателно изтрита от всички ваши устройства.</string>
+  <string name="sn_image_dialog_delete_description">Това изображение ще бъде окончателно изтрито от всички ваши устройства.</string>
+  <string name="sn_image_dialog_delete_action">Изтрий</string>
+  <string name="sn_image_dialog_alt_text_title">Алтернативен текст</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Въведете описание на изображението</string>
+  <string name="sn_image_dialog_save_alt_text">Запиши</string>
+  <string name="sn_dialog_cancel">Отказ</string>
+  <string name="sn_change_color_to_blue">Промяна на цвета на бележката на син</string>
+  <string name="sn_change_color_to_green">Промяна на цвета на бележката на зелен</string>
+  <string name="sn_change_color_to_yellow">Промяна на цвета на бележката на жълт</string>
+  <string name="sn_change_color_to_purple">Промяна на цвета на бележката на лилав</string>
+  <string name="sn_change_color_to_pink">Промяна на цвета на бележката на розов</string>
+  <string name="sn_change_color_to_grey">Промяна на цвета на бележката на сив</string>
+  <string name="sn_change_color_to_charcoal">Промяна на цвета на бележката на тъмносив</string>
+  <string name="sn_search_notes_with_color_blue">Търсене на бележки със син цвят</string>
+  <string name="sn_search_notes_with_color_green">Търсене на бележки със зелен цвят</string>
+  <string name="sn_search_notes_with_color_yellow">Търсене на бележки с жълт цвят</string>
+  <string name="sn_search_notes_with_color_purple">Търсене на бележки с лилав цвят</string>
+  <string name="sn_search_notes_with_color_pink">Търсене на бележки с розов цвят</string>
+  <string name="sn_search_notes_with_color_grey">Търсене на бележки със сив цвят</string>
+  <string name="sn_search_notes_with_color_charcoal">Търсене на бележки с тъмносив цвят</string>
+  <string name="sn_note_options_dismissed">Опциите за бележки са изключени</string>
+  <string name="sn_note_options_displayed">Опциите за бележки са на дисплея</string>
+  <string name="sn_adding_image_failed">Изображението не можа да бъде добавено</string>
+  <string name="sn_image_added">Изображението е добавено</string>
+</resources>

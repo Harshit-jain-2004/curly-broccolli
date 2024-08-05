@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Təsvir daxil edin</string>
+  <string name="sn_bold">Qalın</string>
+  <string name="sn_italic">Kursiv</string>
+  <string name="sn_underline">Altıxətli</string>
+  <string name="sn_strikethrough">Cizgili</string>
+  <string name="sn_bullets">Markerli siyahı</string>
+  <string name="sn_color_name_charcoal">Kömür</string>
+  <string name="sn_color_name_blue">Göy</string>
+  <string name="sn_color_name_green">Yaşıl</string>
+  <string name="sn_color_name_yellow">Sarı</string>
+  <string name="sn_color_name_grey">Boz</string>
+  <string name="sn_color_name_purple">Bənövşəyi</string>
+  <string name="sn_color_name_pink">Çəhrayı</string>
+  <string name="sn_unselected">Seçilməmiş</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Alternativ Mətn əlavə edin</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Alternativ Mətni redaktə edin</string>
+  <string name="sn_contextual_menu_image_delete">Təsviri Silin</string>
+  <string name="sn_image_attachment">Təsvir qoşması</string>
+</resources>

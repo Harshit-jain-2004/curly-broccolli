@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Cetli megosztása</string>
+  <string name="sn_action_share">Megosztás</string>
+  <string name="sn_action_delete_note">Törlés</string>
+  <string name="sn_action_send_feedback">Visszajelzés küldése</string>
+  <string name="sn_delete_note_dialog">Törli a cetlit?</string>
+  <string name="sn_delete_note_description">Végleg törlődni fog minden eszközéről.</string>
+  <string name="sn_image_dialog_delete_description">Ez a kép végleg törlődni fog az összes eszközéről.</string>
+  <string name="sn_image_dialog_delete_action">Törlés</string>
+  <string name="sn_image_dialog_alt_text_title">Helyettesítő szöveg</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Írja be a kép leírását</string>
+  <string name="sn_image_dialog_save_alt_text">Mentés</string>
+  <string name="sn_dialog_cancel">Mégse</string>
+  <string name="sn_change_color_to_blue">A cetli kékre színezése</string>
+  <string name="sn_change_color_to_green">A cetli zöldre színezése</string>
+  <string name="sn_change_color_to_yellow">A cetli sárgára színezése</string>
+  <string name="sn_change_color_to_purple">A cetli lilára színezése</string>
+  <string name="sn_change_color_to_pink">A cetli rózsaszínre színezése</string>
+  <string name="sn_change_color_to_grey">A cetli szürkére színezése</string>
+  <string name="sn_change_color_to_charcoal">A cetli szénfeketére színezése</string>
+  <string name="sn_search_notes_with_color_blue">Keresés a kék cetlikben</string>
+  <string name="sn_search_notes_with_color_green">Keresés a zöld cetlikben</string>
+  <string name="sn_search_notes_with_color_yellow">Keresés a sárga cetlikben</string>
+  <string name="sn_search_notes_with_color_purple">Keresés a lila cetlikben</string>
+  <string name="sn_search_notes_with_color_pink">Keresés a rózsaszín cetlikben</string>
+  <string name="sn_search_notes_with_color_grey">Keresés a szürke cetlikben</string>
+  <string name="sn_search_notes_with_color_charcoal">Keresés a szénfekete cetlikben</string>
+  <string name="sn_note_options_dismissed">Cetlibeállítások elrejtve</string>
+  <string name="sn_note_options_displayed">Cetlibeállítások megjelenítve</string>
+  <string name="sn_adding_image_failed">Sikertelen volt a kép beszúrása</string>
+  <string name="sn_image_added">Kép beszúrva</string>
+</resources>

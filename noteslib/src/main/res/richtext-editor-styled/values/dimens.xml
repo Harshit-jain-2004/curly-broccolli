@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sn_edittext_text">16sp</dimen>
+    <dimen name="sn_timestamp_text">13sp</dimen>
+
+    <dimen name="sn_editnotecard_corner_radius">8dp</dimen>
+
+    <dimen name="sn_image_gallery_divider">4dp</dimen>
+
+    <dimen name="sn_styled_view_image_gallery_vertical_padding">8dp</dimen>
+    <dimen name="sn_styled_view_image_gallery_horizontal_padding">8dp</dimen>
+
+    <dimen name="sn_styled_view_text_vertical_padding">22dp</dimen>
+    <dimen name="sn_styled_view_text_horizontal_padding">24dp</dimen>
+
+    <dimen name="sn_image_corner_radius">8dp</dimen>
+    <dimen name="sn_image_overlay_corner_radius">1dp</dimen>
+    <dimen name="sn_image_overlay_stroke">5dp</dimen>
+    <dimen name="sn_image_background_stroke">1dp</dimen>
+
+    <!--Samsung Notes -->
+    <dimen name="samsung_timestamp_text_size">12sp</dimen>
+    <dimen name="samsung_timestamp_line_height">14sp</dimen>
+    <dimen name="samsung_timestamp_text_letter_spacing">0.4sp</dimen>
+    <dimen name="samsung_styled_view_text_size">16sp</dimen>
+    <dimen name="samsung_styled_view_radius">8dp</dimen>
+    <dimen name="samsung_styled_view_text_padding_top">29dp</dimen>
+    <dimen name="samsung_styled_view_text_padding_start">20dp</dimen>
+    <dimen name="samsung_styled_view_text_padding_end">37dp</dimen>
+    <dimen name="samsung_styled_view_image_gallery_vertical_padding">8dp</dimen>
+    <dimen name="samsung_styled_view_image_gallery_horizontal_padding">8dp</dimen>
+
+    <dimen name="sort_filter_bottom_sheet_button_stroke">1dp</dimen>
+
+    <!-- reminder label dimensions -->
+    <dimen name ="reminder_label_bottom_margin">12dp</dimen>
+
+</resources>

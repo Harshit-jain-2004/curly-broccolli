@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">చిత్రాన్ని చొప్పించు</string>
+  <string name="sn_bold">బోల్డ్</string>
+  <string name="sn_italic">ఇటాలిక్</string>
+  <string name="sn_underline">క్రిందిగీత</string>
+  <string name="sn_strikethrough">కొట్టివేత</string>
+  <string name="sn_bullets">బుల్లెట్‌ల జాబితా</string>
+  <string name="sn_color_name_charcoal">బొగ్గు</string>
+  <string name="sn_color_name_blue">నీలం</string>
+  <string name="sn_color_name_green">ఆకుపచ్చ</string>
+  <string name="sn_color_name_yellow">పసుపు</string>
+  <string name="sn_color_name_grey">బూడిద రంగు</string>
+  <string name="sn_color_name_purple">ఊదా</string>
+  <string name="sn_color_name_pink">గులాబి</string>
+  <string name="sn_unselected">ఎంపిక తీసివేయబడింది</string>
+  <string name="sn_contextual_menu_image_alt_text_add">ప్రత్యామ్నాయ వచనాన్ని జోడించండి</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">ప్రత్యామ్నాయ వచనాన్ని సవరించండి</string>
+  <string name="sn_contextual_menu_image_delete">చిత్రాన్ని తొలగించు</string>
+  <string name="sn_image_attachment">చిత్రం జోడింపు</string>
+</resources>

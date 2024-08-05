@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Deel Kleefnota</string>
+  <string name="sn_action_share">Deel</string>
+  <string name="sn_action_delete_note">Skrap</string>
+  <string name="sn_action_send_feedback">Stuur terugvoer</string>
+  <string name="sn_delete_note_dialog">Skrap nota?</string>
+  <string name="sn_delete_note_description">Dit sal permanent van al jou toestelle geskrap word.</string>
+  <string name="sn_image_dialog_delete_description">Hierdie beeld sal permanent van al jou toestelle geskrap word.</string>
+  <string name="sn_image_dialog_delete_action">Skrap</string>
+  <string name="sn_image_dialog_alt_text_title">Alt-teks</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Voer beeldbeskrywing in</string>
+  <string name="sn_image_dialog_save_alt_text">Stoor</string>
+  <string name="sn_dialog_cancel">Kanselleer</string>
+  <string name="sn_change_color_to_blue">Verander notakleur na blou</string>
+  <string name="sn_change_color_to_green">Verander notakleur na groen</string>
+  <string name="sn_change_color_to_yellow">Verander notakleur na geel</string>
+  <string name="sn_change_color_to_purple">Verander notakleur na pers</string>
+  <string name="sn_change_color_to_pink">Verander notakleur na pienk</string>
+  <string name="sn_change_color_to_grey">Verander notakleur na grys</string>
+  <string name="sn_change_color_to_charcoal">Verander notakleur na houtskool</string>
+  <string name="sn_search_notes_with_color_blue">Soek notas met blou kleur</string>
+  <string name="sn_search_notes_with_color_green">Soek notas met groen kleur</string>
+  <string name="sn_search_notes_with_color_yellow">Soek notas met geel kleur</string>
+  <string name="sn_search_notes_with_color_purple">Soek notas met pers kleur</string>
+  <string name="sn_search_notes_with_color_pink">Soek notas met pienk kleur</string>
+  <string name="sn_search_notes_with_color_grey">Soek notas met grys kleur</string>
+  <string name="sn_search_notes_with_color_charcoal">Soek notas met houtskool kleur</string>
+  <string name="sn_note_options_dismissed">Nota-opsies is geweier</string>
+  <string name="sn_note_options_displayed">Nota-opsies op skerm</string>
+  <string name="sn_adding_image_failed">Beeld kon nie bygevoeg word nie</string>
+  <string name="sn_image_added">Beeld bygevoeg</string>
+</resources>

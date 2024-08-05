@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_notes_image">תמונה</string>
+  <string name="sn_inline_media_notes_alttext">טקסט חלופי</string>
+  <string name="sn_inline_media_notes_description">תיאור</string>
+  <string name="sn_inline_media_notes_done">בוצע</string>
+  <string name="sn_inline_media_notes_cancel">ביטול</string>
+  <string name="sn_inline_media_notes_open">פתח</string>
+  <string name="sn_notes_read_alt_text">תמונה, טקסט חלופי: %1$s!</string>
+  <string name="sn_notes_link_label">קישור: %1$s</string>
+</resources>

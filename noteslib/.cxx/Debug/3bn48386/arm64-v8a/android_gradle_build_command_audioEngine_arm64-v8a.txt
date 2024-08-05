@@ -1,0 +1,7 @@
+Executable : C:\Android\sdk\cmake\3.18.1\bin\ninja.exe
+arguments : 
+-C
+D:\Projects\notes-android-sdk-AUDIO\notes-android-sdk\noteslib\.cxx\Debug\3bn48386\arm64-v8a
+audioEngine
+jvmArgs : 
+

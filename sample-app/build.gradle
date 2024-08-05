@@ -1,0 +1,110 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+
+    compileSdkVersion rootProject.ext.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        testInstrumentationRunner rootProject.ext.testInstrumentationRunner
+        multiDexEnabled true
+    }
+
+    testOptions {
+        unitTests.returnDefaultValues = true
+
+        unitTests.all {
+            // https://stackoverflow.com/questions/29939968/run-android-test-with-robolectric-dependency-error
+            systemProperty 'robolectric.dependency.repo.url', 'https://repo1.maven.org/maven2'
+        }
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+        test.java.srcDirs += 'src/test/kotlin'
+        androidTest.java.srcDirs += 'src/androidTest/kotlin'
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    //We are using ADAL as a way to authenticate using AAD for this sample app
+    implementation('com.microsoft.aad:adal:1.12.0') {
+        exclude group: 'com.google.code.gson'
+    }
+    //Kotlin. If you are not using Kotlin, you probably need to add these dependencies
+    implementation kotlinDependencies.kotlinStdlib
+    //---------------- Using the StickyNotesSDK -----------------
+    //We can just here (sample-app) do this, since we can access to the SDK directly as a module.
+    implementation project(':noteslib')
+    //**Any client** that wants to use the SDK should get it as a maven artifact as the line below shows
+    //implementation (group: 'com.microsoft.stickynotes', name: 'android', version: '1.1')
+    //------------------ dependencies needed by the StickyNotesSDK--------------------------
+    //Adding these dependencies are mandatory when using the StickyNotesSDK since they are not packed inside
+    //the StickyNotesSDK binary
+    implementation androidxDependencies.supportFragment
+    implementation androidxDependencies.supportAnnotations
+    implementation androidxDependencies.supportCoreUi
+    implementation androidxDependencies.appCompat
+    implementation androidxDependencies.recyclerView
+    implementation androidxDependencies.cardView
+    implementation androidxDependencies.supportDesign
+    implementation androidxDependencies.constraintLayout
+    implementation androidxDependencies.preferenceCompat
+    implementation androidxDependencies.supportMultidex
+    implementation androidxDependencies.vectorDrawable
+    implementation androidxDependencies.vectorDrawableAnimated
+
+    implementation(externalDependencies.glide) {
+        exclude group: 'androidx.fragment'
+        exclude group: 'androidx.annotation'
+    }
+
+    implementation persistenceDependencies.roomRuntime
+    implementation externalDependencies.gson
+    implementation externalDependencies.okio
+    implementation networkDependencies.okHttp
+    implementation networkDependencies.jdeferredCore
+    implementation networkDependencies.moshi
+    implementation networkDependencies.moshiKotlin
+
+    implementation externalDependencies.tensorflowLite
+    implementation externalDependencies.tensorflowLiteSupport
+
+    //fluentUI
+    implementation fluentUIDependencies.fluentUICalender
+    implementation fluentUIDependencies.dualScreenLayout
+
+    debugImplementation debugDependencies.leakCanary
+    // -----------------------------------------------------------------
+    //Instrumentation tests
+    androidTestImplementation androidxDependencies.supportAnnotations
+    androidTestImplementation instrumentationTestDependencies.testRunner
+    androidTestImplementation instrumentationTestDependencies.testRules
+    androidTestImplementation instrumentationTestDependencies.espressoCore
+    androidTestImplementation instrumentationTestDependencies.espressoContrib
+    androidTestImplementation instrumentationTestDependencies.espressoIdlingResources
+    androidTestImplementation unitTestDependencies.mockito
+    androidTestImplementation unitTestDependencies.dexmakerMockito
+    androidTestImplementation unitTestDependencies.mockitoKotlin
+    //Unit tests
+    testImplementation unitTestDependencies.junit
+    testImplementation unitTestDependencies.mockito
+    testImplementation unitTestDependencies.hamcrestLibrary
+    testImplementation unitTestDependencies.hamcrestCore
+    testImplementation unitTestDependencies.robolectric
+    testImplementation unitTestDependencies.mockitoKotlin
+}

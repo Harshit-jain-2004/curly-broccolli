@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sn_primary_color">#7719AA</color>
+    <color name="sn_primary_color_dark">#C0AAE4</color>
+    <color name="sn_noteslist_background">#FBFBFB</color>
+    <color name="sn_default_note_background">#F5F5F5</color>
+    <color name="sn_bottom_sheet_row_text">#222222</color>
+    <color name="sn_date_time_light">#515450</color>
+    <color name="sn_date_time_dark">#D8D8D8</color>
+    <color name="sn_note_preview_image_tint_light">#AD000000</color>
+    <color name="sn_note_preview_image_tint_dark">#CC000000</color>
+    <color name="feed_sn_note_preview_image_tint_light">#66000000</color>
+    <color name="feed_background_light">#F8F8F8</color>
+    <color name="feed_background_dark">#000000</color>
+
+    <color name="sn_sync_error_ui_title">#4A4A4A</color>
+    <color name="sn_sync_error_ui_description">#4A4A4A</color>
+    <color name="sn_sync_error_ui_background">#E5E5E5</color>
+    <color name="sn_sync_error_ui_action_button">#882AAD</color>
+    <color name="sn_sync_error_ui_chevron">#000000</color>
+
+    <color name="sn_outside_canvas_ccb_icons_tint_light">#000000</color>
+    <color name="sn_outside_canvas_ccb_icons_tint_dark">#F8F8F8</color>
+
+    <!--Filter/Sort BottomSheet Colors BEGIN-->
+    <color name="bottom_sheet_primary_text_color">#7719AA</color>
+    <color name="bottom_sheet_selected_chip_color">#E6D1F2</color>
+    <color name="bottom_sheet_background_color">#FFFFFF</color>
+    <color name="bottom_sheet_general_purpose_gray_color">#919191</color>
+    <color name="bottom_sheet_divider_color">#EDECEC</color>
+    <color name="bottom_sheet_title_color">#212121</color>
+    <color name="bottom_sheet_filter_title_color">#242424</color>
+    <color name="bottom_sheet_filter_type_title_color">#616161</color>
+    <color name="chip_text_unselected_color">#6E6E6E</color>
+    <color name="chip_text_selected_color">#430E60</color>
+    <color name="chip_unselected_color">#F8F8F8</color>
+    <color name="chip_cancel_option_color">#6E6E6E</color>
+    <color name="sort_option_unselected_text_color">#6E6E6E</color>
+    <color name="selected_filter_view_bg_color">#FFFFFF</color>
+    <color name="selected_filter_view_border_color">#E1E1E1</color>
+    <color name="selected_filter_view_text_color">#404040</color>
+    <color name="navigation_bar_color">#FFFFFF</color>
+    <!--Filter/Sort BottomSheet Colors END-->
+
+    <!-- NoteReference Colors -->
+    <!-- These correspond to the OneNote Canvas colors, should not be changed -->
+    <color name="note_reference_note_color_white">#ffffff</color>
+    <color name="note_reference_note_color_blue">#ecf3fa</color>
+    <color name="note_reference_note_color_teal">#eef8f6</color>
+    <color name="note_reference_note_color_green">#f1f9f3</color>
+    <color name="note_reference_note_color_red">#fceeee</color>
+    <color name="note_reference_note_color_blue_mist">#eef1f9</color>
+    <color name="note_reference_note_color_cyan">#f0f8fa</color>
+    <color name="note_reference_note_color_apple">#f2f9ed</color>
+    <color name="note_reference_note_color_red_chalk">#fdf5f5</color>
+    <color name="note_reference_note_color_purple_mist">#f2f1f9</color>
+    <color name="note_reference_note_color_silver">#f5f7f9</color>
+    <color name="note_reference_note_color_lemon_lime">#f5f9eb</color>
+    <color name="note_reference_note_color_tan">#f6ede6</color>
+    <color name="note_reference_note_color_purple">#f9f1f8</color>
+    <color name="note_reference_note_color_magenta">#fdeff7</color>
+    <color name="note_reference_note_color_yellow">#fef8e6</color>
+    <color name="note_reference_note_color_orange">#fcf3ea</color>
+
+    <!-- NoteReference Colors Dark mode -->
+    <color name="note_reference_note_color_grey">#201f1e</color>
+    <color name="note_reference_note_color_blue_dark">#081321</color>
+    <color name="note_reference_note_color_teal_dark">#04100f</color>
+    <color name="note_reference_note_color_green_dark">#0c1c14</color>
+    <color name="note_reference_note_color_red_dark">#310808</color>
+    <color name="note_reference_note_color_blue_mist_dark">#101628</color>
+    <color name="note_reference_note_color_cyan_dark">#060e0e</color>
+    <color name="note_reference_note_color_apple_dark">#0e1708</color>
+    <color name="note_reference_note_color_red_chalk_dark">#2d0b0b</color>
+    <color name="note_reference_note_color_purple_mist_dark">#14142a</color>
+    <color name="note_reference_note_color_silver_dark">#0e0e16</color>
+    <color name="note_reference_note_color_lemon_lime_dark">#121306</color>
+    <color name="note_reference_note_color_tan_dark">#231710</color>
+    <color name="note_reference_note_color_purple_dark">#1d0c1a</color>
+    <color name="note_reference_note_color_magenta_dark">#28061c</color>
+    <color name="note_reference_note_color_yellow_dark">#161104</color>
+    <color name="note_reference_note_color_orange_dark">#1f1205</color>
+
+    <!-- NoteReference Colors END -->
+
+
+    <!--Note tags colors-->
+    <color name="unchecked_todo_icon_border_color">#616161</color>
+    <color name="checked_todo_icon_background_color">#C8C8C8</color>
+    <color name="checked_todo_icon_tick_color">#ffffff</color>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">পাঠ্য নোট</string>
+  <string name="sn_ink_note">কালি টীকা</string>
+  <string name="sn_label_text">পাঠ্য</string>
+  <string name="sn_label_image">চিত্র</string>
+  <string name="sn_single_image_note">%1$s নোটের সাথে 1টি চিত্র</string>
+  <string name="sn_multi_image_note">%1$s নোটের সাথে %2$dটি চিত্র</string>
+  <string name="sn_label_date">%s সম্পাদনা করা হয়েছে</string>
+  <string name="sn_add_note">একটি নতুন নোট যোগ করুন</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">এখন সিঙ্ক করতে অক্ষম।</string>
+</resources>

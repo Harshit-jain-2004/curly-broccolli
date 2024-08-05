@@ -1,0 +1,9 @@
+<FrameLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:isScrollContainer="true"
+    android:id="@+id/edit_note_fragment"
+    android:layout_gravity="bottom"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/clipper_sticky_note_height"
+    />

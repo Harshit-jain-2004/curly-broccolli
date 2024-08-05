@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Dajte samolepljiv listek v skupno rabo</string>
+  <string name="sn_action_share">Skupna raba</string>
+  <string name="sn_action_delete_note">Izbriši</string>
+  <string name="sn_action_send_feedback">Pošlji povratne informacije</string>
+  <string name="sn_delete_note_dialog">Ali želite izbrisati opombo?</string>
+  <string name="sn_delete_note_description">Trajno bo izbrisano iz vseh vaših naprav.</string>
+  <string name="sn_image_dialog_delete_description">Ta slika bo trajno izbrisana iz vseh vaših naprav.</string>
+  <string name="sn_image_dialog_delete_action">Izbriši</string>
+  <string name="sn_image_dialog_alt_text_title">Nadomestno besedilo</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Vnesite opis slike</string>
+  <string name="sn_image_dialog_save_alt_text">Shrani</string>
+  <string name="sn_dialog_cancel">Prekliči</string>
+  <string name="sn_change_color_to_blue">Spremeni barvo opombe v modro</string>
+  <string name="sn_change_color_to_green">Spremeni barvo opombe v zeleno</string>
+  <string name="sn_change_color_to_yellow">Spremeni barvo opombe v rumeno</string>
+  <string name="sn_change_color_to_purple">Spremeni barvo opombe v purpurno</string>
+  <string name="sn_change_color_to_pink">Spremeni barvo opombe v rožnato</string>
+  <string name="sn_change_color_to_grey">Spremeni barvo opombe v sivo</string>
+  <string name="sn_change_color_to_charcoal">Spremeni barvo opombe v barvo oglja</string>
+  <string name="sn_search_notes_with_color_blue">Poišči opombe modre barve</string>
+  <string name="sn_search_notes_with_color_green">Poišči opombe zelene barve</string>
+  <string name="sn_search_notes_with_color_yellow">Poišči opombe rumene barve</string>
+  <string name="sn_search_notes_with_color_purple">Poišči opombe purpurne barve</string>
+  <string name="sn_search_notes_with_color_pink">Poišči opombe rožnate barve</string>
+  <string name="sn_search_notes_with_color_grey">Poišči opombe sive barve</string>
+  <string name="sn_search_notes_with_color_charcoal">Poišči opombe barve oglja</string>
+  <string name="sn_note_options_dismissed">Možnosti opombe so opuščene</string>
+  <string name="sn_note_options_displayed">Možnosti opombe na zaslonu</string>
+  <string name="sn_adding_image_failed">Slike ni mogoče dodati</string>
+  <string name="sn_image_added">Slika je dodana</string>
+</resources>

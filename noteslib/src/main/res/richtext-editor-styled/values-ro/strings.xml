@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Inserare imagine</string>
+  <string name="sn_bold">Aldin</string>
+  <string name="sn_italic">Cursiv</string>
+  <string name="sn_underline">Subliniere</string>
+  <string name="sn_strikethrough">Tăiere text cu o linie</string>
+  <string name="sn_bullets">Listă cu marcatori</string>
+  <string name="sn_color_name_charcoal">Cărbune</string>
+  <string name="sn_color_name_blue">Albastru</string>
+  <string name="sn_color_name_green">Verde</string>
+  <string name="sn_color_name_yellow">Galben</string>
+  <string name="sn_color_name_grey">Gri</string>
+  <string name="sn_color_name_purple">Violet</string>
+  <string name="sn_color_name_pink">Roz</string>
+  <string name="sn_unselected">Neselectat</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Adăugați text alternativ</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Editați textul alternativ</string>
+  <string name="sn_contextual_menu_image_delete">Ștergeți imaginea</string>
+  <string name="sn_image_attachment">Atașare imagine</string>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="sn_notes_image">Image</string>
+    <string name="sn_inline_media_notes_alttext">Alt Text</string>
+    <string name="sn_inline_media_notes_description">Description</string>
+    <string name="sn_inline_media_notes_done">Done</string>
+    <string name="sn_inline_media_notes_cancel">Cancel</string>
+    <string name="sn_inline_media_notes_open">Open</string>
+    <string name="sn_notes_read_alt_text">Image, Alttext: %1$s!</string>
+    <string name="sn_notes_link_label">Link: %1$s</string>
+    <string name="sn_notes_organise_label">Organise</string>
+    <string name="pin_label">Pin</string>
+    <string name="unpin_label">Unpin</string>
+    <string name="feed_card_pinned_label">Pinned</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_share_dialog_title">Bashkëndaj shënimin ngjitës</string>
+  <string name="sn_action_share">Bashkëndaj</string>
+  <string name="sn_action_delete_note">Fshi</string>
+  <string name="sn_action_send_feedback">Dërgo komentet</string>
+  <string name="sn_delete_note_dialog">Të fshihet shënimi?</string>
+  <string name="sn_delete_note_description">Ai do të fshihet përgjithmonë nga të gjitha pajisjet e tua.</string>
+  <string name="sn_image_dialog_delete_description">Ky imazh do të fshihet përgjithmonë nga të gjitha pajisjet e tua.</string>
+  <string name="sn_image_dialog_delete_action">Fshi</string>
+  <string name="sn_image_dialog_alt_text_title">Teksti alternativ</string>
+  <string name="sn_image_dialog_enter_alt_text_hint">Fut përshkrimin e imazhit</string>
+  <string name="sn_image_dialog_save_alt_text">Ruaj</string>
+  <string name="sn_dialog_cancel">Anulo</string>
+  <string name="sn_change_color_to_blue">Ndrysho ngjyrën e shënimit në blu</string>
+  <string name="sn_change_color_to_green">Ndrysho ngjyrën e shënimit në të gjelbër</string>
+  <string name="sn_change_color_to_yellow">Ndrysho ngjyrën e shënimit në të verdhë</string>
+  <string name="sn_change_color_to_purple">Ndrysho ngjyrën e shënimit në vjollcë</string>
+  <string name="sn_change_color_to_pink">Ndrysho ngjyrën e shënimit në rozë</string>
+  <string name="sn_change_color_to_grey">Ndrysho ngjyrën e shënimit në gri</string>
+  <string name="sn_change_color_to_charcoal">Ndrysho ngjyrën e shënimit në qymyr</string>
+  <string name="sn_search_notes_with_color_blue">Kërko shënimet me ngjyrë blu</string>
+  <string name="sn_search_notes_with_color_green">Kërko shënimet me ngjyrë të gjelbër</string>
+  <string name="sn_search_notes_with_color_yellow">Kërko shënimet me ngjyrë të verdhë</string>
+  <string name="sn_search_notes_with_color_purple">Kërko shënimet me ngjyrë vjollcë</string>
+  <string name="sn_search_notes_with_color_pink">Kërko shënimet me ngjyrë rozë</string>
+  <string name="sn_search_notes_with_color_grey">Kërko shënimet me ngjyrë gri</string>
+  <string name="sn_search_notes_with_color_charcoal">Kërko shënimet me ngjyrë qymyri</string>
+  <string name="sn_note_options_dismissed">Opsionet e shënimit u hoqën</string>
+  <string name="sn_note_options_displayed">Opsionet e shënimit në ekran</string>
+  <string name="sn_adding_image_failed">Shtimi i imazhit ishte i pamundur</string>
+  <string name="sn_image_added">Imazhi u shtua</string>
+</resources>

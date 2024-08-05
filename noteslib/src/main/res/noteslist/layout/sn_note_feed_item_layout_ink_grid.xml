@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.microsoft.notes.ui.noteslist.recyclerview.noteitem.InkNoteItemUIRefreshComponent
+    style="@style/FeedRefreshGridNoteItemStyle"
+    android:tag="@string/note_canvas_layout_tag"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:clipToPadding="false">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/noteContentLayout"
+        style="@style/FeedRefreshSNNoteContentLayoutStyle">
+
+        <include layout="@layout/sticky_note_top_bar"/>
+
+        <include
+            android:id="@+id/pinnedNoteLabel"
+            layout= "@layout/sn_note_item_layout_pinned_label"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/feed_sn_body_top_margin"
+            android:layout_marginStart="@dimen/feed_note_side_padding"
+            android:layout_marginEnd="@dimen/feed_note_side_padding"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sn_top_bar"
+            app:layout_constraintBottom_toTopOf="@id/noteContext" />
+
+        <include
+            android:id="@+id/noteContext"
+            layout = "@layout/sn_note_item_layout_context"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/feed_sn_body_top_margin"
+            android:layout_marginStart="@dimen/feed_note_side_padding"
+            android:layout_marginEnd="@dimen/feed_note_side_padding"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/pinnedNoteLabel"
+            app:layout_constraintBottom_toTopOf="@id/previewInk" />
+
+        <com.microsoft.notes.ui.note.ink.PreviewInkView
+            android:id="@+id/previewInk"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/feed_grid_sn_image_preview_height"
+            android:layout_marginTop="@dimen/sn_grid_image_top_margin"
+            android:layout_marginStart="@dimen/sn_grid_image_side_margin"
+            android:layout_marginEnd="@dimen/sn_grid_image_side_margin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/noteSource"
+            app:layout_constraintTop_toBottomOf="@id/noteContext" />
+
+        <include
+            android:id="@+id/noteSource"
+            layout="@layout/sn_note_item_layout_source"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/sn_source_top_margin"
+            android:layout_marginStart="@dimen/feed_note_side_padding"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/previewInk" />
+
+        <TextView
+            android:id="@+id/noteDateTime"
+            style="@style/FeedUIRefreshItemDateTime"
+            android:layout_marginEnd="@dimen/feed_note_side_padding"
+            app:layout_constraintTop_toTopOf="@id/noteSource"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:text="12:45 PM" />
+
+        <include layout="@layout/sn_action_mode_checkbox_refresh_ui"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.microsoft.notes.ui.noteslist.recyclerview.noteitem.InkNoteItemUIRefreshComponent>

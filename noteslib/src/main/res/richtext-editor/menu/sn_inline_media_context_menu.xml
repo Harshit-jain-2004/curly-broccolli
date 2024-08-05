@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/sn_menu_inline_media_open"
+        app:showAsAction="always"
+        android:title="@string/sn_inline_media_notes_open"
+        android:icon="@android:drawable/btn_default_small" />
+
+    <item
+        android:id="@+id/sn_menu_inline_media_alt_text"
+        app:showAsAction="always"
+        android:title="@string/sn_inline_media_notes_alttext"
+        android:icon="@android:drawable/btn_default_small" />
+
+</menu>

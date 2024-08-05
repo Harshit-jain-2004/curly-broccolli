@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="start|center_vertical"
+    style="@style/SNNoteItemTextBodyStyle">
+    <ImageView
+        android:id="@+id/sourceIcon"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:importantForAccessibility="no"
+        app:srcCompat="@drawable/ic_notebook_icon"/>
+    <com.microsoft.notes.ui.theme.ThemedTextView
+        android:id="@+id/sourceId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:textSize="12sp"
+        android:lineHeight="16sp"
+        android:layout_marginStart="6dp"
+        android:lines="1"
+        android:fontFamily="@string/sn_roboto"
+        android:text="@string/heading_notebook_page"
+        tools:text="Notebook page" />
+</LinearLayout>

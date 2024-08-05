@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">К сожалению, для синхронизации и хранения данных приложению \"Записки\" требуется почтовый ящик Exchange Online. Обратитесь к ИТ-администратору для включения почтового ящика или воспользуйтесь элементом ниже, чтобы узнать подробности.</string>
+  <string name="sn_sync_failure_with_contact_support_message">Не удалось синхронизировать записки с вашей учетной записью. Обратитесь в службу поддержки за помощью в решении этой проблемы.</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">Не удалось синхронизировать записки с вашей учетной записью, но вы можете попытаться решить эту проблему.</string>
+</resources>

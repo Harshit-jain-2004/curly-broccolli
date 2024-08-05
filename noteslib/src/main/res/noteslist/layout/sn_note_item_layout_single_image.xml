@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.microsoft.notes.ui.noteslist.recyclerview.noteitem.images.SingleImageNoteItemComponent style="@style/SNNoteItemStyle"
+    android:tag="@string/note_canvas_layout_tag"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:clipToPadding="false">
+
+    <include layout="@layout/sn_action_mode_checkbox"/>
+
+    <LinearLayout
+        android:id="@+id/noteContentLayout"
+        style="@style/SNNoteSingleImageContentLayoutStyle"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/sticky_note_top_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sn_note_color_height"/>
+
+        <TextView
+            android:id="@+id/noteDateTime"
+            style="@style/SNNoteItemDateTime"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/sn_note_padding"
+            android:layout_marginEnd="@dimen/sn_note_side_padding"
+            tools:text="12:45 PM" />
+
+        <com.microsoft.notes.richtext.editor.styled.gallery.AspectRatioImageView
+            android:id="@+id/noteImage_3_2"
+            style="@style/SNNoteItemSingleImageStyle"
+            android:layout_marginStart="@dimen/sn_note_side_padding_image"
+            android:layout_marginEnd="@dimen/sn_note_side_padding_image"
+            android:layout_marginTop="@dimen/sn_note_padding"
+            app:aspectRatioHeight="2"
+            app:aspectRatioWidth="3"
+            tools:src="@drawable/sn_notes_canvas_image_placeholder" />
+
+        <com.microsoft.notes.richtext.editor.styled.gallery.AspectRatioImageView
+            android:id="@+id/noteImage_16_9"
+            style="@style/SNNoteItemSingleImageStyle"
+            android:layout_marginTop="@dimen/sn_note_padding"
+            android:layout_marginStart="@dimen/sn_note_side_padding_image"
+            android:layout_marginEnd="@dimen/sn_note_side_padding_image"
+            app:aspectRatioHeight="9"
+            app:aspectRatioWidth="16"
+            tools:src="@drawable/sn_notes_canvas_image_placeholder" />
+
+        <TextView
+            android:id="@+id/noteBody"
+            style="@style/SNNoteItemTextBodyStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="@dimen/sn_note_content_padding_bottom"
+            android:layout_marginStart="@dimen/sn_note_side_padding"
+            android:layout_marginEnd="@dimen/sn_note_side_padding"
+            tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." />
+
+    </LinearLayout>
+
+</com.microsoft.notes.ui.noteslist.recyclerview.noteitem.images.SingleImageNoteItemComponent>

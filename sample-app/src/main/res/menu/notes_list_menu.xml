@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search_menu_option"
+        android:icon="@android:drawable/ic_search_category_default"
+        android:title="@string/search_menu_option"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/feed_search_menu_option"
+        android:title="@string/feed_search_menu_option"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/settings_menu_option"
+        android:title="@string/settings_menu_option"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/delete_all_notes"
+        android:title="@string/delete_all_notes"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/feed_option"
+        android:title="@string/feed_option"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/horizontal_feed_option"
+        android:title="@string/horizontal_feed_option"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/horizontal_list_option"
+        android:title="@string/horizontal_list_option"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/fixed_list_option"
+        android:title="@string/fixed_list_option"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/swap_theme_option"
+        android:title="@string/swap_theme_option"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/pick_locale_option"
+        android:title="@string/pick_locale_option"
+        app:showAsAction="never" />
+</menu>

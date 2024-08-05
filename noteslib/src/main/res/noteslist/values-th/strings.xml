@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">หมายเหตุข้อความ</string>
+  <string name="sn_ink_note">บันทึกย่อเขียนด้วยหมึก</string>
+  <string name="sn_label_text">ข้อความ</string>
+  <string name="sn_label_image">รูป</string>
+  <string name="sn_single_image_note">บันทึกย่อ %1$s ที่มีรูป 1 รูป</string>
+  <string name="sn_multi_image_note">บันทึกย่อ %1$s ที่มีรูป %2$d รูป</string>
+  <string name="sn_label_date">แก้ไข %s</string>
+  <string name="sn_add_note">เพิ่มบันทึกย่อใหม่</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">ไม่สามารถซิงค์ได้ในขณะนี้</string>
+</resources>

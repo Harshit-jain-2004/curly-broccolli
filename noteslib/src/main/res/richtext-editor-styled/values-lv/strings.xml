@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_add_photo_to_note">Ievietot attēlu</string>
+  <string name="sn_bold">Treknraksts</string>
+  <string name="sn_italic">Slīpraksts</string>
+  <string name="sn_underline">Pasvītrojums</string>
+  <string name="sn_strikethrough">Pārsvītrojums</string>
+  <string name="sn_bullets">Saraksts ar aizzīmēm</string>
+  <string name="sn_color_name_charcoal">Ogļu pelēks</string>
+  <string name="sn_color_name_blue">Zila</string>
+  <string name="sn_color_name_green">Zaļa</string>
+  <string name="sn_color_name_yellow">Dzeltena</string>
+  <string name="sn_color_name_grey">Pelēka</string>
+  <string name="sn_color_name_purple">Purpursarkana</string>
+  <string name="sn_color_name_pink">Rozā</string>
+  <string name="sn_unselected">Neatlasīts</string>
+  <string name="sn_contextual_menu_image_alt_text_add">Pievienot alternatīvo tekstu</string>
+  <string name="sn_contextual_menu_image_alt_text_edit">Alternatīvā teksta rediģēšana</string>
+  <string name="sn_contextual_menu_image_delete">Dzēst attēlu</string>
+  <string name="sn_image_attachment">Attēla pielikums</string>
+</resources>

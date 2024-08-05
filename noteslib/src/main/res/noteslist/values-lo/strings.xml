@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">ບັນທຶກຂໍ້ຄວາມ</string>
+  <string name="sn_ink_note">ບັນທຶກໝຶກ</string>
+  <string name="sn_label_text">ຂໍ້ຄວາມ</string>
+  <string name="sn_label_image">ຮູບພາບ</string>
+  <string name="sn_single_image_note">%1$s ບັນທຶກກັບ 1 ຮູບ</string>
+  <string name="sn_multi_image_note">%1$s ບັນທຶກກັບ %2$d ຮູບ</string>
+  <string name="sn_label_date">ແກ້ໄຂ %s ແລ້ວ</string>
+  <string name="sn_add_note">ເພີ່ມບັນທຶກໃໝ່</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">ບໍ່ສາມາດຊິ້ງຂໍ້ມູນໄດ້ໃນຕອນນີ້.</string>
+</resources>

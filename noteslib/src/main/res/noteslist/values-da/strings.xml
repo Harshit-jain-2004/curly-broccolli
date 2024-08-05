@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_text_note">Tekstnote</string>
+  <string name="sn_ink_note">Håndskrevet note</string>
+  <string name="sn_label_text">Tekst</string>
+  <string name="sn_label_image">Billede</string>
+  <string name="sn_single_image_note">%1$s note med 1 billede</string>
+  <string name="sn_multi_image_note">%1$s note med %2$d billeder</string>
+  <string name="sn_label_date">redigeret %s</string>
+  <string name="sn_add_note">Tilføj en ny note</string>
+  <string name="sn_note_preview_image_count">+%1$d</string>
+  <string name="sn_manual_sync_failed">Det var ikke muligt at synkronisere nu.</string>
+</resources>

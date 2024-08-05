@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/radio_group_color_items"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <androidx.appcompat.widget.AppCompatRadioButton
+        android:id="@+id/yellow_color_item"
+        style="@style/SNColorItem"
+        android:background="@drawable/sn_color_item_yellow"
+        android:nextFocusLeft="@+id/charcoal_color_item" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <androidx.appcompat.widget.AppCompatRadioButton
+        android:id="@+id/green_color_item"
+        style="@style/SNColorItem"
+        android:background="@drawable/sn_color_item_green" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <androidx.appcompat.widget.AppCompatRadioButton
+        android:id="@+id/pink_color_item"
+        style="@style/SNColorItem"
+        android:background="@drawable/sn_color_item_pink" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <androidx.appcompat.widget.AppCompatRadioButton
+        android:id="@+id/purple_color_item"
+        style="@style/SNColorItem"
+        android:background="@drawable/sn_color_item_purple" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <androidx.appcompat.widget.AppCompatRadioButton
+        android:id="@+id/blue_color_item"
+        style="@style/SNColorItem"
+        android:background="@drawable/sn_color_item_blue" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <androidx.appcompat.widget.AppCompatRadioButton
+        android:id="@+id/grey_color_item"
+        style="@style/SNColorItem"
+        android:background="@drawable/sn_color_item_grey" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <androidx.appcompat.widget.AppCompatRadioButton
+        android:id="@+id/charcoal_color_item"
+        style="@style/SNColorItem"
+        android:background="@drawable/sn_color_item_charcoal"
+        android:nextFocusRight="@+id/yellow_color_item" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+</RadioGroup>

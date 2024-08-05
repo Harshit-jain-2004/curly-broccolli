@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="sn_mailbox_creation_failed_message">Actualmente, Notas rápidas requiere un buzón de correo de Exchange Online para que la sincronización y el almacenamiento funcionen. Ponte en contacto con tu administrador de TI para saber cómo habilitar un buzón de correo o usa la siguiente opción para obtener más información.</string>
+  <string name="sn_sync_failure_with_contact_support_message">No se puede sincronizar Notas rápidas con tu cuenta. Ponte en contacto con el soporte técnico para obtener ayuda con la resolución de este problema.</string>
+  <string name="sn_sync_failure_with_available_kb_article_message">No se puede sincronizar Notas rápidas con tu cuenta, pero es posible que puedas resolver el problema por tu cuenta si lo intentas.</string>
+</resources>

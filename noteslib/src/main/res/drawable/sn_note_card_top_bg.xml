@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/card_top_border"
+        android:bottom="-1dp">
+        <shape android:shape="rectangle">
+            <corners
+                android:topLeftRadius="@dimen/sn_note_card_view_radius"
+                android:topRightRadius="@dimen/sn_note_card_view_radius" />
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:width="@dimen/feed_card_border_stroke_width"
+                android:color="#000000" />
+        </shape>
+    </item>
+
+    <item android:left="1dp"
+        android:top="1dp"
+        android:right="1dp"
+        android:id="@+id/card_top_color">
+        <shape>
+            <corners
+                android:topLeftRadius="@dimen/sn_note_card_view_radius"
+                android:topRightRadius="@dimen/sn_note_card_view_radius" />
+            <solid android:color="#ffffff"></solid>
+        </shape>
+    </item>
+</layer-list>
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/horizontal_note_list_fragment_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.microsoft.notes.ui.noteslist.HorizontalNotesListComponent
+        android:id="@+id/notesList"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/horizontal_feed_list_item_height"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingBottom="0dp"
+        android:paddingTop="0dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
